@@ -2,14 +2,22 @@
 
 source lib/logging.sh
 
-install_base_deps () {
+install_epel () {
     run_log 0 "Starting base dependency install"
-    dnf install -y go which pv asciinema make jq wget ansible python
+    subscription-manager repos --enable codeready-builder-for-rhel-8-$(arch)-rpms
+    dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 }
 
-#install_trestle () {
-#    #to-do, download and install trestle
-#}
+install_go () {
+    run_log 0 "Starting base dependency install"
+    dnf install -y go
+}
+
+install_utils () {
+    run_log 0 "Starting base dependency install"
+    dnf install -y which pv asciinema make jq wget 
+
+}
 
 install_gcr () {
     run_log 0 "Starting go-containerregistry install"

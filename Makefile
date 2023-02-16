@@ -17,5 +17,5 @@ demo-run:
 .PHONY: demo-build
 
 sandbox-run:
-	${CMD} run -it --entrypoint=bash localhost:5000/trestle-demo:latest
+	${CMD} run -it --rm --user=root --entrypoint=/demo/lib/sandbox-entrypoint.sh localhost:5000/trestle-demo:latest
 .PHONY: demo-build
