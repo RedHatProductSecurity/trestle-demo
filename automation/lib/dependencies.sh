@@ -19,6 +19,13 @@ install_utils () {
 
 }
 
+install_trestle () {
+    run_log 0 "Starting trestle install"
+    python3 -m pip install --upgrade pip setuptools \
+    && python3 -m pip install compliance-trestle==1.2.0 \
+    && python3 -m pip install python-semantic-release==7.31.4
+}
+
 install_gcr () {
     run_log 0 "Starting go-containerregistry install"
     GOBIN=$BIN_DIR go install github.com/google/go-containerregistry/cmd/registry@latest
