@@ -31,7 +31,7 @@ regenerate-profiles:
 .PHONY: regenerate
 
 assemble-profiles:
-	source ./automation/lib/assemble.sh && assemble_profiless
+	source ./automation/lib/assemble.sh && assemble_profiles
 .PHONY: assemble
 
 regenerate-cd:
