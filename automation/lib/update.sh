@@ -17,7 +17,7 @@ else
   else
      git commit -m "$COMMIT_TITLE"
      git push -u "autoupdate_$GITHUB_RUN_ID"
-    run_log 0 "$COMMIT_BODY"
+     run_log 0 "$COMMIT_BODY"
      gh pr create -t "$COMMIT_TITLE" -b "$COMMIT_BODY" -B "main" -H "autoupdate_$GITHUB_RUN_ID"
   fi
 fi

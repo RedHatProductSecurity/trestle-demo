@@ -42,10 +42,6 @@ assemble-cd:
 	source ./automation/lib/assemble.sh && assemble_components
 .PHONY: assemble
 
-generate-ssp:
-	source ./automation/lib/regenerate.sh && generate_ssps
-.PHONY: regenerate
-
 assemble-ssps:
 	source ./automation/lib/assemble.sh && assemble_ssps
 .PHONY: assemble
@@ -58,6 +54,10 @@ sanity-profiles: assemble-profiles regenerate-profiles
 	git diff --exit-code
 .PHONY: sanity-profiles
 
+sanity-cd: assemble-cd regenerate-cd
+	git diff --exit-code
+.PHONY: sanity-cd
+
 sanity-ssps: assemble-ssps
 	git diff --exit-code
 .PHONY: sanity-ssps
@@ -68,6 +68,4 @@ regenerate: regenerate-catalogs regenerate-profiles regenerate-cd
 sanity: sanity-catalogs sanity-profiles sanity-cd sanity-ssp
 .PHONY: sanity
 
-sanity-cd: assemble-cd regenerate-cd
-	git diff --exit-code
-.PHONY: sanity-cd
+
