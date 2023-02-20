@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source lib/logging.sh
+source ./automation/lib/logging.sh
 
 install_epel () {
     run_log 0 "Starting base dependency install"
@@ -17,6 +17,13 @@ install_utils () {
     run_log 0 "Starting base dependency install"
     dnf install -y which pv asciinema make jq wget 
 
+}
+
+install_trestle () {
+    run_log 0 "Starting trestle install"
+    python3 -m pip install --upgrade pip setuptools \
+    && python3 -m pip install compliance-trestle==1.2.0 \
+    && python3 -m pip install python-semantic-release==7.31.4
 }
 
 install_gcr () {

@@ -1,0 +1,21 @@
+name: Regenerate content
+on:
+  push:
+    branches:
+      - main
+jobs:
+  release:
+    name: Regenerate content
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install Trestle
+        run: make trestle-install
+      - name: Regenerate all
+        run: make regenerate
+      - name: Update and PR
+        run: bash ./automation/lib/update.sh
