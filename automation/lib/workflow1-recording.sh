@@ -3,7 +3,7 @@
 # SETUP
 # Add any setup tasks for the recording here. 
 
-source ./lib/demo-magic.sh
+source ./automation/lib/demo-magic.sh
 
 export PATH=$PATH:$PWD/demo-bin
 

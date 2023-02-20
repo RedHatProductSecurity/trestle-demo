@@ -2,13 +2,12 @@ FROM registry.access.redhat.com/ubi8/ubi AS build
 
 WORKDIR /demo
 
-COPY ./lib/ /demo/lib
-COPY ./cache/go/pkg /root/go/pkg
+COPY ./automation/lib/ /demo/automation/lib
 
 # Install dependencies
 ENV BIN_DIR=/demo/bin/ PATH=$PATH:BIN_DIR
 
-RUN ./lib/install.sh build
+RUN ./automation/lib/install.sh build
 
 FROM registry.access.redhat.com/ubi8/python-38 AS demo
 
@@ -23,7 +22,7 @@ USER root
 
 WORKDIR /demo
 
-RUN ./lib/install.sh install_demo_utils
+RUN ./automation/lib/install.sh install_demo_utils
 
 
 

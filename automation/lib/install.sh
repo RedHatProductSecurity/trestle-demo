@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source lib/dependencies.sh
+source ./automation/lib/dependencies.sh
 
 build () {
     install_go
