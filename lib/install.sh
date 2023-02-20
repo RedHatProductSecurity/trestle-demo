@@ -2,10 +2,18 @@
 
 source lib/dependencies.sh
 
-install () {
-    install_base_deps
+build () {
+    install_go
     install_cosign
     install_gcr
     install_oras
 }
-install
+
+install_demo_utils () {
+    install_epel
+    install_utils
+
+}
+
+
+$@
