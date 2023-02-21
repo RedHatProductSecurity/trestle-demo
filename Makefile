@@ -11,7 +11,7 @@ demo-run:
 .PHONY: demo-run
 
 sandbox-run:
-	${CMD} run -it --rm --user=root --entrypoint=/demo/automation/lib/sandbox-entrypoint.sh -v ${CWD}:/demo/trestle-workspace localhost:5000/trestle-demo:latest
+	${CMD} run -it --rm --entrypoint=/demo/automation/lib/sandbox-entrypoint.sh -v ${CWD}:/demo/trestle-workspace localhost:5000/trestle-demo:latest
 .PHONY: sandbox-run
 
 trestle-install:

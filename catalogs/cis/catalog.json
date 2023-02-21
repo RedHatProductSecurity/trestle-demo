@@ -1,0 +1,181 @@
+{
+  "catalog": {
+    "uuid": "b1c87ea9-f9c3-4c21-bc99-4a771f4c3951",
+    "metadata": {
+      "title": "CIS Red Hat OpenShift Container Platform 4 Benchmark",
+      "last-modified": "2023-02-20T23:29:44+00:00",
+      "version": "1.2.0",
+      "oscal-version": "1.0.2"
+    },
+    "groups": [
+      {
+        "title": "1 Control Plane Components",
+        "groups": [
+          {
+            "title": "1.1 Master Node Configuration Files",
+            "controls": [
+              {
+                "id": "CIS-1.1.1",
+                "title": "1.1.1 Ensure that the API server pod specification file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-1.1.2",
+                "title": "1.1.2 Ensure that the API server pod specification file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-1.1.3",
+                "title": "1.1.3 Ensure that the controller manager pod specification file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-1.1.4",
+                "title": "1.1.4 Ensure that the controller manager pod specification file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-1.1.5",
+                "title": "1.1.5 Ensure that the scheduler pod specification file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-1.1.6",
+                "title": "1.1.6 Ensure that the scheduler pod specification file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-1.1.7",
+                "title": "1.1.7 Ensure that the etcd pod specification file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-1.1.8",
+                "title": "1.1.8 Ensure that the etcd pod specification file ownership is set to root:root (Automated)"
+              },
+              {
+                "id": "CIS-1.1.9",
+                "title": "1.1.9 Ensure that the Container Network Interface file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-1.1.10",
+                "title": "1.1.10 Ensure that the Container Network Interface file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-1.1.11",
+                "title": "1.1.11 Ensure that the etcd data directory permissions are set to 700 or more restrictive"
+              },
+              {
+                "id": "CIS-1.1.12",
+                "title": "1.1.12 Ensure that the etcd data directory ownership is set to root:root"
+              },
+              {
+                "id": "CIS-1.1.13",
+                "title": "1.1.13 Ensure that the admin.conf file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-1.1.14",
+                "title": "1.1.14 Ensure that the admin.conf file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-1.1.15",
+                "title": "1.1.15 Ensure that the scheduler.conf file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-1.1.16",
+                "title": "1.1.16 Ensure that the scheduler.conf file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-1.1.17",
+                "title": "1.1.17 Ensure that the controller-manager.conf file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-1.1.18",
+                "title": "1.1.18 Ensure that the controller-manager.conf file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-1.1.19",
+                "title": "1.1.19 Ensure that the OpenShift PKI directory and file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-1.1.20",
+                "title": "1.1.20 Ensure that the OpenShift PKI certificate file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-1.1.21",
+                "title": "1.1.21 Ensure that the OpenShift PKI key file permissions are set to 600"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2 etcd",
+        "controls": [
+          {
+            "id": "CIS-2.7",
+            "title": "2.7 Ensure that a unique Certificate Authority is used for etcd"
+          }
+        ]
+      },
+      {
+        "title": "3 Control Plane Configuration",
+        "groups": [
+          {
+            "title": "3.2 Logging",
+            "controls": [
+              {
+                "id": "CIS-3.2.1",
+                "title": "3.2.1 Ensure that a minimal audit policy is created"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4 Worker Nodes",
+        "groups": [
+          {
+            "title": "4.1 Worker node configuration",
+            "controls": [
+              {
+                "id": "CIS-4.1.1",
+                "title": "4.1.1 Ensure that the kubelet service file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-4.1.2",
+                "title": "4.1.2 Ensure that the kubelet service file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-4.1.5",
+                "title": "4.1.5 Ensure that the --kubeconfig kubelet.conf file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-4.1.6",
+                "title": "4.1.6 Ensure that the --kubeconfig kubelet.conf file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-4.1.7",
+                "title": "4.1.7 Ensure that the certificate authorities file permissions are set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-4.1.8",
+                "title": "4.1.8 Ensure that the client certificate authorities file ownership is set to root:root"
+              },
+              {
+                "id": "CIS-4.1.9",
+                "title": "4.1.9 Ensure that the kubelet --config configuration file has permissions set to 644 or more restrictive"
+              },
+              {
+                "id": "CIS-4.1.10",
+                "title": "4.1.10 Ensure that the kubelet configuration file ownership is set to root:root"
+              }
+            ]
+          },
+          {
+            "title": "4.2 Kubelet",
+            "controls": [
+              {
+                "id": "CIS-4.2.6",
+                "title": "4.2.6 Ensure that the --protect-kernel-defaults argument is set to true"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
