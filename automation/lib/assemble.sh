@@ -4,9 +4,9 @@ source ./automation/lib/logging.sh
 
 assemble_catalogs() {
 version_tag=$1
-catalogs=$(ls ./catalogs)
-if [ "${#catalogs[@]}" -gt 1 ]; then
-  for d in $catalogs ; do
+catalogs=$(find ./markdown/catalogs -type d | wc -l)
+if [ "$catalogs" -gt 0 ]; then
+  for d in ./markdown/catalogs/* ; do
     catalog=$(basename "$d")
     if [ "$1" != "" ]; then
       run_log 0 "Assembling ${catalog} with version ${version_tag}"
@@ -23,9 +23,9 @@ fi
 
 assemble_components() {
 version_tag=$1
-components=$(ls ./component-definitions)
-if [ "${#components[@]}" -gt 1 ]; then
-  for d in $components ; do
+components=$(find ./markdown/components -mindepth 1 -type d | wc -l)
+if [ "$components" -gt 0 ]; then
+  for d in ./markdown/components/* ; do
     component=$(basename "$d")
     if [ "$1" != "" ]; then
       run_log 0 "Assembling ${component} with version ${version_tag}"
@@ -42,9 +42,9 @@ fi
 
 assemble_profiles() {
 version_tag=$1
-profiles=$(ls ./profiles)
-if [ "${#profiles[@]}" -gt 1 ]; then
-  for d in $profiles ; do
+profiles=$(find ./markdown/profiles -mindepth 1 -type d | wc -l)
+if [ "$profiles" -gt 0 ]; then
+  for d in ./markdown/profiles/* ; do
     profile=$(basename "$d")
     if [ "$1" != "" ]; then
       run_log 0 "Assembling ${catalog} with version ${version_tag}"
@@ -61,9 +61,9 @@ fi
 
 assemble_ssps() {
 version_tag=$1
-ssps=$(ls ./system-security-plans)
-if [ "${#ssps[@]}" -gt 1 ]; then
-  for d in $ssps ; do
+ssps=$(find ./markdown/system-security-plans -mindepth -1 -type d | wc -l)
+if [ "$ssps" -gt 0 ]; then
+  for d in ./markdown/system-security-plans ; do
     ssp=$(basename "$d")
     if [ "$1" != "" ]; then
       run_log 0 "Assembling ${ssp} with version ${version_tag}"
