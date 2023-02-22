@@ -68,4 +68,15 @@ regenerate: regenerate-catalogs regenerate-profiles regenerate-cd
 sanity: sanity-catalogs sanity-profiles sanity-cd sanity-ssp
 .PHONY: sanity
 
+import-nist:
+	source ./automation/lib/import.sh && import_nist_profiles
+.PHONY: import-nist
+
+import-fedramp:
+	source ./automation/lib/import.sh && import_fedramp_profiles
+.PHONY: import-fedramp
+
+
+
+
 
