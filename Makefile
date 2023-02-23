@@ -65,7 +65,7 @@ sanity-ssps: assemble-ssps
 regenerate: regenerate-catalogs regenerate-profiles regenerate-cd
 .PHONY: regenerate
 
-sanity: sanity-catalogs sanity-profiles sanity-cd sanity-ssp
+sanity: sanity-catalogs sanity-profiles sanity-cd sanity-ssps
 .PHONY: sanity
 
 import-nist:

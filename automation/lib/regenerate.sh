@@ -20,6 +20,7 @@ profiles=$(find ./profiles -mindepth 1 -type d | wc -l)
 if [ "$profiles" -gt 0 ]; then
   for d in ./profiles/* ; do
       profile=$(basename "$d")
+      echo "PROFILE BASENAME: $profile"
          run_log 0 "Regenerating ${profile}"
          trestle author profile-generate --output markdown/profiles/"$profile" --name "$profile"
   done
