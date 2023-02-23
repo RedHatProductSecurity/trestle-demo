@@ -61,7 +61,7 @@ fi
 
 assemble_ssps() {
 version_tag=$1
-ssps=$(find ./markdown/system-security-plans -mindepth -1 -type d | wc -l)
+ssps=$(find ./markdown/system-security-plans -mindepth 1 -type d | wc -l)
 if [ "$ssps" -gt 0 ]; then
   for d in ./markdown/system-security-plans ; do
     ssp=$(basename "$d")
