@@ -1,0 +1,107 @@
+---
+sort-id: cp-09
+x-trestle-evidence:
+  named-evidence: location
+x-trestle-dependent-on:
+  - control-id:
+    profile:
+reviewed-by:
+  - named:
+    date:
+x-trestle-fedramp-props:
+  control-origination:
+    - Service provider Corporate
+    - Service provider System Specific
+    - Service Provider Hybrid (Corporate and System Specific)
+    - Configured by Customer (Customer System Specific)
+    - Provided by Customer (Customer System Specific)
+    - Shared (Service Provider and Customer Responsibility)
+    - Inherited from pre-existing FedRAMP Authorization [Enter text here], Date of
+      Authorization
+  implementation-status:
+    - Implemented
+    - Partially implemented
+    - Planned
+    - Alternative implementation
+    - Not Applicable
+  responsible-roles:
+---
+
+# cp-9 - \[Contingency Planning\] Information System Backup
+
+## Control Statement
+
+The organization:
+
+- \[a.\] Conducts backups of user-level information contained in the information system organization-defined frequency consistent with recovery time and recovery point objectives;
+
+- \[b.\] Conducts backups of system-level information contained in the information system organization-defined frequency consistent with recovery time and recovery point objectives;
+
+- \[c.\] Conducts backups of information system documentation including security-related documentation organization-defined frequency consistent with recovery time and recovery point objectives; and
+
+- \[d.\] Protects the confidentiality, integrity, and availability of backup information at storage locations.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CP-9(a)\]
+
+  - \[CP-9(a)[1]\] defines a frequency, consistent with recovery time objectives and recovery point objectives as specified in the information system contingency plan, to conduct backups of user-level information contained in the information system;
+  - \[CP-9(a)[2]\] conducts backups of user-level information contained in the information system with the organization-defined frequency;
+
+- \[CP-9(b)\]
+
+  - \[CP-9(b)[1]\] defines a frequency, consistent with recovery time objectives and recovery point objectives as specified in the information system contingency plan, to conduct backups of system-level information contained in the information system;
+  - \[CP-9(b)[2]\] conducts backups of system-level information contained in the information system with the organization-defined frequency;
+
+- \[CP-9(c)\]
+
+  - \[CP-9(c)[1]\] defines a frequency, consistent with recovery time objectives and recovery point objectives as specified in the information system contingency plan, to conduct backups of information system documentation including security-related documentation;
+  - \[CP-9(c)[2]\] conducts backups of information system documentation, including security-related documentation, with the organization-defined frequency; and
+
+- \[CP-9(d)\] protects the confidentiality, integrity, and availability of backup information at storage locations.
+
+## Control guidance
+
+System-level information includes, for example, system-state information, operating system and application software, and licenses. User-level information includes any information other than system-level information. Mechanisms employed by organizations to protect the integrity of information system backups include, for example, digital signatures and cryptographic hashes. Protection of system backup information while in transit is beyond the scope of this control. Information system backups reflect the requirements in contingency plans as well as other organizational requirements for backing up information.
+
+______________________________________________________________________
+
+## What is the solution and how is it implemented?
+
+### Implementation Status: planned
+
+______________________________________________________________________
+
+## Implementation for part a.
+
+Add control implementation description here for item cp-9_smt.a
+
+#### Implementation Status: planned
+
+______________________________________________________________________
+
+## Implementation for part b.
+
+Add control implementation description here for item cp-9_smt.b
+
+#### Implementation Status: planned
+
+______________________________________________________________________
+
+## Implementation for part c.
+
+Add control implementation description here for item cp-9_smt.c
+
+#### Implementation Status: planned
+
+______________________________________________________________________
+
+## Implementation for part d.
+
+Add control implementation description here for item cp-9_smt.d
+
+#### Implementation Status: planned
+
+______________________________________________________________________

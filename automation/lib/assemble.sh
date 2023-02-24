@@ -47,10 +47,10 @@ if [ "$profiles" -gt 0 ]; then
   for d in ./markdown/profiles/* ; do
     profile=$(basename "$d")
     if [ "$1" != "" ]; then
-      run_log 0 "Assembling ${catalog} with version ${version_tag}"
+      run_log 0 "Assembling ${profile} with version ${version_tag}"
       trestle author profile-assemble --markdown markdown/profiles/"$profile" --output "$profile" --set-parameters --version "$version_tag"
     else
-      run_log 0 "Assembling ${catalog}"
+      run_log 0 "Assembling ${profile}"
       trestle author profile-assemble --markdown markdown/profiles/"$profile" --output "$profile" --set-parameters
     fi
   done
@@ -63,7 +63,7 @@ assemble_ssps() {
 version_tag=$1
 ssps=$(find ./markdown/system-security-plans -mindepth 1 -type d | wc -l)
 if [ "$ssps" -gt 0 ]; then
-  for d in ./markdown/system-security-plans ; do
+  for d in ./markdown/system-security-plans/* ; do
     ssp=$(basename "$d")
     if [ "$1" != "" ]; then
       run_log 0 "Assembling ${ssp} with version ${version_tag}"

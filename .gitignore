@@ -1,3 +1,5 @@
 .idea
 .trestle/cache/
 adjunct-data/
+
+fedramp_platform_ssp.*

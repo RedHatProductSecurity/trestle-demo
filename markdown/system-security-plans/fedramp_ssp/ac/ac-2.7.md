@@ -1,0 +1,89 @@
+---
+sort-id: ac-02.07
+x-trestle-evidence:
+  named-evidence: location
+x-trestle-dependent-on:
+  - control-id:
+    profile:
+reviewed-by:
+  - named:
+    date:
+x-trestle-fedramp-props:
+  control-origination:
+    - Service provider Corporate
+    - Service provider System Specific
+    - Service Provider Hybrid (Corporate and System Specific)
+    - Configured by Customer (Customer System Specific)
+    - Provided by Customer (Customer System Specific)
+    - Shared (Service Provider and Customer Responsibility)
+    - Inherited from pre-existing FedRAMP Authorization [Enter text here], Date of
+      Authorization
+  implementation-status:
+    - Implemented
+    - Partially implemented
+    - Planned
+    - Alternative implementation
+    - Not Applicable
+  responsible-roles:
+---
+
+# ac-2.7 - \[Access Control\] Role-based Schemes
+
+## Control Statement
+
+The organization:
+
+- \[(a)\] Establishes and administers privileged user accounts in accordance with a role-based access scheme that organizes allowed information system access and privileges into roles;
+
+- \[(b)\] Monitors privileged role assignments; and
+
+- \[(c)\] Takes organization-defined actions when privileged role assignments are no longer appropriate.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[AC-2(7)(a)\] establishes and administers privileged user accounts in accordance with a role-based access scheme that organizes allowed information system access and privileges into roles;
+
+- \[AC-2(7)(b)\] monitors privileged role assignments;
+
+- \[AC-2(7)(c)\]
+
+  - \[AC-2(7)(c)[1]\] defines actions to be taken when privileged role assignments are no longer appropriate; and
+  - \[AC-2(7)(c)[2]\] takes organization-defined actions when privileged role assignments are no longer appropriate.
+
+## Control guidance
+
+Privileged roles are organization-defined roles assigned to individuals that allow those individuals to perform certain security-relevant functions that ordinary users are not authorized to perform. These privileged roles include, for example, key management, account management, network and system administration, database administration, and web administration.
+
+______________________________________________________________________
+
+## What is the solution and how is it implemented?
+
+### Implementation Status: planned
+
+______________________________________________________________________
+
+## Implementation for part (a)
+
+Add control implementation description here for item ac-2.7_smt.a
+
+#### Implementation Status: planned
+
+______________________________________________________________________
+
+## Implementation for part (b)
+
+Add control implementation description here for item ac-2.7_smt.b
+
+#### Implementation Status: planned
+
+______________________________________________________________________
+
+## Implementation for part (c)
+
+Add control implementation description here for item ac-2.7_smt.c
+
+#### Implementation Status: planned
+
+______________________________________________________________________

@@ -1,0 +1,52 @@
+---
+sort-id: cp-02.01
+x-trestle-evidence:
+  named-evidence: location
+x-trestle-dependent-on:
+  - control-id:
+    profile:
+reviewed-by:
+  - named:
+    date:
+x-trestle-fedramp-props:
+  control-origination:
+    - Service provider Corporate
+    - Service provider System Specific
+    - Service Provider Hybrid (Corporate and System Specific)
+    - Configured by Customer (Customer System Specific)
+    - Provided by Customer (Customer System Specific)
+    - Shared (Service Provider and Customer Responsibility)
+    - Inherited from pre-existing FedRAMP Authorization [Enter text here], Date of
+      Authorization
+  implementation-status:
+    - Implemented
+    - Partially implemented
+    - Planned
+    - Alternative implementation
+    - Not Applicable
+  responsible-roles:
+---
+
+# cp-2.1 - \[Contingency Planning\] Coordinate with Related Plans
+
+## Control Statement
+
+The organization coordinates contingency plan development with organizational elements responsible for related plans.
+
+## Control Objective
+
+Determine if the organization coordinates contingency plan development with organizational elements responsible for related plans.
+
+## Control guidance
+
+Plans related to contingency plans for organizational information systems include, for example, Business Continuity Plans, Disaster Recovery Plans, Continuity of Operations Plans, Crisis Communications Plans, Critical Infrastructure Plans, Cyber Incident Response Plans, Insider Threat Implementation Plan, and Occupant Emergency Plans.
+
+______________________________________________________________________
+
+## What is the solution and how is it implemented?
+
+Add control implementation description here for control cp-2.1
+
+### Implementation Status: planned
+
+______________________________________________________________________
