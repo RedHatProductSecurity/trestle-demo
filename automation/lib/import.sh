@@ -2,66 +2,22 @@
 
 source ./automation/lib/logging.sh
 
-import () {
 
-  for i in $(grep -v "min" <<< "$(ls -p | grep -v / )")
-  do
-    trestle import -tr $DEMO_ROOT/trestle-workspace -f $i -o "${i//\.json}"
-  done
-}
-
-import_nist_profiles () {
-
-  DEMO_ROOT=${PWD}
-  if ! which git &>/dev/null
-  then
-    run_log 1 "git not found"
-  fi
+import_nist_catalog () {
   if ! which trestle &>/dev/null
   then
     run_log 1 "trestle not found"
   fi
 
-  git clone https://github.com/usnistgov/oscal-content.git
-
-  cd $DEMO_ROOT/oscal-content/nist.gov/SP800-53/rev5/json/
-
-  import
-
-  cd $DEMO_ROOT/oscal-content/nist.gov/SP800-53/rev4/json/
-  
-  import
-
-  cd $DEMO_ROOT
-  rm -Rf oscal-content
+  trestle import -f https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json -o nist_rev5_all
 
 }
 
-import_fedramp_profiles () {
-
-  DEMO_ROOT=${PWD}
-  if ! which git &>/dev/null
-  then
-    run_log 1 "git not found"
-  fi
+import_fedramp_rev4_moderate_profiles () {
   if ! which trestle &>/dev/null
   then
     run_log 1 "trestle not found"
   fi
 
-  git clone https://github.com/GSA/fedramp-automation.git
-
-  cd $DEMO_ROOT/fedramp-automation/dist/content/rev4/baselines/json
-
-  import
-
-  cd $DEMO_ROOT
-  rm -Rf fedramp-automation
-}
-
-import_all_profiles () {
-
-  import_nist_profiles
-  import_fedramp_profiles
-
+  trestle import -f https://raw.githubusercontent.com/GSA/fedramp-automation/master/dist/content/rev4/baselines/json/FedRAMP_rev4_MODERATE-baseline_profile.json -o fedramp_rev4_moderate
 }

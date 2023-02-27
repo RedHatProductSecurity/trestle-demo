@@ -1,0 +1,20 @@
+---
+x-trestle-set-params:
+  ac-03.05_odp:
+    values:
+sort-id: ac-03.05
+---
+
+# ac-3.5 - \[Access Control\] Security-relevant Information
+
+## Control Statement
+
+Prevent access to {{ insert: param, ac-03.05_odp }} except during secure, non-operable system states.
+
+## Control guidance
+
+Security-relevant information is information within systems that can potentially impact the operation of security functions or the provision of security services in a manner that could result in failure to enforce system security and privacy policies or maintain the separation of code and data. Security-relevant information includes access control lists, filtering rules for routers or firewalls, configuration parameters for security services, and cryptographic key management information. Secure, non-operable system states include the times in which systems are not performing mission or business-related processing, such as when the system is offline for maintenance, boot-up, troubleshooting, or shut down.
+
+## Control assessment-objective
+
+access to {{ insert: param, ac-03.05_odp }} is prevented except during secure, non-operable system states.

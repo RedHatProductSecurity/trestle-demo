@@ -7,6 +7,7 @@ build () {
     install_cosign
     install_gcr
     install_oras
+    install_pandoc
 }
 
 install_demo_utils () {
