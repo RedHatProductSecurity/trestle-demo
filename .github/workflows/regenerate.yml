@@ -3,6 +3,12 @@ on:
   push:
     branches:
       - main
+      -
+permissions:
+  contents: write
+  id-token: write
+  pull-requests: write
+
 jobs:
   release:
     name: Regenerate content
@@ -19,3 +25,5 @@ jobs:
         run: make regenerate
       - name: Update and PR
         run: bash ./automation/lib/update.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
