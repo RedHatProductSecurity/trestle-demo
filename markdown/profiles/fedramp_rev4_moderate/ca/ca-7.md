@@ -312,4 +312,4 @@ CSPs must provide evidence of closure and remediation of high vulnerabilities wi
 
 ### guidance
 
-See the FedRAMP Documents page under Key Cloud Service Provider (CSP) Documents, Continuous Monitoring Strategy Guide [https://www.fedramp.gov/documents/](https://www.fedramp.gov/documents/) 
+See the FedRAMP Documents page under Key Cloud Service Provider (CSP) Documents, Continuous Monitoring Strategy Guide [https://www.fedramp.gov/documents/](https://www.fedramp.gov/documents/)

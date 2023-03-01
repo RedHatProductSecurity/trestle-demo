@@ -160,4 +160,4 @@ Organizations assess security controls in organizational information systems and
 
 ### guidance
 
-See the FedRAMP Documents page under Key Cloud Service Provider (CSP) Documents, Annual Assessment Guidance [https://www.fedramp.gov/documents/](https://www.fedramp.gov/documents/) 
+See the FedRAMP Documents page under Key Cloud Service Provider (CSP) Documents, Annual Assessment Guidance [https://www.fedramp.gov/documents/](https://www.fedramp.gov/documents/)

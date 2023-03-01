@@ -95,4 +95,4 @@ Penetration testing is a specialized type of assessment conducted on information
 
 ### guidance
 
-See the FedRAMP Documents page under Key Cloud Service Provider (CSP) Documents, Penetration Test Guidance [https://www.FedRAMP.gov/documents/](https://www.FedRAMP.gov/documents/) 
+See the FedRAMP Documents page under Key Cloud Service Provider (CSP) Documents, Penetration Test Guidance [https://www.FedRAMP.gov/documents/](https://www.FedRAMP.gov/documents/)
