@@ -39,7 +39,11 @@ I --> A
 
 ## Evidence Collection
 
+TBD
+
 ## Reporting
+
+TBD
 
 ## Required Components
 
@@ -60,7 +64,7 @@ graph TD;
   C --> D[Create an SSP with additional metadata from profile]
   D --> E[Convert using a markdown template]
   E --> F[Convert markdown to a docx format]
-  K --> L[End]
+  F --> G[End]
 ```
 
 #### Usage
@@ -69,7 +73,7 @@ To use the container with all the required dependencies, run `make demo-build` a
 
 To move to the workspace run `cd trestle-workspace`
 
-Run `make generate=ssp-word` to run the entire workflow. This will generate a markdown SSP and convert it to the docx format.
+Run `make generate-ssp-word` to run the entire workflow. This will generate a markdown SSP and convert it to the docx format.
 To just generate the markdown run `make generate-ssp-markdown`
 
 If starting from scratch or testing changes to the SSP:
