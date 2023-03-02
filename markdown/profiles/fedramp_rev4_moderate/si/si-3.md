@@ -53,20 +53,6 @@ x-trestle-add-props:
   - name: response-point
     value: You must fill in this response point.
     ns: https://fedramp.gov/ns/oscal
-    smt-part: si-3.c_obj.1
-  - name: method
-    value: EXAMINE
-    smt-part: si-3.c_obj.1
-  - name: response-point
-    value: You must fill in this response point.
-    ns: https://fedramp.gov/ns/oscal
-    smt-part: si-3.c_obj.2
-  - name: method
-    value: EXAMINE
-    smt-part: si-3.c_obj.2
-  - name: response-point
-    value: You must fill in this response point.
-    ns: https://fedramp.gov/ns/oscal
     smt-part: si-3.c.1_obj.3
   - name: method
     value: INTERVIEW
@@ -84,6 +70,20 @@ x-trestle-add-props:
   - name: method
     value: TEST
     smt-part: si-3.c.2_obj.3
+  - name: response-point
+    value: You must fill in this response point.
+    ns: https://fedramp.gov/ns/oscal
+    smt-part: si-3.c_obj.1
+  - name: method
+    value: EXAMINE
+    smt-part: si-3.c_obj.1
+  - name: response-point
+    value: You must fill in this response point.
+    ns: https://fedramp.gov/ns/oscal
+    smt-part: si-3.c_obj.2
+  - name: method
+    value: EXAMINE
+    smt-part: si-3.c_obj.2
   - name: response-point
     value: You must fill in this response point.
     ns: https://fedramp.gov/ns/oscal

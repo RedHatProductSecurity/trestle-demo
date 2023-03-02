@@ -210,7 +210,7 @@ Configuration settings are the set of parameters that can be changed in hardware
 
 ### item
 
-The service provider shall use the Center for Internet Security guidelines (Level 1) to establish configuration settings or establishes its own configuration settings if USGCB is not available. 
+The service provider shall use the Center for Internet Security guidelines (Level 1) to establish configuration settings or establishes its own configuration settings if USGCB is not available.
 
 ### item
 

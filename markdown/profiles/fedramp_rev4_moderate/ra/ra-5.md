@@ -263,6 +263,12 @@ Security categorization of information systems guides the frequency and comprehe
 <!-- underneath the parent ## Control or ## Part being added -->
 <!-- See https://ibm.github.io/compliance-trestle/tutorials/ssp_profile_catalog_authoring/ssp_profile_catalog_authoring for guidance. -->
 
+## Control item
+
+### guidance
+
+**See the FedRAMP Documents page under Key Cloud Service Provider (CSP) Documents> Vulnerability Scanning Requirements** ([https://www.FedRAMP.gov/documents/](https://www.FedRAMP.gov/documents/))
+
 ## Part a.
 
 ### item
@@ -274,9 +280,3 @@ An accredited independent assessor scans operating systems/infrastructure, web a
 ### item
 
 To include all Authorizing Officials; for JAB authorizations to include FedRAMP.
-
-## Control item
-
-### guidance
-
- **See the FedRAMP Documents page under Key Cloud Service Provider (CSP) Documents> Vulnerability Scanning Requirements** ([https://www.FedRAMP.gov/documents/](https://www.FedRAMP.gov/documents/))
