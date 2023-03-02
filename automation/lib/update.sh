@@ -24,6 +24,6 @@ else
      git commit -m "$COMMIT_TITLE"
      git push -u origin "autoupdate_$GITHUB_RUN_ID"
      run_log 0 "$COMMIT_BODY"
-     gh pr create -t "$COMMIT_TITLE" -b "$COMMIT_BODY" -B "main" -H "autoupdate_$GITHUB_RUN_ID"
+     gh pr create -t "$COMMIT_TITLE" -b "$COMMIT_BODY" -B "main" -H "autoupdate_$GITHUB_RUN_ID" --draft
   fi
 fi
