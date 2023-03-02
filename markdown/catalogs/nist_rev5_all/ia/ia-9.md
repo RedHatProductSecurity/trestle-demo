@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-09_odp:
     values:
 sort-id: ia-09
+x-trestle-global:
+  sort-id: ia-09
 ---
 
 # ia-9 - \[Identification and Authentication\] Service Identification and Authentication

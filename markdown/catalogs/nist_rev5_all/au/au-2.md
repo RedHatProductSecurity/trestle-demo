@@ -11,6 +11,8 @@ x-trestle-set-params:
   au-02_odp.04:
     values:
 sort-id: au-02
+x-trestle-global:
+  sort-id: au-02
 ---
 
 # au-2 - \[Audit and Accountability\] Event Logging

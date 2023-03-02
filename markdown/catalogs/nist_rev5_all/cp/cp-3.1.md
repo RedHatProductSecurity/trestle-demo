@@ -1,5 +1,7 @@
 ---
 sort-id: cp-03.01
+x-trestle-global:
+  sort-id: cp-03.01
 ---
 
 # cp-3.1 - \[Contingency Planning\] Simulated Events

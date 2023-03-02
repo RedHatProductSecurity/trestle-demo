@@ -1,5 +1,7 @@
 ---
 sort-id: ia-02.05
+x-trestle-global:
+  sort-id: ia-02.05
 ---
 
 # ia-2.5 - \[Identification and Authentication\] Individual Authentication with Group Authentication

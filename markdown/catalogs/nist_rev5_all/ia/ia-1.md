@@ -19,6 +19,8 @@ x-trestle-set-params:
   ia-01_odp.08:
     values:
 sort-id: ia-01
+x-trestle-global:
+  sort-id: ia-01
 ---
 
 # ia-1 - \[Identification and Authentication\] Policy and Procedures

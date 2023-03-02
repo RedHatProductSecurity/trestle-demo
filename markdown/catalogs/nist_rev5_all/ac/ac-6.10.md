@@ -1,5 +1,7 @@
 ---
 sort-id: ac-06.10
+x-trestle-global:
+  sort-id: ac-06.10
 ---
 
 # ac-6.10 - \[Access Control\] Prohibit Non-privileged Users from Executing Privileged Functions

@@ -5,6 +5,8 @@ x-trestle-set-params:
   ma-06.01_odp.02:
     values:
 sort-id: ma-06.01
+x-trestle-global:
+  sort-id: ma-06.01
 ---
 
 # ma-6.1 - \[Maintenance\] Preventive Maintenance

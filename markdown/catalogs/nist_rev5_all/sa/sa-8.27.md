@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.27_odp:
     values:
 sort-id: sa-08.27
+x-trestle-global:
+  sort-id: sa-08.27
 ---
 
 # sa-8.27 - \[System and Services Acquisition\] Human Factored Security

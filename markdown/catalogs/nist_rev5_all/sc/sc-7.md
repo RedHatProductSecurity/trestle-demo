@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-07_odp:
     values:
 sort-id: sc-07
+x-trestle-global:
+  sort-id: sc-07
 ---
 
 # sc-7 - \[System and Communications Protection\] Boundary Protection

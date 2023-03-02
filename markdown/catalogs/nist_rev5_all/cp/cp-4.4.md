@@ -1,5 +1,7 @@
 ---
 sort-id: cp-04.04
+x-trestle-global:
+  sort-id: cp-04.04
 ---
 
 # cp-4.4 - \[Contingency Planning\] Full Recovery and Reconstitution

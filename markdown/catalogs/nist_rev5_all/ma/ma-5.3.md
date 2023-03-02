@@ -1,5 +1,7 @@
 ---
 sort-id: ma-05.03
+x-trestle-global:
+  sort-id: ma-05.03
 ---
 
 # ma-5.3 - \[Maintenance\] Citizenship Requirements for Classified Systems

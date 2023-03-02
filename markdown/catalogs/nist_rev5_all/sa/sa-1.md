@@ -19,6 +19,8 @@ x-trestle-set-params:
   sa-01_odp.08:
     values:
 sort-id: sa-01
+x-trestle-global:
+  sort-id: sa-01
 ---
 
 # sa-1 - \[System and Services Acquisition\] Policy and Procedures

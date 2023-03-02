@@ -21,6 +21,8 @@ x-trestle-set-params:
   ac-02_odp.10:
     values:
 sort-id: ac-02
+x-trestle-global:
+  sort-id: ac-02
 ---
 
 # ac-2 - \[Access Control\] Account Management

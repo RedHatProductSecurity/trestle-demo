@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.28_odp:
     values:
 sort-id: sa-08.28
+x-trestle-global:
+  sort-id: sa-08.28
 ---
 
 # sa-8.28 - \[System and Services Acquisition\] Acceptable Security

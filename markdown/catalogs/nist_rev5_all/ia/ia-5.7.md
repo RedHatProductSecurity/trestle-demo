@@ -1,5 +1,7 @@
 ---
 sort-id: ia-05.07
+x-trestle-global:
+  sort-id: ia-05.07
 ---
 
 # ia-5.7 - \[Identification and Authentication\] No Embedded Unencrypted Static Authenticators

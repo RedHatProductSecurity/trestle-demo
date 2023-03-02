@@ -1,5 +1,7 @@
 ---
 sort-id: ma-03.04
+x-trestle-global:
+  sort-id: ma-03.04
 ---
 
 # ma-3.4 - \[Maintenance\] Restricted Tool Use

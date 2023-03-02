@@ -3,6 +3,8 @@ x-trestle-set-params:
   sr-05_odp:
     values:
 sort-id: sr-05
+x-trestle-global:
+  sort-id: sr-05
 ---
 
 # sr-5 - \[Supply Chain Risk Management\] Acquisition Strategies, Tools, and Methods

@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-03.13_odp:
     values:
 sort-id: ac-03.13
+x-trestle-global:
+  sort-id: ac-03.13
 ---
 
 # ac-3.13 - \[Access Control\] Attribute-based Access Control

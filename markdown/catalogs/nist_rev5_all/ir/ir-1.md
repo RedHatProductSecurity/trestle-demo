@@ -19,6 +19,8 @@ x-trestle-set-params:
   ir-01_odp.08:
     values:
 sort-id: ir-01
+x-trestle-global:
+  sort-id: ir-01
 ---
 
 # ir-1 - \[Incident Response\] Policy and Procedures

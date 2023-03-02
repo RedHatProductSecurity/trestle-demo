@@ -7,6 +7,8 @@ x-trestle-set-params:
   sc-06_odp.03:
     values:
 sort-id: sc-06
+x-trestle-global:
+  sort-id: sc-06
 ---
 
 # sc-6 - \[System and Communications Protection\] Resource Availability

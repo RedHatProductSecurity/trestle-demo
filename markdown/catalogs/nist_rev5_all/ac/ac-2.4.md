@@ -1,5 +1,7 @@
 ---
 sort-id: ac-02.04
+x-trestle-global:
+  sort-id: ac-02.04
 ---
 
 # ac-2.4 - \[Access Control\] Automated Audit Actions

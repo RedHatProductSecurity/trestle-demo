@@ -3,6 +3,8 @@ x-trestle-set-params:
   cp-09.08_odp:
     values:
 sort-id: cp-09.08
+x-trestle-global:
+  sort-id: cp-09.08
 ---
 
 # cp-9.8 - \[Contingency Planning\] Cryptographic Protection

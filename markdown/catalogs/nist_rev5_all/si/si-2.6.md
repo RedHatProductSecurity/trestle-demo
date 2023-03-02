@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-02.06_odp:
     values:
 sort-id: si-02.06
+x-trestle-global:
+  sort-id: si-02.06
 ---
 
 # si-2.6 - \[System and Information Integrity\] Removal of Previous Versions of Software and Firmware

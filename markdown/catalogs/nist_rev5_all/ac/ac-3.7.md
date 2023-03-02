@@ -7,6 +7,8 @@ x-trestle-set-params:
   ac-03.07_odp.02:
     values:
 sort-id: ac-03.07
+x-trestle-global:
+  sort-id: ac-03.07
 ---
 
 # ac-3.7 - \[Access Control\] Role-based Access Control

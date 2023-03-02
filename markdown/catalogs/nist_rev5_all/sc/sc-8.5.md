@@ -5,6 +5,8 @@ x-trestle-set-params:
   sc-08.05_odp.02:
     values:
 sort-id: sc-08.05
+x-trestle-global:
+  sort-id: sc-08.05
 ---
 
 # sc-8.5 - \[System and Communications Protection\] Protected Distribution System

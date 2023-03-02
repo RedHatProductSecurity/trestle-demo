@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.07_odp:
     values:
 sort-id: sa-08.07
+x-trestle-global:
+  sort-id: sa-08.07
 ---
 
 # sa-8.7 - \[System and Services Acquisition\] Reduced Complexity

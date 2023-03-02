@@ -11,6 +11,8 @@ x-trestle-set-params:
   ac-03.03_odp.04:
     values:
 sort-id: ac-03.03
+x-trestle-global:
+  sort-id: ac-03.03
 ---
 
 # ac-3.3 - \[Access Control\] Mandatory Access Control

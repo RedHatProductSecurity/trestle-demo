@@ -19,6 +19,8 @@ x-trestle-set-params:
   au-01_odp.08:
     values:
 sort-id: au-01
+x-trestle-global:
+  sort-id: au-01
 ---
 
 # au-1 - \[Audit and Accountability\] Policy and Procedures

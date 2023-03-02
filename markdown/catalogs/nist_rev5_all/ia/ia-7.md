@@ -1,5 +1,7 @@
 ---
 sort-id: ia-07
+x-trestle-global:
+  sort-id: ia-07
 ---
 
 # ia-7 - \[Identification and Authentication\] Cryptographic Module Authentication

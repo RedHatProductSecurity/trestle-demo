@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-04.05_odp:
     values:
 sort-id: ac-04.05
+x-trestle-global:
+  sort-id: ac-04.05
 ---
 
 # ac-4.5 - \[Access Control\] Embedded Data Types

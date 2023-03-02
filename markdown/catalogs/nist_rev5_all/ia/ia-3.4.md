@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-03.04_odp:
     values:
 sort-id: ia-03.04
+x-trestle-global:
+  sort-id: ia-03.04
 ---
 
 # ia-3.4 - \[Identification and Authentication\] Device Attestation

@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.19_odp:
     values:
 sort-id: sa-08.19
+x-trestle-global:
+  sort-id: sa-08.19
 ---
 
 # sa-8.19 - \[System and Services Acquisition\] Continuous Protection

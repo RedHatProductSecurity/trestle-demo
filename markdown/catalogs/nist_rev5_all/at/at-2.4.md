@@ -3,6 +3,8 @@ x-trestle-set-params:
   at-02.04_odp:
     values:
 sort-id: at-02.04
+x-trestle-global:
+  sort-id: at-02.04
 ---
 
 # at-2.4 - \[Awareness and Training\] Suspicious Communications and Anomalous System Behavior

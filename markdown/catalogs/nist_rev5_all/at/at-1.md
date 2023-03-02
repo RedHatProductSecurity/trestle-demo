@@ -19,6 +19,8 @@ x-trestle-set-params:
   at-01_odp.08:
     values:
 sort-id: at-01
+x-trestle-global:
+  sort-id: at-01
 ---
 
 # at-1 - \[Awareness and Training\] Policy and Procedures

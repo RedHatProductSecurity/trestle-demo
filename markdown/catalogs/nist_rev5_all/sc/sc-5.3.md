@@ -5,6 +5,8 @@ x-trestle-set-params:
   sc-05.03_odp.02:
     values:
 sort-id: sc-05.03
+x-trestle-global:
+  sort-id: sc-05.03
 ---
 
 # sc-5.3 - \[System and Communications Protection\] Detection and Monitoring

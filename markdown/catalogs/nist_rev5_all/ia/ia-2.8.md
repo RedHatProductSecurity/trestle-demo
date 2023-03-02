@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-02.08_odp:
     values:
 sort-id: ia-02.08
+x-trestle-global:
+  sort-id: ia-02.08
 ---
 
 # ia-2.8 - \[Identification and Authentication\] Access to Accounts — Replay Resistant

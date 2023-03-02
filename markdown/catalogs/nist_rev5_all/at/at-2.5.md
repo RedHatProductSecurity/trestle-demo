@@ -1,5 +1,7 @@
 ---
 sort-id: at-02.05
+x-trestle-global:
+  sort-id: at-02.05
 ---
 
 # at-2.5 - \[Awareness and Training\] Advanced Persistent Threat

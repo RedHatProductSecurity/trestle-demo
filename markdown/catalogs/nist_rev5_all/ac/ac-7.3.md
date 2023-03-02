@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-07.03_odp:
     values:
 sort-id: ac-07.03
+x-trestle-global:
+  sort-id: ac-07.03
 ---
 
 # ac-7.3 - \[Access Control\] Biometric Attempt Limiting

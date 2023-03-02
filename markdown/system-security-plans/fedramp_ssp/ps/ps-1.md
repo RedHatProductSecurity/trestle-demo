@@ -25,6 +25,28 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ps-1_prm_1:
+    values:
+  ps-1_prm_2:
+    values:
+  ps-1_prm_3:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ps-01
 ---
 
 # ps-1 - \[Personnel Security\] Personnel Security Policy and Procedures
@@ -33,15 +55,15 @@ x-trestle-fedramp-props:
 
 The organization:
 
-- \[a.\] Develops, documents, and disseminates to organization-defined personnel or roles:
+- \[a.\] Develops, documents, and disseminates to [organization-defined personnel or roles]:
 
   - \[1.\] A personnel security policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
   - \[2.\] Procedures to facilitate the implementation of the personnel security policy and associated personnel security controls; and
 
 - \[b.\] Reviews and updates the current:
 
-  - \[1.\] Personnel security policy organization-defined frequency; and
-  - \[2.\] Personnel security procedures organization-defined frequency.
+  - \[1.\] Personnel security policy [organization-defined frequency]; and
+  - \[2.\] Personnel security procedures [organization-defined frequency].
 
 ## Control Objective
 
@@ -90,21 +112,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ps-1_smt.a
+<!-- Add implementation prose for the main This System component for control: ps-1 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part b.
-
-Add control implementation description here for item ps-1_smt.b
+<!-- Add control implementation description here for control: ps-1 -->
 
 #### Implementation Status: planned
 

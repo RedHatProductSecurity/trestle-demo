@@ -1,5 +1,7 @@
 ---
 sort-id: ra-02
+x-trestle-global:
+  sort-id: ra-02
 ---
 
 # ra-2 - \[Risk Assessment\] Security Categorization

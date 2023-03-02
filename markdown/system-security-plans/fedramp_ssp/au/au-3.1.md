@@ -25,13 +25,31 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  au-3.1_prm_1:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: au-03.01
 ---
 
 # au-3.1 - \[Audit and Accountability\] Additional Audit Information
 
 ## Control Statement
 
-The information system generates audit records containing the following additional information: organization-defined additional, more detailed information.
+The information system generates audit records containing the following additional information: [organization-defined additional, more detailed information].
 
 ## Control Objective
 
@@ -50,8 +68,20 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-Add control implementation description here for control au-3.1
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-### Implementation Status: planned
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
+
+### This System
+
+<!-- Add implementation prose for the main This System component for control: au-3.1 -->
+
+#### Implementation Status: planned
+
+### 
+
+<!-- Add control implementation description here for control: au-3.1 -->
+
+#### Implementation Status: planned
 
 ______________________________________________________________________

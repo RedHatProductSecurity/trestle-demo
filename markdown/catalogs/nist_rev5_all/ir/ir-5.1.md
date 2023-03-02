@@ -9,6 +9,8 @@ x-trestle-set-params:
   ir-05.01_odp.03:
     values:
 sort-id: ir-05.01
+x-trestle-global:
+  sort-id: ir-05.01
 ---
 
 # ir-5.1 - \[Incident Response\] Automated Tracking, Data Collection, and Analysis

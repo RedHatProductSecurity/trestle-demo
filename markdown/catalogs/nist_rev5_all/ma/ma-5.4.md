@@ -1,5 +1,7 @@
 ---
 sort-id: ma-05.04
+x-trestle-global:
+  sort-id: ma-05.04
 ---
 
 # ma-5.4 - \[Maintenance\] Foreign Nationals

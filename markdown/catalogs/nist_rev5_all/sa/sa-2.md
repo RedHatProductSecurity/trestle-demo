@@ -1,5 +1,7 @@
 ---
 sort-id: sa-02
+x-trestle-global:
+  sort-id: sa-02
 ---
 
 # sa-2 - \[System and Services Acquisition\] Allocation of Resources

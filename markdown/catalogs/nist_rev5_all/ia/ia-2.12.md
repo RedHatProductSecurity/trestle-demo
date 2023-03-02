@@ -1,5 +1,7 @@
 ---
 sort-id: ia-02.12
+x-trestle-global:
+  sort-id: ia-02.12
 ---
 
 # ia-2.12 - \[Identification and Authentication\] Acceptance of PIV Credentials

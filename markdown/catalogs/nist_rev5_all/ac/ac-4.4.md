@@ -7,6 +7,8 @@ x-trestle-set-params:
   ac-04.04_odp.03:
     values:
 sort-id: ac-04.04
+x-trestle-global:
+  sort-id: ac-04.04
 ---
 
 # ac-4.4 - \[Access Control\] Flow Control of Encrypted Information

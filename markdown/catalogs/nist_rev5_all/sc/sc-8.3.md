@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-08.03_odp:
     values:
 sort-id: sc-08.03
+x-trestle-global:
+  sort-id: sc-08.03
 ---
 
 # sc-8.3 - \[System and Communications Protection\] Cryptographic Protection for Message Externals

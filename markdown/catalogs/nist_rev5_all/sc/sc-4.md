@@ -1,5 +1,7 @@
 ---
 sort-id: sc-04
+x-trestle-global:
+  sort-id: sc-04
 ---
 
 # sc-4 - \[System and Communications Protection\] Information in Shared System Resources

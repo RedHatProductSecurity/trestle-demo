@@ -1,5 +1,7 @@
 ---
 sort-id: ca-03.06
+x-trestle-global:
+  sort-id: ca-03.06
 ---
 
 # ca-3.6 - \[Assessment, Authorization, and Monitoring\] Transfer Authorizations

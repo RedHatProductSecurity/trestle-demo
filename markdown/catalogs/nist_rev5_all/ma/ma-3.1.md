@@ -1,5 +1,7 @@
 ---
 sort-id: ma-03.01
+x-trestle-global:
+  sort-id: ma-03.01
 ---
 
 # ma-3.1 - \[Maintenance\] Inspect Tools

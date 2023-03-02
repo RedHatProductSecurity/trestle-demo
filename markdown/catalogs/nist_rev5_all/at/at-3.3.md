@@ -1,5 +1,7 @@
 ---
 sort-id: at-03.03
+x-trestle-global:
+  sort-id: at-03.03
 ---
 
 # at-3.3 - \[Awareness and Training\] Practical Exercises

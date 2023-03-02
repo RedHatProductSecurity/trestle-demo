@@ -1,5 +1,7 @@
 ---
 sort-id: cm-04
+x-trestle-global:
+  sort-id: cm-04
 ---
 
 # cm-4 - \[Configuration Management\] Impact Analyses

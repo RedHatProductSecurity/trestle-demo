@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-03.06_odp:
     values:
 sort-id: cm-03.06
+x-trestle-global:
+  sort-id: cm-03.06
 ---
 
 # cm-3.6 - \[Configuration Management\] Cryptography Management

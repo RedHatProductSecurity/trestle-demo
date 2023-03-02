@@ -7,6 +7,8 @@ x-trestle-set-params:
   ac-03.09_odp.03:
     values:
 sort-id: ac-03.09
+x-trestle-global:
+  sort-id: ac-03.09
 ---
 
 # ac-3.9 - \[Access Control\] Controlled Release

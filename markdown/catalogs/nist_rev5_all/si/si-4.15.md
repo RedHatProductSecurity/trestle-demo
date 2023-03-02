@@ -1,5 +1,7 @@
 ---
 sort-id: si-04.15
+x-trestle-global:
+  sort-id: si-04.15
 ---
 
 # si-4.15 - \[System and Information Integrity\] Wireless to Wireline Communications

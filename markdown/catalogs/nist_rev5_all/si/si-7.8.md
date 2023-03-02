@@ -7,6 +7,8 @@ x-trestle-set-params:
   si-07.08_odp.03:
     values:
 sort-id: si-07.08
+x-trestle-global:
+  sort-id: si-07.08
 ---
 
 # si-7.8 - \[System and Information Integrity\] Auditing Capability for Significant Events

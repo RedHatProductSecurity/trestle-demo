@@ -5,6 +5,8 @@ x-trestle-set-params:
   cm-07.05_odp.02:
     values:
 sort-id: cm-07.05
+x-trestle-global:
+  sort-id: cm-07.05
 ---
 
 # cm-7.5 - \[Configuration Management\] Authorized Software — Allow-by-exception

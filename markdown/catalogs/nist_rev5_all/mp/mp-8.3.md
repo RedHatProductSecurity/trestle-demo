@@ -1,5 +1,7 @@
 ---
 sort-id: mp-08.03
+x-trestle-global:
+  sort-id: mp-08.03
 ---
 
 # mp-8.3 - \[Media Protection\] Controlled Unclassified Information

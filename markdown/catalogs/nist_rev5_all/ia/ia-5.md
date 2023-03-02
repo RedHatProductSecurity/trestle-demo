@@ -5,6 +5,8 @@ x-trestle-set-params:
   ia-05_odp.02:
     values:
 sort-id: ia-05
+x-trestle-global:
+  sort-id: ia-05
 ---
 
 # ia-5 - \[Identification and Authentication\] Authenticator Management

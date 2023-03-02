@@ -7,6 +7,8 @@ x-trestle-set-params:
   ia-02.06_odp.03:
     values:
 sort-id: ia-02.06
+x-trestle-global:
+  sort-id: ia-02.06
 ---
 
 # ia-2.6 - \[Identification and Authentication\] Access to Accounts —separate Device

@@ -1,5 +1,7 @@
 ---
 sort-id: ma-04.03
+x-trestle-global:
+  sort-id: ma-04.03
 ---
 
 # ma-4.3 - \[Maintenance\] Comparable Security and Sanitization

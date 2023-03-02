@@ -9,6 +9,8 @@ x-trestle-set-params:
   cp-09_odp.04:
     values:
 sort-id: cp-09
+x-trestle-global:
+  sort-id: cp-09
 ---
 
 # cp-9 - \[Contingency Planning\] System Backup

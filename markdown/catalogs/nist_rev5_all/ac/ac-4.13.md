@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-04.13_odp:
     values:
 sort-id: ac-04.13
+x-trestle-global:
+  sort-id: ac-04.13
 ---
 
 # ac-4.13 - \[Access Control\] Decomposition into Policy-relevant Subcomponents

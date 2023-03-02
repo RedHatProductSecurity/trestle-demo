@@ -5,6 +5,8 @@ x-trestle-set-params:
   ia-03.01_odp.02:
     values:
 sort-id: ia-03.01
+x-trestle-global:
+  sort-id: ia-03.01
 ---
 
 # ia-3.1 - \[Identification and Authentication\] Cryptographic Bidirectional Authentication

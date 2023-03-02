@@ -1,5 +1,7 @@
 ---
 sort-id: ir-02.01
+x-trestle-global:
+  sort-id: ir-02.01
 ---
 
 # ir-2.1 - \[Incident Response\] Simulated Events

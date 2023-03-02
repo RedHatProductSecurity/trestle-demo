@@ -5,6 +5,8 @@ x-trestle-set-params:
   ir-04.02_odp.02:
     values:
 sort-id: ir-04.02
+x-trestle-global:
+  sort-id: ir-04.02
 ---
 
 # ir-4.2 - \[Incident Response\] Dynamic Reconfiguration

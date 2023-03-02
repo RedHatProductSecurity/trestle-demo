@@ -1,5 +1,7 @@
 ---
 sort-id: ps-03.01
+x-trestle-global:
+  sort-id: ps-03.01
 ---
 
 # ps-3.1 - \[Personnel Security\] Classified Information

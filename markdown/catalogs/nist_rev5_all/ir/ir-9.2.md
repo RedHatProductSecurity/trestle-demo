@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-09.02_odp:
     values:
 sort-id: ir-09.02
+x-trestle-global:
+  sort-id: ir-09.02
 ---
 
 # ir-9.2 - \[Incident Response\] Training

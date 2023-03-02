@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-04.07_odp:
     values:
 sort-id: ir-04.07
+x-trestle-global:
+  sort-id: ir-04.07
 ---
 
 # ir-4.7 - \[Incident Response\] Insider Threats — Intra-organization Coordination

@@ -5,6 +5,8 @@ x-trestle-set-params:
   cm-07.04_odp.02:
     values:
 sort-id: cm-07.04
+x-trestle-global:
+  sort-id: cm-07.04
 ---
 
 # cm-7.4 - \[Configuration Management\] Unauthorized Software — Deny-by-exception

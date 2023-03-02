@@ -3,6 +3,8 @@ x-trestle-set-params:
   ca-08.02_odp:
     values:
 sort-id: ca-08.02
+x-trestle-global:
+  sort-id: ca-08.02
 ---
 
 # ca-8.2 - \[Assessment, Authorization, and Monitoring\] Red Team Exercises

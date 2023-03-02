@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ca-2_prm_1:
+    values:
+  ca-2_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ca-02
 ---
 
 # ca-2 - \[Security Assessment and Authorization\] Security Assessments
@@ -39,11 +59,11 @@ The organization:
   - \[2.\] Assessment procedures to be used to determine security control effectiveness; and
   - \[3.\] Assessment environment, assessment team, and assessment roles and responsibilities;
 
-- \[b.\] Assesses the security controls in the information system and its environment of operation organization-defined frequency to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting established security requirements;
+- \[b.\] Assesses the security controls in the information system and its environment of operation [organization-defined frequency] to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting established security requirements;
 
 - \[c.\] Produces a security assessment report that documents the results of the assessment; and
 
-- \[d.\] Provides the results of the security control assessment to organization-defined individuals or roles.
+- \[d.\] Provides the results of the security control assessment to [organization-defined individuals or roles].
 
 ## Control Objective
 
@@ -80,37 +100,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ca-2_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ca-2_smt.b
+<!-- Add implementation prose for the main This System component for control: ca-2 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ca-2_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item ca-2_smt.d
+<!-- Add control implementation description here for control: ca-2 -->
 
 #### Implementation Status: planned
 

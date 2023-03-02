@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-03.10_odp:
     values:
 sort-id: si-03.10
+x-trestle-global:
+  sort-id: si-03.10
 ---
 
 # si-3.10 - \[System and Information Integrity\] Malicious Code Analysis

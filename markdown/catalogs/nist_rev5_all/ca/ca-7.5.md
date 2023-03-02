@@ -7,6 +7,8 @@ x-trestle-set-params:
   ca-07.05_odp.02:
     values:
 sort-id: ca-07.05
+x-trestle-global:
+  sort-id: ca-07.05
 ---
 
 # ca-7.5 - \[Assessment, Authorization, and Monitoring\] Consistency Analysis

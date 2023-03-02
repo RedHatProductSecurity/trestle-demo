@@ -7,6 +7,8 @@ x-trestle-set-params:
   pe-03.05_odp.03:
     values:
 sort-id: pe-03.05
+x-trestle-global:
+  sort-id: pe-03.05
 ---
 
 # pe-3.5 - \[Physical and Environmental Protection\] Tamper Protection

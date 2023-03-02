@@ -9,6 +9,8 @@ x-trestle-set-params:
   ps-05_odp.04:
     values:
 sort-id: ps-05
+x-trestle-global:
+  sort-id: ps-05
 ---
 
 # ps-5 - \[Personnel Security\] Personnel Transfer

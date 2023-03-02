@@ -9,6 +9,8 @@ x-trestle-set-params:
   ma-02.02_odp.03:
     values:
 sort-id: ma-02.02
+x-trestle-global:
+  sort-id: ma-02.02
 ---
 
 # ma-2.2 - \[Maintenance\] Automated Maintenance Activities

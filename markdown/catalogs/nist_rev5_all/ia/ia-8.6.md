@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-08.06_odp:
     values:
 sort-id: ia-08.06
+x-trestle-global:
+  sort-id: ia-08.06
 ---
 
 # ia-8.6 - \[Identification and Authentication\] Disassociability

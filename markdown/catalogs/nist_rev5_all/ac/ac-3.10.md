@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-03.10_odp.02:
     values:
 sort-id: ac-03.10
+x-trestle-global:
+  sort-id: ac-03.10
 ---
 
 # ac-3.10 - \[Access Control\] Audited Override of Access Control Mechanisms

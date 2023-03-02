@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-03.03_odp:
     values:
 sort-id: au-03.03
+x-trestle-global:
+  sort-id: au-03.03
 ---
 
 # au-3.3 - \[Audit and Accountability\] Limit Personally Identifiable Information Elements

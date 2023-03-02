@@ -19,6 +19,8 @@ x-trestle-set-params:
   cm-01_odp.08:
     values:
 sort-id: cm-01
+x-trestle-global:
+  sort-id: cm-01
 ---
 
 # cm-1 - \[Configuration Management\] Policy and Procedures

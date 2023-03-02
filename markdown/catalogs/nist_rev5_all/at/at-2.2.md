@@ -1,5 +1,7 @@
 ---
 sort-id: at-02.02
+x-trestle-global:
+  sort-id: at-02.02
 ---
 
 # at-2.2 - \[Awareness and Training\] Insider Threat

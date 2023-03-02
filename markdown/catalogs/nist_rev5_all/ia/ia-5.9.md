@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-05.09_odp:
     values:
 sort-id: ia-05.09
+x-trestle-global:
+  sort-id: ia-05.09
 ---
 
 # ia-5.9 - \[Identification and Authentication\] Federated Credential Management

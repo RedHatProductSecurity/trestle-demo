@@ -7,6 +7,8 @@ x-trestle-set-params:
   pe-08.01_odp.02:
     values:
 sort-id: pe-08.01
+x-trestle-global:
+  sort-id: pe-08.01
 ---
 
 # pe-8.1 - \[Physical and Environmental Protection\] Automated Records Maintenance and Review

@@ -7,6 +7,8 @@ x-trestle-set-params:
   sa-09.05_odp.03:
     values:
 sort-id: sa-09.05
+x-trestle-global:
+  sort-id: sa-09.05
 ---
 
 # sa-9.5 - \[System and Services Acquisition\] Processing, Storage, and Service Location

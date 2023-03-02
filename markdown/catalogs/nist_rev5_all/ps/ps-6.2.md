@@ -1,5 +1,7 @@
 ---
 sort-id: ps-06.02
+x-trestle-global:
+  sort-id: ps-06.02
 ---
 
 # ps-6.2 - \[Personnel Security\] Classified Information Requiring Special Protection

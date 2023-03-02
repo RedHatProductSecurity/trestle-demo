@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-03.01_odp:
     values:
 sort-id: ir-03.01
+x-trestle-global:
+  sort-id: ir-03.01
 ---
 
 # ir-3.1 - \[Incident Response\] Automated Testing

@@ -7,6 +7,8 @@ x-trestle-set-params:
   mp-06.02_odp.02:
     values:
 sort-id: mp-06.02
+x-trestle-global:
+  sort-id: mp-06.02
 ---
 
 # mp-6.2 - \[Media Protection\] Equipment Testing

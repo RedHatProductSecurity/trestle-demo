@@ -7,6 +7,8 @@ x-trestle-set-params:
   mp-06.08_odp.03:
     values:
 sort-id: mp-06.08
+x-trestle-global:
+  sort-id: mp-06.08
 ---
 
 # mp-6.8 - \[Media Protection\] Remote Purging or Wiping of Information

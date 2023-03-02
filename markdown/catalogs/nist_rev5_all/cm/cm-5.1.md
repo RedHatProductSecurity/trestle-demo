@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-05.01_odp:
     values:
 sort-id: cm-05.01
+x-trestle-global:
+  sort-id: cm-05.01
 ---
 
 # cm-5.1 - \[Configuration Management\] Automated Access Enforcement and Audit Records

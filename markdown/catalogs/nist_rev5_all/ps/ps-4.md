@@ -5,6 +5,8 @@ x-trestle-set-params:
   ps-04_odp.02:
     values:
 sort-id: ps-04
+x-trestle-global:
+  sort-id: ps-04
 ---
 
 # ps-4 - \[Personnel Security\] Personnel Termination

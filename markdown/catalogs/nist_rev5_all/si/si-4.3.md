@@ -1,5 +1,7 @@
 ---
 sort-id: si-04.03
+x-trestle-global:
+  sort-id: si-04.03
 ---
 
 # si-4.3 - \[System and Information Integrity\] Automated Tool and Mechanism Integration

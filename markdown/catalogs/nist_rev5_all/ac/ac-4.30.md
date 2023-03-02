@@ -1,5 +1,7 @@
 ---
 sort-id: ac-04.30
+x-trestle-global:
+  sort-id: ac-04.30
 ---
 
 # ac-4.30 - \[Access Control\] Filter Mechanisms Using Multiple Processes

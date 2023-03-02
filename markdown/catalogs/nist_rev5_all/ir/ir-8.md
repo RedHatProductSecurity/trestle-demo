@@ -17,6 +17,8 @@ x-trestle-set-params:
   ir-08_odp.07:
     values:
 sort-id: ir-08
+x-trestle-global:
+  sort-id: ir-08
 ---
 
 # ir-8 - \[Incident Response\] Incident Response Plan

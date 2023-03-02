@@ -1,5 +1,7 @@
 ---
 sort-id: ca-07.01
+x-trestle-global:
+  sort-id: ca-07.01
 ---
 
 # ca-7.1 - \[Assessment, Authorization, and Monitoring\] Independent Assessment

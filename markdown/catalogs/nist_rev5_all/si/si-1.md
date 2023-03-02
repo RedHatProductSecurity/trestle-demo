@@ -19,6 +19,8 @@ x-trestle-set-params:
   si-01_odp.08:
     values:
 sort-id: si-01
+x-trestle-global:
+  sort-id: si-01
 ---
 
 # si-1 - \[System and Information Integrity\] Policy and Procedures

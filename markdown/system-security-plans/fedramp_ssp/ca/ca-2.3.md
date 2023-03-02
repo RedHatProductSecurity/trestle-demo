@@ -25,13 +25,35 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ca-2.3_prm_1:
+    values:
+  ca-2.3_prm_2:
+    values:
+  ca-2.3_prm_3:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ca-02.03
 ---
 
 # ca-2.3 - \[Security Assessment and Authorization\] External Organizations
 
 ## Control Statement
 
-The organization accepts the results of an assessment of organization-defined information system performed by organization-defined external organization when the assessment meets organization-defined requirements.
+The organization accepts the results of an assessment of [organization-defined information system] performed by [organization-defined external organization] when the assessment meets [organization-defined requirements].
 
 ## Control Objective
 
@@ -53,8 +75,20 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-Add control implementation description here for control ca-2.3
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-### Implementation Status: planned
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
+
+### This System
+
+<!-- Add implementation prose for the main This System component for control: ca-2.3 -->
+
+#### Implementation Status: planned
+
+### 
+
+<!-- Add control implementation description here for control: ca-2.3 -->
+
+#### Implementation Status: planned
 
 ______________________________________________________________________

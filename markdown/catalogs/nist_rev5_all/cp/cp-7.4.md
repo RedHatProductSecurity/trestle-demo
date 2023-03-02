@@ -1,5 +1,7 @@
 ---
 sort-id: cp-07.04
+x-trestle-global:
+  sort-id: cp-07.04
 ---
 
 # cp-7.4 - \[Contingency Planning\] Preparation for Use

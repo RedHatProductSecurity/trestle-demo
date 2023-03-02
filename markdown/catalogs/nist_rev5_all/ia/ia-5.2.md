@@ -1,5 +1,7 @@
 ---
 sort-id: ia-05.02
+x-trestle-global:
+  sort-id: ia-05.02
 ---
 
 # ia-5.2 - \[Identification and Authentication\] Public Key-based Authentication

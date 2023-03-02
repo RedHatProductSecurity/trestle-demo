@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-07.03_odp:
     values:
 sort-id: cm-07.03
+x-trestle-global:
+  sort-id: cm-07.03
 ---
 
 # cm-7.3 - \[Configuration Management\] Registration Compliance

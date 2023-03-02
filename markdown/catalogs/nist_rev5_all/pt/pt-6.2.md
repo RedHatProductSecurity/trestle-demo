@@ -3,6 +3,8 @@ x-trestle-set-params:
   pt-06.02_odp:
     values:
 sort-id: pt-06.02
+x-trestle-global:
+  sort-id: pt-06.02
 ---
 
 # pt-6.2 - \[Personally Identifiable Information Processing and Transparency\] Exemption Rules

@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-03.14_odp.02:
     values:
 sort-id: ac-03.14
+x-trestle-global:
+  sort-id: ac-03.14
 ---
 
 # ac-3.14 - \[Access Control\] Individual Access

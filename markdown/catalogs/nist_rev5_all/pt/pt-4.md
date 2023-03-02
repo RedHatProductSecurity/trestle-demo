@@ -3,6 +3,8 @@ x-trestle-set-params:
   pt-04_odp:
     values:
 sort-id: pt-04
+x-trestle-global:
+  sort-id: pt-04
 ---
 
 # pt-4 - \[Personally Identifiable Information Processing and Transparency\] Consent

@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-09.02_odp.02:
     values:
 sort-id: ac-09.02
+x-trestle-global:
+  sort-id: ac-09.02
 ---
 
 # ac-9.2 - \[Access Control\] Successful and Unsuccessful Logons

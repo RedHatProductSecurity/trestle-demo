@@ -13,6 +13,8 @@ x-trestle-set-params:
   ac-03.15_odp.04:
     values:
 sort-id: ac-03.15
+x-trestle-global:
+  sort-id: ac-03.15
 ---
 
 # ac-3.15 - \[Access Control\] Discretionary and Mandatory Access Control

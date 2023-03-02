@@ -1,5 +1,7 @@
 ---
 sort-id: ia-08.01
+x-trestle-global:
+  sort-id: ia-08.01
 ---
 
 # ia-8.1 - \[Identification and Authentication\] Acceptance of PIV Credentials from Other Agencies

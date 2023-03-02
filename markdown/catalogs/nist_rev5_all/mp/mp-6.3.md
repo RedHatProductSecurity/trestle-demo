@@ -3,6 +3,8 @@ x-trestle-set-params:
   mp-06.03_odp:
     values:
 sort-id: mp-06.03
+x-trestle-global:
+  sort-id: mp-06.03
 ---
 
 # mp-6.3 - \[Media Protection\] Nondestructive Techniques

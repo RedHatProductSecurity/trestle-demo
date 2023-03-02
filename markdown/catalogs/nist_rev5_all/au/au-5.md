@@ -7,6 +7,8 @@ x-trestle-set-params:
   au-05_odp.03:
     values:
 sort-id: au-05
+x-trestle-global:
+  sort-id: au-05
 ---
 
 # au-5 - \[Audit and Accountability\] Response to Audit Logging Process Failures

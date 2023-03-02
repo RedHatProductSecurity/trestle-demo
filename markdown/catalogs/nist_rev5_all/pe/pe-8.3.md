@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-08.03_odp:
     values:
 sort-id: pe-08.03
+x-trestle-global:
+  sort-id: pe-08.03
 ---
 
 # pe-8.3 - \[Physical and Environmental Protection\] Limit Personally Identifiable Information Elements

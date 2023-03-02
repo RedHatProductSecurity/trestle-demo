@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-07.17_odp:
     values:
 sort-id: si-07.17
+x-trestle-global:
+  sort-id: si-07.17
 ---
 
 # si-7.17 - \[System and Information Integrity\] Runtime Application Self-protection

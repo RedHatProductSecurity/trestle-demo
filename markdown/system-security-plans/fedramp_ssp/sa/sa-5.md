@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  sa-5_prm_1:
+    values:
+  sa-5_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: sa-05
 ---
 
 # sa-5 - \[System and Services Acquisition\] Information System Documentation
@@ -45,11 +65,11 @@ The organization:
   - \[2.\] Methods for user interaction, which enables individuals to use the system, component, or service in a more secure manner; and
   - \[3.\] User responsibilities in maintaining the security of the system, component, or service;
 
-- \[c.\] Documents attempts to obtain information system, system component, or information system service documentation when such documentation is either unavailable or nonexistent and takes organization-defined actions in response;
+- \[c.\] Documents attempts to obtain information system, system component, or information system service documentation when such documentation is either unavailable or nonexistent and takes [organization-defined actions] in response;
 
 - \[d.\] Protects documentation as required, in accordance with the risk management strategy; and
 
-- \[e.\] Distributes documentation to organization-defined personnel or roles.
+- \[e.\] Distributes documentation to [organization-defined personnel or roles].
 
 ## Control Objective
 
@@ -101,45 +121,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item sa-5_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item sa-5_smt.b
+<!-- Add implementation prose for the main This System component for control: sa-5 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item sa-5_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item sa-5_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item sa-5_smt.e
+<!-- Add control implementation description here for control: sa-5 -->
 
 #### Implementation Status: planned
 

@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-07.16_odp:
     values:
 sort-id: si-07.16
+x-trestle-global:
+  sort-id: si-07.16
 ---
 
 # si-7.16 - \[System and Information Integrity\] Time Limit on Process Execution Without Supervision

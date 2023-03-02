@@ -25,6 +25,32 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ra-3_prm_1:
+    values:
+  ra-3_prm_2:
+    values:
+  ra-3_prm_3:
+    values:
+  ra-3_prm_4:
+    values:
+  ra-3_prm_5:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ra-03
 ---
 
 # ra-3 - \[Risk Assessment\] Risk Assessment
@@ -35,13 +61,13 @@ The organization:
 
 - \[a.\] Conducts an assessment of risk, including the likelihood and magnitude of harm, from the unauthorized access, use, disclosure, disruption, modification, or destruction of the information system and the information it processes, stores, or transmits;
 
-- \[b.\] Documents risk assessment results in security plan; risk assessment report; organization-defined document;
+- \[b.\] Documents risk assessment results in [security plan; risk assessment report; [organization-defined document]];
 
-- \[c.\] Reviews risk assessment results organization-defined frequency;
+- \[c.\] Reviews risk assessment results [organization-defined frequency];
 
-- \[d.\] Disseminates risk assessment results to organization-defined personnel or roles; and
+- \[d.\] Disseminates risk assessment results to [organization-defined personnel or roles]; and
 
-- \[e.\] Updates the risk assessment organization-defined frequency or whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities), or other conditions that may impact the security state of the system.
+- \[e.\] Updates the risk assessment [organization-defined frequency] or whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities), or other conditions that may impact the security state of the system.
 
 ## Control Objective
 
@@ -89,45 +115,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ra-3_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ra-3_smt.b
+<!-- Add implementation prose for the main This System component for control: ra-3 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ra-3_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item ra-3_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item ra-3_smt.e
+<!-- Add control implementation description here for control: ra-3 -->
 
 #### Implementation Status: planned
 

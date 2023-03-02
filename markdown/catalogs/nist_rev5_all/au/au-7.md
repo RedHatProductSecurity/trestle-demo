@@ -1,5 +1,7 @@
 ---
 sort-id: au-07
+x-trestle-global:
+  sort-id: au-07
 ---
 
 # au-7 - \[Audit and Accountability\] Audit Record Reduction and Report Generation

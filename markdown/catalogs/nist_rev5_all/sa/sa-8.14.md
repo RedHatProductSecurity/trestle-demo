@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.14_odp:
     values:
 sort-id: sa-08.14
+x-trestle-global:
+  sort-id: sa-08.14
 ---
 
 # sa-8.14 - \[System and Services Acquisition\] Least Privilege

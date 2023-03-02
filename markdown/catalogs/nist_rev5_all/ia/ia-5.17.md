@@ -1,5 +1,7 @@
 ---
 sort-id: ia-05.17
+x-trestle-global:
+  sort-id: ia-05.17
 ---
 
 # ia-5.17 - \[Identification and Authentication\] Presentation Attack Detection for Biometric Authenticators

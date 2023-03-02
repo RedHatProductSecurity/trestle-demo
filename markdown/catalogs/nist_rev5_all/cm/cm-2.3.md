@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-02.03_odp:
     values:
 sort-id: cm-02.03
+x-trestle-global:
+  sort-id: cm-02.03
 ---
 
 # cm-2.3 - \[Configuration Management\] Retention of Previous Configurations

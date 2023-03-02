@@ -1,5 +1,7 @@
 ---
 sort-id: sc-03.02
+x-trestle-global:
+  sort-id: sc-03.02
 ---
 
 # sc-3.2 - \[System and Communications Protection\] Access and Flow Control Functions

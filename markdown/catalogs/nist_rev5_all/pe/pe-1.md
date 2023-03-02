@@ -19,6 +19,8 @@ x-trestle-set-params:
   pe-01_odp.08:
     values:
 sort-id: pe-01
+x-trestle-global:
+  sort-id: pe-01
 ---
 
 # pe-1 - \[Physical and Environmental Protection\] Policy and Procedures

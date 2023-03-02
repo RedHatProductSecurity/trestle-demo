@@ -19,6 +19,8 @@ x-trestle-set-params:
   ra-01_odp.08:
     values:
 sort-id: ra-01
+x-trestle-global:
+  sort-id: ra-01
 ---
 
 # ra-1 - \[Risk Assessment\] Policy and Procedures

@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ps-7_prm_1:
+    values:
+  ps-7_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ps-07
 ---
 
 # ps-7 - \[Personnel Security\] Third-party Personnel Security
@@ -39,7 +59,7 @@ The organization:
 
 - \[c.\] Documents personnel security requirements;
 
-- \[d.\] Requires third-party providers to notify organization-defined personnel or roles of any personnel transfers or terminations of third-party personnel who possess organizational credentials and/or badges, or who have information system privileges within organization-defined time period; and
+- \[d.\] Requires third-party providers to notify [organization-defined personnel or roles] of any personnel transfers or terminations of third-party personnel who possess organizational credentials and/or badges, or who have information system privileges within [organization-defined time period]; and
 
 - \[e.\] Monitors provider compliance.
 
@@ -69,45 +89,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ps-7_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ps-7_smt.b
+<!-- Add implementation prose for the main This System component for control: ps-7 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ps-7_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item ps-7_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item ps-7_smt.e
+<!-- Add control implementation description here for control: ps-7 -->
 
 #### Implementation Status: planned
 

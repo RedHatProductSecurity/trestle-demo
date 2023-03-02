@@ -1,5 +1,7 @@
 ---
 sort-id: sc-07.16
+x-trestle-global:
+  sort-id: sc-07.16
 ---
 
 # sc-7.16 - \[System and Communications Protection\] Prevent Discovery of System Components

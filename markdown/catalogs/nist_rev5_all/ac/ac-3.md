@@ -1,5 +1,7 @@
 ---
 sort-id: ac-03
+x-trestle-global:
+  sort-id: ac-03
 ---
 
 # ac-3 - \[Access Control\] Access Enforcement

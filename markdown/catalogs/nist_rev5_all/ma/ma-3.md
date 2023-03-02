@@ -3,6 +3,8 @@ x-trestle-set-params:
   ma-03_odp:
     values:
 sort-id: ma-03
+x-trestle-global:
+  sort-id: ma-03
 ---
 
 # ma-3 - \[Maintenance\] Maintenance Tools

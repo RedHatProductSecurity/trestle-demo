@@ -11,6 +11,8 @@ x-trestle-set-params:
   cm-06.01_odp.04:
     values:
 sort-id: cm-06.01
+x-trestle-global:
+  sort-id: cm-06.01
 ---
 
 # cm-6.1 - \[Configuration Management\] Automated Management, Application, and Verification

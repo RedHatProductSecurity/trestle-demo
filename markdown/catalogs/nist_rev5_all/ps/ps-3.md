@@ -7,6 +7,8 @@ x-trestle-set-params:
   ps-03_odp.02:
     values:
 sort-id: ps-03
+x-trestle-global:
+  sort-id: ps-03
 ---
 
 # ps-3 - \[Personnel Security\] Personnel Screening

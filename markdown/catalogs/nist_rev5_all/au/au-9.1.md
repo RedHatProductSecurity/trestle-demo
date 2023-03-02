@@ -1,5 +1,7 @@
 ---
 sort-id: au-09.01
+x-trestle-global:
+  sort-id: au-09.01
 ---
 
 # au-9.1 - \[Audit and Accountability\] Hardware Write-once Media

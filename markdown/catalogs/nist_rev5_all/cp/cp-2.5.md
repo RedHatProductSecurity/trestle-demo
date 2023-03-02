@@ -3,6 +3,8 @@ x-trestle-set-params:
   cp-02.05_odp:
     values:
 sort-id: cp-02.05
+x-trestle-global:
+  sort-id: cp-02.05
 ---
 
 # cp-2.5 - \[Contingency Planning\] Continue Mission and Business Functions

@@ -1,5 +1,7 @@
 ---
 sort-id: ir-07
+x-trestle-global:
+  sort-id: ir-07
 ---
 
 # ir-7 - \[Incident Response\] Incident Response Assistance

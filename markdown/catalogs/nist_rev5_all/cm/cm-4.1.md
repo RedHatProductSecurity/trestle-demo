@@ -1,5 +1,7 @@
 ---
 sort-id: cm-04.01
+x-trestle-global:
+  sort-id: cm-04.01
 ---
 
 # cm-4.1 - \[Configuration Management\] Separate Test Environments

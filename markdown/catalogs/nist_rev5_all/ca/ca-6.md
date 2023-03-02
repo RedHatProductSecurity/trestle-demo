@@ -3,6 +3,8 @@ x-trestle-set-params:
   ca-06_odp:
     values:
 sort-id: ca-06
+x-trestle-global:
+  sort-id: ca-06
 ---
 
 # ca-6 - \[Assessment, Authorization, and Monitoring\] Authorization

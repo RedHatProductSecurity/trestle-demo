@@ -7,6 +7,8 @@ x-trestle-set-params:
   au-05.02_odp.03:
     values:
 sort-id: au-05.02
+x-trestle-global:
+  sort-id: au-05.02
 ---
 
 # au-5.2 - \[Audit and Accountability\] Real-time Alerts

@@ -15,6 +15,8 @@ x-trestle-set-params:
   cm-08.03_odp.06:
     values:
 sort-id: cm-08.03
+x-trestle-global:
+  sort-id: cm-08.03
 ---
 
 # cm-8.3 - \[Configuration Management\] Automated Unauthorized Component Detection

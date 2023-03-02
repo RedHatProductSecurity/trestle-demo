@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ps-6_prm_1:
+    values:
+  ps-6_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ps-06
 ---
 
 # ps-6 - \[Personnel Security\] Access Agreements
@@ -35,12 +55,12 @@ The organization:
 
 - \[a.\] Develops and documents access agreements for organizational information systems;
 
-- \[b.\] Reviews and updates the access agreements organization-defined frequency; and
+- \[b.\] Reviews and updates the access agreements [organization-defined frequency]; and
 
 - \[c.\] Ensures that individuals requiring access to organizational information and information systems:
 
   - \[1.\] Sign appropriate access agreements prior to being granted access; and
-  - \[2.\] Re-sign access agreements to maintain access to organizational information systems when access agreements have been updated or organization-defined frequency.
+  - \[2.\] Re-sign access agreements to maintain access to organizational information systems when access agreements have been updated or [organization-defined frequency].
 
 ## Control Objective
 
@@ -69,29 +89,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ps-6_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ps-6_smt.b
+<!-- Add implementation prose for the main This System component for control: ps-6 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ps-6_smt.c
+<!-- Add control implementation description here for control: ps-6 -->
 
 #### Implementation Status: planned
 

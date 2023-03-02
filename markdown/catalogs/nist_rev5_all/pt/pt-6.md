@@ -1,5 +1,7 @@
 ---
 sort-id: pt-06
+x-trestle-global:
+  sort-id: pt-06
 ---
 
 # pt-6 - \[Personally Identifiable Information Processing and Transparency\] System of Records Notice

@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-03.02_odp:
     values:
 sort-id: ac-03.02
+x-trestle-global:
+  sort-id: ac-03.02
 ---
 
 # ac-3.2 - \[Access Control\] Dual Authorization

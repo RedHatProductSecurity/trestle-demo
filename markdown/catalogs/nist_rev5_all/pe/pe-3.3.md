@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-03.03_odp:
     values:
 sort-id: pe-03.03
+x-trestle-global:
+  sort-id: pe-03.03
 ---
 
 # pe-3.3 - \[Physical and Environmental Protection\] Continuous Guards

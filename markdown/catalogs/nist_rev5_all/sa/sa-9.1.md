@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-09.01_odp:
     values:
 sort-id: sa-09.01
+x-trestle-global:
+  sort-id: sa-09.01
 ---
 
 # sa-9.1 - \[System and Services Acquisition\] Risk Assessments and Organizational Approvals

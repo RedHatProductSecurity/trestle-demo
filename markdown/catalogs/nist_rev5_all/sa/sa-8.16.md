@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.16_odp:
     values:
 sort-id: sa-08.16
+x-trestle-global:
+  sort-id: sa-08.16
 ---
 
 # sa-8.16 - \[System and Services Acquisition\] Self-reliant Trustworthiness

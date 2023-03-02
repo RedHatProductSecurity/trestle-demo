@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-04.06_odp:
     values:
 sort-id: ac-04.06
+x-trestle-global:
+  sort-id: ac-04.06
 ---
 
 # ac-4.6 - \[Access Control\] Metadata

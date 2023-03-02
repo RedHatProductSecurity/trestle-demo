@@ -1,5 +1,7 @@
 ---
 sort-id: ac-09
+x-trestle-global:
+  sort-id: ac-09
 ---
 
 # ac-9 - \[Access Control\] Previous Logon Notification

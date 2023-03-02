@@ -1,5 +1,7 @@
 ---
 sort-id: sc-07.23
+x-trestle-global:
+  sort-id: sc-07.23
 ---
 
 # sc-7.23 - \[System and Communications Protection\] Disable Sender Feedback on Protocol Validation Failure

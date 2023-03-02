@@ -1,5 +1,7 @@
 ---
 sort-id: sc-03
+x-trestle-global:
+  sort-id: sc-03
 ---
 
 # sc-3 - \[System and Communications Protection\] Security Function Isolation

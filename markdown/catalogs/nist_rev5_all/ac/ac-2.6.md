@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-02.06_odp:
     values:
 sort-id: ac-02.06
+x-trestle-global:
+  sort-id: ac-02.06
 ---
 
 # ac-2.6 - \[Access Control\] Dynamic Privilege Management

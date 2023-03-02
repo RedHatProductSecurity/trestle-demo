@@ -7,6 +7,8 @@ x-trestle-set-params:
   sc-05_odp.03:
     values:
 sort-id: sc-05
+x-trestle-global:
+  sort-id: sc-05
 ---
 
 # sc-5 - \[System and Communications Protection\] Denial-of-service Protection

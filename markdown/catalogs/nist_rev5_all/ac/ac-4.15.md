@@ -9,6 +9,8 @@ x-trestle-set-params:
   ac-04.15_odp.03:
     values:
 sort-id: ac-04.15
+x-trestle-global:
+  sort-id: ac-04.15
 ---
 
 # ac-4.15 - \[Access Control\] Detection of Unsanctioned Information

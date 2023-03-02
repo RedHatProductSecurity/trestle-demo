@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-08.04_odp:
     values:
 sort-id: sc-08.04
+x-trestle-global:
+  sort-id: sc-08.04
 ---
 
 # sc-8.4 - \[System and Communications Protection\] Conceal or Randomize Communications

@@ -1,5 +1,7 @@
 ---
 sort-id: cm-04.02
+x-trestle-global:
+  sort-id: cm-04.02
 ---
 
 # cm-4.2 - \[Configuration Management\] Verification of Controls

@@ -1,5 +1,7 @@
 ---
 sort-id: sc-07.15
+x-trestle-global:
+  sort-id: sc-07.15
 ---
 
 # sc-7.15 - \[System and Communications Protection\] Networked Privileged Accesses

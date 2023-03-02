@@ -1,5 +1,7 @@
 ---
 sort-id: si-04.14
+x-trestle-global:
+  sort-id: si-04.14
 ---
 
 # si-4.14 - \[System and Information Integrity\] Wireless Intrusion Detection

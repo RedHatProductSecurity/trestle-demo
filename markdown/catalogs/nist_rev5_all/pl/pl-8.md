@@ -3,6 +3,8 @@ x-trestle-set-params:
   pl-08_odp:
     values:
 sort-id: pl-08
+x-trestle-global:
+  sort-id: pl-08
 ---
 
 # pl-8 - \[Planning\] Security and Privacy Architectures

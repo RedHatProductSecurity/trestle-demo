@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.23_odp:
     values:
 sort-id: sa-08.23
+x-trestle-global:
+  sort-id: sa-08.23
 ---
 
 # sa-8.23 - \[System and Services Acquisition\] Secure Defaults

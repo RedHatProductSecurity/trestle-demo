@@ -25,6 +25,30 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  si-3_prm_1:
+    values:
+  si-3_prm_2:
+    values:
+  si-3_prm_3:
+    values:
+  si-3_prm_4:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: si-03
 ---
 
 # si-3 - \[System and Information Integrity\] Malicious Code Protection
@@ -39,8 +63,8 @@ The organization:
 
 - \[c.\] Configures malicious code protection mechanisms to:
 
-  - \[1.\] Perform periodic scans of the information system organization-defined frequency and real-time scans of files from external sources at endpoint; network entry/exit points as the files are downloaded, opened, or executed in accordance with organizational security policy; and
-  - \[2.\] block malicious code; quarantine malicious code; send alert to administrator; organization-defined action in response to malicious code detection; and
+  - \[1.\] Perform periodic scans of the information system [organization-defined frequency] and real-time scans of files from external sources at [endpoint; network entry/exit points] as the files are downloaded, opened, or executed in accordance with organizational security policy; and
+  - \[2.\] [block malicious code; quarantine malicious code; send alert to administrator; [organization-defined action]] in response to malicious code detection; and
 
 - \[d.\] Addresses the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the information system.
 
@@ -86,37 +110,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item si-3_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item si-3_smt.b
+<!-- Add implementation prose for the main This System component for control: si-3 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item si-3_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item si-3_smt.d
+<!-- Add control implementation description here for control: si-3 -->
 
 #### Implementation Status: planned
 

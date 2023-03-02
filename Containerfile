@@ -13,8 +13,7 @@ FROM registry.access.redhat.com/ubi8/python-38 AS demo
 
 # Install dependencies
 RUN  python3.8 -m pip install --upgrade pip setuptools \
-     && python3.8 -m pip install compliance-trestle==1.2.0 \
-     && python3.8 -m pip install python-semantic-release==7.31.4
+     && python3.8 -m pip install compliance-trestle==2.0.0
 
 COPY --from=build /demo /demo
 

@@ -1,5 +1,7 @@
 ---
 sort-id: ra-05.03
+x-trestle-global:
+  sort-id: ra-05.03
 ---
 
 # ra-5.3 - \[Risk Assessment\] Breadth and Depth of Coverage

@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-05.05_odp:
     values:
 sort-id: au-05.05
+x-trestle-global:
+  sort-id: au-05.05
 ---
 
 # au-5.5 - \[Audit and Accountability\] Alternate Audit Logging Capability

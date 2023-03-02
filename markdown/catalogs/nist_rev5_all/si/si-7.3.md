@@ -1,5 +1,7 @@
 ---
 sort-id: si-07.03
+x-trestle-global:
+  sort-id: si-07.03
 ---
 
 # si-7.3 - \[System and Information Integrity\] Centrally Managed Integrity Tools

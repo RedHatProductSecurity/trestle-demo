@@ -5,6 +5,8 @@ x-trestle-set-params:
   ir-03_odp.02:
     values:
 sort-id: ir-03
+x-trestle-global:
+  sort-id: ir-03
 ---
 
 # ir-3 - \[Incident Response\] Incident Response Testing

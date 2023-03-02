@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-04.17_odp:
     values:
 sort-id: ac-04.17
+x-trestle-global:
+  sort-id: ac-04.17
 ---
 
 # ac-4.17 - \[Access Control\] Domain Authentication

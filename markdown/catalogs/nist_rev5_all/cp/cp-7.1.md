@@ -1,5 +1,7 @@
 ---
 sort-id: cp-07.01
+x-trestle-global:
+  sort-id: cp-07.01
 ---
 
 # cp-7.1 - \[Contingency Planning\] Separation from Primary Site

@@ -1,5 +1,7 @@
 ---
 sort-id: ia-02.01
+x-trestle-global:
+  sort-id: ia-02.01
 ---
 
 # ia-2.1 - \[Identification and Authentication\] Multi-factor Authentication to Privileged Accounts

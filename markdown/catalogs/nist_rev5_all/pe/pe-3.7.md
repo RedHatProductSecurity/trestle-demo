@@ -1,5 +1,7 @@
 ---
 sort-id: pe-03.07
+x-trestle-global:
+  sort-id: pe-03.07
 ---
 
 # pe-3.7 - \[Physical and Environmental Protection\] Physical Barriers

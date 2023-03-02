@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-04.03_odp:
     values:
 sort-id: ac-04.03
+x-trestle-global:
+  sort-id: ac-04.03
 ---
 
 # ac-4.3 - \[Access Control\] Dynamic Information Flow Control

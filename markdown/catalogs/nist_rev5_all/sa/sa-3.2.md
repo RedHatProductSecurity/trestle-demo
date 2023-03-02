@@ -1,5 +1,7 @@
 ---
 sort-id: sa-03.02
+x-trestle-global:
+  sort-id: sa-03.02
 ---
 
 # sa-3.2 - \[System and Services Acquisition\] Use of Live or Operational Data

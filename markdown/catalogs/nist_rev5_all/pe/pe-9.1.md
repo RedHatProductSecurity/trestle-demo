@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-09.01_odp:
     values:
 sort-id: pe-09.01
+x-trestle-global:
+  sort-id: pe-09.01
 ---
 
 # pe-9.1 - \[Physical and Environmental Protection\] Redundant Cabling

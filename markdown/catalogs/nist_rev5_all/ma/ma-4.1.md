@@ -7,6 +7,8 @@ x-trestle-set-params:
   ma-04.01_odp.02:
     values:
 sort-id: ma-04.01
+x-trestle-global:
+  sort-id: ma-04.01
 ---
 
 # ma-4.1 - \[Maintenance\] Logging and Review

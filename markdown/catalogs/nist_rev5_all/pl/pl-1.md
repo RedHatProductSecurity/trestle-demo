@@ -19,6 +19,8 @@ x-trestle-set-params:
   pl-01_odp.08:
     values:
 sort-id: pl-01
+x-trestle-global:
+  sort-id: pl-01
 ---
 
 # pl-1 - \[Planning\] Policy and Procedures

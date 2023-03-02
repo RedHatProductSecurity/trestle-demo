@@ -3,6 +3,8 @@ x-trestle-set-params:
   ca-05.01_odp:
     values:
 sort-id: ca-05.01
+x-trestle-global:
+  sort-id: ca-05.01
 ---
 
 # ca-5.1 - \[Assessment, Authorization, and Monitoring\] Automation Support for Accuracy and Currency

@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-03.03_odp:
     values:
 sort-id: cm-03.03
+x-trestle-global:
+  sort-id: cm-03.03
 ---
 
 # cm-3.3 - \[Configuration Management\] Automated Change Implementation

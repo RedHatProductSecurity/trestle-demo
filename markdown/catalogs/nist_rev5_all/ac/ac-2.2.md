@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-02.02_odp.02:
     values:
 sort-id: ac-02.02
+x-trestle-global:
+  sort-id: ac-02.02
 ---
 
 # ac-2.2 - \[Access Control\] Automated Temporary and Emergency Account Management

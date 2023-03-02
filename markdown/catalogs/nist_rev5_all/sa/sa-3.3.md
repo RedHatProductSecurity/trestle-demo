@@ -1,5 +1,7 @@
 ---
 sort-id: sa-03.03
+x-trestle-global:
+  sort-id: sa-03.03
 ---
 
 # sa-3.3 - \[System and Services Acquisition\] Technology Refresh

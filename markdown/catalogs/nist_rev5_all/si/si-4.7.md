@@ -5,6 +5,8 @@ x-trestle-set-params:
   si-04.07_odp.02:
     values:
 sort-id: si-04.07
+x-trestle-global:
+  sort-id: si-04.07
 ---
 
 # si-4.7 - \[System and Information Integrity\] Automated Response to Suspicious Events

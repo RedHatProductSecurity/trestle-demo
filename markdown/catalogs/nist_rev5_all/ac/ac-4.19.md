@@ -7,6 +7,8 @@ x-trestle-set-params:
   ac-04.19_odp.02:
     values:
 sort-id: ac-04.19
+x-trestle-global:
+  sort-id: ac-04.19
 ---
 
 # ac-4.19 - \[Access Control\] Validation of Metadata

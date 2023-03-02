@@ -1,5 +1,7 @@
 ---
 sort-id: cp-02.02
+x-trestle-global:
+  sort-id: cp-02.02
 ---
 
 # cp-2.2 - \[Contingency Planning\] Capacity Planning

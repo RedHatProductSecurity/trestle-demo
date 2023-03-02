@@ -1,5 +1,7 @@
 ---
 sort-id: au-09.07
+x-trestle-global:
+  sort-id: au-09.07
 ---
 
 # au-9.7 - \[Audit and Accountability\] Store on Component with Different Operating System

@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  cp-7_prm_1:
+    values:
+  cp-7_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: cp-07
 ---
 
 # cp-7 - \[Contingency Planning\] Alternate Processing Site
@@ -33,7 +53,7 @@ x-trestle-fedramp-props:
 
 The organization:
 
-- \[a.\] Establishes an alternate processing site including necessary agreements to permit the transfer and resumption of organization-defined information system operations for essential missions/business functions within organization-defined time period consistent with recovery time and recovery point objectives when the primary processing capabilities are unavailable;
+- \[a.\] Establishes an alternate processing site including necessary agreements to permit the transfer and resumption of [organization-defined information system operations] for essential missions/business functions within [organization-defined time period consistent with recovery time and recovery point objectives] when the primary processing capabilities are unavailable;
 
 - \[b.\] Ensures that equipment and supplies required to transfer and resume operations are available at the alternate processing site or contracts are in place to support delivery to the site within the organization-defined time period for transfer/resumption; and
 
@@ -64,29 +84,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item cp-7_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item cp-7_smt.b
+<!-- Add implementation prose for the main This System component for control: cp-7 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item cp-7_smt.c
+<!-- Add control implementation description here for control: cp-7 -->
 
 #### Implementation Status: planned
 

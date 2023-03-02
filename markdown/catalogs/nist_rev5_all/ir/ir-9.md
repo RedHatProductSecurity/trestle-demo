@@ -7,6 +7,8 @@ x-trestle-set-params:
   ir-09_odp.03:
     values:
 sort-id: ir-09
+x-trestle-global:
+  sort-id: ir-09
 ---
 
 # ir-9 - \[Incident Response\] Information Spillage Response

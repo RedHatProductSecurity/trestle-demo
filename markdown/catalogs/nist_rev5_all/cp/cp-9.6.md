@@ -1,5 +1,7 @@
 ---
 sort-id: cp-09.06
+x-trestle-global:
+  sort-id: cp-09.06
 ---
 
 # cp-9.6 - \[Contingency Planning\] Redundant Secondary System

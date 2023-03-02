@@ -25,6 +25,30 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ps-4_prm_1:
+    values:
+  ps-4_prm_2:
+    values:
+  ps-4_prm_3:
+    values:
+  ps-4_prm_4:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ps-04
 ---
 
 # ps-4 - \[Personnel Security\] Personnel Termination
@@ -33,17 +57,17 @@ x-trestle-fedramp-props:
 
 The organization, upon termination of individual employment:
 
-- \[a.\] Disables information system access within organization-defined time period;
+- \[a.\] Disables information system access within [organization-defined time period];
 
 - \[b.\] Terminates/revokes any authenticators/credentials associated with the individual;
 
-- \[c.\] Conducts exit interviews that include a discussion of organization-defined information security topics;
+- \[c.\] Conducts exit interviews that include a discussion of [organization-defined information security topics];
 
 - \[d.\] Retrieves all security-related organizational information system-related property;
 
 - \[e.\] Retains access to organizational information and information systems formerly controlled by terminated individual; and
 
-- \[f.\] Notifies organization-defined personnel or roles within organization-defined time period.
+- \[f.\] Notifies [organization-defined personnel or roles] within [organization-defined time period].
 
 ## Control Objective
 
@@ -79,53 +103,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ps-4_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ps-4_smt.b
+<!-- Add implementation prose for the main This System component for control: ps-4 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ps-4_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item ps-4_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item ps-4_smt.e
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part f.
-
-Add control implementation description here for item ps-4_smt.f
+<!-- Add control implementation description here for control: ps-4 -->
 
 #### Implementation Status: planned
 

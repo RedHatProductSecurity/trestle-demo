@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-08.04_odp:
     values:
 sort-id: cm-08.04
+x-trestle-global:
+  sort-id: cm-08.04
 ---
 
 # cm-8.4 - \[Configuration Management\] Accountability Information

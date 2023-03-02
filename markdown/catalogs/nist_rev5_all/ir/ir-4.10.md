@@ -1,5 +1,7 @@
 ---
 sort-id: ir-04.10
+x-trestle-global:
+  sort-id: ir-04.10
 ---
 
 # ir-4.10 - \[Incident Response\] Supply Chain Coordination

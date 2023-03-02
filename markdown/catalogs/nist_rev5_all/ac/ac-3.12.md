@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-03.12_odp:
     values:
 sort-id: ac-03.12
+x-trestle-global:
+  sort-id: ac-03.12
 ---
 
 # ac-3.12 - \[Access Control\] Assert and Enforce Application Access

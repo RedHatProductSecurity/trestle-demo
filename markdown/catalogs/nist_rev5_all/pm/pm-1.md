@@ -5,6 +5,8 @@ x-trestle-set-params:
   pm-01_odp.02:
     values:
 sort-id: pm-01
+x-trestle-global:
+  sort-id: pm-01
 ---
 
 # pm-1 - \[Program Management\] Information Security Program Plan

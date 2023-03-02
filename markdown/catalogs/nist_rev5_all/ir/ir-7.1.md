@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-07.01_odp:
     values:
 sort-id: ir-07.01
+x-trestle-global:
+  sort-id: ir-07.01
 ---
 
 # ir-7.1 - \[Incident Response\] Automation Support for Availability of Information and Support

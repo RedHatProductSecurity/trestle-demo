@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-08.09_odp:
     values:
 sort-id: cm-08.09
+x-trestle-global:
+  sort-id: cm-08.09
 ---
 
 # cm-8.9 - \[Configuration Management\] Assignment of Components to Systems

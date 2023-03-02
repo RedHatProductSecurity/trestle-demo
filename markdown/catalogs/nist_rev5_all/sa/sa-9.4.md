@@ -5,6 +5,8 @@ x-trestle-set-params:
   sa-09.04_odp.02:
     values:
 sort-id: sa-09.04
+x-trestle-global:
+  sort-id: sa-09.04
 ---
 
 # sa-9.4 - \[System and Services Acquisition\] Consistent Interests of Consumers and Providers

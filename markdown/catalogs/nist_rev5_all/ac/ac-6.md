@@ -1,5 +1,7 @@
 ---
 sort-id: ac-06
+x-trestle-global:
+  sort-id: ac-06
 ---
 
 # ac-6 - \[Access Control\] Least Privilege

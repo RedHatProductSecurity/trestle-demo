@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-09.03_odp:
     values:
 sort-id: ir-09.03
+x-trestle-global:
+  sort-id: ir-09.03
 ---
 
 # ir-9.3 - \[Incident Response\] Post-spill Operations

@@ -1,5 +1,7 @@
 ---
 sort-id: cp-06
+x-trestle-global:
+  sort-id: cp-06
 ---
 
 # cp-6 - \[Contingency Planning\] Alternate Storage Site

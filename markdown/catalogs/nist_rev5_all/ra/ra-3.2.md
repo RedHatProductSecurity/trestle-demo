@@ -1,5 +1,7 @@
 ---
 sort-id: ra-03.02
+x-trestle-global:
+  sort-id: ra-03.02
 ---
 
 # ra-3.2 - \[Risk Assessment\] Use of All-source Intelligence

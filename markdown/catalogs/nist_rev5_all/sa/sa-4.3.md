@@ -17,6 +17,8 @@ x-trestle-set-params:
   sa-04.03_odp.08:
     values:
 sort-id: sa-04.03
+x-trestle-global:
+  sort-id: sa-04.03
 ---
 
 # sa-4.3 - \[System and Services Acquisition\] Development Methods, Techniques, and Practices

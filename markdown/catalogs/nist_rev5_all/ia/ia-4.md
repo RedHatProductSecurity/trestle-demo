@@ -5,6 +5,8 @@ x-trestle-set-params:
   ia-04_odp.02:
     values:
 sort-id: ia-04
+x-trestle-global:
+  sort-id: ia-04
 ---
 
 # ia-4 - \[Identification and Authentication\] Identifier Management

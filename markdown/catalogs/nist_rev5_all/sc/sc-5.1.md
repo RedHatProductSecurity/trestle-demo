@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-05.01_odp:
     values:
 sort-id: sc-05.01
+x-trestle-global:
+  sort-id: sc-05.01
 ---
 
 # sc-5.1 - \[System and Communications Protection\] Restrict Ability to Attack Other Systems

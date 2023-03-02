@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-02.02_odp:
     values:
 sort-id: ir-02.02
+x-trestle-global:
+  sort-id: ir-02.02
 ---
 
 # ir-2.2 - \[Incident Response\] Automated Training Environments

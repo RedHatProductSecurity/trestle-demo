@@ -13,6 +13,8 @@ x-trestle-set-params:
   si-04_odp.06:
     values:
 sort-id: si-04
+x-trestle-global:
+  sort-id: si-04
 ---
 
 # si-4 - \[System and Information Integrity\] System Monitoring

@@ -9,6 +9,8 @@ x-trestle-set-params:
   pt-03_odp.04:
     values:
 sort-id: pt-03
+x-trestle-global:
+  sort-id: pt-03
 ---
 
 # pt-3 - \[Personally Identifiable Information Processing and Transparency\] Personally Identifiable Information Processing Purposes

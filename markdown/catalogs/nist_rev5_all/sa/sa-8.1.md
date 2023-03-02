@@ -1,5 +1,7 @@
 ---
 sort-id: sa-08.01
+x-trestle-global:
+  sort-id: sa-08.01
 ---
 
 # sa-8.1 - \[System and Services Acquisition\] Clear Abstractions

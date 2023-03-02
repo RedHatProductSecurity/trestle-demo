@@ -5,6 +5,8 @@ x-trestle-set-params:
   si-04.19_odp.02:
     values:
 sort-id: si-04.19
+x-trestle-global:
+  sort-id: si-04.19
 ---
 
 # si-4.19 - \[System and Information Integrity\] Risk for Individuals

@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ma-2_prm_1:
+    values:
+  ma-2_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ma-02
 ---
 
 # ma-2 - \[Maintenance\] Controlled Maintenance
@@ -37,13 +57,13 @@ The organization:
 
 - \[b.\] Approves and monitors all maintenance activities, whether performed on site or remotely and whether the equipment is serviced on site or removed to another location;
 
-- \[c.\] Requires that organization-defined personnel or roles explicitly approve the removal of the information system or system components from organizational facilities for off-site maintenance or repairs;
+- \[c.\] Requires that [organization-defined personnel or roles] explicitly approve the removal of the information system or system components from organizational facilities for off-site maintenance or repairs;
 
 - \[d.\] Sanitizes equipment to remove all information from associated media prior to removal from organizational facilities for off-site maintenance or repairs;
 
 - \[e.\] Checks all potentially impacted security controls to verify that the controls are still functioning properly following maintenance or repair actions; and
 
-- \[f.\] Includes organization-defined maintenance-related information in organizational maintenance records.
+- \[f.\] Includes [organization-defined maintenance-related information] in organizational maintenance records.
 
 ## Control Objective
 
@@ -98,53 +118,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ma-2_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ma-2_smt.b
+<!-- Add implementation prose for the main This System component for control: ma-2 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ma-2_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item ma-2_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item ma-2_smt.e
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part f.
-
-Add control implementation description here for item ma-2_smt.f
+<!-- Add control implementation description here for control: ma-2 -->
 
 #### Implementation Status: planned
 

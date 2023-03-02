@@ -25,6 +25,24 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  sc-7_prm_1:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: sc-07
 ---
 
 # sc-7 - \[System and Communications Protection\] Boundary Protection
@@ -35,7 +53,7 @@ The information system:
 
 - \[a.\] Monitors and controls communications at the external boundary of the system and at key internal boundaries within the system;
 
-- \[b.\] Implements subnetworks for publicly accessible system components that are physically; logically separated from internal organizational networks; and
+- \[b.\] Implements subnetworks for publicly accessible system components that are [physically; logically] separated from internal organizational networks; and
 
 - \[c.\] Connects to external networks or information systems only through managed interfaces consisting of boundary protection devices arranged in accordance with an organizational security architecture.
 
@@ -65,29 +83,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item sc-7_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item sc-7_smt.b
+<!-- Add implementation prose for the main This System component for control: sc-7 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item sc-7_smt.c
+<!-- Add control implementation description here for control: sc-7 -->
 
 #### Implementation Status: planned
 

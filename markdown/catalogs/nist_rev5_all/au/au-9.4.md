@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-09.04_odp:
     values:
 sort-id: au-09.04
+x-trestle-global:
+  sort-id: au-09.04
 ---
 
 # au-9.4 - \[Audit and Accountability\] Access by Subset of Privileged Users

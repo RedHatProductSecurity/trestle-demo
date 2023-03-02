@@ -7,6 +7,8 @@ x-trestle-set-params:
   ma-02_odp.03:
     values:
 sort-id: ma-02
+x-trestle-global:
+  sort-id: ma-02
 ---
 
 # ma-2 - \[Maintenance\] Controlled Maintenance

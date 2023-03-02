@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-06.01_odp:
     values:
 sort-id: ir-06.01
+x-trestle-global:
+  sort-id: ir-06.01
 ---
 
 # ir-6.1 - \[Incident Response\] Automated Reporting

@@ -1,5 +1,7 @@
 ---
 sort-id: ma-05
+x-trestle-global:
+  sort-id: ma-05
 ---
 
 # ma-5 - \[Maintenance\] Maintenance Personnel

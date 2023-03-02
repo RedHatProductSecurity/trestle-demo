@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-02.02_odp:
     values:
 sort-id: cm-02.02
+x-trestle-global:
+  sort-id: cm-02.02
 ---
 
 # cm-2.2 - \[Configuration Management\] Automation Support for Accuracy and Currency

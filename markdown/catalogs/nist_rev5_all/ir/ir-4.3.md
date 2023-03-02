@@ -5,6 +5,8 @@ x-trestle-set-params:
   ir-04.03_odp.02:
     values:
 sort-id: ir-04.03
+x-trestle-global:
+  sort-id: ir-04.03
 ---
 
 # ir-4.3 - \[Incident Response\] Continuity of Operations

@@ -5,6 +5,8 @@ x-trestle-set-params:
   cp-08_odp.02:
     values:
 sort-id: cp-08
+x-trestle-global:
+  sort-id: cp-08
 ---
 
 # cp-8 - \[Contingency Planning\] Telecommunications Services

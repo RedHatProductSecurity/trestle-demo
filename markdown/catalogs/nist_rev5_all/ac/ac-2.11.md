@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-02.11_odp.02:
     values:
 sort-id: ac-02.11
+x-trestle-global:
+  sort-id: ac-02.11
 ---
 
 # ac-2.11 - \[Access Control\] Usage Conditions

@@ -19,6 +19,8 @@ x-trestle-set-params:
   sc-01_odp.08:
     values:
 sort-id: sc-01
+x-trestle-global:
+  sort-id: sc-01
 ---
 
 # sc-1 - \[System and Communications Protection\] Policy and Procedures

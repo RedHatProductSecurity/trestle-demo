@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.17_odp:
     values:
 sort-id: sa-08.17
+x-trestle-global:
+  sort-id: sa-08.17
 ---
 
 # sa-8.17 - \[System and Services Acquisition\] Secure Distributed Composition

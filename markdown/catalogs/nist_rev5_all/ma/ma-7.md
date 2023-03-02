@@ -5,6 +5,8 @@ x-trestle-set-params:
   ma-07_odp.02:
     values:
 sort-id: ma-07
+x-trestle-global:
+  sort-id: ma-07
 ---
 
 # ma-7 - \[Maintenance\] Field Maintenance

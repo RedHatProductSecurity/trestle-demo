@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.20_odp:
     values:
 sort-id: sa-08.20
+x-trestle-global:
+  sort-id: sa-08.20
 ---
 
 # sa-8.20 - \[System and Services Acquisition\] Secure Metadata Management

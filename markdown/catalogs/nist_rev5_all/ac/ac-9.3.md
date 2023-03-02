@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-09.03_odp.02:
     values:
 sort-id: ac-09.03
+x-trestle-global:
+  sort-id: ac-09.03
 ---
 
 # ac-9.3 - \[Access Control\] Notification of Account Changes

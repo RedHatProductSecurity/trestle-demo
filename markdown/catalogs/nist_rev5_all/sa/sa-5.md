@@ -5,6 +5,8 @@ x-trestle-set-params:
   sa-05_odp.02:
     values:
 sort-id: sa-05
+x-trestle-global:
+  sort-id: sa-05
 ---
 
 # sa-5 - \[System and Services Acquisition\] System Documentation

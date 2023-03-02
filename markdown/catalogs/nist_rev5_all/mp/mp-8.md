@@ -5,6 +5,8 @@ x-trestle-set-params:
   mp-08_odp.02:
     values:
 sort-id: mp-08
+x-trestle-global:
+  sort-id: mp-08
 ---
 
 # mp-8 - \[Media Protection\] Media Downgrading

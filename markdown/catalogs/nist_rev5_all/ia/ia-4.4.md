@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-04.04_odp:
     values:
 sort-id: ia-04.04
+x-trestle-global:
+  sort-id: ia-04.04
 ---
 
 # ia-4.4 - \[Identification and Authentication\] Identify User Status

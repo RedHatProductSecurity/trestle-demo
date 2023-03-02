@@ -1,5 +1,7 @@
 ---
 sort-id: ca-07.03
+x-trestle-global:
+  sort-id: ca-07.03
 ---
 
 # ca-7.3 - \[Assessment, Authorization, and Monitoring\] Trend Analyses

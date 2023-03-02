@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-06.05_odp:
     values:
 sort-id: ac-06.05
+x-trestle-global:
+  sort-id: ac-06.05
 ---
 
 # ac-6.5 - \[Access Control\] Privileged Accounts

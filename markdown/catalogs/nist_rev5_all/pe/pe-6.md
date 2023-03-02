@@ -5,6 +5,8 @@ x-trestle-set-params:
   pe-06_odp.02:
     values:
 sort-id: pe-06
+x-trestle-global:
+  sort-id: pe-06
 ---
 
 # pe-6 - \[Physical and Environmental Protection\] Monitoring Physical Access

@@ -3,6 +3,8 @@ x-trestle-set-params:
   pt-04.03_odp:
     values:
 sort-id: pt-04.03
+x-trestle-global:
+  sort-id: pt-04.03
 ---
 
 # pt-4.3 - \[Personally Identifiable Information Processing and Transparency\] Revocation

@@ -5,6 +5,8 @@ x-trestle-set-params:
   ma-04.05_odp.02:
     values:
 sort-id: ma-04.05
+x-trestle-global:
+  sort-id: ma-04.05
 ---
 
 # ma-4.5 - \[Maintenance\] Approvals and Notifications

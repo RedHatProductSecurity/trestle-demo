@@ -7,6 +7,8 @@ x-trestle-set-params:
   sa-08.24_odp.02:
     values:
 sort-id: sa-08.24
+x-trestle-global:
+  sort-id: sa-08.24
 ---
 
 # sa-8.24 - \[System and Services Acquisition\] Secure Failure and Recovery

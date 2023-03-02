@@ -1,5 +1,7 @@
 ---
 sort-id: sc-07.18
+x-trestle-global:
+  sort-id: sc-07.18
 ---
 
 # sc-7.18 - \[System and Communications Protection\] Fail Secure

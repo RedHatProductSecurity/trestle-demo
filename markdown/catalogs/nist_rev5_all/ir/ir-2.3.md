@@ -1,5 +1,7 @@
 ---
 sort-id: ir-02.03
+x-trestle-global:
+  sort-id: ir-02.03
 ---
 
 # ir-2.3 - \[Incident Response\] Breach

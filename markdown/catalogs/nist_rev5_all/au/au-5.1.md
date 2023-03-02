@@ -7,6 +7,8 @@ x-trestle-set-params:
   au-05.01_odp.03:
     values:
 sort-id: au-05.01
+x-trestle-global:
+  sort-id: au-05.01
 ---
 
 # au-5.1 - \[Audit and Accountability\] Storage Capacity Warning

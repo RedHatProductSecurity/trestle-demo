@@ -9,6 +9,8 @@ x-trestle-set-params:
   mp-05_odp.03:
     values:
 sort-id: mp-05
+x-trestle-global:
+  sort-id: mp-05
 ---
 
 # mp-5 - \[Media Protection\] Media Transport

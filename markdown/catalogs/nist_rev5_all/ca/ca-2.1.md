@@ -1,5 +1,7 @@
 ---
 sort-id: ca-02.01
+x-trestle-global:
+  sort-id: ca-02.01
 ---
 
 # ca-2.1 - \[Assessment, Authorization, and Monitoring\] Independent Assessors

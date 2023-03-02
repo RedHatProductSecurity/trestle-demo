@@ -7,6 +7,8 @@ x-trestle-set-params:
   ia-03.03_odp.02:
     values:
 sort-id: ia-03.03
+x-trestle-global:
+  sort-id: ia-03.03
 ---
 
 # ia-3.3 - \[Identification and Authentication\] Dynamic Address Allocation

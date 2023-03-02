@@ -5,6 +5,8 @@ x-trestle-set-params:
   at-03.02_odp.02:
     values:
 sort-id: at-03.02
+x-trestle-global:
+  sort-id: at-03.02
 ---
 
 # at-3.2 - \[Awareness and Training\] Physical Security Controls

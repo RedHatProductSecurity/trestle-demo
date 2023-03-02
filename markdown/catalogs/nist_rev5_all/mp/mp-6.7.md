@@ -3,6 +3,8 @@ x-trestle-set-params:
   mp-06.07_odp:
     values:
 sort-id: mp-06.07
+x-trestle-global:
+  sort-id: mp-06.07
 ---
 
 # mp-6.7 - \[Media Protection\] Dual Authorization

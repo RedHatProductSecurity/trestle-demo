@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.18_odp:
     values:
 sort-id: sa-08.18
+x-trestle-global:
+  sort-id: sa-08.18
 ---
 
 # sa-8.18 - \[System and Services Acquisition\] Trusted Communications Channels

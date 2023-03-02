@@ -3,6 +3,8 @@ x-trestle-set-params:
   pt-05.01_odp:
     values:
 sort-id: pt-05.01
+x-trestle-global:
+  sort-id: pt-05.01
 ---
 
 # pt-5.1 - \[Personally Identifiable Information Processing and Transparency\] Just-in-time Notice

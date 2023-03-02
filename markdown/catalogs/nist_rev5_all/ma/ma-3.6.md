@@ -1,5 +1,7 @@
 ---
 sort-id: ma-03.06
+x-trestle-global:
+  sort-id: ma-03.06
 ---
 
 # ma-3.6 - \[Maintenance\] Software Updates and Patches

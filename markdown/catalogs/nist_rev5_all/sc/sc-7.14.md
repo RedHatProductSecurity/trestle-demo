@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-07.14_odp:
     values:
 sort-id: sc-07.14
+x-trestle-global:
+  sort-id: sc-07.14
 ---
 
 # sc-7.14 - \[System and Communications Protection\] Protect Against Unauthorized Physical Connections

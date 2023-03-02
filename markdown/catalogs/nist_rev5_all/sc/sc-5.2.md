@@ -1,5 +1,7 @@
 ---
 sort-id: sc-05.02
+x-trestle-global:
+  sort-id: sc-05.02
 ---
 
 # sc-5.2 - \[System and Communications Protection\] Capacity, Bandwidth, and Redundancy

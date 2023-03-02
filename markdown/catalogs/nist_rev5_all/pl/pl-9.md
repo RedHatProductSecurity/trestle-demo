@@ -3,6 +3,8 @@ x-trestle-set-params:
   pl-09_odp:
     values:
 sort-id: pl-09
+x-trestle-global:
+  sort-id: pl-09
 ---
 
 # pl-9 - \[Planning\] Central Management

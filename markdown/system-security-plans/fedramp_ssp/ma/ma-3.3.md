@@ -25,6 +25,24 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ma-3.3_prm_1:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ma-03.03
 ---
 
 # ma-3.3 - \[Maintenance\] Prevent Unauthorized Removal
@@ -39,7 +57,7 @@ The organization prevents the unauthorized removal of maintenance equipment cont
 
 - \[(c)\] Retaining the equipment within the facility; or
 
-- \[(d)\] Obtaining an exemption from organization-defined personnel or roles explicitly authorizing removal of the equipment from the facility.
+- \[(d)\] Obtaining an exemption from [organization-defined personnel or roles] explicitly authorizing removal of the equipment from the facility.
 
 ## Control Objective
 
@@ -64,37 +82,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part (a)
+### This System
 
-Add control implementation description here for item ma-3.3_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part (b)
-
-Add control implementation description here for item ma-3.3_smt.b
+<!-- Add implementation prose for the main This System component for control: ma-3.3 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part (c)
-
-Add control implementation description here for item ma-3.3_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part (d)
-
-Add control implementation description here for item ma-3.3_smt.d
+<!-- Add control implementation description here for control: ma-3.3 -->
 
 #### Implementation Status: planned
 

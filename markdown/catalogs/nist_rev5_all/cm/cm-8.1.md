@@ -1,5 +1,7 @@
 ---
 sort-id: cm-08.01
+x-trestle-global:
+  sort-id: cm-08.01
 ---
 
 # cm-8.1 - \[Configuration Management\] Updates During Installation and Removal

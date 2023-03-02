@@ -1,5 +1,7 @@
 ---
 sort-id: ir-04.06
+x-trestle-global:
+  sort-id: ir-04.06
 ---
 
 # ir-4.6 - \[Incident Response\] Insider Threats

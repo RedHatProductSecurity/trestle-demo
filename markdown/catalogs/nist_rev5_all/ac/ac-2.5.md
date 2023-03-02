@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-02.05_odp:
     values:
 sort-id: ac-02.05
+x-trestle-global:
+  sort-id: ac-02.05
 ---
 
 # ac-2.5 - \[Access Control\] Inactivity Logout

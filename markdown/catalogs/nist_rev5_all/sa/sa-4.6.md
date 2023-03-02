@@ -1,5 +1,7 @@
 ---
 sort-id: sa-04.06
+x-trestle-global:
+  sort-id: sa-04.06
 ---
 
 # sa-4.6 - \[System and Services Acquisition\] Use of Information Assurance Products

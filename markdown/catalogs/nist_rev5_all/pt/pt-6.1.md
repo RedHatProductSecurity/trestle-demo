@@ -3,6 +3,8 @@ x-trestle-set-params:
   pt-06.01_odp:
     values:
 sort-id: pt-06.01
+x-trestle-global:
+  sort-id: pt-06.01
 ---
 
 # pt-6.1 - \[Personally Identifiable Information Processing and Transparency\] Routine Uses

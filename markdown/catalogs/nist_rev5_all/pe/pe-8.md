@@ -7,6 +7,8 @@ x-trestle-set-params:
   pe-08_odp.03:
     values:
 sort-id: pe-08
+x-trestle-global:
+  sort-id: pe-08
 ---
 
 # pe-8 - \[Physical and Environmental Protection\] Visitor Access Records

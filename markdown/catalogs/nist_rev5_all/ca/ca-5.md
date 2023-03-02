@@ -3,6 +3,8 @@ x-trestle-set-params:
   ca-05_odp:
     values:
 sort-id: ca-05
+x-trestle-global:
+  sort-id: ca-05
 ---
 
 # ca-5 - \[Assessment, Authorization, and Monitoring\] Plan of Action and Milestones

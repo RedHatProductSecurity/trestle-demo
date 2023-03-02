@@ -7,6 +7,8 @@ x-trestle-set-params:
   sa-08.03_odp.02:
     values:
 sort-id: sa-08.03
+x-trestle-global:
+  sort-id: sa-08.03
 ---
 
 # sa-8.3 - \[System and Services Acquisition\] Modularity and Layering

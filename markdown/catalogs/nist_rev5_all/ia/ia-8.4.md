@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-08.04_odp:
     values:
 sort-id: ia-08.04
+x-trestle-global:
+  sort-id: ia-08.04
 ---
 
 # ia-8.4 - \[Identification and Authentication\] Use of Defined Profiles

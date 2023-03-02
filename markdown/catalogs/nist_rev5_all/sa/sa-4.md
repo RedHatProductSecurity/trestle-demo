@@ -5,6 +5,8 @@ x-trestle-set-params:
   sa-04_odp.02:
     values:
 sort-id: sa-04
+x-trestle-global:
+  sort-id: sa-04
 ---
 
 # sa-4 - \[System and Services Acquisition\] Acquisition Process

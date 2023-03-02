@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  sa-9_prm_1:
+    values:
+  sa-9_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: sa-09
 ---
 
 # sa-9 - \[System and Services Acquisition\] External Information System Services
@@ -33,11 +53,11 @@ x-trestle-fedramp-props:
 
 The organization:
 
-- \[a.\] Requires that providers of external information system services comply with organizational information security requirements and employ organization-defined security controls in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance;
+- \[a.\] Requires that providers of external information system services comply with organizational information security requirements and employ [organization-defined security controls] in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance;
 
 - \[b.\] Defines and documents government oversight and user roles and responsibilities with regard to external information system services; and
 
-- \[c.\] Employs organization-defined processes, methods, and techniques to monitor security control compliance by external service providers on an ongoing basis.
+- \[c.\] Employs [organization-defined processes, methods, and techniques] to monitor security control compliance by external service providers on an ongoing basis.
 
 ## Control Objective
 
@@ -67,29 +87,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item sa-9_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item sa-9_smt.b
+<!-- Add implementation prose for the main This System component for control: sa-9 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item sa-9_smt.c
+<!-- Add control implementation description here for control: sa-9 -->
 
 #### Implementation Status: planned
 

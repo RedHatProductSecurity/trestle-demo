@@ -1,5 +1,7 @@
 ---
 sort-id: pe-06.01
+x-trestle-global:
+  sort-id: pe-06.01
 ---
 
 # pe-6.1 - \[Physical and Environmental Protection\] Intrusion Alarms and Surveillance Equipment

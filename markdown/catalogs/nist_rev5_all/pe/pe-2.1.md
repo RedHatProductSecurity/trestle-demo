@@ -1,5 +1,7 @@
 ---
 sort-id: pe-02.01
+x-trestle-global:
+  sort-id: pe-02.01
 ---
 
 # pe-2.1 - \[Physical and Environmental Protection\] Access by Position or Role

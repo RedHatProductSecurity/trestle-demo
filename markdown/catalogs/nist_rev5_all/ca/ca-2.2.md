@@ -9,6 +9,8 @@ x-trestle-set-params:
   ca-02.02_odp.04:
     values:
 sort-id: ca-02.02
+x-trestle-global:
+  sort-id: ca-02.02
 ---
 
 # ca-2.2 - \[Assessment, Authorization, and Monitoring\] Specialized Assessments

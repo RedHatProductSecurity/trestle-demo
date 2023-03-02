@@ -13,6 +13,8 @@ x-trestle-set-params:
   ac-06.01_odp.05:
     values:
 sort-id: ac-06.01
+x-trestle-global:
+  sort-id: ac-06.01
 ---
 
 # ac-6.1 - \[Access Control\] Authorize Access to Security Functions

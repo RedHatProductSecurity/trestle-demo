@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.30_odp:
     values:
 sort-id: sa-08.30
+x-trestle-global:
+  sort-id: sa-08.30
 ---
 
 # sa-8.30 - \[System and Services Acquisition\] Procedural Rigor

@@ -1,5 +1,7 @@
 ---
 sort-id: ra-07
+x-trestle-global:
+  sort-id: ra-07
 ---
 
 # ra-7 - \[Risk Assessment\] Risk Response

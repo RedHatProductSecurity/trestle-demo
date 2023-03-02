@@ -1,5 +1,7 @@
 ---
 sort-id: cp-07.02
+x-trestle-global:
+  sort-id: cp-07.02
 ---
 
 # cp-7.2 - \[Contingency Planning\] Accessibility

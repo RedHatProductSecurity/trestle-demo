@@ -1,5 +1,7 @@
 ---
 sort-id: cm-03.02
+x-trestle-global:
+  sort-id: cm-03.02
 ---
 
 # cm-3.2 - \[Configuration Management\] Testing, Validation, and Documentation of Changes

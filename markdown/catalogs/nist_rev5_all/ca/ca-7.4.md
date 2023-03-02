@@ -1,5 +1,7 @@
 ---
 sort-id: ca-07.04
+x-trestle-global:
+  sort-id: ca-07.04
 ---
 
 # ca-7.4 - \[Assessment, Authorization, and Monitoring\] Risk Monitoring

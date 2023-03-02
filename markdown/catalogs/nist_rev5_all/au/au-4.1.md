@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-04.01_odp:
     values:
 sort-id: au-04.01
+x-trestle-global:
+  sort-id: au-04.01
 ---
 
 # au-4.1 - \[Audit and Accountability\] Transfer to Alternate Storage

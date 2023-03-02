@@ -1,5 +1,7 @@
 ---
 sort-id: sa-03.01
+x-trestle-global:
+  sort-id: sa-03.01
 ---
 
 # sa-3.1 - \[System and Services Acquisition\] Manage Preproduction Environment

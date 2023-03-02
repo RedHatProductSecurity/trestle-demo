@@ -5,6 +5,8 @@ x-trestle-set-params:
   ps-06_odp.02:
     values:
 sort-id: ps-06
+x-trestle-global:
+  sort-id: ps-06
 ---
 
 # ps-6 - \[Personnel Security\] Access Agreements

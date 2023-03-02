@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-03.01_odp:
     values:
 sort-id: pe-03.01
+x-trestle-global:
+  sort-id: pe-03.01
 ---
 
 # pe-3.1 - \[Physical and Environmental Protection\] System Access

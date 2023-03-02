@@ -19,6 +19,8 @@ x-trestle-set-params:
   ps-01_odp.08:
     values:
 sort-id: ps-01
+x-trestle-global:
+  sort-id: ps-01
 ---
 
 # ps-1 - \[Personnel Security\] Policy and Procedures

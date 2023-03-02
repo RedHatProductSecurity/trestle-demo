@@ -3,6 +3,8 @@ x-trestle-set-params:
   cp-02.08_odp:
     values:
 sort-id: cp-02.08
+x-trestle-global:
+  sort-id: cp-02.08
 ---
 
 # cp-2.8 - \[Contingency Planning\] Identify Critical Assets

@@ -3,6 +3,8 @@ x-trestle-set-params:
   ps-02_odp:
     values:
 sort-id: ps-02
+x-trestle-global:
+  sort-id: ps-02
 ---
 
 # ps-2 - \[Personnel Security\] Position Risk Designation

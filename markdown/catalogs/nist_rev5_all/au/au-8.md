@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-08_odp:
     values:
 sort-id: au-08
+x-trestle-global:
+  sort-id: au-08
 ---
 
 # au-8 - \[Audit and Accountability\] Time Stamps

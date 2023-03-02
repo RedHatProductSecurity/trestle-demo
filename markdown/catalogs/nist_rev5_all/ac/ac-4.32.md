@@ -1,5 +1,7 @@
 ---
 sort-id: ac-04.32
+x-trestle-global:
+  sort-id: ac-04.32
 ---
 
 # ac-4.32 - \[Access Control\] Process Requirements for Information Transfer

@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-03.08_odp:
     values:
 sort-id: ac-03.08
+x-trestle-global:
+  sort-id: ac-03.08
 ---
 
 # ac-3.8 - \[Access Control\] Revocation of Access Authorizations

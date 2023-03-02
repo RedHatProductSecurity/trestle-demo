@@ -1,5 +1,7 @@
 ---
 sort-id: cp-06.02
+x-trestle-global:
+  sort-id: cp-06.02
 ---
 
 # cp-6.2 - \[Contingency Planning\] Recovery Time and Recovery Point Objectives

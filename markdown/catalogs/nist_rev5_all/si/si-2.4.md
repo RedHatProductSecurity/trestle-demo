@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-02.04_odp:
     values:
 sort-id: si-02.04
+x-trestle-global:
+  sort-id: si-02.04
 ---
 
 # si-2.4 - \[System and Information Integrity\] Automated Patch Management Tools

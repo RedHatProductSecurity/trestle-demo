@@ -3,6 +3,8 @@ x-trestle-set-params:
   ra-03.03_odp:
     values:
 sort-id: ra-03.03
+x-trestle-global:
+  sort-id: ra-03.03
 ---
 
 # ra-3.3 - \[Risk Assessment\] Dynamic Threat Awareness

@@ -7,6 +7,8 @@ x-trestle-set-params:
   pl-04_odp.03:
     values:
 sort-id: pl-04
+x-trestle-global:
+  sort-id: pl-04
 ---
 
 # pl-4 - \[Planning\] Rules of Behavior

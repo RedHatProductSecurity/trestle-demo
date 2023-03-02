@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ac-8_prm_1:
+    values:
+  ac-8_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ac-08
 ---
 
 # ac-8 - \[Access Control\] System Use Notification
@@ -33,7 +53,7 @@ x-trestle-fedramp-props:
 
 The information system:
 
-- \[a.\] Displays to users organization-defined system use notification message or banner before granting access to the system that provides privacy and security notices consistent with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance and states that:
+- \[a.\] Displays to users [organization-defined system use notification message or banner] before granting access to the system that provides privacy and security notices consistent with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance and states that:
 
   - \[1.\] Users are accessing a U.S. Government information system;
   - \[2.\] Information system usage may be monitored, recorded, and subject to audit;
@@ -44,7 +64,7 @@ The information system:
 
 - \[c.\] For publicly accessible systems:
 
-  - \[1.\] Displays system use information organization-defined conditions, before granting further access;
+  - \[1.\] Displays system use information [organization-defined conditions], before granting further access;
   - \[2.\] Displays references, if any, to monitoring, recording, or auditing that are consistent with privacy accommodations for such systems that generally prohibit those activities; and
   - \[3.\] Includes a description of the authorized uses of the system.
 
@@ -83,29 +103,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ac-8_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ac-8_smt.b
+<!-- Add implementation prose for the main This System component for control: ac-8 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ac-8_smt.c
+<!-- Add control implementation description here for control: ac-8 -->
 
 #### Implementation Status: planned
 

@@ -1,5 +1,7 @@
 ---
 sort-id: ac-06.04
+x-trestle-global:
+  sort-id: ac-06.04
 ---
 
 # ac-6.4 - \[Access Control\] Separate Processing Domains

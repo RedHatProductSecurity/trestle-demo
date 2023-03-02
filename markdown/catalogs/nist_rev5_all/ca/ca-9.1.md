@@ -1,5 +1,7 @@
 ---
 sort-id: ca-09.01
+x-trestle-global:
+  sort-id: ca-09.01
 ---
 
 # ca-9.1 - \[Assessment, Authorization, and Monitoring\] Compliance Checks

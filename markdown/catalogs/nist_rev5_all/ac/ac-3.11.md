@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-03.11_odp:
     values:
 sort-id: ac-03.11
+x-trestle-global:
+  sort-id: ac-03.11
 ---
 
 # ac-3.11 - \[Access Control\] Restrict Access to Specific Information Types

@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-04.18_odp:
     values:
 sort-id: si-04.18
+x-trestle-global:
+  sort-id: si-04.18
 ---
 
 # si-4.18 - \[System and Information Integrity\] Analyze Traffic and Covert Exfiltration

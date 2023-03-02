@@ -1,5 +1,7 @@
 ---
 sort-id: cp-02.01
+x-trestle-global:
+  sort-id: cp-02.01
 ---
 
 # cp-2.1 - \[Contingency Planning\] Coordinate with Related Plans

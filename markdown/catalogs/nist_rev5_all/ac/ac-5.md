@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-05_odp:
     values:
 sort-id: ac-05
+x-trestle-global:
+  sort-id: ac-05
 ---
 
 # ac-5 - \[Access Control\] Separation of Duties

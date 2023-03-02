@@ -5,6 +5,8 @@ x-trestle-set-params:
   sr-08_odp.02:
     values:
 sort-id: sr-08
+x-trestle-global:
+  sort-id: sr-08
 ---
 
 # sr-8 - \[Supply Chain Risk Management\] Notification Agreements

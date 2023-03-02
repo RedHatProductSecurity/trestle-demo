@@ -1,5 +1,7 @@
 ---
 sort-id: ac-04.22
+x-trestle-global:
+  sort-id: ac-04.22
 ---
 
 # ac-4.22 - \[Access Control\] Access Only

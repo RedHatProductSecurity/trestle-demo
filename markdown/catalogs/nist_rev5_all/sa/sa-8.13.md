@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.13_odp:
     values:
 sort-id: sa-08.13
+x-trestle-global:
+  sort-id: sa-08.13
 ---
 
 # sa-8.13 - \[System and Services Acquisition\] Minimized Security Elements

@@ -21,6 +21,8 @@ x-trestle-set-params:
   cp-02_odp.07:
     values:
 sort-id: cp-02
+x-trestle-global:
+  sort-id: cp-02
 ---
 
 # cp-2 - \[Contingency Planning\] Contingency Plan

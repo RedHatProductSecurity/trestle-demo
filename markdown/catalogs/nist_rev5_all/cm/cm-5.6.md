@@ -1,5 +1,7 @@
 ---
 sort-id: cm-05.06
+x-trestle-global:
+  sort-id: cm-05.06
 ---
 
 # cm-5.6 - \[Configuration Management\] Limit Library Privileges

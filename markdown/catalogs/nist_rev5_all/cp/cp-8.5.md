@@ -3,6 +3,8 @@ x-trestle-set-params:
   cp-08.05_odp:
     values:
 sort-id: cp-08.05
+x-trestle-global:
+  sort-id: cp-08.05
 ---
 
 # cp-8.5 - \[Contingency Planning\] Alternate Telecommunication Service Testing

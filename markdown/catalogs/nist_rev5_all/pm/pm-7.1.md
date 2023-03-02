@@ -3,6 +3,8 @@ x-trestle-set-params:
   pm-07.01_odp:
     values:
 sort-id: pm-07.01
+x-trestle-global:
+  sort-id: pm-07.01
 ---
 
 # pm-7.1 - \[Program Management\] Offloading

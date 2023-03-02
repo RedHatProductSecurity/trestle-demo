@@ -1,5 +1,7 @@
 ---
 sort-id: cp-02.07
+x-trestle-global:
+  sort-id: cp-02.07
 ---
 
 # cp-2.7 - \[Contingency Planning\] Coordinate with External Service Providers

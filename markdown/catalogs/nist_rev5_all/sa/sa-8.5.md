@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.05_odp:
     values:
 sort-id: sa-08.05
+x-trestle-global:
+  sort-id: sa-08.05
 ---
 
 # sa-8.5 - \[System and Services Acquisition\] Efficiently Mediated Access

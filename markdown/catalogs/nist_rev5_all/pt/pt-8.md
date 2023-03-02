@@ -1,5 +1,7 @@
 ---
 sort-id: pt-08
+x-trestle-global:
+  sort-id: pt-08
 ---
 
 # pt-8 - \[Personally Identifiable Information Processing and Transparency\] Computer Matching Requirements

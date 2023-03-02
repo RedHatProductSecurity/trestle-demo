@@ -3,6 +3,8 @@ x-trestle-set-params:
   ps-03.03_odp:
     values:
 sort-id: ps-03.03
+x-trestle-global:
+  sort-id: ps-03.03
 ---
 
 # ps-3.3 - \[Personnel Security\] Information Requiring Special Protective Measures

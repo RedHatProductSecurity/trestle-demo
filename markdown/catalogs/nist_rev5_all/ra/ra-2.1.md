@@ -1,5 +1,7 @@
 ---
 sort-id: ra-02.01
+x-trestle-global:
+  sort-id: ra-02.01
 ---
 
 # ra-2.1 - \[Risk Assessment\] Impact-level Prioritization

@@ -25,6 +25,30 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ir-8_prm_1:
+    values:
+  ir-8_prm_2:
+    values:
+  ir-8_prm_3:
+    values:
+  ir-8_prm_4:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ir-08
 ---
 
 # ir-8 - \[Incident Response\] Incident Response Plan
@@ -42,15 +66,15 @@ The organization:
   - \[5.\] Defines reportable incidents;
   - \[6.\] Provides metrics for measuring the incident response capability within the organization;
   - \[7.\] Defines the resources and management support needed to effectively maintain and mature an incident response capability; and
-  - \[8.\] Is reviewed and approved by organization-defined personnel or roles;
+  - \[8.\] Is reviewed and approved by [organization-defined personnel or roles];
 
-- \[b.\] Distributes copies of the incident response plan to organization-defined incident response personnel (identified by name and/or by role) and organizational elements;
+- \[b.\] Distributes copies of the incident response plan to [organization-defined incident response personnel (identified by name and/or by role) and organizational elements];
 
-- \[c.\] Reviews the incident response plan organization-defined frequency;
+- \[c.\] Reviews the incident response plan [organization-defined frequency];
 
 - \[d.\] Updates the incident response plan to address system/organizational changes or problems encountered during plan implementation, execution, or testing;
 
-- \[e.\] Communicates incident response plan changes to organization-defined incident response personnel (identified by name and/or by role) and organizational elements; and
+- \[e.\] Communicates incident response plan changes to [organization-defined incident response personnel (identified by name and/or by role) and organizational elements]; and
 
 - \[f.\] Protects the incident response plan from unauthorized disclosure and modification.
 
@@ -117,53 +141,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ir-8_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ir-8_smt.b
+<!-- Add implementation prose for the main This System component for control: ir-8 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ir-8_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item ir-8_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item ir-8_smt.e
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part f.
-
-Add control implementation description here for item ir-8_smt.f
+<!-- Add control implementation description here for control: ir-8 -->
 
 #### Implementation Status: planned
 

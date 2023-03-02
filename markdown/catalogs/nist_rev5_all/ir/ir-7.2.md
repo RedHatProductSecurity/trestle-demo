@@ -1,5 +1,7 @@
 ---
 sort-id: ir-07.02
+x-trestle-global:
+  sort-id: ir-07.02
 ---
 
 # ir-7.2 - \[Incident Response\] Coordination with External Providers

@@ -5,6 +5,8 @@ x-trestle-set-params:
   sr-02_odp.02:
     values:
 sort-id: sr-02
+x-trestle-global:
+  sort-id: sr-02
 ---
 
 # sr-2 - \[Supply Chain Risk Management\] Supply Chain Risk Management Plan

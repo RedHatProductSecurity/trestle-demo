@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-08.05_odp:
     values:
 sort-id: ia-08.05
+x-trestle-global:
+  sort-id: ia-08.05
 ---
 
 # ia-8.5 - \[Identification and Authentication\] Acceptance of PIV-I Credentials

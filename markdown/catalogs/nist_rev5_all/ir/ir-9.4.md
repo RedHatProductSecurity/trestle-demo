@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-09.04_odp:
     values:
 sort-id: ir-09.04
+x-trestle-global:
+  sort-id: ir-09.04
 ---
 
 # ir-9.4 - \[Incident Response\] Exposure to Unauthorized Personnel

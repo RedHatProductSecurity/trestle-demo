@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-04.02_odp:
     values:
 sort-id: ac-04.02
+x-trestle-global:
+  sort-id: ac-04.02
 ---
 
 # ac-4.2 - \[Access Control\] Processing Domains

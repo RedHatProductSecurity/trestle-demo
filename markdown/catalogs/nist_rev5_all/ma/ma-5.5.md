@@ -1,5 +1,7 @@
 ---
 sort-id: ma-05.05
+x-trestle-global:
+  sort-id: ma-05.05
 ---
 
 # ma-5.5 - \[Maintenance\] Non-system Maintenance

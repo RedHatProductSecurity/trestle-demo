@@ -1,5 +1,7 @@
 ---
 sort-id: pm-08
+x-trestle-global:
+  sort-id: pm-08
 ---
 
 # pm-8 - \[Program Management\] Critical Infrastructure Plan

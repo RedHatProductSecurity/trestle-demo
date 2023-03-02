@@ -1,5 +1,7 @@
 ---
 sort-id: sr-05.02
+x-trestle-global:
+  sort-id: sr-05.02
 ---
 
 # sr-5.2 - \[Supply Chain Risk Management\] Assessments Prior to Selection, Acceptance, Modification, or Update

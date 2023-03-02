@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-03.05_odp:
     values:
 sort-id: cm-03.05
+x-trestle-global:
+  sort-id: cm-03.05
 ---
 
 # cm-3.5 - \[Configuration Management\] Automated Security Response

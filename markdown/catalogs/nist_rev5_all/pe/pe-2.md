@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-02_odp:
     values:
 sort-id: pe-02
+x-trestle-global:
+  sort-id: pe-02
 ---
 
 # pe-2 - \[Physical and Environmental Protection\] Physical Access Authorizations

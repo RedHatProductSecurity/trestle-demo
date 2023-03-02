@@ -25,6 +25,30 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  cp-2_prm_1:
+    values:
+  cp-2_prm_2:
+    values:
+  cp-2_prm_3:
+    values:
+  cp-2_prm_4:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: cp-02
 ---
 
 # cp-2 - \[Contingency Planning\] Contingency Plan
@@ -40,17 +64,17 @@ The organization:
   - \[3.\] Addresses contingency roles, responsibilities, assigned individuals with contact information;
   - \[4.\] Addresses maintaining essential missions and business functions despite an information system disruption, compromise, or failure;
   - \[5.\] Addresses eventual, full information system restoration without deterioration of the security safeguards originally planned and implemented; and
-  - \[6.\] Is reviewed and approved by organization-defined personnel or roles;
+  - \[6.\] Is reviewed and approved by [organization-defined personnel or roles];
 
-- \[b.\] Distributes copies of the contingency plan to organization-defined key contingency personnel (identified by name and/or by role) and organizational elements;
+- \[b.\] Distributes copies of the contingency plan to [organization-defined key contingency personnel (identified by name and/or by role) and organizational elements];
 
 - \[c.\] Coordinates contingency planning activities with incident handling activities;
 
-- \[d.\] Reviews the contingency plan for the information system organization-defined frequency;
+- \[d.\] Reviews the contingency plan for the information system [organization-defined frequency];
 
 - \[e.\] Updates the contingency plan to address changes to the organization, information system, or environment of operation and problems encountered during contingency plan implementation, execution, or testing;
 
-- \[f.\] Communicates contingency plan changes to organization-defined key contingency personnel (identified by name and/or by role) and organizational elements; and
+- \[f.\] Communicates contingency plan changes to [organization-defined key contingency personnel (identified by name and/or by role) and organizational elements]; and
 
 - \[g.\] Protects the contingency plan from unauthorized disclosure and modification.
 
@@ -112,61 +136,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item cp-2_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item cp-2_smt.b
+<!-- Add implementation prose for the main This System component for control: cp-2 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item cp-2_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item cp-2_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item cp-2_smt.e
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part f.
-
-Add control implementation description here for item cp-2_smt.f
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part g.
-
-Add control implementation description here for item cp-2_smt.g
+<!-- Add control implementation description here for control: cp-2 -->
 
 #### Implementation Status: planned
 

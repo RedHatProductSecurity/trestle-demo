@@ -5,6 +5,8 @@ x-trestle-set-params:
   au-09.05_odp.02:
     values:
 sort-id: au-09.05
+x-trestle-global:
+  sort-id: au-09.05
 ---
 
 # au-9.5 - \[Audit and Accountability\] Dual Authorization

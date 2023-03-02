@@ -3,6 +3,8 @@ x-trestle-set-params:
   ma-05.01_odp:
     values:
 sort-id: ma-05.01
+x-trestle-global:
+  sort-id: ma-05.01
 ---
 
 # ma-5.1 - \[Maintenance\] Individuals Without Appropriate Access
