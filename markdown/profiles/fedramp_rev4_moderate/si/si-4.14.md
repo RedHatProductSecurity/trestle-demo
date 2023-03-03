@@ -1,6 +1,8 @@
 ---
 x-trestle-global:
-  profile-title: FedRAMP Rev 4 Moderate Baseline
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+  sort-id: si-04.14
 sort-id: si-04.14
 x-trestle-add-props:
   # Add or modify control properties here

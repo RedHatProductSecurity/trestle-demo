@@ -1,5 +1,4 @@
 ---
-sort-id: ac-06.10
 x-trestle-evidence:
   named-evidence: location
 x-trestle-dependent-on:
@@ -63,12 +62,6 @@ ______________________________________________________________________
 ### This System
 
 <!-- Add implementation prose for the main This System component for control: ac-6.10 -->
-
-#### Implementation Status: planned
-
-### 
-
-<!-- Add control implementation description here for control: ac-6.10 -->
 
 #### Implementation Status: planned
 

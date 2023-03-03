@@ -1,5 +1,25 @@
 ---
-sort-id: ca-07
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ca-7_prm_1:
+    values:
+  ca-7_prm_2:
+    values:
+  ca-7_prm_3:
+    values:
+  ca-7_prm_4:
+    values:
+  ca-7_prm_5:
+    values:
 x-trestle-evidence:
   named-evidence: location
 x-trestle-dependent-on:
@@ -25,27 +45,6 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
-x-trestle-set-params:
-  # You may set values for parameters in the assembled SSP by adding
-  #
-  # ssp-values:
-  #   - value 1
-  #   - value 2
-  #
-  # below a section of values:
-  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
-  # to be placed in SetParameters of the SSP.
-  #
-  ca-7_prm_1:
-    values:
-  ca-7_prm_2:
-    values:
-  ca-7_prm_3:
-    values:
-  ca-7_prm_4:
-    values:
-  ca-7_prm_5:
-    values:
 x-trestle-global:
   profile:
     title: FedRAMP Rev 4 Moderate Baseline
@@ -134,12 +133,6 @@ ______________________________________________________________________
 ### This System
 
 <!-- Add implementation prose for the main This System component for control: ca-7 -->
-
-#### Implementation Status: planned
-
-### 
-
-<!-- Add control implementation description here for control: ca-7 -->
 
 #### Implementation Status: planned
 

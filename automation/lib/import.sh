@@ -9,7 +9,7 @@ import_nist_catalog () {
     run_log 1 "trestle not found"
   fi
 
-  trestle import -f https://raw.githubusercontent.com/usnistgov/oscal-content/master/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json -o nist_rev5_all
+  trestle import -f https://raw.githubusercontent.com/usnistgov/oscal-content/v1.0.0/nist.gov/SP800-53/rev4/json/NIST_SP-800-53_rev4_catalog.json -o nist_rev5_all
 
 }
 

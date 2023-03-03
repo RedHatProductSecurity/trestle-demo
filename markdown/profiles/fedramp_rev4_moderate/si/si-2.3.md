@@ -1,7 +1,19 @@
 ---
 x-trestle-global:
-  profile-title: FedRAMP Rev 4 Moderate Baseline
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+  sort-id: si-02.03
 x-trestle-set-params:
+  # You may set values for parameters in the assembled Profile by adding
+  #
+  # profile-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the catalog, and the profile-values represent values
+  # in SetParameters of the Profile.
+  #
   si-2.3_prm_1:
     values:
 sort-id: si-02.03
