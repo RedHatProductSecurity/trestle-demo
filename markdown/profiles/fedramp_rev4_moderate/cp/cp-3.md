@@ -105,7 +105,7 @@ The organization provides contingency training to information system users consi
 
 - \[b.\] When required by information system changes; and
 
-- \[c.\]  {{ insert: param, cp-3_prm_2 }} thereafter.
+- \[c.\] {{ insert: param, cp-3_prm_2 }} thereafter.
 
 ## Control Objective
 

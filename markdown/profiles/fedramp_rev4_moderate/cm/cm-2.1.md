@@ -101,7 +101,7 @@ x-trestle-add-props:
 
 The organization reviews and updates the baseline configuration of the information system:
 
-- \[(a)\]  {{ insert: param, cm-2.1_prm_1 }};
+- \[(a)\] {{ insert: param, cm-2.1_prm_1 }};
 
 - \[(b)\] When required due to {{ insert: param, cm-2.1_prm_2 }}; and
 

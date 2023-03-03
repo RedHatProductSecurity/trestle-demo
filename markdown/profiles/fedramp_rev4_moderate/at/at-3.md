@@ -95,7 +95,7 @@ The organization provides role-based security training to personnel with assigne
 
 - \[b.\] When required by information system changes; and
 
-- \[c.\]  {{ insert: param, at-3_prm_1 }} thereafter.
+- \[c.\] {{ insert: param, at-3_prm_1 }} thereafter.
 
 ## Control Objective
 

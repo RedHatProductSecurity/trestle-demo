@@ -95,7 +95,7 @@ The organization provides basic security awareness training to information syste
 
 - \[b.\] When required by information system changes; and
 
-- \[c.\]  {{ insert: param, at-2_prm_1 }} thereafter.
+- \[c.\] {{ insert: param, at-2_prm_1 }} thereafter.
 
 ## Control Objective
 

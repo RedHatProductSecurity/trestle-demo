@@ -104,7 +104,7 @@ The organization provides incident response training to information system users
 
 - \[b.\] When required by information system changes; and
 
-- \[c.\]  {{ insert: param, ir-2_prm_2 }} thereafter.
+- \[c.\] {{ insert: param, ir-2_prm_2 }} thereafter.
 
 ## Control Objective
 

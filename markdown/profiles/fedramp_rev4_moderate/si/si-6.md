@@ -154,7 +154,7 @@ The information system:
 
 - \[c.\] Notifies {{ insert: param, si-6_prm_5 }} of failed security verification tests; and
 
-- \[d.\]  {{ insert: param, si-6_prm_6 }} when anomalies are discovered.
+- \[d.\] {{ insert: param, si-6_prm_6 }} when anomalies are discovered.
 
 ## Control Objective
 
