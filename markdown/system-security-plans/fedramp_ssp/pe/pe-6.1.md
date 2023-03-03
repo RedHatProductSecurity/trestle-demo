@@ -1,5 +1,4 @@
 ---
-sort-id: pe-06.01
 x-trestle-evidence:
   named-evidence: location
 x-trestle-dependent-on:
@@ -53,12 +52,6 @@ ______________________________________________________________________
 ### This System
 
 <!-- Add implementation prose for the main This System component for control: pe-6.1 -->
-
-#### Implementation Status: planned
-
-### 
-
-<!-- Add control implementation description here for control: pe-6.1 -->
 
 #### Implementation Status: planned
 

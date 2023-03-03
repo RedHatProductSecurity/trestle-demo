@@ -1,7 +1,19 @@
 ---
 x-trestle-global:
-  profile-title: FedRAMP Rev 4 Moderate Baseline
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+  sort-id: si-03
 x-trestle-set-params:
+  # You may set values for parameters in the assembled Profile by adding
+  #
+  # profile-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the catalog, and the profile-values represent values
+  # in SetParameters of the Profile.
+  #
   si-3_prm_1:
     profile-values:
     values:
@@ -135,7 +147,7 @@ The organization:
 - \[c.\] Configures malicious code protection mechanisms to:
 
   - \[1.\] Perform periodic scans of the information system {{ insert: param, si-3_prm_1 }} and real-time scans of files from external sources at {{ insert: param, si-3_prm_2 }} as the files are downloaded, opened, or executed in accordance with organizational security policy; and
-  - \[2.\]  {{ insert: param, si-3_prm_3 }} in response to malicious code detection; and
+  - \[2.\] {{ insert: param, si-3_prm_3 }} in response to malicious code detection; and
 
 - \[d.\] Addresses the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the information system.
 

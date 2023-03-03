@@ -1,7 +1,19 @@
 ---
 x-trestle-global:
-  profile-title: FedRAMP Rev 4 Moderate Baseline
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+  sort-id: at-03
 x-trestle-set-params:
+  # You may set values for parameters in the assembled Profile by adding
+  #
+  # profile-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the catalog, and the profile-values represent values
+  # in SetParameters of the Profile.
+  #
   at-3_prm_1:
     profile-values:
     values:
@@ -83,7 +95,7 @@ The organization provides role-based security training to personnel with assigne
 
 - \[b.\] When required by information system changes; and
 
-- \[c.\]  {{ insert: param, at-3_prm_1 }} thereafter.
+- \[c.\] {{ insert: param, at-3_prm_1 }} thereafter.
 
 ## Control Objective
 

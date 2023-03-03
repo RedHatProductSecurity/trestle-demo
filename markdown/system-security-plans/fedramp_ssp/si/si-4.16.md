@@ -1,5 +1,4 @@
 ---
-sort-id: si-04.16
 x-trestle-evidence:
   named-evidence: location
 x-trestle-dependent-on:
@@ -57,12 +56,6 @@ ______________________________________________________________________
 ### This System
 
 <!-- Add implementation prose for the main This System component for control: si-4.16 -->
-
-#### Implementation Status: planned
-
-### 
-
-<!-- Add control implementation description here for control: si-4.16 -->
 
 #### Implementation Status: planned
 

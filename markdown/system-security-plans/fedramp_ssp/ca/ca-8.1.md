@@ -1,5 +1,4 @@
 ---
-sort-id: ca-08.01
 x-trestle-evidence:
   named-evidence: location
 x-trestle-dependent-on:
@@ -57,12 +56,6 @@ ______________________________________________________________________
 ### This System
 
 <!-- Add implementation prose for the main This System component for control: ca-8.1 -->
-
-#### Implementation Status: planned
-
-### 
-
-<!-- Add control implementation description here for control: ca-8.1 -->
 
 #### Implementation Status: planned
 

@@ -1,7 +1,7 @@
 name: Evaluate ssps
 on:
   pull_request:
-    types: [ review_requested, ready_for_review ]
+    types: [ opened, review_requested, ready_for_review, reopened, synchronize]
     branches:
       - main
     paths:
