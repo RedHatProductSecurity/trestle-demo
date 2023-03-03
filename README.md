@@ -6,6 +6,10 @@ This demo repository illustrates how to use [compliance-trestle](https://ibm.git
 
 The demonstrates the authoring workflows using the `generate-edit-assemble` steps recommended by the `compliance-trestle` documentation.
 
+The workspace has been set up with a catalog from NIST using 800-53 and a FedRAMP profile.
+
+The component or system being described is the `hello-world` application for the ACME Corporation.
+
 ### Proposed Authoring CI Workflow
 
 Workflows can be demonstrated by using `make` targets.
@@ -53,7 +57,7 @@ TBD
 
 ## Workflows
 
-### FedRamp SSP Authoring
+### FedRAMP SSP Authoring
 
 #### Diagram
 
@@ -78,7 +82,7 @@ To just generate the markdown run `make generate-ssp-markdown`
 
 If starting from scratch or testing changes to the SSP:
 
-Run `make bootstrap-workspace` to import the NIST catalog and FedRamp profile
+Run `make bootstrap-workspace` to import the NIST catalog and FedRamp profile.
 Run `make generate-fedramp-ssp` to generate the SSP markdown files under `markdown/system-security-plans`
 
 > If changes are made to the SSP markdown, run `make assemble-ssps`
