@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  ia-04.05_odp:
-    values:
-sort-id: ia-04.05
 x-trestle-global:
   sort-id: ia-04.05
 ---
@@ -11,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Manage individual identifiers dynamically in accordance with {{ insert: param, ia-04.05_odp }}.
+The information system dynamically manages identifiers.
+
+## Control Objective
+
+Determine if the information system dynamically manages identifiers.
 
 ## Control guidance
 
-In contrast to conventional approaches to identification that presume static accounts for preregistered users, many distributed systems establish identifiers at runtime for entities that were previously unknown. When identifiers are established at runtime for previously unknown entities, organizations can anticipate and provision for the dynamic establishment of identifiers. Pre-established trust relationships and mechanisms with appropriate authorities to validate credentials and related identifiers are essential.
-
-## Control assessment-objective
-
-individual identifiers are dynamically managed in accordance with {{ insert: param, ia-04.05_odp }}.
+In contrast to conventional approaches to identification which presume static accounts for preregistered users, many distributed information systems including, for example, service-oriented architectures, rely on establishing identifiers at run time for entities that were previously unknown. In these situations, organizations anticipate and provision for the dynamic establishment of identifiers. Preestablished trust relationships and mechanisms with appropriate authorities to validate identities and related credentials are essential.

@@ -1,22 +1,29 @@
 ---
-x-trestle-set-params:
-  au-06.01_odp:
-    values:
-sort-id: au-06.01
 x-trestle-global:
   sort-id: au-06.01
 ---
 
-# au-6.1 - \[Audit and Accountability\] Automated Process Integration
+# au-6.1 - \[Audit and Accountability\] Process Integration
 
 ## Control Statement
 
-Integrate audit record review, analysis, and reporting processes using {{ insert: param, au-06.01_odp }}.
+The organization employs automated mechanisms to integrate audit review, analysis, and reporting processes to support organizational processes for investigation and response to suspicious activities.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[AU-6(1)[1]\] employs automated mechanisms to integrate:
+
+  - \[AU-6(1)[1][a]\] audit review;
+  - \[AU-6(1)[1][b]\] analysis;
+  - \[AU-6(1)[1][c]\] reporting processes;
+
+- \[AU-6(1)[2]\] uses integrated audit review, analysis and reporting processes to support organizational processes for:
+
+  - \[AU-6(1)[2][a]\] investigation of suspicious activities; and
+  - \[AU-6(1)[2][b]\] response to suspicious activities.
 
 ## Control guidance
 
-Organizational processes that benefit from integrated audit record review, analysis, and reporting include incident response, continuous monitoring, contingency planning, investigation and response to suspicious activities, and Inspector General audits.
-
-## Control assessment-objective
-
-audit record review, analysis, and reporting processes are integrated using {{ insert: param, au-06.01_odp }}.
+Organizational processes benefiting from integrated audit review, analysis, and reporting include, for example, incident response, continuous monitoring, contingency planning, and Inspector General audits.

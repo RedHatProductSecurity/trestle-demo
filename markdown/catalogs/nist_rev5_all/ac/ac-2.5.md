@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ac-02.05_odp:
+  ac-2.5_prm_1:
     values:
-sort-id: ac-02.05
 x-trestle-global:
   sort-id: ac-02.05
 ---
@@ -11,12 +10,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Require that users log out when {{ insert: param, ac-02.05_odp }}.
+The organization requires that users log out when {{ insert: param, ac-2.5_prm_1 }}.
 
-## Control guidance
+## Control Objective
 
-Inactivity logout is behavior- or policy-based and requires users to take physical action to log out when they are expecting inactivity longer than the defined period. Automatic enforcement of inactivity logout is addressed by [AC-11](#ac-11).
+Determine if the organization:
 
-## Control assessment-objective
+- \[AC-2(5)[1]\] defines either the time period of expected inactivity that requires users to log out or the description of when users are required to log out; and
 
-users are required to log out when {{ insert: param, ac-02.05_odp }}.
+- \[AC-2(5)[2]\] requires that users log out when the organization-defined time period of inactivity is reached or in accordance with organization-defined description of when to log out.

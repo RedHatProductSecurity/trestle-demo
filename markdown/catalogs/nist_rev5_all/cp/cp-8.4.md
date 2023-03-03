@@ -2,11 +2,6 @@
 x-trestle-set-params:
   cp-8.4_prm_1:
     values:
-  cp-08.04_odp.01:
-    values:
-  cp-08.04_odp.02:
-    values:
-sort-id: cp-08.04
 x-trestle-global:
   sort-id: cp-08.04
 ---
@@ -15,20 +10,30 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[(a)\] Require primary and alternate telecommunications service providers to have contingency plans;
+The organization:
 
-- \[(b)\] Review provider contingency plans to ensure that the plans meet organizational contingency requirements; and
+- \[(a)\] Requires primary and alternate telecommunications service providers to have contingency plans;
 
-- \[(c)\] Obtain evidence of contingency testing and training by providers {{ insert: param, cp-8.4_prm_1 }}.
+- \[(b)\] Reviews provider contingency plans to ensure that the plans meet organizational contingency requirements; and
+
+- \[(c)\] Obtains evidence of contingency testing/training by providers {{ insert: param, cp-8.4_prm_1 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CP-8(4)(a)\]
+
+  - \[CP-8(4)(a)[1]\] requires primary telecommunications service provider to have contingency plans;
+  - \[CP-8(4)(a)[2]\] requires alternate telecommunications service provider(s) to have contingency plans;
+
+- \[CP-8(4)(b)\] reviews provider contingency plans to ensure that the plans meet organizational contingency requirements;
+
+- \[CP-8(4)(c)\]
+
+  - \[CP-8(4)(c)[1]\] defines the frequency to obtain evidence of contingency testing/training by providers; and
+  - \[CP-8(4)(c)[2]\] obtains evidence of contingency testing/training by providers with the organization-defined frequency.
 
 ## Control guidance
 
-Reviews of provider contingency plans consider the proprietary nature of such plans. In some situations, a summary of provider contingency plans may be sufficient evidence for organizations to satisfy the review requirement. Telecommunications service providers may also participate in ongoing disaster recovery exercises in coordination with the Department of Homeland Security and state and local governments. Organizations may use these types of activities to satisfy evidentiary requirements related to service provider contingency plan reviews, testing, and training.
-
-## Control assessment-objective
-
-primary telecommunications service providers are required to have contingency plans;
-alternate telecommunications service providers are required to have contingency plans;
-provider contingency plans are reviewed to ensure that the plans meet organizational contingency requirements;
-evidence of contingency testing by providers is obtained {{ insert: param, cp-08.04_odp.01 }}.
-evidence of contingency training by providers is obtained {{ insert: param, cp-08.04_odp.02 }}.
+Reviews of provider contingency plans consider the proprietary nature of such plans. In some situations, a summary of provider contingency plans may be sufficient evidence for organizations to satisfy the review requirement. Telecommunications service providers may also participate in ongoing disaster recovery exercises in coordination with the Department of Homeland Security, state, and local governments. Organizations may use these types of activities to satisfy evidentiary requirements related to service provider contingency plan reviews, testing, and training.

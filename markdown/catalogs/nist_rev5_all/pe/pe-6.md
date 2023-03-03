@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  pe-06_odp.01:
+  pe-6_prm_1:
     values:
-  pe-06_odp.02:
+  pe-6_prm_2:
     values:
-sort-id: pe-06
 x-trestle-global:
   sort-id: pe-06
 ---
@@ -13,20 +12,28 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Monitor physical access to the facility where the system resides to detect and respond to physical security incidents;
+The organization:
 
-- \[b.\] Review physical access logs {{ insert: param, pe-06_odp.01 }} and upon occurrence of {{ insert: param, pe-06_odp.02 }} ; and
+- \[a.\] Monitors physical access to the facility where the information system resides to detect and respond to physical security incidents;
 
-- \[c.\] Coordinate results of reviews and investigations with the organizational incident response capability.
+- \[b.\] Reviews physical access logs {{ insert: param, pe-6_prm_1 }} and upon occurrence of {{ insert: param, pe-6_prm_2 }}; and
+
+- \[c.\] Coordinates results of reviews and investigations with the organizational incident response capability.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PE-6(a)\] monitors physical access to the facility where the information system resides to detect and respond to physical security incidents;
+
+- \[PE-6(b)\]
+
+  - \[PE-6(b)[1]\] defines the frequency to review physical access logs;
+  - \[PE-6(b)[2]\] defines events or potential indication of events requiring physical access logs to be reviewed;
+  - \[PE-6(b)[3]\] reviews physical access logs with the organization-defined frequency and upon occurrence of organization-defined events or potential indications of events; and
+
+- \[PE-6(c)\] coordinates results of reviews and investigations with the organizational incident response capability.
 
 ## Control guidance
 
-Physical access monitoring includes publicly accessible areas within organizational facilities. Examples of physical access monitoring include the employment of guards, video surveillance equipment (i.e., cameras), and sensor devices. Reviewing physical access logs can help identify suspicious activity, anomalous events, or potential threats. The reviews can be supported by audit logging controls, such as [AU-2](#au-2) , if the access logs are part of an automated system. Organizational incident response capabilities include investigations of physical security incidents and responses to the incidents. Incidents include security violations or suspicious physical access activities. Suspicious physical access activities include accesses outside of normal work hours, repeated accesses to areas not normally accessed, accesses for unusual lengths of time, and out-of-sequence accesses.
-
-## Control assessment-objective
-
-physical access to the facility where the system resides is monitored to detect and respond to physical security incidents;
-physical access logs are reviewed {{ insert: param, pe-06_odp.01 }};
-physical access logs are reviewed upon occurrence of {{ insert: param, pe-06_odp.02 }};
-results of reviews are coordinated with organizational incident response capabilities;
-results of investigations are coordinated with organizational incident response capabilities.
+Organizational incident response capabilities include investigations of and responses to detected physical security incidents. Security incidents include, for example, apparent security violations or suspicious physical access activities. Suspicious physical access activities include, for example: (i) accesses outside of normal work hours; (ii) repeated accesses to areas not normally accessed; (iii) accesses for unusual lengths of time; and (iv) out-of-sequence accesses.

@@ -1,23 +1,18 @@
 ---
-sort-id: ia-08.02
 x-trestle-global:
   sort-id: ia-08.02
 ---
 
-# ia-8.2 - \[Identification and Authentication\] Acceptance of External Authenticators
+# ia-8.2 - \[Identification and Authentication\] Acceptance of Third-party Credentials
 
 ## Control Statement
 
-- \[(a)\] Accept only external authenticators that are NIST-compliant; and
+The information system accepts only FICAM-approved third-party credentials.
 
-- \[(b)\] Document and maintain a list of accepted external authenticators.
+## Control Objective
+
+Determine if the information system accepts only FICAM-approved third-party credentials.
 
 ## Control guidance
 
-Acceptance of only NIST-compliant external authenticators applies to organizational systems that are accessible to the public (e.g., public-facing websites). External authenticators are issued by nonfederal government entities and are compliant with [SP 800-63B](#e59c5a7c-8b1f-49ca-8de0-6ee0882180ce) . Approved external authenticators meet or exceed the minimum Federal Government-wide technical, security, privacy, and organizational maturity requirements. Meeting or exceeding Federal requirements allows Federal Government relying parties to trust external authenticators in connection with an authentication transaction at a specified authenticator assurance level.
-
-## Control assessment-objective
-
-only external authenticators that are NIST-compliant are accepted;
-a list of accepted external authenticators is documented;
-a list of accepted external authenticators is maintained.
+This control enhancement typically applies to organizational information systems that are accessible to the general public, for example, public-facing websites. Third-party credentials are those credentials issued by nonfederal government entities approved by the Federal Identity, Credential, and Access Management (FICAM) Trust Framework Solutions initiative. Approved third-party credentials meet or exceed the set of minimum federal government-wide technical, security, privacy, and organizational maturity requirements. This allows federal government relying parties to trust such credentials at their approved assurance levels.

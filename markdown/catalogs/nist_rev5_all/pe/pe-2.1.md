@@ -1,19 +1,14 @@
 ---
-sort-id: pe-02.01
 x-trestle-global:
   sort-id: pe-02.01
 ---
 
-# pe-2.1 - \[Physical and Environmental Protection\] Access by Position or Role
+# pe-2.1 - \[Physical and Environmental Protection\] Access by Position / Role
 
 ## Control Statement
 
-Authorize physical access to the facility where the system resides based on position or role.
+The organization authorizes physical access to the facility where the information system resides based on position or role.
 
-## Control guidance
+## Control Objective
 
-Role-based facility access includes access by authorized permanent and regular/routine maintenance personnel, duty officers, and emergency medical staff.
-
-## Control assessment-objective
-
-physical access to the facility where the system resides is authorized based on position or role.
+Determine if the organization authorizes physical access to the facility where the information system resides based on position or role.

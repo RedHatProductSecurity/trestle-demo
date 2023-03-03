@@ -1,35 +1,21 @@
 ---
 x-trestle-set-params:
-  ac-02.03_odp.01:
+  ac-2.3_prm_1:
     values:
-  ac-02.03_odp.02:
-    values:
-sort-id: ac-02.03
 x-trestle-global:
   sort-id: ac-02.03
 ---
 
-# ac-2.3 - \[Access Control\] Disable Accounts
+# ac-2.3 - \[Access Control\] Disable Inactive Accounts
 
 ## Control Statement
 
-Disable accounts within {{ insert: param, ac-02.03_odp.01 }} when the accounts:
+The information system automatically disables inactive accounts after {{ insert: param, ac-2.3_prm_1 }}.
 
-- \[(a)\] Have expired;
+## Control Objective
 
-- \[(b)\] Are no longer associated with a user or individual;
+Determine if:
 
-- \[(c)\] Are in violation of organizational policy; or
+- \[AC-2(3)[1]\] the organization defines the time period after which the information system automatically disables inactive accounts; and
 
-- \[(d)\] Have been inactive for {{ insert: param, ac-02.03_odp.02 }}.
-
-## Control guidance
-
-Disabling expired, inactive, or otherwise anomalous accounts supports the concepts of least privilege and least functionality which reduce the attack surface of the system.
-
-## Control assessment-objective
-
-accounts are disabled within {{ insert: param, ac-02.03_odp.01 }} when the accounts have expired;
-accounts are disabled within {{ insert: param, ac-02.03_odp.01 }} when the accounts are no longer associated with a user or individual;
-accounts are disabled within {{ insert: param, ac-02.03_odp.01 }} when the accounts are in violation of organizational policy;
-accounts are disabled within {{ insert: param, ac-02.03_odp.01 }} when the accounts have been inactive for {{ insert: param, ac-02.03_odp.02 }}.
+- \[AC-2(3)[2]\] the information system automatically disables inactive accounts after the organization-defined time period.

@@ -1,25 +1,18 @@
 ---
-x-trestle-set-params:
-  sc-07.10_odp:
-    values:
-sort-id: sc-07.10
 x-trestle-global:
   sort-id: sc-07.10
 ---
 
-# sc-7.10 - \[System and Communications Protection\] Prevent Exfiltration
+# sc-7.10 - \[System and Communications Protection\] Prevent Unauthorized Exfiltration
 
 ## Control Statement
 
-- \[(a)\] Prevent the exfiltration of information; and
+The organization prevents the unauthorized exfiltration of information across managed interfaces.
 
-- \[(b)\] Conduct exfiltration tests {{ insert: param, sc-07.10_odp }}.
+## Control Objective
+
+Determine if the organization prevents the unauthorized exfiltration of information across managed interfaces.
 
 ## Control guidance
 
-Prevention of exfiltration applies to both the intentional and unintentional exfiltration of information. Techniques used to prevent the exfiltration of information from systems may be implemented at internal endpoints, external boundaries, and across managed interfaces and include adherence to protocol formats, monitoring for beaconing activity from systems, disconnecting external network interfaces except when explicitly needed, employing traffic profile analysis to detect deviations from the volume and types of traffic expected, call backs to command and control centers, conducting penetration testing, monitoring for steganography, disassembling and reassembling packet headers, and using data loss and data leakage prevention tools. Devices that enforce strict adherence to protocol formats include deep packet inspection firewalls and Extensible Markup Language (XML) gateways. The devices verify adherence to protocol formats and specifications at the application layer and identify vulnerabilities that cannot be detected by devices that operate at the network or transport layers. The prevention of exfiltration is similar to data loss prevention or data leakage prevention and is closely associated with cross-domain solutions and system guards that enforce information flow requirements.
-
-## Control assessment-objective
-
-the exfiltration of information is prevented;
-exfiltration tests are conducted {{ insert: param, sc-07.10_odp }}.
+Safeguards implemented by organizations to prevent unauthorized exfiltration of information from information systems include, for example: (i) strict adherence to protocol formats; (ii) monitoring for beaconing from information systems; (iii) monitoring for steganography; (iv) disconnecting external network interfaces except when explicitly needed; (v) disassembling and reassembling packet headers; and (vi) employing traffic profile analysis to detect deviations from the volume/types of traffic expected within organizations or call backs to command and control centers. Devices enforcing strict adherence to protocol formats include, for example, deep packet inspection firewalls and XML gateways. These devices verify adherence to protocol formats and specification at the application layer and serve to identify vulnerabilities that cannot be detected by devices operating at the network or transport layers. This control enhancement is closely associated with cross-domain solutions and system guards enforcing information flow requirements.

@@ -1,19 +1,14 @@
 ---
-sort-id: si-07.03
 x-trestle-global:
   sort-id: si-07.03
 ---
 
-# si-7.3 - \[System and Information Integrity\] Centrally Managed Integrity Tools
+# si-7.3 - \[System and Information Integrity\] Centrally-managed Integrity Tools
 
 ## Control Statement
 
-Employ centrally managed integrity verification tools.
+The organization employs centrally managed integrity verification tools.
 
-## Control guidance
+## Control Objective
 
-Centrally managed integrity verification tools provides greater consistency in the application of such tools and can facilitate more comprehensive coverage of integrity verification actions.
-
-## Control assessment-objective
-
-centrally managed integrity verification tools are employed.
+Determine if the organization employs centrally managed integrity verification tools.

@@ -1,39 +1,40 @@
 ---
 x-trestle-set-params:
-  ca-03_odp.01:
+  ca-3_prm_1:
     values:
-  ca-03_odp.02:
-    values:
-  ca-03_odp.03:
-    values:
-sort-id: ca-03
 x-trestle-global:
   sort-id: ca-03
 ---
 
-# ca-3 - \[Assessment, Authorization, and Monitoring\] Information Exchange
+# ca-3 - \[Security Assessment and Authorization\] System Interconnections
 
 ## Control Statement
 
-- \[a.\] Approve and manage the exchange of information between the system and other systems using {{ insert: param, ca-03_odp.01 }};
+The organization:
 
-- \[b.\] Document, as part of each exchange agreement, the interface characteristics, security and privacy requirements, controls, and responsibilities for each system, and the impact level of the information communicated; and
+- \[a.\] Authorizes connections from the information system to other information systems through the use of Interconnection Security Agreements;
 
-- \[c.\] Review and update the agreements {{ insert: param, ca-03_odp.03 }}.
+- \[b.\] Documents, for each interconnection, the interface characteristics, security requirements, and the nature of the information communicated; and
+
+- \[c.\] Reviews and updates Interconnection Security Agreements {{ insert: param, ca-3_prm_1 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CA-3(a)\] authorizes connections from the information system to other information systems through the use of Interconnection Security Agreements;
+
+- \[CA-3(b)\] documents, for each interconnection:
+
+  - \[CA-3(b)[1]\] the interface characteristics;
+  - \[CA-3(b)[2]\] the security requirements;
+  - \[CA-3(b)[3]\] the nature of the information communicated;
+
+- \[CA-3(c)\]
+
+  - \[CA-3(c)[1]\] defines the frequency to review and update Interconnection Security Agreements; and
+  - \[CA-3(c)[2]\] reviews and updates Interconnection Security Agreements with the organization-defined frequency.
 
 ## Control guidance
 
-System information exchange requirements apply to information exchanges between two or more systems. System information exchanges include connections via leased lines or virtual private networks, connections to internet service providers, database sharing or exchanges of database transaction information, connections and exchanges with cloud services, exchanges via web-based services, or exchanges of files via file transfer protocols, network protocols (e.g., IPv4, IPv6), email, or other organization-to-organization communications. Organizations consider the risk related to new or increased threats that may be introduced when systems exchange information with other systems that may have different security and privacy requirements and controls. This includes systems within the same organization and systems that are external to the organization. A joint authorization of the systems exchanging information, as described in [CA-6(1)](#ca-6.1) or [CA-6(2)](#ca-6.2) , may help to communicate and reduce risk.
-
-Authorizing officials determine the risk associated with system information exchange and the controls needed for appropriate risk mitigation. The types of agreements selected are based on factors such as the impact level of the information being exchanged, the relationship between the organizations exchanging information (e.g., government to government, government to business, business to business, government or business to service provider, government or business to individual), or the level of access to the organizational system by users of the other system. If systems that exchange information have the same authorizing official, organizations need not develop agreements. Instead, the interface characteristics between the systems (e.g., how the information is being exchanged. how the information is protected) are described in the respective security and privacy plans. If the systems that exchange information have different authorizing officials within the same organization, the organizations can develop agreements or provide the same information that would be provided in the appropriate agreement type from [CA-3a](#ca-3_smt.a) in the respective security and privacy plans for the systems. Organizations may incorporate agreement information into formal contracts, especially for information exchanges established between federal agencies and nonfederal organizations (including service providers, contractors, system developers, and system integrators). Risk considerations include systems that share the same networks.
-
-## Control assessment-objective
-
-the exchange of information between the system and other systems is approved and managed using {{ insert: param, ca-03_odp.01 }};
-the interface characteristics are documented as part of each exchange agreement;
-security requirements are documented as part of each exchange agreement;
-privacy requirements are documented as part of each exchange agreement;
-controls are documented as part of each exchange agreement;
-responsibilities for each system are documented as part of each exchange agreement;
-the impact level of the information communicated is documented as part of each exchange agreement;
-agreements are reviewed and updated {{ insert: param, ca-03_odp.03 }}.
+This control applies to dedicated connections between information systems (i.e., system interconnections) and does not apply to transitory, user-controlled connections such as email and website browsing. Organizations carefully consider the risks that may be introduced when information systems are connected to other systems with different security requirements and security controls, both within organizations and external to organizations. Authorizing officials determine the risk associated with information system connections and the appropriate controls employed. If interconnecting systems have the same authorizing official, organizations do not need to develop Interconnection Security Agreements. Instead, organizations can describe the interface characteristics between those interconnecting systems in their respective security plans. If interconnecting systems have different authorizing officials within the same organization, organizations can either develop Interconnection Security Agreements or describe the interface characteristics between systems in the security plans for the respective systems. Organizations may also incorporate Interconnection Security Agreement information into formal contracts, especially for interconnections established between federal agencies and nonfederal (i.e., private sector) organizations. Risk considerations also include information systems sharing the same networks. For certain technologies (e.g., space, unmanned aerial vehicles, and medical devices), there may be specialized connections in place during preoperational testing. Such connections may require Interconnection Security Agreements and be subject to additional security controls.

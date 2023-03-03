@@ -1,23 +1,25 @@
 ---
 x-trestle-set-params:
-  ir-04.07_odp:
+  ir-4.7_prm_1:
     values:
-sort-id: ir-04.07
 x-trestle-global:
   sort-id: ir-04.07
 ---
 
-# ir-4.7 - \[Incident Response\] Insider Threats — Intra-organization Coordination
+# ir-4.7 - \[Incident Response\] Insider Threats - Intra-organization Coordination
 
 ## Control Statement
 
-Coordinate an incident handling capability for insider threats that includes the following organizational entities {{ insert: param, ir-04.07_odp }}.
+The organization coordinates incident handling capability for insider threats across {{ insert: param, ir-4.7_prm_1 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[IR-4(7)[1]\] defines components or elements of the organization with whom the incident handling capability for insider threats is to be coordinated; and
+
+- \[IR-4(7)[2]\] coordinates incident handling capability for insider threats across organization-defined components or elements of the organization.
 
 ## Control guidance
 
-Incident handling for insider threat incidents (e.g., preparation, detection and analysis, containment, eradication, and recovery) requires coordination among many organizational entities, including mission or business owners, system owners, human resources offices, procurement offices, personnel offices, physical security offices, senior agency information security officer, operations personnel, risk executive (function), senior agency official for privacy, and legal counsel. In addition, organizations may require external support from federal, state, and local law enforcement agencies.
-
-## Control assessment-objective
-
-an incident handling capability is coordinated for insider threats;
-the coordinated incident handling capability includes {{ insert: param, ir-04.07_odp }}.
+Incident handling for insider threat incidents (including preparation, detection and analysis, containment, eradication, and recovery) requires close coordination among a variety of organizational components or elements to be effective. These components or elements include, for example, mission/business owners, information system owners, human resources offices, procurement offices, personnel/physical security offices, operations personnel, and risk executive (function). In addition, organizations may require external support from federal, state, and local law enforcement agencies.

@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ir-09.04_odp:
+  ir-9.4_prm_1:
     values:
-sort-id: ir-09.04
 x-trestle-global:
   sort-id: ir-09.04
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Employ the following controls for personnel exposed to information not within assigned access authorizations: {{ insert: param, ir-09.04_odp }}.
+The organization employs {{ insert: param, ir-9.4_prm_1 }} for personnel exposed to information not within assigned access authorizations.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[IR-9(4)[1]\] defines security safeguards to be employed for personnel exposed to information not within assigned access authorizations; and
+
+- \[IR-9(4)[2]\] employs organization-defined security safeguards for personnel exposed to information not within assigned access authorizations.
 
 ## Control guidance
 
-Controls include ensuring that personnel who are exposed to spilled information are made aware of the laws, executive orders, directives, regulations, policies, standards, and guidelines regarding the information and the restrictions imposed based on exposure to such information.
-
-## Control assessment-objective
-
-{{ insert: param, ir-09.04_odp }} are employed for personnel exposed to information not within assigned access authorizations.
+Security safeguards include, for example, making personnel exposed to spilled information aware of the federal laws, directives, policies, and/or regulations regarding the information and the restrictions imposed based on exposure to such information.

@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ac-03.05_odp:
+  ac-3.5_prm_1:
     values:
-sort-id: ac-03.05
 x-trestle-global:
   sort-id: ac-03.05
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Prevent access to {{ insert: param, ac-03.05_odp }} except during secure, non-operable system states.
+The information system prevents access to {{ insert: param, ac-3.5_prm_1 }} except during secure, non-operable system states.
+
+## Control Objective
+
+Determine if:
+
+- \[AC-3(5)[1]\] the organization defines security-relevant information to which the information system prevents access except during secure, non-operable system states; and
+
+- \[AC-3(5)[2]\] the information system prevents access to organization-defined security-relevant information except during secure, non-operable system states.
 
 ## Control guidance
 
-Security-relevant information is information within systems that can potentially impact the operation of security functions or the provision of security services in a manner that could result in failure to enforce system security and privacy policies or maintain the separation of code and data. Security-relevant information includes access control lists, filtering rules for routers or firewalls, configuration parameters for security services, and cryptographic key management information. Secure, non-operable system states include the times in which systems are not performing mission or business-related processing, such as when the system is offline for maintenance, boot-up, troubleshooting, or shut down.
-
-## Control assessment-objective
-
-access to {{ insert: param, ac-03.05_odp }} is prevented except during secure, non-operable system states.
+Security-relevant information is any information within information systems that can potentially impact the operation of security functions or the provision of security services in a manner that could result in failure to enforce system security policies or maintain the isolation of code and data. Security-relevant information includes, for example, filtering rules for routers/firewalls, cryptographic key management information, configuration parameters for security services, and access control lists. Secure, non-operable system states include the times in which information systems are not performing mission/business-related processing (e.g., the system is off-line for maintenance, troubleshooting, boot-up, shut down).

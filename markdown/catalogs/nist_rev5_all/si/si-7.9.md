@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  si-07.09_odp:
+  si-7.9_prm_1:
     values:
-sort-id: si-07.09
 x-trestle-global:
   sort-id: si-07.09
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Verify the integrity of the boot process of the following system components: {{ insert: param, si-07.09_odp }}.
+The information system verifies the integrity of the boot process of {{ insert: param, si-7.9_prm_1 }}.
+
+## Control Objective
+
+Determine if:
+
+- \[SI-7(9)[1]\] the organization defines devices requiring integrity verification of the boot process; and
+
+- \[SI-7(9)[2]\] the information system verifies the integrity of the boot process of organization-defined devices.
 
 ## Control guidance
 
-Ensuring the integrity of boot processes is critical to starting system components in known, trustworthy states. Integrity verification mechanisms provide a level of assurance that only trusted code is executed during boot processes.
-
-## Control assessment-objective
-
-the integrity of the boot process of {{ insert: param, si-07.09_odp }} is verified.
+Ensuring the integrity of boot processes is critical to starting devices in known/trustworthy states. Integrity verification mechanisms provide organizational personnel with assurance that only trusted code is executed during boot processes.

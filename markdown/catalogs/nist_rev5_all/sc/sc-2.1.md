@@ -1,5 +1,4 @@
 ---
-sort-id: sc-02.01
 x-trestle-global:
   sort-id: sc-02.01
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Prevent the presentation of system management functionality at interfaces to non-privileged users.
+The information system prevents the presentation of information system management-related functionality at an interface for non-privileged users.
+
+## Control Objective
+
+Determine if the information system prevents the presentation of information system management-related functionality at an interface for non-privileged users.
 
 ## Control guidance
 
-Preventing the presentation of system management functionality at interfaces to non-privileged users ensures that system administration options, including administrator privileges, are not available to the general user population. Restricting user access also prohibits the use of the grey-out option commonly used to eliminate accessibility to such information. One potential solution is to withhold system administration options until users establish sessions with administrator privileges.
-
-## Control assessment-objective
-
-the presentation of system management functionality is prevented at interfaces to non-privileged users.
+This control enhancement ensures that administration options (e.g., administrator privileges) are not available to general users (including prohibiting the use of the grey-out option commonly used to eliminate accessibility to such information). Such restrictions include, for example, not presenting administration options until users establish sessions with administrator privileges.

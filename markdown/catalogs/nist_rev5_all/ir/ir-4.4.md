@@ -1,5 +1,4 @@
 ---
-sort-id: ir-04.04
 x-trestle-global:
   sort-id: ir-04.04
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Correlate incident information and individual incident responses to achieve an organization-wide perspective on incident awareness and response.
+The organization correlates incident information and individual incident responses to achieve an organization-wide perspective on incident awareness and response.
+
+## Control Objective
+
+Determine if the organization correlates incident information and individual incident responses to achieve an organization-wide perspective on incident awareness and response.
 
 ## Control guidance
 
-Sometimes, a threat event, such as a hostile cyber-attack, can only be observed by bringing together information from different sources, including various reports and reporting procedures established by organizations.
-
-## Control assessment-objective
-
-incident information and individual incident responses are correlated to achieve an organization-wide perspective on incident awareness and response.
+Sometimes the nature of a threat event, for example, a hostile cyber attack, is such that it can only be observed by bringing together information from different sources including various reports and reporting procedures established by organizations.

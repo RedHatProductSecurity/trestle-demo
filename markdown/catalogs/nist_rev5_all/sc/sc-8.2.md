@@ -1,23 +1,29 @@
 ---
 x-trestle-set-params:
-  sc-08.02_odp:
+  sc-8.2_prm_1:
     values:
-sort-id: sc-08.02
 x-trestle-global:
   sort-id: sc-08.02
 ---
 
-# sc-8.2 - \[System and Communications Protection\] Pre- and Post-transmission Handling
+# sc-8.2 - \[System and Communications Protection\] Pre / Post Transmission Handling
 
 ## Control Statement
 
-Maintain the {{ insert: param, sc-08.02_odp }} of information during preparation for transmission and during reception.
+The information system maintains the {{ insert: param, sc-8.2_prm_1 }} of information during preparation for transmission and during reception.
+
+## Control Objective
+
+Determine if the information system maintains one or more of the following:
+
+- \[SC-8(2)[1]\] confidentiality of information during preparation for transmission;
+
+- \[SC-8(2)[2]\] confidentiality of information during reception; and/or
+
+- \[SC-8(2)[3]\] integrity of information during preparation for transmission;
+
+- \[SC-8(2)[4]\] integrity of information during reception.
 
 ## Control guidance
 
-Information can be unintentionally or maliciously disclosed or modified during preparation for transmission or during reception, including during aggregation, at protocol transformation points, and during packing and unpacking. Such unauthorized disclosures or modifications compromise the confidentiality or integrity of the information.
-
-## Control assessment-objective
-
-information {{ insert: param, sc-08.02_odp }} is/are maintained during preparation for transmission;
-information {{ insert: param, sc-08.02_odp }} is/are maintained during reception.
+Information can be either unintentionally or maliciously disclosed or modified during preparation for transmission or during reception including, for example, during aggregation, at protocol transformation points, and during packing/unpacking. These unauthorized disclosures or modifications compromise the confidentiality or integrity of the information.

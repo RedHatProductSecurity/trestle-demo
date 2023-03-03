@@ -1,22 +1,26 @@
 ---
-sort-id: sa-04.09
 x-trestle-global:
   sort-id: sa-04.09
 ---
 
-# sa-4.9 - \[System and Services Acquisition\] Functions, Ports, Protocols, and Services in Use
+# sa-4.9 - \[System and Services Acquisition\] Functions / Ports / Protocols / Services in Use
 
 ## Control Statement
 
-Require the developer of the system, system component, or system service to identify the functions, ports, protocols, and services intended for organizational use.
+The organization requires the developer of the information system, system component, or information system service to identify early in the system development life cycle, the functions, ports, protocols, and services intended for organizational use.
+
+## Control Objective
+
+Determine if the organization requires the developer of the information system, system component, or information system service to identify early in the system development life cycle:
+
+- \[SA-4(9)[1]\] the functions intended for organizational use;
+
+- \[SA-4(9)[2]\] the ports intended for organizational use;
+
+- \[SA-4(9)[3]\] the protocols intended for organizational use; and
+
+- \[SA-4(9)[4]\] the services intended for organizational use.
 
 ## Control guidance
 
-The identification of functions, ports, protocols, and services early in the system development life cycle (e.g., during the initial requirements definition and design stages) allows organizations to influence the design of the system, system component, or system service. This early involvement in the system development life cycle helps organizations avoid or minimize the use of functions, ports, protocols, or services that pose unnecessarily high risks and understand the trade-offs involved in blocking specific ports, protocols, or services or requiring system service providers to do so. Early identification of functions, ports, protocols, and services avoids costly retrofitting of controls after the system, component, or system service has been implemented. [SA-9](#sa-9) describes the requirements for external system services. Organizations identify which functions, ports, protocols, and services are provided from external sources.
-
-## Control assessment-objective
-
-the developer of the system, system component, or system service is required to identify the functions intended for organizational use;
-the developer of the system, system component, or system service is required to identify the ports intended for organizational use;
-the developer of the system, system component, or system service is required to identify the protocols intended for organizational use;
-the developer of the system, system component, or system service is required to identify the services intended for organizational use.
+The identification of functions, ports, protocols, and services early in the system development life cycle (e.g., during the initial requirements definition and design phases) allows organizations to influence the design of the information system, information system component, or information system service. This early involvement in the life cycle helps organizations to avoid or minimize the use of functions, ports, protocols, or services that pose unnecessarily high risks and understand the trade-offs involved in blocking specific ports, protocols, or services (or when requiring information system service providers to do so). Early identification of functions, ports, protocols, and services avoids costly retrofitting of security controls after the information system, system component, or information system service has been implemented. SA-9 describes requirements for external information system services with organizations identifying which functions, ports, protocols, and services are provided from external sources.

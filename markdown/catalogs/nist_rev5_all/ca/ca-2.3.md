@@ -1,26 +1,33 @@
 ---
 x-trestle-set-params:
-  ca-02.03_odp.01:
+  ca-2.3_prm_1:
     values:
-  ca-02.03_odp.02:
+  ca-2.3_prm_2:
     values:
-  ca-02.03_odp.03:
+  ca-2.3_prm_3:
     values:
-sort-id: ca-02.03
 x-trestle-global:
   sort-id: ca-02.03
 ---
 
-# ca-2.3 - \[Assessment, Authorization, and Monitoring\] Leveraging Results from External Organizations
+# ca-2.3 - \[Security Assessment and Authorization\] External Organizations
 
 ## Control Statement
 
-Leverage the results of control assessments performed by {{ insert: param, ca-02.03_odp.01 }} on {{ insert: param, ca-02.03_odp.02 }} when the assessment meets {{ insert: param, ca-02.03_odp.03 }}.
+The organization accepts the results of an assessment of {{ insert: param, ca-2.3_prm_1 }} performed by {{ insert: param, ca-2.3_prm_2 }} when the assessment meets {{ insert: param, ca-2.3_prm_3 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CA-2(3)[1]\] defines an information system for which the results of a security assessment performed by an external organization are to be accepted;
+
+- \[CA-2(3)[2]\] defines an external organization from which to accept a security assessment performed on an organization-defined information system;
+
+- \[CA-2(3)[3]\] defines the requirements to be met by a security assessment performed by organization-defined external organization on organization-defined information system; and
+
+- \[CA-2(3)[4]\] accepts the results of an assessment of an organization-defined information system performed by an organization-defined external organization when the assessment meets organization-defined requirements.
 
 ## Control guidance
 
-Organizations may rely on control assessments of organizational systems by other (external) organizations. Using such assessments and reusing existing assessment evidence can decrease the time and resources required for assessments by limiting the independent assessment activities that organizations need to perform. The factors that organizations consider in determining whether to accept assessment results from external organizations can vary. Such factors include the organization’s past experience with the organization that conducted the assessment, the reputation of the assessment organization, the level of detail of supporting assessment evidence provided, and mandates imposed by applicable laws, executive orders, directives, regulations, policies, standards, and guidelines. Accredited testing laboratories that support the Common Criteria Program [ISO 15408-1](#6afc1b04-c9d6-4023-adbc-f8fbe33a3c73) , the NIST Cryptographic Module Validation Program (CMVP), or the NIST Cryptographic Algorithm Validation Program (CAVP) can provide independent assessment results that organizations can leverage.
-
-## Control assessment-objective
-
-the results of control assessments performed by {{ insert: param, ca-02.03_odp.01 }} on {{ insert: param, ca-02.03_odp.02 }} are leveraged when the assessment meets {{ insert: param, ca-02.03_odp.03 }}.
+Organizations may often rely on assessments of specific information systems by other (external) organizations. Utilizing such existing assessments (i.e., reusing existing assessment evidence) can significantly decrease the time and resources required for organizational assessments by limiting the amount of independent assessment activities that organizations need to perform. The factors that organizations may consider in determining whether to accept assessment results from external organizations can vary. Determinations for accepting assessment results can be based on, for example, past assessment experiences one organization has had with another organization, the reputation that organizations have with regard to assessments, the level of detail of supporting assessment documentation provided, or mandates imposed upon organizations by federal legislation, policies, or directives.

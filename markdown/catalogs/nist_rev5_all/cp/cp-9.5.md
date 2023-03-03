@@ -2,11 +2,6 @@
 x-trestle-set-params:
   cp-9.5_prm_1:
     values:
-  cp-09.05_odp.01:
-    values:
-  cp-09.05_odp.02:
-    values:
-sort-id: cp-09.05
 x-trestle-global:
   sort-id: cp-09.05
 ---
@@ -15,13 +10,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Transfer system backup information to the alternate storage site {{ insert: param, cp-9.5_prm_1 }}.
+The organization transfers information system backup information to the alternate storage site {{ insert: param, cp-9.5_prm_1 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CP-9(5)[1]\] defines a time period, consistent with recovery time objectives and recovery point objectives as specified in the information system contingency plan, to transfer information system backup information to the alternate storage site;
+
+- \[CP-9(5)[2]\] defines a transfer rate, consistent with recovery time objectives and recovery point objectives as specified in the information system contingency plan, to transfer information system backup information to the alternate storage site; and
+
+- \[CP-9(5)[3]\] transfers information system backup information to the alternate storage site with the organization-defined time period and transfer rate.
 
 ## Control guidance
 
-System backup information can be transferred to alternate storage sites either electronically or by the physical shipment of storage media.
-
-## Control assessment-objective
-
-system backup information is transferred to the alternate storage site for {{ insert: param, cp-09.05_odp.01 }};
-system backup information is transferred to the alternate storage site {{ insert: param, cp-09.05_odp.02 }}.
+Information system backup information can be transferred to alternate storage sites either electronically or by physical shipment of storage media.

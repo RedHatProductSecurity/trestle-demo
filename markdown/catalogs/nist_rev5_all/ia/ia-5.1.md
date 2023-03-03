@@ -1,10 +1,13 @@
 ---
 x-trestle-set-params:
-  ia-05.01_odp.01:
+  ia-5.1_prm_1:
     values:
-  ia-05.01_odp.02:
+  ia-5.1_prm_2:
     values:
-sort-id: ia-05.01
+  ia-5.1_prm_3:
+    values:
+  ia-5.1_prm_4:
+    values:
 x-trestle-global:
   sort-id: ia-05.01
 ---
@@ -13,35 +16,53 @@ x-trestle-global:
 
 ## Control Statement
 
-For password-based authentication:
+The information system, for password-based authentication:
 
-- \[(a)\] Maintain a list of commonly-used, expected, or compromised passwords and update the list {{ insert: param, ia-05.01_odp.01 }} and when organizational passwords are suspected to have been compromised directly or indirectly;
+- \[(a)\] Enforces minimum password complexity of {{ insert: param, ia-5.1_prm_1 }};
 
-- \[(b)\] Verify, when users create or update passwords, that the passwords are not found on the list of commonly-used, expected, or compromised passwords in IA-5(1)(a);
+- \[(b)\] Enforces at least the following number of changed characters when new passwords are created: {{ insert: param, ia-5.1_prm_2 }};
 
-- \[(c)\] Transmit passwords only over cryptographically-protected channels;
+- \[(c)\] Stores and transmits only cryptographically-protected passwords;
 
-- \[(d)\] Store passwords using an approved salted key derivation function, preferably using a keyed hash;
+- \[(d)\] Enforces password minimum and maximum lifetime restrictions of {{ insert: param, ia-5.1_prm_3 }};
 
-- \[(e)\] Require immediate selection of a new password upon account recovery;
+- \[(e)\] Prohibits password reuse for {{ insert: param, ia-5.1_prm_4 }} generations; and
 
-- \[(f)\] Allow user selection of long passwords and passphrases, including spaces and all printable characters;
+- \[(f)\] Allows the use of a temporary password for system logons with an immediate change to a permanent password.
 
-- \[(g)\] Employ automated tools to assist the user in selecting strong password authenticators; and
+## Control Objective
 
-- \[(h)\] Enforce the following composition and complexity rules: {{ insert: param, ia-05.01_odp.02 }}.
+Determine if, for password-based authentication:
+
+- \[IA-5(1)(a)\]
+
+  - \[IA-5(1)(a)[1]\] the organization defines requirements for case sensitivity;
+  - \[IA-5(1)(a)[2]\] the organization defines requirements for number of characters;
+  - \[IA-5(1)(a)[3]\] the organization defines requirements for the mix of upper-case letters, lower-case letters, numbers and special characters;
+  - \[IA-5(1)(a)[4]\] the organization defines minimum requirements for each type of character;
+  - \[IA-5(1)(a)[5]\] the information system enforces minimum password complexity of organization-defined requirements for case sensitivity, number of characters, mix of upper-case letters, lower-case letters, numbers, and special characters, including minimum requirements for each type;
+
+- \[IA-5(1)(b)\]
+
+  - \[IA-5(1)(b)[1]\] the organization defines a minimum number of changed characters to be enforced when new passwords are created;
+  - \[IA-5(1)(b)[2]\] the information system enforces at least the organization-defined minimum number of characters that must be changed when new passwords are created;
+
+- \[IA-5(1)(c)\] the information system stores and transmits only encrypted representations of passwords;
+
+- \[IA-5(1)(d)\]
+
+  - \[IA-5(1)(d)[1]\] the organization defines numbers for password minimum lifetime restrictions to be enforced for passwords;
+  - \[IA-5(1)(d)[2]\] the organization defines numbers for password maximum lifetime restrictions to be enforced for passwords;
+  - \[IA-5(1)(d)[3]\] the information system enforces password minimum lifetime restrictions of organization-defined numbers for lifetime minimum;
+  - \[IA-5(1)(d)[4]\] the information system enforces password maximum lifetime restrictions of organization-defined numbers for lifetime maximum;
+
+- \[IA-5(1)(e)\]
+
+  - \[IA-5(1)(e)[1]\] the organization defines the number of password generations to be prohibited from password reuse;
+  - \[IA-5(1)(e)[2]\] the information system prohibits password reuse for the organization-defined number of generations; and
+
+- \[IA-5(1)(f)\] the information system allows the use of a temporary password for system logons with an immediate change to a permanent password.
 
 ## Control guidance
 
-Password-based authentication applies to passwords regardless of whether they are used in single-factor or multi-factor authentication. Long passwords or passphrases are preferable over shorter passwords. Enforced composition rules provide marginal security benefits while decreasing usability. However, organizations may choose to establish certain rules for password generation (e.g., minimum character length for long passwords) under certain circumstances and can enforce this requirement in IA-5(1)(h). Account recovery can occur, for example, in situations when a password is forgotten. Cryptographically protected passwords include salted one-way cryptographic hashes of passwords. The list of commonly used, compromised, or expected passwords includes passwords obtained from previous breach corpuses, dictionary words, and repetitive or sequential characters. The list includes context-specific words, such as the name of the service, username, and derivatives thereof.
-
-## Control assessment-objective
-
-for password-based authentication, a list of commonly used, expected, or compromised passwords is maintained and updated {{ insert: param, ia-05.01_odp.01 }} and when organizational passwords are suspected to have been compromised directly or indirectly;
-for password-based authentication when passwords are created or updated by users, the passwords are verified not to be found on the list of commonly used, expected, or compromised passwords in IA-05(01)(a);
-for password-based authentication, passwords are only transmitted over cryptographically protected channels;
-for password-based authentication, passwords are stored using an approved salted key derivation function, preferably using a keyed hash;
-for password-based authentication, immediate selection of a new password is required upon account recovery;
-for password-based authentication, user selection of long passwords and passphrases is allowed, including spaces and all printable characters;
-for password-based authentication, automated tools are employed to assist the user in selecting strong password authenticators;
-for password-based authentication, {{ insert: param, ia-05.01_odp.02 }} are enforced.
+This control enhancement applies to single-factor authentication of individuals using passwords as individual or group authenticators, and in a similar manner, when passwords are part of multifactor authenticators. This control enhancement does not apply when passwords are used to unlock hardware authenticators (e.g., Personal Identity Verification cards). The implementation of such password mechanisms may not meet all of the requirements in the enhancement. Cryptographically-protected passwords include, for example, encrypted versions of passwords and one-way cryptographic hashes of passwords. The number of changed characters refers to the number of changes required with respect to the total number of positions in the current password. Password lifetime restrictions do not apply to temporary passwords. To mitigate certain brute force attacks against passwords, organizations may also consider salting passwords.

@@ -1,22 +1,21 @@
 ---
 x-trestle-set-params:
-  ac-02.09_odp:
+  ac-2.9_prm_1:
     values:
-sort-id: ac-02.09
 x-trestle-global:
   sort-id: ac-02.09
 ---
 
-# ac-2.9 - \[Access Control\] Restrictions on Use of Shared and Group Accounts
+# ac-2.9 - \[Access Control\] Restrictions On Use of Shared / Group Accounts
 
 ## Control Statement
 
-Only permit the use of shared and group accounts that meet {{ insert: param, ac-02.09_odp }}.
+The organization only permits the use of shared/group accounts that meet {{ insert: param, ac-2.9_prm_1 }}.
 
-## Control guidance
+## Control Objective
 
-Before permitting the use of shared or group accounts, organizations consider the increased risk due to the lack of accountability with such accounts.
+Determine if the organization:
 
-## Control assessment-objective
+- \[AC-2(9)[1]\] defines conditions for establishing shared/group accounts; and
 
-the use of shared and group accounts is only permitted if {{ insert: param, ac-02.09_odp }} are met.
+- \[AC-2(9)[2]\] only permits the use of shared/group accounts that meet organization-defined conditions for establishing shared/group accounts.

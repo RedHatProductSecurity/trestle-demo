@@ -1,5 +1,4 @@
 ---
-sort-id: sa-04.10
 x-trestle-global:
   sort-id: sa-04.10
 ---
@@ -8,12 +7,8 @@ x-trestle-global:
 
 ## Control Statement
 
-Employ only information technology products on the FIPS 201-approved products list for Personal Identity Verification (PIV) capability implemented within organizational systems.
+The organization employs only information technology products on the FIPS 201-approved products list for Personal Identity Verification (PIV) capability implemented within organizational information systems.
 
-## Control guidance
+## Control Objective
 
-Products on the FIPS 201-approved products list meet NIST requirements for Personal Identity Verification (PIV) of Federal Employees and Contractors. PIV cards are used for multi-factor authentication in systems and organizations.
-
-## Control assessment-objective
-
-only information technology products on the FIPS 201-approved products list for the Personal Identity Verification (PIV) capability implemented within organizational systems are employed.
+Determine if the organization employs only information technology products on the FIPS 201-approved products list for Personal Identity Verification (PIV) capability implemented within organizational information systems.

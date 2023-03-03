@@ -1,14 +1,9 @@
 ---
 x-trestle-set-params:
+  cp-4_prm_1:
+    values:
   cp-4_prm_2:
     values:
-  cp-04_odp.01:
-    values:
-  cp-04_odp.02:
-    values:
-  cp-04_odp.03:
-    values:
-sort-id: cp-04
 x-trestle-global:
   sort-id: cp-04
 ---
@@ -17,20 +12,28 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Test the contingency plan for the system {{ insert: param, cp-04_odp.01 }} using the following tests to determine the effectiveness of the plan and the readiness to execute the plan: {{ insert: param, cp-4_prm_2 }}.
+The organization:
 
-- \[b.\] Review the contingency plan test results; and
+- \[a.\] Tests the contingency plan for the information system {{ insert: param, cp-4_prm_1 }} using {{ insert: param, cp-4_prm_2 }} to determine the effectiveness of the plan and the organizational readiness to execute the plan;
 
-- \[c.\] Initiate corrective actions, if needed.
+- \[b.\] Reviews the contingency plan test results; and
+
+- \[c.\] Initiates corrective actions, if needed.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CP-4(a)\]
+
+  - \[CP-4(a)[1]\] defines tests to determine the effectiveness of the contingency plan and the organizational readiness to execute the plan;
+  - \[CP-4(a)[2]\] defines a frequency to test the contingency plan for the information system;
+  - \[CP-4(a)[3]\] tests the contingency plan for the information system with the organization-defined frequency, using organization-defined tests to determine the effectiveness of the plan and the organizational readiness to execute the plan;
+
+- \[CP-4(b)\] reviews the contingency plan test results; and
+
+- \[CP-4(c)\] initiates corrective actions, if needed.
 
 ## Control guidance
 
-Methods for testing contingency plans to determine the effectiveness of the plans and identify potential weaknesses include checklists, walk-through and tabletop exercises, simulations (parallel or full interrupt), and comprehensive exercises. Organizations conduct testing based on the requirements in contingency plans and include a determination of the effects on organizational operations, assets, and individuals due to contingency operations. Organizations have flexibility and discretion in the breadth, depth, and timelines of corrective actions.
-
-## Control assessment-objective
-
-the contingency plan for the system is tested {{ insert: param, cp-04_odp.01 }};
-{{ insert: param, cp-04_odp.02 }} are used to determine the effectiveness of the plan;
-{{ insert: param, cp-04_odp.03 }} are used to determine the readiness to execute the plan;
-the contingency plan test results are reviewed;
-corrective actions are initiated, if needed.
+Methods for testing contingency plans to determine the effectiveness of the plans and to identify potential weaknesses in the plans include, for example, walk-through and tabletop exercises, checklists, simulations (parallel, full interrupt), and comprehensive exercises. Organizations conduct testing based on the continuity requirements in contingency plans and include a determination of the effects on organizational operations, assets, and individuals arising due to contingency operations. Organizations have flexibility and discretion in the breadth, depth, and timelines of corrective actions.

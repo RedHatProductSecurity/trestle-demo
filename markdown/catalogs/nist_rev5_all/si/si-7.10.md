@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  si-07.10_odp.01:
+  si-7.10_prm_1:
     values:
-  si-07.10_odp.02:
+  si-7.10_prm_2:
     values:
-sort-id: si-07.10
 x-trestle-global:
   sort-id: si-07.10
 ---
@@ -13,12 +12,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement the following mechanisms to protect the integrity of boot firmware in {{ insert: param, si-07.10_odp.02 }}: {{ insert: param, si-07.10_odp.01 }}.
+The information system implements {{ insert: param, si-7.10_prm_1 }} to protect the integrity of boot firmware in {{ insert: param, si-7.10_prm_2 }}.
+
+## Control Objective
+
+Determine if:
+
+- \[SI-7(10)[1]\] the organization defines security safeguards to be implemented to protect the integrity of boot firmware in devices;
+
+- \[SI-7(10)[2]\] the organization defines devices requiring organization-defined security safeguards to be implemented to protect the integrity of boot firmware; and
+
+- \[SI-7(10)[3]\] the information system implements organization-defined security safeguards to protect the integrity of boot firmware in organization-defined devices.
 
 ## Control guidance
 
-Unauthorized modifications to boot firmware may indicate a sophisticated, targeted attack. These types of targeted attacks can result in a permanent denial of service or a persistent malicious code presence. These situations can occur if the firmware is corrupted or if the malicious code is embedded within the firmware. System components can protect the integrity of boot firmware in organizational systems by verifying the integrity and authenticity of all updates to the firmware prior to applying changes to the system component and preventing unauthorized processes from modifying the boot firmware.
-
-## Control assessment-objective
-
-{{ insert: param, si-07.10_odp.01 }} are implemented to protect the integrity of boot firmware in {{ insert: param, si-07.10_odp.02 }}.
+Unauthorized modifications to boot firmware may be indicative of a sophisticated, targeted cyber attack. These types of cyber attacks can result in a permanent denial of service (e.g., if the firmware is corrupted) or a persistent malicious code presence (e.g., if code is embedded within the firmware). Devices can protect the integrity of the boot firmware in organizational information systems by: (i) verifying the integrity and authenticity of all updates to the boot firmware prior to applying changes to the boot devices; and (ii) preventing unauthorized processes from modifying the boot firmware.

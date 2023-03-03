@@ -1,28 +1,26 @@
 ---
-sort-id: si-04.13
 x-trestle-global:
   sort-id: si-04.13
 ---
 
-# si-4.13 - \[System and Information Integrity\] Analyze Traffic and Event Patterns
+# si-4.13 - \[System and Information Integrity\] Analyze Traffic / Event Patterns
 
 ## Control Statement
 
-- \[(a)\] Analyze communications traffic and event patterns for the system;
+The organization:
 
-- \[(b)\] Develop profiles representing common traffic and event patterns; and
+- \[(a)\] Analyzes communications traffic/event patterns for the information system;
 
-- \[(c)\] Use the traffic and event profiles in tuning system-monitoring devices.
+- \[(b)\] Develops profiles representing common traffic patterns and/or events; and
 
-## Control guidance
+- \[(c)\] Uses the traffic/event profiles in tuning system-monitoring devices to reduce the number of false positives and the number of false negatives.
 
-Identifying and understanding common communications traffic and event patterns help organizations provide useful information to system monitoring devices to more effectively identify suspicious or anomalous traffic and events when they occur. Such information can help reduce the number of false positives and false negatives during system monitoring.
+## Control Objective
 
-## Control assessment-objective
+Determine if the organization:
 
-communications traffic for the system is analyzed;
-event patterns for the system are analyzed;
-profiles representing common traffic are developed;
-profiles representing event patterns are developed;
-traffic profiles are used in tuning system-monitoring devices;
-event profiles are used in tuning system-monitoring devices.
+- \[SI-4(13)(a)\] analyzes communications traffic/event patterns for the information system;
+
+- \[SI-4(13)(b)\] develops profiles representing common traffic patterns and/or events;
+
+- \[SI-4(13)(c)\] uses the traffic/event profiles in tuning system-monitoring devices to reduce the number of false positives and false negatives.

@@ -1,21 +1,24 @@
 ---
-sort-id: cm-03.02
 x-trestle-global:
   sort-id: cm-03.02
 ---
 
-# cm-3.2 - \[Configuration Management\] Testing, Validation, and Documentation of Changes
+# cm-3.2 - \[Configuration Management\] Test / Validate / Document Changes
 
 ## Control Statement
 
-Test, validate, and document changes to the system before finalizing the implementation of the changes.
+The organization tests, validates, and documents changes to the information system before implementing the changes on the operational system.
+
+## Control Objective
+
+Determine if the organization, before implementing changes on the operational system:
+
+- \[CM-3(2)[1]\] tests changes to the information system;
+
+- \[CM-3(2)[2]\] validates changes to the information system; and
+
+- \[CM-3(2)[3]\] documents changes to the information system.
 
 ## Control guidance
 
-Changes to systems include modifications to hardware, software, or firmware components and configuration settings defined in [CM-6](#cm-6) . Organizations ensure that testing does not interfere with system operations that support organizational mission and business functions. Individuals or groups conducting tests understand security and privacy policies and procedures, system security and privacy policies and procedures, and the health, safety, and environmental risks associated with specific facilities or processes. Operational systems may need to be taken offline, or replicated to the extent feasible, before testing can be conducted. If systems must be taken offline for testing, the tests are scheduled to occur during planned system outages whenever possible. If the testing cannot be conducted on operational systems, organizations employ compensating controls.
-
-## Control assessment-objective
-
-changes to the system are tested before finalizing the implementation of the changes;
-changes to the system are validated before finalizing the implementation of the changes;
-changes to the system are documented before finalizing the implementation of the changes.
+Changes to information systems include modifications to hardware, software, or firmware components and configuration settings defined in CM-6. Organizations ensure that testing does not interfere with information system operations. Individuals/groups conducting tests understand organizational security policies and procedures, information system security policies and procedures, and the specific health, safety, and environmental risks associated with particular facilities/processes. Operational systems may need to be taken off-line, or replicated to the extent feasible, before testing can be conducted. If information systems must be taken off-line for testing, the tests are scheduled to occur during planned system outages whenever possible. If testing cannot be conducted on operational systems, organizations employ compensating controls (e.g., testing on replicated systems).

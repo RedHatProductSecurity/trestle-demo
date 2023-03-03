@@ -1,5 +1,4 @@
 ---
-sort-id: sc-07.17
 x-trestle-global:
   sort-id: sc-07.17
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Enforce adherence to protocol formats.
+The information system enforces adherence to protocol formats.
+
+## Control Objective
+
+Determine if the information system enforces adherence to protocol formats.
 
 ## Control guidance
 
-System components that enforce protocol formats include deep packet inspection firewalls and XML gateways. The components verify adherence to protocol formats and specifications at the application layer and identify vulnerabilities that cannot be detected by devices operating at the network or transport layers.
-
-## Control assessment-objective
-
-adherence to protocol formats is enforced.
+Information system components that enforce protocol formats include, for example, deep packet inspection firewalls and XML gateways. Such system components verify adherence to protocol formats/specifications (e.g., IEEE) at the application layer and identify significant vulnerabilities that cannot be detected by devices operating at the network or transport layers.

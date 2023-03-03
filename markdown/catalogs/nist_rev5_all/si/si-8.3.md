@@ -1,5 +1,4 @@
 ---
-sort-id: si-08.03
 x-trestle-global:
   sort-id: si-08.03
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement spam protection mechanisms with a learning capability to more effectively identify legitimate communications traffic.
+The information system implements spam protection mechanisms with a learning capability to more effectively identify legitimate communications traffic.
+
+## Control Objective
+
+Determine if the information system implements spam protection mechanisms with a learning capability to more effectively identify legitimate communications traffic.
 
 ## Control guidance
 
-Learning mechanisms include Bayesian filters that respond to user inputs that identify specific traffic as spam or legitimate by updating algorithm parameters and thereby more accurately separating types of traffic.
-
-## Control assessment-objective
-
-spam protection mechanisms with a learning capability are implemented to more effectively identify legitimate communications traffic.
+Learning mechanisms include, for example, Bayesian filters that respond to user inputs identifying specific traffic as spam or legitimate by updating algorithm parameters and thereby more accurately separating types of traffic.

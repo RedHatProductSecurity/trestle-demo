@@ -1,5 +1,4 @@
 ---
-sort-id: si-04.01
 x-trestle-global:
   sort-id: si-04.01
 ---
@@ -8,13 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Connect and configure individual intrusion detection tools into a system-wide intrusion detection system.
+The organization connects and configures individual intrusion detection tools into an information system-wide intrusion detection system.
 
-## Control guidance
+## Control Objective
 
-Linking individual intrusion detection tools into a system-wide intrusion detection system provides additional coverage and effective detection capabilities. The information contained in one intrusion detection tool can be shared widely across the organization, making the system-wide detection capability more robust and powerful.
+Determine if the organization:
 
-## Control assessment-objective
+- \[SI-4(1)[1]\] connects individual intrusion detection tools into an information system-wide intrusion detection system; and
 
-individual intrusion detection tools are connected to a system-wide intrusion detection system;
-individual intrusion detection tools are configured into a system-wide intrusion detection system.
+- \[SI-4(1)[2]\] configures individual intrusion detection tools into an information system-wide intrusion detection system.

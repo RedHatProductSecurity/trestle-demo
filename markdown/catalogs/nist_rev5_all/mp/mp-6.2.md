@@ -2,11 +2,6 @@
 x-trestle-set-params:
   mp-6.2_prm_1:
     values:
-  mp-06.02_odp.01:
-    values:
-  mp-06.02_odp.02:
-    values:
-sort-id: mp-06.02
 x-trestle-global:
   sort-id: mp-06.02
 ---
@@ -15,13 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Test sanitization equipment and procedures {{ insert: param, mp-6.2_prm_1 }} to ensure that the intended sanitization is being achieved.
+The organization tests sanitization equipment and procedures {{ insert: param, mp-6.2_prm_1 }} to verify that the intended sanitization is being achieved.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[MP-6(2)[1]\] defines the frequency for testing sanitization equipment and procedures to verify that the intended sanitization is being achieved; and
+
+- \[MP-6(2)[2]\] tests sanitization equipment and procedures with the organization-defined frequency to verify that the intended sanitization is being achieved.
 
 ## Control guidance
 
-Testing of sanitization equipment and procedures may be conducted by qualified and authorized external entities, including federal agencies or external service providers.
-
-## Control assessment-objective
-
-sanitization equipment is tested {{ insert: param, mp-06.02_odp.01 }} to ensure that the intended sanitization is being achieved;
-sanitization procedures are tested {{ insert: param, mp-06.02_odp.02 }} to ensure that the intended sanitization is being achieved.
+Testing of sanitization equipment and procedures may be conducted by qualified and authorized external entities (e.g., other federal agencies or external service providers).

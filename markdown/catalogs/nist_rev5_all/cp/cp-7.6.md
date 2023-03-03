@@ -1,5 +1,4 @@
 ---
-sort-id: cp-07.06
 x-trestle-global:
   sort-id: cp-07.06
 ---
@@ -8,13 +7,8 @@ x-trestle-global:
 
 ## Control Statement
 
-Plan and prepare for circumstances that preclude returning to the primary processing site.
+The organization plans and prepares for circumstances that preclude returning to the primary processing site.
 
-## Control guidance
+## Control Objective
 
-There may be situations that preclude an organization from returning to the primary processing site such as if a natural disaster (e.g., flood or a hurricane) damaged or destroyed a facility and it was determined that rebuilding in the same location was not prudent.
-
-## Control assessment-objective
-
-circumstances that preclude returning to the primary processing site are planned for;
-circumstances that preclude returning to the primary processing site are prepared for.
+Determine if the organization plans and prepares for circumstances that preclude returning to the primary processing site.

@@ -1,31 +1,36 @@
 ---
 x-trestle-set-params:
-  ac-02.07_odp:
+  ac-2.7_prm_1:
     values:
-sort-id: ac-02.07
 x-trestle-global:
   sort-id: ac-02.07
 ---
 
-# ac-2.7 - \[Access Control\] Privileged User Accounts
+# ac-2.7 - \[Access Control\] Role-based Schemes
 
 ## Control Statement
 
-- \[(a)\] Establish and administer privileged user accounts in accordance with {{ insert: param, ac-02.07_odp }};
+The organization:
 
-- \[(b)\] Monitor privileged role or attribute assignments;
+- \[(a)\] Establishes and administers privileged user accounts in accordance with a role-based access scheme that organizes allowed information system access and privileges into roles;
 
-- \[(c)\] Monitor changes to roles or attributes; and
+- \[(b)\] Monitors privileged role assignments; and
 
-- \[(d)\] Revoke access when privileged role or attribute assignments are no longer appropriate.
+- \[(c)\] Takes {{ insert: param, ac-2.7_prm_1 }} when privileged role assignments are no longer appropriate.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[AC-2(7)(a)\] establishes and administers privileged user accounts in accordance with a role-based access scheme that organizes allowed information system access and privileges into roles;
+
+- \[AC-2(7)(b)\] monitors privileged role assignments;
+
+- \[AC-2(7)(c)\]
+
+  - \[AC-2(7)(c)[1]\] defines actions to be taken when privileged role assignments are no longer appropriate; and
+  - \[AC-2(7)(c)[2]\] takes organization-defined actions when privileged role assignments are no longer appropriate.
 
 ## Control guidance
 
-Privileged roles are organization-defined roles assigned to individuals that allow those individuals to perform certain security-relevant functions that ordinary users are not authorized to perform. Privileged roles include key management, account management, database administration, system and network administration, and web administration. A role-based access scheme organizes permitted system access and privileges into roles. In contrast, an attribute-based access scheme specifies allowed system access and privileges based on attributes.
-
-## Control assessment-objective
-
-privileged user accounts are established and administered in accordance with {{ insert: param, ac-02.07_odp }};
-privileged role or attribute assignments are monitored;
-changes to roles or attributes are monitored;
-access is revoked when privileged role or attribute assignments are no longer appropriate.
+Privileged roles are organization-defined roles assigned to individuals that allow those individuals to perform certain security-relevant functions that ordinary users are not authorized to perform. These privileged roles include, for example, key management, account management, network and system administration, database administration, and web administration.

@@ -1,24 +1,29 @@
 ---
 x-trestle-set-params:
-  pe-04_odp.01:
+  pe-4_prm_1:
     values:
-  pe-04_odp.02:
+  pe-4_prm_2:
     values:
-sort-id: pe-04
 x-trestle-global:
   sort-id: pe-04
 ---
 
-# pe-4 - \[Physical and Environmental Protection\] Access Control for Transmission
+# pe-4 - \[Physical and Environmental Protection\] Access Control for Transmission Medium
 
 ## Control Statement
 
-Control physical access to {{ insert: param, pe-04_odp.01 }} within organizational facilities using {{ insert: param, pe-04_odp.02 }}.
+The organization controls physical access to {{ insert: param, pe-4_prm_1 }} within organizational facilities using {{ insert: param, pe-4_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PE-4[1]\] defines information system distribution and transmission lines requiring physical access controls;
+
+- \[PE-4[2]\] defines security safeguards to be employed to control physical access to organization-defined information system distribution and transmission lines within organizational facilities; and
+
+- \[PE-4[3]\] controls physical access to organization-defined information system distribution and transmission lines within organizational facilities using organization-defined security safeguards.
 
 ## Control guidance
 
-Security controls applied to system distribution and transmission lines prevent accidental damage, disruption, and physical tampering. Such controls may also be necessary to prevent eavesdropping or modification of unencrypted transmissions. Security controls used to control physical access to system distribution and transmission lines include disconnected or locked spare jacks, locked wiring closets, protection of cabling by conduit or cable trays, and wiretapping sensors.
-
-## Control assessment-objective
-
-physical access to {{ insert: param, pe-04_odp.01 }} within organizational facilities is controlled using {{ insert: param, pe-04_odp.02 }}.
+Physical security safeguards applied to information system distribution and transmission lines help to prevent accidental damage, disruption, and physical tampering. In addition, physical safeguards may be necessary to help prevent eavesdropping or in transit modification of unencrypted transmissions. Security safeguards to control physical access to system distribution and transmission lines include, for example: (i) locked wiring closets; (ii) disconnected or locked spare jacks; and/or (iii) protection of cabling by conduit or cable trays.

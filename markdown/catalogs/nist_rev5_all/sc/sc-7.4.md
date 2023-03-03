@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  sc-07.04_odp:
+  sc-7.4_prm_1:
     values:
-sort-id: sc-07.04
 x-trestle-global:
   sort-id: sc-07.04
 ---
@@ -11,35 +10,35 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[(a)\] Implement a managed interface for each external telecommunication service;
+The organization:
 
-- \[(b)\] Establish a traffic flow policy for each managed interface;
+- \[(a)\] Implements a managed interface for each external telecommunication service;
 
-- \[(c)\] Protect the confidentiality and integrity of the information being transmitted across each interface;
+- \[(b)\] Establishes a traffic flow policy for each managed interface;
 
-- \[(d)\] Document each exception to the traffic flow policy with a supporting mission or business need and duration of that need;
+- \[(c)\] Protects the confidentiality and integrity of the information being transmitted across each interface;
 
-- \[(e)\] Review exceptions to the traffic flow policy {{ insert: param, sc-07.04_odp }} and remove exceptions that are no longer supported by an explicit mission or business need;
+- \[(d)\] Documents each exception to the traffic flow policy with a supporting mission/business need and duration of that need; and
 
-- \[(f)\] Prevent unauthorized exchange of control plane traffic with external networks;
+- \[(e)\] Reviews exceptions to the traffic flow policy {{ insert: param, sc-7.4_prm_1 }} and removes exceptions that are no longer supported by an explicit mission/business need.
 
-- \[(g)\] Publish information to enable remote networks to detect unauthorized control plane traffic from internal networks; and
+## Control Objective
 
-- \[(h)\] Filter unauthorized control plane traffic from external networks.
+Determine if the organization:
 
-## Control guidance
+- \[SC-7(4)(a)\] implements a managed interface for each external telecommunication service;
 
-External telecommunications services can provide data and/or voice communications services. Examples of control plane traffic include Border Gateway Protocol (BGP) routing, Domain Name System (DNS), and management protocols. See [SP 800-189](#f5edfe51-d1f2-422e-9b27-5d0e90b49c72) for additional information on the use of the resource public key infrastructure (RPKI) to protect BGP routes and detect unauthorized BGP announcements.
+- \[SC-7(4)(b)\] establishes a traffic flow policy for each managed interface;
 
-## Control assessment-objective
+- \[SC-7(4)(c)\] protects the confidentiality and integrity of the information being transmitted across each interface;
 
-a managed interface is implemented for each external telecommunication service;
-a traffic flow policy is established for each managed interface;
-the confidentiality of the information being transmitted across each interface is protected;
-the integrity of the information being transmitted across each interface is protected;
-each exception to the traffic flow policy is documented with a supporting mission or business need and duration of that need;
-exceptions to the traffic flow policy are reviewed {{ insert: param, sc-07.04_odp }};
-exceptions to the traffic flow policy that are no longer supported by an explicit mission or business need are removed;
-unauthorized exchanges of control plan traffic with external networks are prevented;
-information is published to enable remote networks to detect unauthorized control plane traffic from internal networks;
-unauthorized control plane traffic is filtered from external networks.
+- \[SC-7(4)(d)\] documents each exception to the traffic flow policy with:
+
+  - \[SC-7(4)(d)[1]\] a supporting mission/business need;
+  - \[SC-7(4)(d)[2]\] duration of that need;
+
+- \[SC-7(4)(e)\]
+
+  - \[SC-7(4)(e)[1]\] defines a frequency to review exceptions to traffic flow policy;
+  - \[SC-7(4)(e)[2]\] reviews exceptions to the traffic flow policy with the organization-defined frequency; and
+  - \[SC-7(4)(e)[3]\] removes traffic flow policy exceptions that are no longer supported by an explicit mission/business need

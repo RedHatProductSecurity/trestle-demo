@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  cp-09.03_odp:
+  cp-9.3_prm_1:
     values:
-sort-id: cp-09.03
 x-trestle-global:
   sort-id: cp-09.03
 ---
@@ -11,12 +10,19 @@ x-trestle-global:
 
 ## Control Statement
 
-Store backup copies of {{ insert: param, cp-09.03_odp }} in a separate facility or in a fire rated container that is not collocated with the operational system.
+The organization stores backup copies of {{ insert: param, cp-9.3_prm_1 }} in a separate facility or in a fire-rated container that is not collocated with the operational system.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CP-9(3)[1]\]
+
+  - \[CP-9(3)[1][a]\] defines critical information system software and other security-related information requiring backup copies to be stored in a separate facility; or
+  - \[CP-9(3)[1][b]\] defines critical information system software and other security-related information requiring backup copies to be stored in a fire-rated container that is not collocated with the operational system; and
+
+- \[CP-9(3)[2]\] stores backup copies of organization-defined critical information system software and other security-related information in a separate facility or in a fire-rated container that is not collocated with the operational system.
 
 ## Control guidance
 
-Separate storage for critical information applies to all critical information regardless of the type of backup storage media. Critical system software includes operating systems, middleware, cryptographic key management systems, and intrusion detection systems. Security-related information includes inventories of system hardware, software, and firmware components. Alternate storage sites, including geographically distributed architectures, serve as separate storage facilities for organizations. Organizations may provide separate storage by implementing automated backup processes at alternative storage sites (e.g., data centers). The General Services Administration (GSA) establishes standards and specifications for security and fire rated containers.
-
-## Control assessment-objective
-
-backup copies of {{ insert: param, cp-09.03_odp }} are stored in a separate facility or in a fire rated container that is not collocated with the operational system.
+Critical information system software includes, for example, operating systems, cryptographic key management systems, and intrusion detection/prevention systems. Security-related information includes, for example, organizational inventories of hardware, software, and firmware components. Alternate storage sites typically serve as separate storage facilities for organizations.

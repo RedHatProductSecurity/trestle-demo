@@ -4,15 +4,6 @@ x-trestle-set-params:
     values:
   mp-2_prm_2:
     values:
-  mp-02_odp.01:
-    values:
-  mp-02_odp.02:
-    values:
-  mp-02_odp.03:
-    values:
-  mp-02_odp.04:
-    values:
-sort-id: mp-02
 x-trestle-global:
   sort-id: mp-02
 ---
@@ -21,13 +12,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Restrict access to {{ insert: param, mp-2_prm_1 }} to {{ insert: param, mp-2_prm_2 }}.
+The organization restricts access to {{ insert: param, mp-2_prm_1 }} to {{ insert: param, mp-2_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[MP-2[1]\] defines types of digital and/or non-digital media requiring restricted access;
+
+- \[MP-2[2]\] defines personnel or roles authorized to access organization-defined types of digital and/or non-digital media; and
+
+- \[MP-2[3]\] restricts access to organization-defined types of digital and/or non-digital media to organization-defined personnel or roles.
 
 ## Control guidance
 
-System media includes digital and non-digital media. Digital media includes flash drives, diskettes, magnetic tapes, external or removable hard disk drives (e.g., solid state, magnetic), compact discs, and digital versatile discs. Non-digital media includes paper and microfilm. Denying access to patient medical records in a community hospital unless the individuals seeking access to such records are authorized healthcare providers is an example of restricting access to non-digital media. Limiting access to the design specifications stored on compact discs in the media library to individuals on the system development team is an example of restricting access to digital media.
-
-## Control assessment-objective
-
-access to {{ insert: param, mp-02_odp.01 }} is restricted to {{ insert: param, mp-02_odp.02 }};
-access to {{ insert: param, mp-02_odp.03 }} is restricted to {{ insert: param, mp-02_odp.04 }}.
+Information system media includes both digital and non-digital media. Digital media includes, for example, diskettes, magnetic tapes, external/removable hard disk drives, flash drives, compact disks, and digital video disks. Non-digital media includes, for example, paper and microfilm. Restricting non-digital media access includes, for example, denying access to patient medical records in a community hospital unless the individuals seeking access to such records are authorized healthcare providers. Restricting access to digital media includes, for example, limiting access to design specifications stored on compact disks in the media library to the project leader and the individuals on the development team.

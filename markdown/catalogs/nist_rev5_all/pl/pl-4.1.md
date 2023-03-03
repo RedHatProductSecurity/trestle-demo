@@ -1,27 +1,22 @@
 ---
-sort-id: pl-04.01
 x-trestle-global:
   sort-id: pl-04.01
 ---
 
-# pl-4.1 - \[Planning\] Social Media and External Site/Application Usage Restrictions
+# pl-4.1 - \[Planning\] Social Media and Networking Restrictions
 
 ## Control Statement
 
-Include in the rules of behavior, restrictions on:
+The organization includes in the rules of behavior, explicit restrictions on the use of social media/networking sites and posting organizational information on public websites.
 
-- \[(a)\] Use of social media, social networking sites, and external sites/applications;
+## Control Objective
 
-- \[(b)\] Posting organizational information on public websites; and
+Determine if the organization includes the following in the rules of behavior:
 
-- \[(c)\] Use of organization-provided identifiers (e.g., email addresses) and authentication secrets (e.g., passwords) for creating accounts on external sites/applications.
+- \[PL-4(1)[1]\] explicit restrictions on the use of social media/networking sites; and
+
+- \[PL-4(1)[2]\] posting organizational information on public websites.
 
 ## Control guidance
 
-Social media, social networking, and external site/application usage restrictions address rules of behavior related to the use of social media, social networking, and external sites when organizational personnel are using such sites for official duties or in the conduct of official business, when organizational information is involved in social media and social networking transactions, and when personnel access social media and networking sites from organizational systems. Organizations also address specific rules that prevent unauthorized entities from obtaining non-public organizational information from social media and networking sites either directly or through inference. Non-public information includes personally identifiable information and system account information.
-
-## Control assessment-objective
-
-the rules of behavior include restrictions on the use of social media, social networking sites, and external sites/applications;
-the rules of behavior include restrictions on posting organizational information on public websites;
-the rules of behavior include restrictions on the use of organization-provided identifiers (e.g., email addresses) and authentication secrets (e.g., passwords) for creating accounts on external sites/applications.
+This control enhancement addresses rules of behavior related to the use of social media/networking sites: (i) when organizational personnel are using such sites for official duties or in the conduct of official business; (ii) when organizational information is involved in social media/networking transactions; and (iii) when personnel are accessing social media/networking sites from organizational information systems. Organizations also address specific rules that prevent unauthorized entities from obtaining and/or inferring non-public organizational information (e.g., system account information, personally identifiable information) from social media/networking sites.

@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  ir-04.01_odp:
-    values:
-sort-id: ir-04.01
 x-trestle-global:
   sort-id: ir-04.01
 ---
@@ -11,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Support the incident handling process using {{ insert: param, ir-04.01_odp }}.
+The organization employs automated mechanisms to support the incident handling process.
+
+## Control Objective
+
+Determine if the organization employs automated mechanisms to support the incident handling process.
 
 ## Control guidance
 
-Automated mechanisms that support incident handling processes include online incident management systems and tools that support the collection of live response data, full network packet capture, and forensic analysis.
-
-## Control assessment-objective
-
-the incident handling process is supported using {{ insert: param, ir-04.01_odp }}.
+Automated mechanisms supporting incident handling processes include, for example, online incident management systems.

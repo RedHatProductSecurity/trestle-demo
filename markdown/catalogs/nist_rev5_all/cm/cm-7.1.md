@@ -1,20 +1,9 @@
 ---
 x-trestle-set-params:
+  cm-7.1_prm_1:
+    values:
   cm-7.1_prm_2:
     values:
-  cm-07.01_odp.01:
-    values:
-  cm-07.01_odp.02:
-    values:
-  cm-07.01_odp.03:
-    values:
-  cm-07.01_odp.04:
-    values:
-  cm-07.01_odp.05:
-    values:
-  cm-07.01_odp.06:
-    values:
-sort-id: cm-07.01
 x-trestle-global:
   sort-id: cm-07.01
 ---
@@ -23,19 +12,48 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[(a)\] Review the system {{ insert: param, cm-07.01_odp.01 }} to identify unnecessary and/or nonsecure functions, ports, protocols, software, and services; and
+The organization:
 
-- \[(b)\] Disable or remove {{ insert: param, cm-7.1_prm_2 }}.
+- \[(a)\] Reviews the information system {{ insert: param, cm-7.1_prm_1 }} to identify unnecessary and/or nonsecure functions, ports, protocols, and services; and
+
+- \[(b)\] Disables {{ insert: param, cm-7.1_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CM-7(1)(a)\]
+
+  - \[CM-7(1)(a)[1]\] defines the frequency to review the information system to identify unnecessary and/or nonsecure:
+
+    - \[CM-7(1)(a)[1][a]\] functions;
+    - \[CM-7(1)(a)[1][b]\] ports;
+    - \[CM-7(1)(a)[1][c]\] protocols; and/or
+    - \[CM-7(1)(a)[1][d]\] services;
+
+  - \[CM-7(1)(a)[2]\] reviews the information system with the organization-defined frequency to identify unnecessary and/or nonsecure:
+
+    - \[CM-7(1)(a)[2][a]\] functions;
+    - \[CM-7(1)(a)[2][b]\] ports;
+    - \[CM-7(1)(a)[2][c]\] protocols; and/or
+    - \[CM-7(1)(a)[2][d]\] services;
+
+- \[CM-7(1)(b)\]
+
+  - \[CM-7(1)(b)[1]\] defines, within the information system, unnecessary and/or nonsecure:
+
+    - \[CM-7(1)(b)[1][a]\] functions;
+    - \[CM-7(1)(b)[1][b]\] ports;
+    - \[CM-7(1)(b)[1][c]\] protocols; and/or
+    - \[CM-7(1)(b)[1][d]\] services;
+
+  - \[CM-7(1)(b)[2]\] disables organization-defined unnecessary and/or nonsecure:
+
+    - \[CM-7(1)(b)[2][a]\] functions;
+    - \[CM-7(1)(b)[2][b]\] ports;
+    - \[CM-7(1)(b)[2][c]\] protocols; and/or
+    - \[CM-7(1)(b)[2][d]\] services.
 
 ## Control guidance
 
-Organizations review functions, ports, protocols, and services provided by systems or system components to determine the functions and services that are candidates for elimination. Such reviews are especially important during transition periods from older technologies to newer technologies (e.g., transition from IPv4 to IPv6). These technology transitions may require implementing the older and newer technologies simultaneously during the transition period and returning to minimum essential functions, ports, protocols, and services at the earliest opportunity. Organizations can either decide the relative security of the function, port, protocol, and/or service or base the security decision on the assessment of other entities. Unsecure protocols include Bluetooth, FTP, and peer-to-peer networking.
-
-## Control assessment-objective
-
-the system is reviewed {{ insert: param, cm-07.01_odp.01 }} to identify unnecessary and/or non-secure functions, ports, protocols, software, and services:
-{{ insert: param, cm-07.01_odp.02 }} deemed to be unnecessary and/or non-secure are disabled or removed;
-{{ insert: param, cm-07.01_odp.03 }} deemed to be unnecessary and/or non-secure are disabled or removed;
-{{ insert: param, cm-07.01_odp.04 }} deemed to be unnecessary and/or non-secure are disabled or removed;
-{{ insert: param, cm-07.01_odp.05 }} deemed to be unnecessary and/or non-secure is disabled or removed;
-{{ insert: param, cm-07.01_odp.06 }} deemed to be unnecessary and/or non-secure are disabled or removed.
+The organization can either make a determination of the relative security of the function, port, protocol, and/or service or base the security decision on the assessment of other entities. Bluetooth, FTP, and peer-to-peer networking are examples of less than secure protocols.

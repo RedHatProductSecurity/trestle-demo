@@ -2,17 +2,6 @@
 x-trestle-set-params:
   si-4.4_prm_1:
     values:
-  si-4.4_prm_2:
-    values:
-  si-04.04_odp.01:
-    values:
-  si-04.04_odp.02:
-    values:
-  si-04.04_odp.03:
-    values:
-  si-04.04_odp.04:
-    values:
-sort-id: si-04.04
 x-trestle-global:
   sort-id: si-04.04
 ---
@@ -21,17 +10,22 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[(a)\] Determine criteria for unusual or unauthorized activities or conditions for inbound and outbound communications traffic;
+The information system monitors inbound and outbound communications traffic {{ insert: param, si-4.4_prm_1 }} for unusual or unauthorized activities or conditions.
 
-- \[(b)\] Monitor inbound and outbound communications traffic {{ insert: param, si-4.4_prm_1 }} for {{ insert: param, si-4.4_prm_2 }}.
+## Control Objective
+
+Determine if the organization:
+
+- \[SI-4(4)[1]\] defines a frequency to monitor:
+
+  - \[SI-4(4)[1][a]\] inbound communications traffic for unusual or unauthorized activities or conditions;
+  - \[SI-4(4)[1][b]\] outbound communications traffic for unusual or unauthorized activities or conditions;
+
+- \[SI-4(4)[2]\] monitors, with the organization-defined frequency:
+
+  - \[SI-4(4)[2][a]\] inbound communications traffic for unusual or unauthorized activities or conditions; and
+  - \[SI-4(4)[2][b]\] outbound communications traffic for unusual or unauthorized activities or conditions.
 
 ## Control guidance
 
-Unusual or unauthorized activities or conditions related to system inbound and outbound communications traffic includes internal traffic that indicates the presence of malicious code or unauthorized use of legitimate code or credentials within organizational systems or propagating among system components, signaling to external systems, and the unauthorized exporting of information. Evidence of malicious code or unauthorized use of legitimate code or credentials is used to identify potentially compromised systems or system components.
-
-## Control assessment-objective
-
-criteria for unusual or unauthorized activities or conditions for inbound communications traffic are defined;
-criteria for unusual or unauthorized activities or conditions for outbound communications traffic are defined;
-inbound communications traffic is monitored {{ insert: param, si-04.04_odp.01 }} for {{ insert: param, si-04.04_odp.02 }};
-outbound communications traffic is monitored {{ insert: param, si-04.04_odp.03 }} for {{ insert: param, si-04.04_odp.04 }}.
+Unusual/unauthorized activities or conditions related to information system inbound and outbound communications traffic include, for example, internal traffic that indicates the presence of malicious code within organizational information systems or propagating among system components, the unauthorized exporting of information, or signaling to external information systems. Evidence of malicious code is used to identify potentially compromised information systems or information system components.

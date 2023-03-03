@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  cm-03.03_odp:
-    values:
-sort-id: cm-03.03
 x-trestle-global:
   sort-id: cm-03.03
 ---
@@ -11,13 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement changes to the current system baseline and deploy the updated baseline across the installed base using {{ insert: param, cm-03.03_odp }}.
+The organization employs automated mechanisms to implement changes to the current information system baseline and deploys the updated baseline across the installed base.
 
-## Control guidance
+## Control Objective
 
-Automated tools can improve the accuracy, consistency, and availability of configuration baseline information. Automation can also provide data aggregation and data correlation capabilities, alerting mechanisms, and dashboards to support risk-based decision-making within the organization.
+Determine if the organization:
 
-## Control assessment-objective
+- \[CM-3(3)[1]\] employs automated mechanisms to implement changes to the current information system baseline; and
 
-changes to the current system baseline are implemented using {{ insert: param, cm-03.03_odp }};
-the updated baseline is deployed across the installed base using {{ insert: param, cm-03.03_odp }}.
+- \[CM-3(3)[2]\] deploys the updated baseline across the installed base.

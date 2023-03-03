@@ -1,22 +1,25 @@
 ---
 x-trestle-set-params:
-  sc-05.01_odp:
+  sc-5.1_prm_1:
     values:
-sort-id: sc-05.01
 x-trestle-global:
   sort-id: sc-05.01
 ---
 
-# sc-5.1 - \[System and Communications Protection\] Restrict Ability to Attack Other Systems
+# sc-5.1 - \[System and Communications Protection\] Restrict Internal Users
 
 ## Control Statement
 
-Restrict the ability of individuals to launch the following denial-of-service attacks against other systems: {{ insert: param, sc-05.01_odp }}.
+The information system restricts the ability of individuals to launch {{ insert: param, sc-5.1_prm_1 }} against other information systems.
+
+## Control Objective
+
+Determine if:
+
+- \[SC-5(1)[1]\] the organization defines denial of service attacks for which the information system is required to restrict the ability of individuals to launch such attacks against other information systems; and
+
+- \[SC-5(1)[2]\] the information system restricts the ability of individuals to launch organization-defined denial of service attacks against other information systems.
 
 ## Control guidance
 
-Restricting the ability of individuals to launch denial-of-service attacks requires the mechanisms commonly used for such attacks to be unavailable. Individuals of concern include hostile insiders or external adversaries who have breached or compromised the system and are using it to launch a denial-of-service attack. Organizations can restrict the ability of individuals to connect and transmit arbitrary information on the transport medium (i.e., wired networks, wireless networks, spoofed Internet protocol packets). Organizations can also limit the ability of individuals to use excessive system resources. Protection against individuals having the ability to launch denial-of-service attacks may be implemented on specific systems or boundary devices that prohibit egress to potential target systems.
-
-## Control assessment-objective
-
-the ability of individuals to launch {{ insert: param, sc-05.01_odp }} against other systems is restricted.
+Restricting the ability of individuals to launch denial of service attacks requires that the mechanisms used for such attacks are unavailable. Individuals of concern can include, for example, hostile insiders or external adversaries that have successfully breached the information system and are using the system as a platform to launch cyber attacks on third parties. Organizations can restrict the ability of individuals to connect and transmit arbitrary information on the transport medium (i.e., network, wireless spectrum). Organizations can also limit the ability of individuals to use excessive information system resources. Protection against individuals having the ability to launch denial of service attacks may be implemented on specific information systems or on boundary devices prohibiting egress to potential target systems.

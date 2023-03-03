@@ -1,5 +1,4 @@
 ---
-sort-id: at-02.01
 x-trestle-global:
   sort-id: at-02.01
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Provide practical exercises in literacy training that simulate events and incidents.
+The organization includes practical exercises in security awareness training that simulate actual cyber attacks.
+
+## Control Objective
+
+Determine if the organization includes practical exercises in security awareness training that simulate actual cyber attacks.
 
 ## Control guidance
 
-Practical exercises include no-notice social engineering attempts to collect information, gain unauthorized access, or simulate the adverse impact of opening malicious email attachments or invoking, via spear phishing attacks, malicious web links.
-
-## Control assessment-objective
-
-practical exercises in literacy training that simulate events and incidents are provided.
+Practical exercises may include, for example, no-notice social engineering attempts to collect information, gain unauthorized access, or simulate the adverse impact of opening malicious email attachments or invoking, via spear phishing attacks, malicious web links.

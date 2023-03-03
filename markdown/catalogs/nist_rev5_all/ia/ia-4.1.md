@@ -1,5 +1,4 @@
 ---
-sort-id: ia-04.01
 x-trestle-global:
   sort-id: ia-04.01
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Prohibit the use of system account identifiers that are the same as public identifiers for individual accounts.
+The organization prohibits the use of information system account identifiers that are the same as public identifiers for individual electronic mail accounts.
+
+## Control Objective
+
+Determine if the organization prohibits the use of information system account identifiers that are the same as public identifiers for individual electronic mail accounts.
 
 ## Control guidance
 
-Prohibiting account identifiers as public identifiers applies to any publicly disclosed account identifier used for communication such as, electronic mail and instant messaging. Prohibiting the use of systems account identifiers that are the same as some public identifier, such as the individual identifier section of an electronic mail address, makes it more difficult for adversaries to guess user identifiers. Prohibiting account identifiers as public identifiers without the implementation of other supporting controls only complicates guessing of identifiers. Additional protections are required for authenticators and credentials to protect the account.
-
-## Control assessment-objective
-
-the use of system account identifiers that are the same as public identifiers is prohibited for individual accounts.
+Prohibiting the use of information systems account identifiers that are the same as some public identifier such as the individual identifier section of an electronic mail address, makes it more difficult for adversaries to guess user identifiers on organizational information systems.

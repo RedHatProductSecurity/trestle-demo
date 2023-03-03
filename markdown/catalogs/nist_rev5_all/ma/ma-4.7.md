@@ -1,20 +1,18 @@
 ---
-sort-id: ma-04.07
 x-trestle-global:
   sort-id: ma-04.07
 ---
 
-# ma-4.7 - \[Maintenance\] Disconnect Verification
+# ma-4.7 - \[Maintenance\] Remote Disconnect Verification
 
 ## Control Statement
 
-Verify session and network connection termination after the completion of nonlocal maintenance and diagnostic sessions.
+The information system implements remote disconnect verification at the termination of nonlocal maintenance and diagnostic sessions.
+
+## Control Objective
+
+Determine if the information system implements remote disconnect verification at the termination of nonlocal maintenance and diagnostic sessions.
 
 ## Control guidance
 
-Verifying the termination of a connection once maintenance is completed ensures that connections established during nonlocal maintenance and diagnostic sessions have been terminated and are no longer available for use.
-
-## Control assessment-objective
-
-session connection termination is verified after the completion of nonlocal maintenance and diagnostic sessions;
-network connection termination is verified after the completion of nonlocal maintenance and diagnostic sessions.
+Remote disconnect verification ensures that remote connections from nonlocal maintenance sessions have been terminated and are no longer available for use.

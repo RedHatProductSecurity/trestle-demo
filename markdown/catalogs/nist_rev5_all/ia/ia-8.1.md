@@ -1,5 +1,4 @@
 ---
-sort-id: ia-08.01
 x-trestle-global:
   sort-id: ia-08.01
 ---
@@ -8,13 +7,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Accept and electronically verify Personal Identity Verification-compliant credentials from other federal agencies.
+The information system accepts and electronically verifies Personal Identity Verification (PIV) credentials from other federal agencies.
+
+## Control Objective
+
+Determine if the information system:
+
+- \[IA-8(1)[1]\] accepts Personal Identity Verification (PIV) credentials from other agencies; and
+
+- \[IA-8(1)[2]\] electronically verifies Personal Identity Verification (PIV) credentials from other agencies.
 
 ## Control guidance
 
-Acceptance of Personal Identity Verification (PIV) credentials from other federal agencies applies to both logical and physical access control systems. PIV credentials are those credentials issued by federal agencies that conform to FIPS Publication 201 and supporting guidelines. The adequacy and reliability of PIV card issuers are addressed and authorized using [SP 800-79-2](#10963761-58fc-4b20-b3d6-b44a54daba03).
-
-## Control assessment-objective
-
-Personal Identity Verification-compliant credentials from other federal agencies are accepted;
-Personal Identity Verification-compliant credentials from other federal agencies are electronically verified.
+This control enhancement applies to logical access control systems (LACS) and physical access control systems (PACS). Personal Identity Verification (PIV) credentials are those credentials issued by federal agencies that conform to FIPS Publication 201 and supporting guidance documents. OMB Memorandum 11-11 requires federal agencies to continue implementing the requirements specified in HSPD-12 to enable agency-wide use of PIV credentials.

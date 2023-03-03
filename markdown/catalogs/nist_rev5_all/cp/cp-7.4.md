@@ -1,5 +1,4 @@
 ---
-sort-id: cp-07.04
 x-trestle-global:
   sort-id: cp-07.04
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Prepare the alternate processing site so that the site can serve as the operational site supporting essential mission and business functions.
+The organization prepares the alternate processing site so that the site is ready to be used as the operational site supporting essential missions and business functions.
+
+## Control Objective
+
+Determine if the organization prepares the alternate processing site so that the site is ready to be used as the operational site supporting essential missions and business functions.
 
 ## Control guidance
 
-Site preparation includes establishing configuration settings for systems at the alternate processing site consistent with the requirements for such settings at the primary site and ensuring that essential supplies and logistical considerations are in place.
-
-## Control assessment-objective
-
-the alternate processing site is prepared so that the site can serve as the operational site supporting essential mission and business functions.
+Site preparation includes, for example, establishing configuration settings for information system components at the alternate processing site consistent with the requirements for such settings at the primary site and ensuring that essential supplies and other logistical considerations are in place.

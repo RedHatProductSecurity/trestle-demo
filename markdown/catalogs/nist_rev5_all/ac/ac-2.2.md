@@ -1,24 +1,27 @@
 ---
 x-trestle-set-params:
-  ac-02.02_odp.01:
+  ac-2.2_prm_1:
     values:
-  ac-02.02_odp.02:
+  ac-2.2_prm_2:
     values:
-sort-id: ac-02.02
 x-trestle-global:
   sort-id: ac-02.02
 ---
 
-# ac-2.2 - \[Access Control\] Automated Temporary and Emergency Account Management
+# ac-2.2 - \[Access Control\] Removal of Temporary / Emergency Accounts
 
 ## Control Statement
 
-Automatically {{ insert: param, ac-02.02_odp.01 }} temporary and emergency accounts after {{ insert: param, ac-02.02_odp.02 }}.
+The information system automatically {{ insert: param, ac-2.2_prm_1 }} temporary and emergency accounts after {{ insert: param, ac-2.2_prm_2 }}.
+
+## Control Objective
+
+Determine if:
+
+- \[AC-2(2)[1]\] the organization defines the time period after which the information system automatically removes or disables temporary and emergency accounts; and
+
+- \[AC-2(2)[2]\] the information system automatically removes or disables temporary and emergency accounts after the organization-defined time period for each type of account.
 
 ## Control guidance
 
-Management of temporary and emergency accounts includes the removal or disabling of such accounts automatically after a predefined time period rather than at the convenience of the system administrator. Automatic removal or disabling of accounts provides a more consistent implementation.
-
-## Control assessment-objective
-
-temporary and emergency accounts are automatically {{ insert: param, ac-02.02_odp.01 }} after {{ insert: param, ac-02.02_odp.02 }}.
+This control enhancement requires the removal of both temporary and emergency accounts automatically after a predefined period of time has elapsed, rather than at the convenience of the systems administrator.

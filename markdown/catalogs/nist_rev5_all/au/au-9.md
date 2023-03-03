@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  au-09_odp:
-    values:
-sort-id: au-09
 x-trestle-global:
   sort-id: au-09
 ---
@@ -11,15 +7,24 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Protect audit information and audit logging tools from unauthorized access, modification, and deletion; and
+The information system protects audit information and audit tools from unauthorized access, modification, and deletion.
 
-- \[b.\] Alert {{ insert: param, au-09_odp }} upon detection of unauthorized access, modification, or deletion of audit information.
+## Control Objective
+
+Determine if:
+
+- \[AU-9[1]\] the information system protects audit information from unauthorized:
+
+  - \[AU-9[1][a]\] access;
+  - \[AU-9[1][b]\] modification;
+  - \[AU-9[1][c]\] deletion;
+
+- \[AU-9[2]\] the information system protects audit tools from unauthorized:
+
+  - \[AU-9[2][a]\] access;
+  - \[AU-9[2][b]\] modification; and
+  - \[AU-9[2][c]\] deletion.
 
 ## Control guidance
 
-Audit information includes all information needed to successfully audit system activity, such as audit records, audit log settings, audit reports, and personally identifiable information. Audit logging tools are those programs and devices used to conduct system audit and logging activities. Protection of audit information focuses on technical protection and limits the ability to access and execute audit logging tools to authorized individuals. Physical protection of audit information is addressed by both media protection controls and physical and environmental protection controls.
-
-## Control assessment-objective
-
-audit information and audit logging tools are protected from unauthorized access, modification, and deletion;
-{{ insert: param, au-09_odp }} are alerted upon detection of unauthorized access, modification, or deletion of audit information.
+Audit information includes all information (e.g., audit records, audit settings, and audit reports) needed to successfully audit information system activity. This control focuses on technical protection of audit information. Physical protection of audit information is addressed by media protection controls and physical and environmental protection controls.

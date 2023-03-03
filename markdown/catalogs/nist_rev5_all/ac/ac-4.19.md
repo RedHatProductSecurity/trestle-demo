@@ -1,12 +1,4 @@
 ---
-x-trestle-set-params:
-  ac-4.19_prm_1:
-    values:
-  ac-04.19_odp.01:
-    values:
-  ac-04.19_odp.02:
-    values:
-sort-id: ac-04.19
 x-trestle-global:
   sort-id: ac-04.19
 ---
@@ -15,13 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-When transferring information between different security domains, implement {{ insert: param, ac-4.19_prm_1 }} on metadata.
+The information system, when transferring information between different security domains, applies the same security policy filtering to metadata as it applies to data payloads.
+
+## Control Objective
+
+Determine if the information system, when transferring information between different security domains, applies the same security policy filtering to metadata as it applies to data payloads.
 
 ## Control guidance
 
-All information (including metadata and the data to which the metadata applies) is subject to filtering and inspection. Some organizations distinguish between metadata and data payloads (i.e., only the data to which the metadata is bound). Other organizations do not make such distinctions and consider metadata and the data to which the metadata applies to be part of the payload.
-
-## Control assessment-objective
-
-when transferring information between different security domains, {{ insert: param, ac-04.19_odp.01 }} are implemented on metadata;
-when transferring information between different security domains, {{ insert: param, ac-04.19_odp.02 }} are implemented on metadata.
+This control enhancement requires the validation of metadata and the data to which the metadata applies. Some organizations distinguish between metadata and data payloads (i.e., only the data to which the metadata is bound). Other organizations do not make such distinctions, considering metadata and the data to which the metadata applies as part of the payload. All information (including metadata and the data to which the metadata applies) is subject to filtering and inspection.

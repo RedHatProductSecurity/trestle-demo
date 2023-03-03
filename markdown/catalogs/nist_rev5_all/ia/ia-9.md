@@ -1,8 +1,9 @@
 ---
 x-trestle-set-params:
-  ia-09_odp:
+  ia-9_prm_1:
     values:
-sort-id: ia-09
+  ia-9_prm_2:
+    values:
 x-trestle-global:
   sort-id: ia-09
 ---
@@ -11,12 +12,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Uniquely identify and authenticate {{ insert: param, ia-09_odp }} before establishing communications with devices, users, or other services or applications.
+The organization identifies and authenticates {{ insert: param, ia-9_prm_1 }} using {{ insert: param, ia-9_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[IA-9[1]\] defines information system services to be identified and authenticated using security safeguards;
+
+- \[IA-9[2]\] defines security safeguards to be used to identify and authenticate organization-defined information system services; and
+
+- \[IA-9[3]\] identifies and authenticates organization-defined information system services using organization-defined security safeguards.
 
 ## Control guidance
 
-Services that may require identification and authentication include web applications using digital certificates or services or applications that query a database. Identification and authentication methods for system services and applications include information or code signing, provenance graphs, and electronic signatures that indicate the sources of services. Decisions regarding the validity of identification and authentication claims can be made by services separate from the services acting on those decisions. This can occur in distributed system architectures. In such situations, the identification and authentication decisions (instead of actual identifiers and authentication data) are provided to the services that need to act on those decisions.
-
-## Control assessment-objective
-
-{{ insert: param, ia-09_odp }} are uniquely identified and authenticated before establishing communications with devices, users, or other services or applications.
+This control supports service-oriented architectures and other distributed architectural approaches requiring the identification and authentication of information system services. In such architectures, external services often appear dynamically. Therefore, information systems should be able to determine in a dynamic manner, if external providers and associated services are authentic. Safeguards implemented by organizational information systems to validate provider and service authenticity include, for example, information or code signing, provenance graphs, and/or electronic signatures indicating or including the sources of services.

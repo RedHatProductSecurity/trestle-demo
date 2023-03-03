@@ -1,20 +1,18 @@
 ---
-sort-id: si-04.03
 x-trestle-global:
   sort-id: si-04.03
 ---
 
-# si-4.3 - \[System and Information Integrity\] Automated Tool and Mechanism Integration
+# si-4.3 - \[System and Information Integrity\] Automated Tool Integration
 
 ## Control Statement
 
-Employ automated tools and mechanisms to integrate intrusion detection tools and mechanisms into access control and flow control mechanisms.
+The organization employs automated tools to integrate intrusion detection tools into access control and flow control mechanisms for rapid response to attacks by enabling reconfiguration of these mechanisms in support of attack isolation and elimination.
 
-## Control guidance
+## Control Objective
 
-Using automated tools and mechanisms to integrate intrusion detection tools and mechanisms into access and flow control mechanisms facilitates a rapid response to attacks by enabling the reconfiguration of mechanisms in support of attack isolation and elimination.
+Determine if the organization, for rapid response to attacks by enabling reconfiguration of intrusion detection tools in support of attack isolation and elimination, employs automated tools to integrate intrusion detection tools into:
 
-## Control assessment-objective
+- \[SI-4(3)[1]\] access control mechanisms; and
 
-automated tools and mechanisms are employed to integrate intrusion detection tools and mechanisms into access control mechanisms;
-automated tools and mechanisms are employed to integrate intrusion detection tools and mechanisms into flow control mechanisms.
+- \[SI-4(3)[2]\] flow control mechanisms.

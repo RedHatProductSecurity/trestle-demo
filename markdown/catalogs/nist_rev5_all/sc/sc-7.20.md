@@ -1,22 +1,25 @@
 ---
 x-trestle-set-params:
-  sc-07.20_odp:
+  sc-7.20_prm_1:
     values:
-sort-id: sc-07.20
 x-trestle-global:
   sort-id: sc-07.20
 ---
 
-# sc-7.20 - \[System and Communications Protection\] Dynamic Isolation and Segregation
+# sc-7.20 - \[System and Communications Protection\] Dynamic Isolation / Segregation
 
 ## Control Statement
 
-Provide the capability to dynamically isolate {{ insert: param, sc-07.20_odp }} from other system components.
+The information system provides the capability to dynamically isolate/segregate {{ insert: param, sc-7.20_prm_1 }} from other components of the system.
+
+## Control Objective
+
+Determine if:
+
+- \[SC-7(20)[1]\] the organization defines information system components to be dynamically isolated/segregated from other components of the system; and
+
+- \[SC-7(20)[2]\] the information system provides the capability to dynamically isolate/segregate organization-defined information system components from other components of the system.
 
 ## Control guidance
 
-The capability to dynamically isolate certain internal system components is useful when it is necessary to partition or separate system components of questionable origin from components that possess greater trustworthiness. Component isolation reduces the attack surface of organizational systems. Isolating selected system components can also limit the damage from successful attacks when such attacks occur.
-
-## Control assessment-objective
-
-the capability to dynamically isolate {{ insert: param, sc-07.20_odp }} from other system components is provided.
+The capability to dynamically isolate or segregate certain internal components of organizational information systems is useful when it is necessary to partition or separate certain components of dubious origin from those components possessing greater trustworthiness. Component isolation reduces the attack surface of organizational information systems. Isolation of selected information system components is also a means of limiting the damage from successful cyber attacks when those attacks occur.

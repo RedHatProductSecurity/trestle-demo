@@ -1,5 +1,4 @@
 ---
-sort-id: ir-07
 x-trestle-global:
   sort-id: ir-07
 ---
@@ -8,13 +7,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Provide an incident response support resource, integral to the organizational incident response capability, that offers advice and assistance to users of the system for the handling and reporting of incidents.
+The organization provides an incident response support resource, integral to the organizational incident response capability that offers advice and assistance to users of the information system for the handling and reporting of security incidents.
+
+## Control Objective
+
+Determine if the organization provides an incident response support resource:
+
+- \[IR-7[1]\] that is integral to the organizational incident response capability; and
+
+- \[IR-7[2]\] that offers advice and assistance to users of the information system for the handling and reporting of security incidents.
 
 ## Control guidance
 
-Incident response support resources provided by organizations include help desks, assistance groups, automated ticketing systems to open and track incident response tickets, and access to forensics services or consumer redress services, when required.
-
-## Control assessment-objective
-
-an incident response support resource, integral to the organizational incident response capability, is provided;
-the incident response support resource offers advice and assistance to users of the system for the response and reporting of incidents.
+Incident response support resources provided by organizations include, for example, help desks, assistance groups, and access to forensics services, when required.

@@ -1,5 +1,4 @@
 ---
-sort-id: ps-03.01
 x-trestle-global:
   sort-id: ps-03.01
 ---
@@ -8,13 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Verify that individuals accessing a system processing, storing, or transmitting classified information are cleared and indoctrinated to the highest classification level of the information to which they have access on the system.
+The organization ensures that individuals accessing an information system processing, storing, or transmitting classified information are cleared and indoctrinated to the highest classification level of the information to which they have access on the system.
 
-## Control guidance
+## Control Objective
 
-Classified information is the most sensitive information that the Federal Government processes, stores, or transmits. It is imperative that individuals have the requisite security clearances and system access authorizations prior to gaining access to such information. Access authorizations are enforced by system access controls (see [AC-3](#ac-3) ) and flow controls (see [AC-4](#ac-4)).
+Determine if the organization:
 
-## Control assessment-objective
+- \[PS-3(1)[1]\] ensures that individuals accessing an information system processing, storing, or transmitting classified information are cleared to the highest classification level of the information to which they have access on the system; and
 
-individuals accessing a system processing, storing, or transmitting classified information are cleared;
-individuals accessing a system processing, storing, or transmitting classified information are indoctrinated to the highest classification level of the information to which they have access on the system.
+- \[PS-3(1)[2]\] ensures that individuals accessing an information system processing, storing, or transmitting classified information are indoctrinated to the highest classification level of the information to which they have access on the system.

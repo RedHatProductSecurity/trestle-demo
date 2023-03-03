@@ -1,5 +1,4 @@
 ---
-sort-id: cp-02.07
 x-trestle-global:
   sort-id: cp-02.07
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Coordinate the contingency plan with the contingency plans of external service providers to ensure that contingency requirements can be satisfied.
+The organization coordinates its contingency plan with the contingency plans of external service providers to ensure that contingency requirements can be satisfied.
+
+## Control Objective
+
+Determine if the organization coordinates its contingency plan with the contingency plans of external service provides to ensure contingency requirements can be satisfied.
 
 ## Control guidance
 
-When the capability of an organization to carry out its mission and business functions is dependent on external service providers, developing a comprehensive and timely contingency plan may become more challenging. When mission and business functions are dependent on external service providers, organizations coordinate contingency planning activities with the external entities to ensure that the individual plans reflect the overall contingency needs of the organization.
-
-## Control assessment-objective
-
-the contingency plan is coordinated with the contingency plans of external service providers to ensure that contingency requirements can be satisfied.
+When the capability of an organization to successfully carry out its core missions/business functions is dependent on external service providers, developing a timely and comprehensive contingency plan may become more challenging. In this situation, organizations coordinate contingency planning activities with the external entities to ensure that the individual plans reflect the overall contingency needs of the organization.

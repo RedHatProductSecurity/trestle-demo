@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  cp-04.03_odp:
-    values:
-sort-id: cp-04.03
 x-trestle-global:
   sort-id: cp-04.03
 ---
@@ -11,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Test the contingency plan using {{ insert: param, cp-04.03_odp }}.
+The organization employs automated mechanisms to more thoroughly and effectively test the contingency plan.
+
+## Control Objective
+
+Determine if the organization employs automated mechanisms to more thoroughly and effectively test the contingency plan.
 
 ## Control guidance
 
-Automated mechanisms facilitate thorough and effective testing of contingency plans by providing more complete coverage of contingency issues, selecting more realistic test scenarios and environments, and effectively stressing the system and supported mission and business functions.
-
-## Control assessment-objective
-
-the contingency plan is tested using {{ insert: param, cp-04.03_odp }}.
+Automated mechanisms provide more thorough and effective testing of contingency plans, for example: (i) by providing more complete coverage of contingency issues; (ii) by selecting more realistic test scenarios and environments; and (iii) by effectively stressing the information system and supported missions.

@@ -1,19 +1,18 @@
 ---
-sort-id: au-06.03
 x-trestle-global:
   sort-id: au-06.03
 ---
 
-# au-6.3 - \[Audit and Accountability\] Correlate Audit Record Repositories
+# au-6.3 - \[Audit and Accountability\] Correlate Audit Repositories
 
 ## Control Statement
 
-Analyze and correlate audit records across different repositories to gain organization-wide situational awareness.
+The organization analyzes and correlates audit records across different repositories to gain organization-wide situational awareness.
+
+## Control Objective
+
+Determine if the organization analyzes and correlates audit records across different repositories to gain organization-wide situational awareness.
 
 ## Control guidance
 
-Organization-wide situational awareness includes awareness across all three levels of risk management (i.e., organizational level, mission/business process level, and information system level) and supports cross-organization awareness.
-
-## Control assessment-objective
-
-audit records across different repositories are analyzed and correlated to gain organization-wide situational awareness.
+Organization-wide situational awareness includes awareness across all three tiers of risk management (i.e., organizational, mission/business process, and information system) and supports cross-organization awareness.

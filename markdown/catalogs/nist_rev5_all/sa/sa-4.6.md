@@ -1,5 +1,4 @@
 ---
-sort-id: sa-04.06
 x-trestle-global:
   sort-id: sa-04.06
 ---
@@ -8,15 +7,20 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[(a)\] Employ only government off-the-shelf or commercial off-the-shelf information assurance and information assurance-enabled information technology products that compose an NSA-approved solution to protect classified information when the networks used to transmit the information are at a lower classification level than the information being transmitted; and
+The organization:
 
-- \[(b)\] Ensure that these products have been evaluated and/or validated by NSA or in accordance with NSA-approved procedures.
+- \[(a)\] Employs only government off-the-shelf (GOTS) or commercial off-the-shelf (COTS) information assurance (IA) and IA-enabled information technology products that compose an NSA-approved solution to protect classified information when the networks used to transmit the information are at a lower classification level than the information being transmitted; and
+
+- \[(b)\] Ensures that these products have been evaluated and/or validated by NSA or in accordance with NSA-approved procedures.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[SA-4(6)(a)\] employs only government off-the-shelf (GOTS) or commercial off-the-shelf (COTS) information assurance (IA) and IA-enabled information technology products that compose an NSA-approved solution to protect classified information when the networks used to transmit the information are at a lower classification level than the information being transmitted; and
+
+- \[SA-4(6)(b)\] ensures that these products have been evaluated and/or validated by the NSA or in accordance with NSA-approved procedures.
 
 ## Control guidance
 
-Commercial off-the-shelf IA or IA-enabled information technology products used to protect classified information by cryptographic means may be required to use NSA-approved key management. See [NSA CSFC](#3d575737-98cb-459d-b41c-d7e82b73ad78).
-
-## Control assessment-objective
-
-only government off-the-shelf or commercial off-the-shelf information assurance and information assurance-enabled information technology products that compose an NSA-approved solution to protect classified information when the networks used to transmit the information are at a lower classification level than the information being transmitted are employed;
-these products have been evaluated and/or validated by NSA or in accordance with NSA-approved procedures.
+COTS IA or IA-enabled information technology products used to protect classified information by cryptographic means may be required to use NSA-approved key management.

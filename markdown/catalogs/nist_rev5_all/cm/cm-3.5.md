@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  cm-03.05_odp:
+  cm-3.5_prm_1:
     values:
-sort-id: cm-03.05
 x-trestle-global:
   sort-id: cm-03.05
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement the following security responses automatically if baseline configurations are changed in an unauthorized manner: {{ insert: param, cm-03.05_odp }}.
+The information system implements {{ insert: param, cm-3.5_prm_1 }} automatically if baseline configurations are changed in an unauthorized manner.
+
+## Control Objective
+
+Determine if:
+
+- \[CM-3(5)[1]\] the organization defines security responses to be implemented automatically if baseline configurations are changed in an unauthorized manner; and
+
+- \[CM-3(5)[2]\] the information system implements organization-defined security responses automatically if baseline configurations are changed in an unauthorized manner.
 
 ## Control guidance
 
-Automated security responses include halting selected system functions, halting system processing, and issuing alerts or notifications to organizational personnel when there is an unauthorized modification of a configuration item.
-
-## Control assessment-objective
-
-{{ insert: param, cm-03.05_odp }} are automatically implemented if baseline configurations are changed in an unauthorized manner.
+Security responses include, for example, halting information system processing, halting selected system functions, or issuing alerts/notifications to organizational personnel when there is an unauthorized modification of a configuration item.

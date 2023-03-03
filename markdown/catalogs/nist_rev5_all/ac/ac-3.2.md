@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ac-03.02_odp:
+  ac-3.2_prm_1:
     values:
-sort-id: ac-03.02
 x-trestle-global:
   sort-id: ac-03.02
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Enforce dual authorization for {{ insert: param, ac-03.02_odp }}.
+The information system enforces dual authorization for {{ insert: param, ac-3.2_prm_1 }}.
+
+## Control Objective
+
+Determine if:
+
+- \[AC-3(2)[1]\] the organization defines privileged commands and/or other actions for which dual authorization is to be enforced; and
+
+- \[AC-3(2)[2]\] the information system enforces dual authorization for organization-defined privileged commands and/or other organization-defined actions.
 
 ## Control guidance
 
-Dual authorization, also known as two-person control, reduces risk related to insider threats. Dual authorization mechanisms require the approval of two authorized individuals to execute. To reduce the risk of collusion, organizations consider rotating dual authorization duties. Organizations consider the risk associated with implementing dual authorization mechanisms when immediate responses are necessary to ensure public and environmental safety.
-
-## Control assessment-objective
-
-dual authorization is enforced for {{ insert: param, ac-03.02_odp }}.
+Dual authorization mechanisms require the approval of two authorized individuals in order to execute. Organizations do not require dual authorization mechanisms when immediate responses are necessary to ensure public and environmental safety. Dual authorization may also be known as two-person control.

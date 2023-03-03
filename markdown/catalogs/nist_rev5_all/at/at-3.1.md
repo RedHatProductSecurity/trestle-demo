@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  at-03.01_odp.01:
+  at-3.1_prm_1:
     values:
-  at-03.01_odp.02:
+  at-3.1_prm_2:
     values:
-sort-id: at-03.01
 x-trestle-global:
   sort-id: at-03.01
 ---
@@ -13,12 +12,20 @@ x-trestle-global:
 
 ## Control Statement
 
-Provide {{ insert: param, at-03.01_odp.01 }} with initial and {{ insert: param, at-03.01_odp.02 }} training in the employment and operation of environmental controls.
+The organization provides {{ insert: param, at-3.1_prm_1 }} with initial and {{ insert: param, at-3.1_prm_2 }} training in the employment and operation of environmental controls.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[AT-3(1)[1]\] defines personnel or roles to be provided with initial and refresher training in the employment and operation of environmental controls;
+
+- \[AT-3(1)[2]\] provides organization-defined personnel or roles with initial and refresher training in the employment and operation of environmental controls;
+
+- \[AT-3(1)[3]\] defines the frequency to provide refresher training in the employment and operation of environmental controls; and
+
+- \[AT-3(1)[4]\] provides refresher training in the employment and operation of environmental controls with the organization-defined frequency.
 
 ## Control guidance
 
-Environmental controls include fire suppression and detection devices or systems, sprinkler systems, handheld fire extinguishers, fixed fire hoses, smoke detectors, temperature or humidity, heating, ventilation, air conditioning, and power within the facility.
-
-## Control assessment-objective
-
-{{ insert: param, at-03.01_odp.01 }} are provided with initial and refresher training {{ insert: param, at-03.01_odp.02 }} in the employment and operation of environmental controls.
+Environmental controls include, for example, fire suppression and detection devices/systems, sprinkler systems, handheld fire extinguishers, fixed fire hoses, smoke detectors, temperature/humidity, HVAC, and power within the facility. Organizations identify personnel with specific roles and responsibilities associated with environmental controls requiring specialized training.

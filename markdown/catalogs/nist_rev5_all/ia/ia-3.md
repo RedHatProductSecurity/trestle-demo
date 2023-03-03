@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  ia-03_odp.01:
+  ia-3_prm_1:
     values:
-  ia-03_odp.02:
+  ia-3_prm_2:
     values:
-sort-id: ia-03
 x-trestle-global:
   sort-id: ia-03
 ---
@@ -13,12 +12,24 @@ x-trestle-global:
 
 ## Control Statement
 
-Uniquely identify and authenticate {{ insert: param, ia-03_odp.01 }} before establishing a {{ insert: param, ia-03_odp.02 }} connection.
+The information system uniquely identifies and authenticates {{ insert: param, ia-3_prm_1 }} before establishing a {{ insert: param, ia-3_prm_2 }} connection.
+
+## Control Objective
+
+Determine if:
+
+- \[IA-3[1]\] the organization defines specific and/or types of devices that the information system uniquely identifies and authenticates before establishing one or more of the following:
+
+  - \[IA-3[1][a]\] a local connection;
+  - \[IA-3[1][b]\] a remote connection; and/or
+  - \[IA-3[1][c]\] a network connection; and
+
+- \[IA-3[2]\] the information system uniquely identifies and authenticates organization-defined devices before establishing one or more of the following:
+
+  - \[IA-3[2][a]\] a local connection;
+  - \[IA-3[2][b]\] a remote connection; and/or
+  - \[IA-3[2][c]\] a network connection.
 
 ## Control guidance
 
-Devices that require unique device-to-device identification and authentication are defined by type, device, or a combination of type and device. Organization-defined device types include devices that are not owned by the organization. Systems use shared known information (e.g., Media Access Control [MAC], Transmission Control Protocol/Internet Protocol [TCP/IP] addresses) for device identification or organizational authentication solutions (e.g., Institute of Electrical and Electronics Engineers (IEEE) 802.1x and Extensible Authentication Protocol [EAP], RADIUS server with EAP-Transport Layer Security [TLS] authentication, Kerberos) to identify and authenticate devices on local and wide area networks. Organizations determine the required strength of authentication mechanisms based on the security categories of systems and mission or business requirements. Because of the challenges of implementing device authentication on a large scale, organizations can restrict the application of the control to a limited number/type of devices based on mission or business needs.
-
-## Control assessment-objective
-
-{{ insert: param, ia-03_odp.01 }} are uniquely identified and authenticated before establishing a {{ insert: param, ia-03_odp.02 }} connection.
+Organizational devices requiring unique device-to-device identification and authentication may be defined by type, by device, or by a combination of type/device. Information systems typically use either shared known information (e.g., Media Access Control [MAC] or Transmission Control Protocol/Internet Protocol [TCP/IP] addresses) for device identification or organizational authentication solutions (e.g., IEEE 802.1x and Extensible Authentication Protocol [EAP], Radius server with EAP-Transport Layer Security [TLS] authentication, Kerberos) to identify/authenticate devices on local and/or wide area networks. Organizations determine the required strength of authentication mechanisms by the security categories of information systems. Because of the challenges of applying this control on large scale, organizations are encouraged to only apply the control to those limited number (and type) of devices that truly need to support this capability.

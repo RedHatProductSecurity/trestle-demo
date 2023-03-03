@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  cm-07.02_odp.01:
+  cm-7.2_prm_1:
     values:
-  cm-07.02_odp.02:
+  cm-7.2_prm_2:
     values:
-sort-id: cm-07.02
 x-trestle-global:
   sort-id: cm-07.02
 ---
@@ -13,12 +12,15 @@ x-trestle-global:
 
 ## Control Statement
 
-Prevent program execution in accordance with {{ insert: param, cm-07.02_odp.01 }}.
+The information system prevents program execution in accordance with {{ insert: param, cm-7.2_prm_1 }}.
 
-## Control guidance
+## Control Objective
 
-Prevention of program execution addresses organizational policies, rules of behavior, and/or access agreements that restrict software usage and the terms and conditions imposed by the developer or manufacturer, including software licensing and copyrights. Restrictions include prohibiting auto-execute features, restricting roles allowed to approve program execution, permitting or prohibiting specific software programs, or restricting the number of program instances executed at the same time.
+Determine if:
 
-## Control assessment-objective
+- \[CM-7(2)[1]\] the organization defines policies regarding software program usage and restrictions;
 
-program execution is prevented in accordance with {{ insert: param, cm-07.02_odp.01 }}.
+- \[CM-7(2)[2]\] the information system prevents program execution in accordance with one or more of the following:
+
+  - \[CM-7(2)[2][a]\] organization-defined policies regarding program usage and restrictions; and/or
+  - \[CM-7(2)[2][b]\] rules authorizing the terms and conditions of software program usage.

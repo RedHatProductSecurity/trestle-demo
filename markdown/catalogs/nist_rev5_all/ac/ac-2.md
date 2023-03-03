@@ -1,26 +1,13 @@
 ---
 x-trestle-set-params:
-  ac-02_odp.01:
+  ac-2_prm_1:
     values:
-  ac-02_odp.02:
+  ac-2_prm_2:
     values:
-  ac-02_odp.03:
+  ac-2_prm_3:
     values:
-  ac-02_odp.04:
+  ac-2_prm_4:
     values:
-  ac-02_odp.05:
-    values:
-  ac-02_odp.06:
-    values:
-  ac-02_odp.07:
-    values:
-  ac-02_odp.08:
-    values:
-  ac-02_odp.09:
-    values:
-  ac-02_odp.10:
-    values:
-sort-id: ac-02
 x-trestle-global:
   sort-id: ac-02
 ---
@@ -29,75 +16,102 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Define and document the types of accounts allowed and specifically prohibited for use within the system;
+The organization:
 
-- \[b.\] Assign account managers;
+- \[a.\] Identifies and selects the following types of information system accounts to support organizational missions/business functions: {{ insert: param, ac-2_prm_1 }};
 
-- \[c.\] Require {{ insert: param, ac-02_odp.01 }} for group and role membership;
+- \[b.\] Assigns account managers for information system accounts;
 
-- \[d.\] Specify:
+- \[c.\] Establishes conditions for group and role membership;
 
-  - \[1.\] Authorized users of the system;
-  - \[2.\] Group and role membership; and
-  - \[3.\] Access authorizations (i.e., privileges) and {{ insert: param, ac-02_odp.02 }} for each account;
+- \[d.\] Specifies authorized users of the information system, group and role membership, and access authorizations (i.e., privileges) and other attributes (as required) for each account;
 
-- \[e.\] Require approvals by {{ insert: param, ac-02_odp.03 }} for requests to create accounts;
+- \[e.\] Requires approvals by {{ insert: param, ac-2_prm_2 }} for requests to create information system accounts;
 
-- \[f.\] Create, enable, modify, disable, and remove accounts in accordance with {{ insert: param, ac-02_odp.04 }};
+- \[f.\] Creates, enables, modifies, disables, and removes information system accounts in accordance with {{ insert: param, ac-2_prm_3 }};
 
-- \[g.\] Monitor the use of accounts;
+- \[g.\] Monitors the use of information system accounts;
 
-- \[h.\] Notify account managers and {{ insert: param, ac-02_odp.05 }} within:
+- \[h.\] Notifies account managers:
 
-  - \[1.\] {{ insert: param, ac-02_odp.06 }} when accounts are no longer required;
-  - \[2.\] {{ insert: param, ac-02_odp.07 }} when users are terminated or transferred; and
-  - \[3.\] {{ insert: param, ac-02_odp.08 }} when system usage or need-to-know changes for an individual;
+  - \[1.\] When accounts are no longer required;
+  - \[2.\] When users are terminated or transferred; and
+  - \[3.\] When individual information system usage or need-to-know changes;
 
-- \[i.\] Authorize access to the system based on:
+- \[i.\] Authorizes access to the information system based on:
 
   - \[1.\] A valid access authorization;
   - \[2.\] Intended system usage; and
-  - \[3.\] {{ insert: param, ac-02_odp.09 }};
+  - \[3.\] Other attributes as required by the organization or associated missions/business functions;
 
-- \[j.\] Review accounts for compliance with account management requirements {{ insert: param, ac-02_odp.10 }};
+- \[j.\] Reviews accounts for compliance with account management requirements {{ insert: param, ac-2_prm_4 }}; and
 
-- \[k.\] Establish and implement a process for changing shared or group account authenticators (if deployed) when individuals are removed from the group; and
+- \[k.\] Establishes a process for reissuing shared/group account credentials (if deployed) when individuals are removed from the group.
 
-- \[l.\] Align account management processes with personnel termination and transfer processes.
+## Control Objective
+
+Determine if the organization:
+
+- \[AC-2(a)\]
+
+  - \[AC-2(a)[1]\] defines information system account types to be identified and selected to support organizational missions/business functions;
+  - \[AC-2(a)[2]\] identifies and selects organization-defined information system account types to support organizational missions/business functions;
+
+- \[AC-2(b)\] assigns account managers for information system accounts;
+
+- \[AC-2(c)\] establishes conditions for group and role membership;
+
+- \[AC-2(d)\] specifies for each account (as required):
+
+  - \[AC-2(d)[1]\] authorized users of the information system;
+  - \[AC-2(d)[2]\] group and role membership;
+  - \[AC-2(d)[3]\] access authorizations (i.e., privileges);
+  - \[AC-2(d)[4]\] other attributes;
+
+- \[AC-2(e)\]
+
+  - \[AC-2(e)[1]\] defines personnel or roles required to approve requests to create information system accounts;
+  - \[AC-2(e)[2]\] requires approvals by organization-defined personnel or roles for requests to create information system accounts;
+
+- \[AC-2(f)\]
+
+  - \[AC-2(f)[1]\] defines procedures or conditions to:
+
+    - \[AC-2(f)[1][a]\] create information system accounts;
+    - \[AC-2(f)[1][b]\] enable information system accounts;
+    - \[AC-2(f)[1][c]\] modify information system accounts;
+    - \[AC-2(f)[1][d]\] disable information system accounts;
+    - \[AC-2(f)[1][e]\] remove information system accounts;
+
+  - \[AC-2(f)[2]\] in accordance with organization-defined procedures or conditions:
+
+    - \[AC-2(f)[2][a]\] creates information system accounts;
+    - \[AC-2(f)[2][b]\] enables information system accounts;
+    - \[AC-2(f)[2][c]\] modifies information system accounts;
+    - \[AC-2(f)[2][d]\] disables information system accounts;
+    - \[AC-2(f)[2][e]\] removes information system accounts;
+
+- \[AC-2(g)\] monitors the use of information system accounts;
+
+- \[AC-2(h)\] notifies account managers:
+
+  - \[AC-2(h)(1)\] when accounts are no longer required;
+  - \[AC-2(h)(2)\] when users are terminated or transferred;
+  - \[AC-2(h)(3)\] when individual information system usage or need to know changes;
+
+- \[AC-2(i)\] authorizes access to the information system based on;
+
+  - \[AC-2(i)(1)\] a valid access authorization;
+  - \[AC-2(i)(2)\] intended system usage;
+  - \[AC-2(i)(3)\] other attributes as required by the organization or associated missions/business functions;
+
+- \[AC-2(j)\]
+
+  - \[AC-2(j)[1]\] defines the frequency to review accounts for compliance with account management requirements;
+  - \[AC-2(j)[2]\] reviews accounts for compliance with account management requirements with the organization-defined frequency; and
+
+- \[AC-2(k)\] establishes a process for reissuing shared/group account credentials (if deployed) when individuals are removed from the group.
 
 ## Control guidance
 
-Examples of system account types include individual, shared, group, system, guest, anonymous, emergency, developer, temporary, and service. Identification of authorized system users and the specification of access privileges reflect the requirements in other controls in the security plan. Users requiring administrative privileges on system accounts receive additional scrutiny by organizational personnel responsible for approving such accounts and privileged access, including system owner, mission or business owner, senior agency information security officer, or senior agency official for privacy. Types of accounts that organizations may wish to prohibit due to increased risk include shared, group, emergency, anonymous, temporary, and guest accounts.
-
-Where access involves personally identifiable information, security programs collaborate with the senior agency official for privacy to establish the specific conditions for group and role membership; specify authorized users, group and role membership, and access authorizations for each account; and create, adjust, or remove system accounts in accordance with organizational policies. Policies can include such information as account expiration dates or other factors that trigger the disabling of accounts. Organizations may choose to define access privileges or other attributes by account, type of account, or a combination of the two. Examples of other attributes required for authorizing access include restrictions on time of day, day of week, and point of origin. In defining other system account attributes, organizations consider system-related requirements and mission/business requirements. Failure to consider these factors could affect system availability.
-
-Temporary and emergency accounts are intended for short-term use. Organizations establish temporary accounts as part of normal account activation procedures when there is a need for short-term accounts without the demand for immediacy in account activation. Organizations establish emergency accounts in response to crisis situations and with the need for rapid account activation. Therefore, emergency account activation may bypass normal account authorization processes. Emergency and temporary accounts are not to be confused with infrequently used accounts, including local logon accounts used for special tasks or when network resources are unavailable (may also be known as accounts of last resort). Such accounts remain available and are not subject to automatic disabling or removal dates. Conditions for disabling or deactivating accounts include when shared/group, emergency, or temporary accounts are no longer required and when individuals are transferred or terminated. Changing shared/group authenticators when members leave the group is intended to ensure that former group members do not retain access to the shared or group account. Some types of system accounts may require specialized training.
-
-## Control assessment-objective
-
-account types allowed for use within the system are defined and documented;
-account types specifically prohibited for use within the system are defined and documented;
-account managers are assigned;
-{{ insert: param, ac-02_odp.01 }} for group and role membership are required;
-authorized users of the system are specified;
-group and role membership are specified;
-access authorizations (i.e., privileges) are specified for each account;
-{{ insert: param, ac-02_odp.02 }} are specified for each account;
-approvals are required by {{ insert: param, ac-02_odp.03 }} for requests to create accounts;
-accounts are created in accordance with {{ insert: param, ac-02_odp.04 }};
-accounts are enabled in accordance with {{ insert: param, ac-02_odp.04 }};
-accounts are modified in accordance with {{ insert: param, ac-02_odp.04 }};
-accounts are disabled in accordance with {{ insert: param, ac-02_odp.04 }};
-accounts are removed in accordance with {{ insert: param, ac-02_odp.04 }};
-the use of accounts is monitored;
-account managers and {{ insert: param, ac-02_odp.05 }} are notified within {{ insert: param, ac-02_odp.06 }} when accounts are no longer required;
-account managers and {{ insert: param, ac-02_odp.05 }} are notified within {{ insert: param, ac-02_odp.07 }} when users are terminated or transferred;
-account managers and {{ insert: param, ac-02_odp.05 }} are notified within {{ insert: param, ac-02_odp.08 }} when system usage or the need to know changes for an individual;
-access to the system is authorized based on a valid access authorization;
-access to the system is authorized based on intended system usage;
-access to the system is authorized based on {{ insert: param, ac-02_odp.09 }};
-accounts are reviewed for compliance with account management requirements {{ insert: param, ac-02_odp.10 }};
-a process is established for changing shared or group account authenticators (if deployed) when individuals are removed from the group;
-a process is implemented for changing shared or group account authenticators (if deployed) when individuals are removed from the group;
-account management processes are aligned with personnel termination processes;
-account management processes are aligned with personnel transfer processes.
+Information system account types include, for example, individual, shared, group, system, guest/anonymous, emergency, developer/manufacturer/vendor, temporary, and service. Some of the account management requirements listed above can be implemented by organizational information systems. The identification of authorized users of the information system and the specification of access privileges reflects the requirements in other security controls in the security plan. Users requiring administrative privileges on information system accounts receive additional scrutiny by appropriate organizational personnel (e.g., system owner, mission/business owner, or chief information security officer) responsible for approving such accounts and privileged access. Organizations may choose to define access privileges or other attributes by account, by type of account, or a combination of both. Other attributes required for authorizing access include, for example, restrictions on time-of-day, day-of-week, and point-of-origin. In defining other account attributes, organizations consider system-related requirements (e.g., scheduled maintenance, system upgrades) and mission/business requirements, (e.g., time zone differences, customer requirements, remote access to support travel requirements). Failure to consider these factors could affect information system availability. Temporary and emergency accounts are accounts intended for short-term use. Organizations establish temporary accounts as a part of normal account activation procedures when there is a need for short-term accounts without the demand for immediacy in account activation. Organizations establish emergency accounts in response to crisis situations and with the need for rapid account activation. Therefore, emergency account activation may bypass normal account authorization processes. Emergency and temporary accounts are not to be confused with infrequently used accounts (e.g., local logon accounts used for special tasks defined by organizations or when network resources are unavailable). Such accounts remain available and are not subject to automatic disabling or removal dates. Conditions for disabling or deactivating accounts include, for example: (i) when shared/group, emergency, or temporary accounts are no longer required; or (ii) when individuals are transferred or terminated. Some types of information system accounts may require specialized training.

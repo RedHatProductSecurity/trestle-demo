@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  si-05.01_odp:
-    values:
-sort-id: si-05.01
 x-trestle-global:
   sort-id: si-05.01
 ---
@@ -11,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Broadcast security alert and advisory information throughout the organization using {{ insert: param, si-05.01_odp }}.
+The organization employs automated mechanisms to make security alert and advisory information available throughout the organization.
+
+## Control Objective
+
+Determine if the organization employs automated mechanisms to make security alert and advisory information available throughout the organization.
 
 ## Control guidance
 
-The significant number of changes to organizational systems and environments of operation requires the dissemination of security-related information to a variety of organizational entities that have a direct interest in the success of organizational mission and business functions. Based on information provided by security alerts and advisories, changes may be required at one or more of the three levels related to the management of risk, including the governance level, mission and business process level, and the information system level.
-
-## Control assessment-objective
-
-{{ insert: param, si-05.01_odp }} are used to broadcast security alert and advisory information throughout the organization.
+The significant number of changes to organizational information systems and the environments in which those systems operate requires the dissemination of security-related information to a variety of organizational entities that have a direct interest in the success of organizational missions and business functions. Based on the information provided by the security alerts and advisories, changes may be required at one or more of the three tiers related to the management of information security risk including the governance level, mission/business process/enterprise architecture level, and the information system level.

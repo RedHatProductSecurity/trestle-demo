@@ -1,18 +1,13 @@
 ---
 x-trestle-set-params:
-  si-03_odp.01:
+  si-3_prm_1:
     values:
-  si-03_odp.02:
+  si-3_prm_2:
     values:
-  si-03_odp.03:
+  si-3_prm_3:
     values:
-  si-03_odp.04:
+  si-3_prm_4:
     values:
-  si-03_odp.05:
-    values:
-  si-03_odp.06:
-    values:
-sort-id: si-03
 x-trestle-global:
   sort-id: si-03
 ---
@@ -21,32 +16,53 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Implement {{ insert: param, si-03_odp.01 }} malicious code protection mechanisms at system entry and exit points to detect and eradicate malicious code;
+The organization:
 
-- \[b.\] Automatically update malicious code protection mechanisms as new releases are available in accordance with organizational configuration management policy and procedures;
+- \[a.\] Employs malicious code protection mechanisms at information system entry and exit points to detect and eradicate malicious code;
 
-- \[c.\] Configure malicious code protection mechanisms to:
+- \[b.\] Updates malicious code protection mechanisms whenever new releases are available in accordance with organizational configuration management policy and procedures;
 
-  - \[1.\] Perform periodic scans of the system {{ insert: param, si-03_odp.02 }} and real-time scans of files from external sources at {{ insert: param, si-03_odp.03 }} as the files are downloaded, opened, or executed in accordance with organizational policy; and
-  - \[2.\] {{ insert: param, si-03_odp.04 }} ; and send alert to {{ insert: param, si-03_odp.06 }} in response to malicious code detection; and
+- \[c.\] Configures malicious code protection mechanisms to:
 
-- \[d.\] Address the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the system.
+  - \[1.\] Perform periodic scans of the information system {{ insert: param, si-3_prm_1 }} and real-time scans of files from external sources at {{ insert: param, si-3_prm_2 }} as the files are downloaded, opened, or executed in accordance with organizational security policy; and
+  - \[2.\] {{ insert: param, si-3_prm_3 }} in response to malicious code detection; and
+
+- \[d.\] Addresses the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the information system.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[SI-3(a)\] employs malicious code protection mechanisms to detect and eradicate malicious code at information system:
+
+  - \[SI-3(a)[1]\] entry points;
+  - \[SI-3(a)[2]\] exit points;
+
+- \[SI-3(b)\] updates malicious code protection mechanisms whenever new releases are available in accordance with organizational configuration management policy and procedures (as identified in CM-1);
+
+- \[SI-3(c)\]
+
+  - \[SI-3(c)[1]\] defines a frequency for malicious code protection mechanisms to perform periodic scans of the information system;
+  - \[SI-3(c)[2]\] defines action to be initiated by malicious protection mechanisms in response to malicious code detection;
+  - \[SI-3(c)[3]\]
+
+    - \[SI-3(c)[3](1)\] configures malicious code protection mechanisms to:
+
+      - \[SI-3(c)[3](1)[a]\] perform periodic scans of the information system with the organization-defined frequency;
+      - \[SI-3(c)[3](1)[b]\] perform real-time scans of files from external sources at endpoint and/or network entry/exit points as the files are downloaded, opened, or executed in accordance with organizational security policy;
+
+    - \[SI-3(c)[3](2)\] configures malicious code protection mechanisms to do one or more of the following:
+
+      - \[SI-3(c)[3](2)[a]\] block malicious code in response to malicious code detection;
+      - \[SI-3(c)[3](2)[b]\] quarantine malicious code in response to malicious code detection;
+      - \[SI-3(c)[3](2)[c]\] send alert to administrator in response to malicious code detection; and/or
+      - \[SI-3(c)[3](2)[d]\] initiate organization-defined action in response to malicious code detection;
+
+- \[SI-3(d)\]
+
+  - \[SI-3(d)[1]\] addresses the receipt of false positives during malicious code detection and eradication; and
+  - \[SI-3(d)[2]\] addresses the resulting potential impact on the availability of the information system.
 
 ## Control guidance
 
-System entry and exit points include firewalls, remote access servers, workstations, electronic mail servers, web servers, proxy servers, notebook computers, and mobile devices. Malicious code includes viruses, worms, Trojan horses, and spyware. Malicious code can also be encoded in various formats contained within compressed or hidden files or hidden in files using techniques such as steganography. Malicious code can be inserted into systems in a variety of ways, including by electronic mail, the world-wide web, and portable storage devices. Malicious code insertions occur through the exploitation of system vulnerabilities. A variety of technologies and methods exist to limit or eliminate the effects of malicious code.
-
-Malicious code protection mechanisms include both signature- and nonsignature-based technologies. Nonsignature-based detection mechanisms include artificial intelligence techniques that use heuristics to detect, analyze, and describe the characteristics or behavior of malicious code and to provide controls against such code for which signatures do not yet exist or for which existing signatures may not be effective. Malicious code for which active signatures do not yet exist or may be ineffective includes polymorphic malicious code (i.e., code that changes signatures when it replicates). Nonsignature-based mechanisms also include reputation-based technologies. In addition to the above technologies, pervasive configuration management, comprehensive software integrity controls, and anti-exploitation software may be effective in preventing the execution of unauthorized code. Malicious code may be present in commercial off-the-shelf software as well as custom-built software and could include logic bombs, backdoors, and other types of attacks that could affect organizational mission and business functions.
-
-In situations where malicious code cannot be detected by detection methods or technologies, organizations rely on other types of controls, including secure coding practices, configuration management and control, trusted procurement processes, and monitoring practices to ensure that software does not perform functions other than the functions intended. Organizations may determine that, in response to the detection of malicious code, different actions may be warranted. For example, organizations can define actions in response to malicious code detection during periodic scans, the detection of malicious downloads, or the detection of maliciousness when attempting to open or execute files.
-
-## Control assessment-objective
-
-{{ insert: param, si-03_odp.01 }} malicious code protection mechanisms are implemented at system entry and exit points to detect malicious code;
-{{ insert: param, si-03_odp.01 }} malicious code protection mechanisms are implemented at system entry and exit points to eradicate malicious code;
-malicious code protection mechanisms are updated automatically as new releases are available in accordance with organizational configuration management policy and procedures;
-malicious code protection mechanisms are configured to perform periodic scans of the system {{ insert: param, si-03_odp.02 }};
-malicious code protection mechanisms are configured to perform real-time scans of files from external sources at {{ insert: param, si-03_odp.03 }} as the files are downloaded, opened, or executed in accordance with organizational policy;
-malicious code protection mechanisms are configured to {{ insert: param, si-03_odp.04 }} in response to malicious code detection;
-malicious code protection mechanisms are configured to send alerts to {{ insert: param, si-03_odp.06 }} in response to malicious code detection;
-the receipt of false positives during malicious code detection and eradication and the resulting potential impact on the availability of the system are addressed.
+Information system entry and exit points include, for example, firewalls, electronic mail servers, web servers, proxy servers, remote-access servers, workstations, notebook computers, and mobile devices. Malicious code includes, for example, viruses, worms, Trojan horses, and spyware. Malicious code can also be encoded in various formats (e.g., UUENCODE, Unicode), contained within compressed or hidden files, or hidden in files using steganography. Malicious code can be transported by different means including, for example, web accesses, electronic mail, electronic mail attachments, and portable storage devices. Malicious code insertions occur through the exploitation of information system vulnerabilities. Malicious code protection mechanisms include, for example, anti-virus signature definitions and reputation-based technologies. A variety of technologies and methods exist to limit or eliminate the effects of malicious code. Pervasive configuration management and comprehensive software integrity controls may be effective in preventing execution of unauthorized code. In addition to commercial off-the-shelf software, malicious code may also be present in custom-built software. This could include, for example, logic bombs, back doors, and other types of cyber attacks that could affect organizational missions/business functions. Traditional malicious code protection mechanisms cannot always detect such code. In these situations, organizations rely instead on other safeguards including, for example, secure coding practices, configuration management and control, trusted procurement processes, and monitoring practices to help ensure that software does not perform functions other than the functions intended. Organizations may determine that in response to the detection of malicious code, different actions may be warranted. For example, organizations can define actions in response to malicious code detection during periodic scans, actions in response to detection of malicious downloads, and/or actions in response to detection of maliciousness when attempting to open or execute files.

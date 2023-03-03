@@ -1,5 +1,4 @@
 ---
-sort-id: si-06.02
 x-trestle-global:
   sort-id: si-06.02
 ---
@@ -8,13 +7,8 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement automated mechanisms to support the management of distributed security and privacy function testing.
+The information system implements automated mechanisms to support the management of distributed security testing.
 
-## Control guidance
+## Control Objective
 
-The use of automated mechanisms to support the management of distributed function testing helps to ensure the integrity, timeliness, completeness, and efficacy of such testing.
-
-## Control assessment-objective
-
-automated mechanisms are implemented to support the management of distributed security function testing;
-automated mechanisms are implemented to support the management of distributed privacy function testing.
+Determine if the information system implements automated mechanisms to support the management of distributed security testing.

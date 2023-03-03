@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ir-06.02_odp:
+  ir-6.2_prm_1:
     values:
-sort-id: ir-06.02
 x-trestle-global:
   sort-id: ir-06.02
 ---
@@ -11,12 +10,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Report system vulnerabilities associated with reported incidents to {{ insert: param, ir-06.02_odp }}.
+The organization reports information system vulnerabilities associated with reported security incidents to {{ insert: param, ir-6.2_prm_1 }}.
 
-## Control guidance
+## Control Objective
 
-Reported incidents that uncover system vulnerabilities are analyzed by organizational personnel including system owners, mission and business owners, senior agency information security officers, senior agency officials for privacy, authorizing officials, and the risk executive (function). The analysis can serve to prioritize and initiate mitigation actions to address the discovered system vulnerability.
+Determine if the organization:
 
-## Control assessment-objective
+- \[IR-6(2)[1]\] defines personnel or roles to whom information system vulnerabilities associated with reported security incidents are to be reported; and
 
-system vulnerabilities associated with reported incidents are reported to {{ insert: param, ir-06.02_odp }}.
+- \[IR-6(2)[2]\] reports information system vulnerabilities associated with reported security incidents to organization-defined personnel or roles.

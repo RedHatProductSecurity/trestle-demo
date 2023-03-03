@@ -2,67 +2,69 @@
 x-trestle-set-params:
   at-1_prm_1:
     values:
-  at-01_odp.01:
+  at-1_prm_2:
     values:
-  at-01_odp.02:
+  at-1_prm_3:
     values:
-  at-01_odp.03:
-    values:
-  at-01_odp.04:
-    values:
-  at-01_odp.05:
-    values:
-  at-01_odp.06:
-    values:
-  at-01_odp.07:
-    values:
-  at-01_odp.08:
-    values:
-sort-id: at-01
 x-trestle-global:
   sort-id: at-01
 ---
 
-# at-1 - \[Awareness and Training\] Policy and Procedures
+# at-1 - \[Awareness and Training\] Security Awareness and Training Policy and Procedures
 
 ## Control Statement
 
-- \[a.\] Develop, document, and disseminate to {{ insert: param, at-1_prm_1 }}:
+The organization:
 
-  - \[1.\] {{ insert: param, at-01_odp.03 }} awareness and training policy that:
+- \[a.\] Develops, documents, and disseminates to {{ insert: param, at-1_prm_1 }}:
 
-    - \[(a)\] Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
-    - \[(b)\] Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines; and
+  - \[1.\] A security awareness and training policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
+  - \[2.\] Procedures to facilitate the implementation of the security awareness and training policy and associated security awareness and training controls; and
 
-  - \[2.\] Procedures to facilitate the implementation of the awareness and training policy and the associated awareness and training controls;
+- \[b.\] Reviews and updates the current:
 
-- \[b.\] Designate an {{ insert: param, at-01_odp.04 }} to manage the development, documentation, and dissemination of the awareness and training policy and procedures; and
+  - \[1.\] Security awareness and training policy {{ insert: param, at-1_prm_2 }}; and
+  - \[2.\] Security awareness and training procedures {{ insert: param, at-1_prm_3 }}.
 
-- \[c.\] Review and update the current awareness and training:
+## Control Objective
 
-  - \[1.\] Policy {{ insert: param, at-01_odp.05 }} and following {{ insert: param, at-01_odp.06 }} ; and
-  - \[2.\] Procedures {{ insert: param, at-01_odp.07 }} and following {{ insert: param, at-01_odp.08 }}.
+Determine if the organization:
+
+- \[AT-1(a)\]
+
+  - \[AT-1(a)(1)\]
+
+    - \[AT-1(a)(1)[1]\] develops and documents an security awareness and training policy that addresses:
+
+      - \[AT-1(a)(1)[1][a]\] purpose;
+      - \[AT-1(a)(1)[1][b]\] scope;
+      - \[AT-1(a)(1)[1][c]\] roles;
+      - \[AT-1(a)(1)[1][d]\] responsibilities;
+      - \[AT-1(a)(1)[1][e]\] management commitment;
+      - \[AT-1(a)(1)[1][f]\] coordination among organizational entities;
+      - \[AT-1(a)(1)[1][g]\] compliance;
+
+    - \[AT-1(a)(1)[2]\] defines personnel or roles to whom the security awareness and training policy are to be disseminated;
+    - \[AT-1(a)(1)[3]\] disseminates the security awareness and training policy to organization-defined personnel or roles;
+
+  - \[AT-1(a)(2)\]
+
+    - \[AT-1(a)(2)[1]\] develops and documents procedures to facilitate the implementation of the security awareness and training policy and associated awareness and training controls;
+    - \[AT-1(a)(2)[2]\] defines personnel or roles to whom the procedures are to be disseminated;
+    - \[AT-1(a)(2)[3]\] disseminates the procedures to organization-defined personnel or roles;
+
+- \[AT-1(b)\]
+
+  - \[AT-1(b)(1)\]
+
+    - \[AT-1(b)(1)[1]\] defines the frequency to review and update the current security awareness and training policy;
+    - \[AT-1(b)(1)[2]\] reviews and updates the current security awareness and training policy with the organization-defined frequency;
+
+  - \[AT-1(b)(2)\]
+
+    - \[AT-1(b)(2)[1]\] defines the frequency to review and update the current security awareness and training procedures; and
+    - \[AT-1(b)(2)[2]\] reviews and updates the current security awareness and training procedures with the organization-defined frequency.
 
 ## Control guidance
 
-Awareness and training policy and procedures address the controls in the AT family that are implemented within systems and organizations. The risk management strategy is an important factor in establishing such policies and procedures. Policies and procedures contribute to security and privacy assurance. Therefore, it is important that security and privacy programs collaborate on the development of awareness and training policy and procedures. Security and privacy program policies and procedures at the organization level are preferable, in general, and may obviate the need for mission- or system-specific policies and procedures. The policy can be included as part of the general security and privacy policy or be represented by multiple policies that reflect the complex nature of organizations. Procedures can be established for security and privacy programs, for mission or business processes, and for systems, if needed. Procedures describe how the policies or controls are implemented and can be directed at the individual or role that is the object of the procedure. Procedures can be documented in system security and privacy plans or in one or more separate documents. Events that may precipitate an update to awareness and training policy and procedures include assessment or audit findings, security incidents or breaches, or changes in applicable laws, executive orders, directives, regulations, policies, standards, and guidelines. Simply restating controls does not constitute an organizational policy or procedure.
-
-## Control assessment-objective
-
-an awareness and training policy is developed and documented;
-the awareness and training policy is disseminated to {{ insert: param, at-01_odp.01 }};
-awareness and training procedures to facilitate the implementation of the awareness and training policy and associated access controls are developed and documented;
-the awareness and training procedures are disseminated to {{ insert: param, at-01_odp.02 }}.
-the {{ insert: param, at-01_odp.03 }} awareness and training policy addresses purpose;
-the {{ insert: param, at-01_odp.03 }} awareness and training policy addresses scope;
-the {{ insert: param, at-01_odp.03 }} awareness and training policy addresses roles;
-the {{ insert: param, at-01_odp.03 }} awareness and training policy addresses responsibilities;
-the {{ insert: param, at-01_odp.03 }} awareness and training policy addresses management commitment;
-the {{ insert: param, at-01_odp.03 }} awareness and training policy addresses coordination among organizational entities;
-the {{ insert: param, at-01_odp.03 }} awareness and training policy addresses compliance; and
-the {{ insert: param, at-01_odp.03 }} awareness and training policy is consistent with applicable laws, Executive Orders, directives, regulations, policies, standards, and guidelines; and
-the {{ insert: param, at-01_odp.04 }} is designated to manage the development, documentation, and dissemination of the awareness and training policy and procedures;
-the current awareness and training policy is reviewed and updated {{ insert: param, at-01_odp.05 }};
-the current awareness and training policy is reviewed and updated following {{ insert: param, at-01_odp.06 }};
-the current awareness and training procedures are reviewed and updated {{ insert: param, at-01_odp.07 }};
-the current awareness and training procedures are reviewed and updated following {{ insert: param, at-01_odp.08 }}.
+This control addresses the establishment of policy and procedures for the effective implementation of selected security controls and control enhancements in the AT family. Policy and procedures reflect applicable federal laws, Executive Orders, directives, regulations, policies, standards, and guidance. Security program policies and procedures at the organization level may make the need for system-specific policies and procedures unnecessary. The policy can be included as part of the general information security policy for organizations or conversely, can be represented by multiple policies reflecting the complex nature of certain organizations. The procedures can be established for the security program in general and for particular information systems, if needed. The organizational risk management strategy is a key factor in establishing policy and procedures.

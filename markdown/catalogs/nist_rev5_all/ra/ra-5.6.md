@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  ra-05.06_odp:
-    values:
-sort-id: ra-05.06
 x-trestle-global:
   sort-id: ra-05.06
 ---
@@ -11,12 +7,8 @@ x-trestle-global:
 
 ## Control Statement
 
-Compare the results of multiple vulnerability scans using {{ insert: param, ra-05.06_odp }}.
+The organization employs automated mechanisms to compare the results of vulnerability scans over time to determine trends in information system vulnerabilities.
 
-## Control guidance
+## Control Objective
 
-Using automated mechanisms to analyze multiple vulnerability scans over time can help determine trends in system vulnerabilities and identify patterns of attack.
-
-## Control assessment-objective
-
-the results of multiple vulnerability scans are compared using {{ insert: param, ra-05.06_odp }}.
+Determine if the organization employs automated mechanisms to compare the results of vulnerability scans over time to determine trends in information system vulnerabilities.

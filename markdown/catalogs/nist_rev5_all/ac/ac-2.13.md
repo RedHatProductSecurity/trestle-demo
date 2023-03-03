@@ -1,10 +1,7 @@
 ---
 x-trestle-set-params:
-  ac-02.13_odp.01:
+  ac-2.13_prm_1:
     values:
-  ac-02.13_odp.02:
-    values:
-sort-id: ac-02.13
 x-trestle-global:
   sort-id: ac-02.13
 ---
@@ -13,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Disable accounts of individuals within {{ insert: param, ac-02.13_odp.01 }} of discovery of {{ insert: param, ac-02.13_odp.02 }}.
+The organization disables accounts of users posing a significant risk within {{ insert: param, ac-2.13_prm_1 }} of discovery of the risk.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[AC-2(13)[1]\] defines the time period within which accounts are disabled upon discovery of a significant risk posed by users of such accounts; and
+
+- \[AC-2(13)[2]\] disables accounts of users posing a significant risk within the organization-defined time period of discovery of the risk.
 
 ## Control guidance
 
-Users who pose a significant security and/or privacy risk include individuals for whom reliable evidence indicates either the intention to use authorized access to systems to cause harm or through whom adversaries will cause harm. Such harm includes adverse impacts to organizational operations, organizational assets, individuals, other organizations, or the Nation. Close coordination among system administrators, legal staff, human resource managers, and authorizing officials is essential when disabling system accounts for high-risk individuals.
-
-## Control assessment-objective
-
-accounts of individuals are disabled within {{ insert: param, ac-02.13_odp.01 }} of discovery of {{ insert: param, ac-02.13_odp.02 }}.
+Users posing a significant risk to organizations include individuals for whom reliable evidence or intelligence indicates either the intention to use authorized access to information systems to cause harm or through whom adversaries will cause harm. Harm includes potential adverse impacts to organizational operations and assets, individuals, other organizations, or the Nation. Close coordination between authorizing officials, information system administrators, and human resource managers is essential in order for timely execution of this control enhancement.

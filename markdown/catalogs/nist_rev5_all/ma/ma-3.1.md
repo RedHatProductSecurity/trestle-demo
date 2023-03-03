@@ -1,5 +1,4 @@
 ---
-sort-id: ma-03.01
 x-trestle-global:
   sort-id: ma-03.01
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Inspect the maintenance tools used by maintenance personnel for improper or unauthorized modifications.
+The organization inspects the maintenance tools carried into a facility by maintenance personnel for improper or unauthorized modifications.
+
+## Control Objective
+
+Determine if the organization inspects the maintenance tools carried into a facility by maintenance personnel for improper or unauthorized modifications.
 
 ## Control guidance
 
-Maintenance tools can be directly brought into a facility by maintenance personnel or downloaded from a vendor’s website. If, upon inspection of the maintenance tools, organizations determine that the tools have been modified in an improper manner or the tools contain malicious code, the incident is handled consistent with organizational policies and procedures for incident handling.
-
-## Control assessment-objective
-
-maintenance tools used by maintenance personnel are inspected for improper or unauthorized modifications.
+If, upon inspection of maintenance tools, organizations determine that the tools have been modified in an improper/unauthorized manner or contain malicious code, the incident is handled consistent with organizational policies and procedures for incident handling.

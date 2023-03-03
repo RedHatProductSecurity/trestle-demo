@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  pm-09_odp:
+  pm-9_prm_1:
     values:
-sort-id: pm-09
 x-trestle-global:
   sort-id: pm-09
 ---
@@ -11,22 +10,30 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Develops a comprehensive strategy to manage:
+The organization:
 
-  - \[1.\] Security risk to organizational operations and assets, individuals, other organizations, and the Nation associated with the operation and use of organizational systems; and
-  - \[2.\] Privacy risk to individuals resulting from the authorized processing of personally identifiable information;
+- \[a.\] Develops a comprehensive strategy to manage risk to organizational operations and assets, individuals, other organizations, and the Nation associated with the operation and use of information systems;
 
-- \[b.\] Implement the risk management strategy consistently across the organization; and
+- \[b.\] Implements the risk management strategy consistently across the organization; and
 
-- \[c.\] Review and update the risk management strategy {{ insert: param, pm-09_odp }} or as required, to address organizational changes.
+- \[c.\] Reviews and updates the risk management strategy {{ insert: param, pm-9_prm_1 }} or as required, to address organizational changes.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PM-9(a)\] develops a comprehensive strategy to manage risk to organizational operations and assets, individuals, other organizations, and the Nation associated with the operation and use of information systems;
+
+- \[PM-9(b)\] implements the risk management strategy consistently across the organization;
+
+- \[PM-9(c)\]
+
+  - \[PM-9(c)[1]\] defines the frequency to review and update the risk management strategy;
+  - \[PM-9(c)[2]\] reviews and updates the risk management strategy to address organizational changes:
+
+    - \[PM-9(c)[2][a]\] with the organization-defined frequency; or
+    - \[PM-9(c)[2][b]\] as required.
 
 ## Control guidance
 
-An organization-wide risk management strategy includes an expression of the security and privacy risk tolerance for the organization, security and privacy risk mitigation strategies, acceptable risk assessment methodologies, a process for evaluating security and privacy risk across the organization with respect to the organization’s risk tolerance, and approaches for monitoring risk over time. The senior accountable official for risk management (agency head or designated official) aligns information security management processes with strategic, operational, and budgetary planning processes. The risk executive function, led by the senior accountable official for risk management, can facilitate consistent application of the risk management strategy organization-wide. The risk management strategy can be informed by security and privacy risk-related inputs from other sources, both internal and external to the organization, to ensure that the strategy is broad-based and comprehensive. The supply chain risk management strategy described in [PM-30](#pm-30) can also provide useful inputs to the organization-wide risk management strategy.
-
-## Control assessment-objective
-
-a comprehensive strategy is developed to manage security risk to organizational operations and assets, individuals, other organizations, and the Nation associated with the operation and use of organizational systems;
-a comprehensive strategy is developed to manage privacy risk to individuals resulting from the authorized processing of personally identifiable information;
-the risk management strategy is implemented consistently across the organization;
-the risk management strategy is reviewed and updated {{ insert: param, pm-09_odp }} or as required to address organizational changes.
+An organization-wide risk management strategy includes, for example, an unambiguous expression of the risk tolerance for the organization, acceptable risk assessment methodologies, risk mitigation strategies, a process for consistently evaluating risk across the organization with respect to the organization’s risk tolerance, and approaches for monitoring risk over time. The use of a risk executive function can facilitate consistent, organization-wide application of the risk management strategy. The organization-wide risk management strategy can be informed by risk-related inputs from other sources both internal and external to the organization to ensure the strategy is both broad-based and comprehensive.

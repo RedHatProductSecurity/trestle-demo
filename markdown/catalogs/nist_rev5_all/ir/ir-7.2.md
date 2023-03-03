@@ -1,5 +1,4 @@
 ---
-sort-id: ir-07.02
 x-trestle-global:
   sort-id: ir-07.02
 ---
@@ -8,15 +7,20 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[(a)\] Establish a direct, cooperative relationship between its incident response capability and external providers of system protection capability; and
+The organization:
 
-- \[(b)\] Identify organizational incident response team members to the external providers.
+- \[(a)\] Establishes a direct, cooperative relationship between its incident response capability and external providers of information system protection capability; and
+
+- \[(b)\] Identifies organizational incident response team members to the external providers.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[IR-7(2)(a)\] establishes a direct, cooperative relationship between its incident response capability and external providers of information system protection capability; and
+
+- \[IR-7(2)(b)\] identifies organizational incident response team members to the external providers.
 
 ## Control guidance
 
-External providers of a system protection capability include the Computer Network Defense program within the U.S. Department of Defense. External providers help to protect, monitor, analyze, detect, and respond to unauthorized activity within organizational information systems and networks. It may be beneficial to have agreements in place with external providers to clarify the roles and responsibilities of each party before an incident occurs.
-
-## Control assessment-objective
-
-a direct, cooperative relationship is established between its incident response capability and external providers of the system protection capability;
-organizational incident response team members are identified to the external providers.
+External providers of information system protection capability include, for example, the Computer Network Defense program within the U.S. Department of Defense. External providers help to protect, monitor, analyze, detect, and respond to unauthorized activity within organizational information systems and networks.

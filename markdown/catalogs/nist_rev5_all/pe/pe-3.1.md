@@ -1,23 +1,25 @@
 ---
 x-trestle-set-params:
-  pe-03.01_odp:
+  pe-3.1_prm_1:
     values:
-sort-id: pe-03.01
 x-trestle-global:
   sort-id: pe-03.01
 ---
 
-# pe-3.1 - \[Physical and Environmental Protection\] System Access
+# pe-3.1 - \[Physical and Environmental Protection\] Information System Access
 
 ## Control Statement
 
-Enforce physical access authorizations to the system in addition to the physical access controls for the facility at {{ insert: param, pe-03.01_odp }}.
+The organization enforces physical access authorizations to the information system in addition to the physical access controls for the facility at {{ insert: param, pe-3.1_prm_1 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PE-3(1)[1]\] defines physical spaces containing one or more components of the information system; and
+
+- \[PE-3(1)[2]\] enforces physical access authorizations to the information system in addition to the physical access controls for the facility at organization-defined physical spaces containing one or more components of the information system.
 
 ## Control guidance
 
-Control of physical access to the system provides additional physical security for those areas within facilities where there is a concentration of system components.
-
-## Control assessment-objective
-
-physical access authorizations to the system are enforced;
-physical access controls are enforced for the facility at {{ insert: param, pe-03.01_odp }}.
+This control enhancement provides additional physical security for those areas within facilities where there is a concentration of information system components (e.g., server rooms, media storage areas, data and communications centers).

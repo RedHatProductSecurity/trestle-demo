@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  sc-07.12_odp.01:
+  sc-7.12_prm_1:
     values:
-  sc-07.12_odp.02:
+  sc-7.12_prm_2:
     values:
-sort-id: sc-07.12
 x-trestle-global:
   sort-id: sc-07.12
 ---
@@ -13,12 +12,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement {{ insert: param, sc-07.12_odp.01 }} at {{ insert: param, sc-07.12_odp.02 }}.
+The organization implements {{ insert: param, sc-7.12_prm_1 }} at {{ insert: param, sc-7.12_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[SC-7(12)[1]\] defines host-based boundary protection mechanisms;
+
+- \[SC-7(12)[2]\] defines information system components where organization-defined host-based boundary protection mechanisms are to be implemented; and
+
+- \[SC-7(12)[3]\] implements organization-defined host-based boundary protection mechanisms at organization-defined information system components.
 
 ## Control guidance
 
-Host-based boundary protection mechanisms include host-based firewalls. System components that employ host-based boundary protection mechanisms include servers, workstations, notebook computers, and mobile devices.
-
-## Control assessment-objective
-
-{{ insert: param, sc-07.12_odp.01 }} are implemented at {{ insert: param, sc-07.12_odp.02 }}.
+Host-based boundary protection mechanisms include, for example, host-based firewalls. Information system components employing host-based boundary protection mechanisms include, for example, servers, workstations, and mobile devices.

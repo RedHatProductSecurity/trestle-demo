@@ -1,5 +1,4 @@
 ---
-sort-id: sc-03.01
 x-trestle-global:
   sort-id: sc-03.01
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Employ hardware separation mechanisms to implement security function isolation.
+The information system utilizes underlying hardware separation mechanisms to implement security function isolation.
+
+## Control Objective
+
+Determine if the information system utilizes underlying hardware separation mechanisms to implement security function isolation.
 
 ## Control guidance
 
-Hardware separation mechanisms include hardware ring architectures that are implemented within microprocessors and hardware-enforced address segmentation used to support logically distinct storage objects with separate attributes (i.e., readable, writeable).
-
-## Control assessment-objective
-
-hardware separation mechanisms are employed to implement security function isolation.
+Underlying hardware separation mechanisms include, for example, hardware ring architectures, commonly implemented within microprocessors, and hardware-enforced address segmentation used to support logically distinct storage objects with separate attributes (i.e., readable, writeable).

@@ -1,5 +1,7 @@
 ---
-sort-id: mp-08.03
+x-trestle-set-params:
+  mp-8.3_prm_1:
+    values:
 x-trestle-global:
   sort-id: mp-08.03
 ---
@@ -8,13 +10,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Downgrade system media containing controlled unclassified information prior to public release.
+The organization downgrades information system media containing {{ insert: param, mp-8.3_prm_1 }} prior to public release in accordance with applicable federal and organizational standards and policies.
 
-## Control guidance
+## Control Objective
 
-The downgrading of controlled unclassified information uses approved sanitization tools, techniques, and procedures.
+Determine if the organization:
 
-## Control assessment-objective
+- \[MP-8(3)[1]\] defines Controlled Unclassified Information (CUI) contained on information system media that requires downgrading prior to public release; and
 
-system media containing controlled unclassified information is identified;
-system media containing controlled unclassified information is downgraded prior to public release.
+- \[MP-8(3)[2]\] downgrades information system media containing organization-defined CUI prior to public release in accordance with applicable federal and organizational standards and policies.

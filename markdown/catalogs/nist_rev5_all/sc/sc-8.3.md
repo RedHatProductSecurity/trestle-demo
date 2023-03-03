@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  sc-08.03_odp:
+  sc-8.3_prm_1:
     values:
-sort-id: sc-08.03
 x-trestle-global:
   sort-id: sc-08.03
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement cryptographic mechanisms to protect message externals unless otherwise protected by {{ insert: param, sc-08.03_odp }}.
+The information system implements cryptographic mechanisms to protect message externals unless otherwise protected by {{ insert: param, sc-8.3_prm_1 }}.
+
+## Control Objective
+
+Determine if:
+
+- \[SC-8(3)[1]\] the organization defines alternative physical safeguards to be implemented to protect message externals; and
+
+- \[SC-8(3)[2]\] the information system implements cryptographic mechanisms to protect message externals unless otherwise protected by organization-defined alternative physical safeguards.
 
 ## Control guidance
 
-Cryptographic protection for message externals addresses protection from the unauthorized disclosure of information. Message externals include message headers and routing information. Cryptographic protection prevents the exploitation of message externals and applies to internal and external networks or links that may be visible to individuals who are not authorized users. Header and routing information is sometimes transmitted in clear text (i.e., unencrypted) because the information is not identified by organizations as having significant value or because encrypting the information can result in lower network performance or higher costs. Alternative physical controls include protected distribution systems.
-
-## Control assessment-objective
-
-cryptographic mechanisms are implemented to protect message externals unless otherwise protected by {{ insert: param, sc-08.03_odp }}.
+This control enhancement addresses protection against unauthorized disclosure of information. Message externals include, for example, message headers/routing information. This control enhancement prevents the exploitation of message externals and applies to both internal and external networks or links that may be visible to individuals who are not authorized users. Header/routing information is sometimes transmitted unencrypted because the information is not properly identified by organizations as having significant value or because encrypting the information can result in lower network performance and/or higher costs. Alternative physical safeguards include, for example, protected distribution systems.

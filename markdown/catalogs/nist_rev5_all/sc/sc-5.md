@@ -1,29 +1,29 @@
 ---
 x-trestle-set-params:
-  sc-05_odp.01:
+  sc-5_prm_1:
     values:
-  sc-05_odp.02:
+  sc-5_prm_2:
     values:
-  sc-05_odp.03:
-    values:
-sort-id: sc-05
 x-trestle-global:
   sort-id: sc-05
 ---
 
-# sc-5 - \[System and Communications Protection\] Denial-of-service Protection
+# sc-5 - \[System and Communications Protection\] Denial of Service Protection
 
 ## Control Statement
 
-- \[a.\] {{ insert: param, sc-05_odp.02 }} the effects of the following types of denial-of-service events: {{ insert: param, sc-05_odp.01 }} ; and
+The information system protects against or limits the effects of the following types of denial of service attacks: {{ insert: param, sc-5_prm_1 }} by employing {{ insert: param, sc-5_prm_2 }}.
 
-- \[b.\] Employ the following controls to achieve the denial-of-service objective: {{ insert: param, sc-05_odp.03 }}.
+## Control Objective
+
+Determine if:
+
+- \[SC-5[1]\] the organization defines types of denial of service attacks or reference to source of such information for the information system to protect against or limit the effects;
+
+- \[SC-5[2]\] the organization defines security safeguards to be employed by the information system to protect against or limit the effects of organization-defined types of denial of service attacks; and
+
+- \[SC-5[3]\] the information system protects against or limits the effects of the organization-defined denial or service attacks (or reference to source for such information) by employing organization-defined security safeguards.
 
 ## Control guidance
 
-Denial-of-service events may occur due to a variety of internal and external causes, such as an attack by an adversary or a lack of planning to support organizational needs with respect to capacity and bandwidth. Such attacks can occur across a wide range of network protocols (e.g., IPv4, IPv6). A variety of technologies are available to limit or eliminate the origination and effects of denial-of-service events. For example, boundary protection devices can filter certain types of packets to protect system components on internal networks from being directly affected by or the source of denial-of-service attacks. Employing increased network capacity and bandwidth combined with service redundancy also reduces the susceptibility to denial-of-service events.
-
-## Control assessment-objective
-
-the effects of {{ insert: param, sc-05_odp.01 }} are {{ insert: param, sc-05_odp.02 }};
-{{ insert: param, sc-05_odp.03 }} are employed to achieve the denial-of-service protection objective.
+A variety of technologies exist to limit, or in some cases, eliminate the effects of denial of service attacks. For example, boundary protection devices can filter certain types of packets to protect information system components on internal organizational networks from being directly affected by denial of service attacks. Employing increased capacity and bandwidth combined with service redundancy may also reduce the susceptibility to denial of service attacks.

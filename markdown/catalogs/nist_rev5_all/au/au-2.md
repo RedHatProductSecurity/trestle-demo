@@ -1,47 +1,46 @@
 ---
 x-trestle-set-params:
+  au-2_prm_1:
+    values:
   au-2_prm_2:
     values:
-  au-02_odp.01:
-    values:
-  au-02_odp.02:
-    values:
-  au-02_odp.03:
-    values:
-  au-02_odp.04:
-    values:
-sort-id: au-02
 x-trestle-global:
   sort-id: au-02
 ---
 
-# au-2 - \[Audit and Accountability\] Event Logging
+# au-2 - \[Audit and Accountability\] Audit Events
 
 ## Control Statement
 
-- \[a.\] Identify the types of events that the system is capable of logging in support of the audit function: {{ insert: param, au-02_odp.01 }};
+The organization:
 
-- \[b.\] Coordinate the event logging function with other organizational entities requiring audit-related information to guide and inform the selection criteria for events to be logged;
+- \[a.\] Determines that the information system is capable of auditing the following events: {{ insert: param, au-2_prm_1 }};
 
-- \[c.\] Specify the following event types for logging within the system: {{ insert: param, au-2_prm_2 }};
+- \[b.\] Coordinates the security audit function with other organizational entities requiring audit-related information to enhance mutual support and to help guide the selection of auditable events;
 
-- \[d.\] Provide a rationale for why the event types selected for logging are deemed to be adequate to support after-the-fact investigations of incidents; and
+- \[c.\] Provides a rationale for why the auditable events are deemed to be adequate to support after-the-fact investigations of security incidents; and
 
-- \[e.\] Review and update the event types selected for logging {{ insert: param, au-02_odp.04 }}.
+- \[d.\] Determines that the following events are to be audited within the information system: {{ insert: param, au-2_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[AU-2(a)\]
+
+  - \[AU-2(a)[1]\] defines the auditable events that the information system must be capable of auditing;
+  - \[AU-2(a)[2]\] determines that the information system is capable of auditing organization-defined auditable events;
+
+- \[AU-2(b)\] coordinates the security audit function with other organizational entities requiring audit-related information to enhance mutual support and to help guide the selection of auditable events;
+
+- \[AU-2(c)\] provides a rationale for why the auditable events are deemed to be adequate to support after-the-fact investigations of security incidents;
+
+- \[AU-2(d)\]
+
+  - \[AU-2(d)[1]\] defines the subset of auditable events defined in AU-2a that are to be audited within the information system;
+  - \[AU-2(d)[2]\] determines that the subset of auditable events defined in AU-2a are to be audited within the information system; and
+  - \[AU-2(d)[3]\] determines the frequency of (or situation requiring) auditing for each identified event.
 
 ## Control guidance
 
-An event is an observable occurrence in a system. The types of events that require logging are those events that are significant and relevant to the security of systems and the privacy of individuals. Event logging also supports specific monitoring and auditing needs. Event types include password changes, failed logons or failed accesses related to systems, security or privacy attribute changes, administrative privilege usage, PIV credential usage, data action changes, query parameters, or external credential usage. In determining the set of event types that require logging, organizations consider the monitoring and auditing appropriate for each of the controls to be implemented. For completeness, event logging includes all protocols that are operational and supported by the system.
-
-To balance monitoring and auditing requirements with other system needs, event logging requires identifying the subset of event types that are logged at a given point in time. For example, organizations may determine that systems need the capability to log every file access successful and unsuccessful, but not activate that capability except for specific circumstances due to the potential burden on system performance. The types of events that organizations desire to be logged may change. Reviewing and updating the set of logged events is necessary to help ensure that the events remain relevant and continue to support the needs of the organization. Organizations consider how the types of logging events can reveal information about individuals that may give rise to privacy risk and how best to mitigate such risks. For example, there is the potential to reveal personally identifiable information in the audit trail, especially if the logging event is based on patterns or time of usage.
-
-Event logging requirements, including the need to log specific event types, may be referenced in other controls and control enhancements. These include [AC-2(4)](#ac-2.4), [AC-3(10)](#ac-3.10), [AC-6(9)](#ac-6.9), [AC-17(1)](#ac-17.1), [CM-3f](#cm-3_smt.f), [CM-5(1)](#cm-5.1), [IA-3(3)(b)](#ia-3.3_smt.b), [MA-4(1)](#ma-4.1), [MP-4(2)](#mp-4.2), [PE-3](#pe-3), [PM-21](#pm-21), [PT-7](#pt-7), [RA-8](#ra-8), [SC-7(9)](#sc-7.9), [SC-7(15)](#sc-7.15), [SI-3(8)](#si-3.8), [SI-4(22)](#si-4.22), [SI-7(8)](#si-7.8) , and [SI-10(1)](#si-10.1) . Organizations include event types that are required by applicable laws, executive orders, directives, policies, regulations, standards, and guidelines. Audit records can be generated at various levels, including at the packet level as information traverses the network. Selecting the appropriate level of event logging is an important part of a monitoring and auditing capability and can identify the root causes of problems. When defining event types, organizations consider the logging necessary to cover related event types, such as the steps in distributed, transaction-based processes and the actions that occur in service-oriented architectures.
-
-## Control assessment-objective
-
-{{ insert: param, au-02_odp.01 }} that the system is capable of logging are identified in support of the audit logging function;
-the event logging function is coordinated with other organizational entities requiring audit-related information to guide and inform the selection criteria for events to be logged;
-{{ insert: param, au-02_odp.02 }} are specified for logging within the system;
-the specified event types are logged within the system {{ insert: param, au-02_odp.03 }};
-a rationale is provided for why the event types selected for logging are deemed to be adequate to support after-the-fact investigations of incidents;
-the event types selected for logging are reviewed and updated {{ insert: param, au-02_odp.04 }}.
+An event is any observable occurrence in an organizational information system. Organizations identify audit events as those events which are significant and relevant to the security of information systems and the environments in which those systems operate in order to meet specific and ongoing audit needs. Audit events can include, for example, password changes, failed logons, or failed accesses related to information systems, administrative privilege usage, PIV credential usage, or third-party credential usage. In determining the set of auditable events, organizations consider the auditing appropriate for each of the security controls to be implemented. To balance auditing requirements with other information system needs, this control also requires identifying that subset of auditable events that are audited at a given point in time. For example, organizations may determine that information systems must have the capability to log every file access both successful and unsuccessful, but not activate that capability except for specific circumstances due to the potential burden on system performance. Auditing requirements, including the need for auditable events, may be referenced in other security controls and control enhancements. Organizations also include auditable events that are required by applicable federal laws, Executive Orders, directives, policies, regulations, and standards. Audit records can be generated at various levels of abstraction, including at the packet level as information traverses the network. Selecting the appropriate level of abstraction is a critical aspect of an audit capability and can facilitate the identification of root causes to problems. Organizations consider in the definition of auditable events, the auditing necessary to cover related events such as the steps in distributed, transaction-based processes (e.g., processes that are distributed across multiple organizations) and actions that occur in service-oriented architectures.

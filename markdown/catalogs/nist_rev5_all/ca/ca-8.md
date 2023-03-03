@@ -1,26 +1,29 @@
 ---
 x-trestle-set-params:
-  ca-08_odp.01:
+  ca-8_prm_1:
     values:
-  ca-08_odp.02:
+  ca-8_prm_2:
     values:
-sort-id: ca-08
 x-trestle-global:
   sort-id: ca-08
 ---
 
-# ca-8 - \[Assessment, Authorization, and Monitoring\] Penetration Testing
+# ca-8 - \[Security Assessment and Authorization\] Penetration Testing
 
 ## Control Statement
 
-Conduct penetration testing {{ insert: param, ca-08_odp.01 }} on {{ insert: param, ca-08_odp.02 }}.
+The organization conducts penetration testing {{ insert: param, ca-8_prm_1 }} on {{ insert: param, ca-8_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CA-8[1]\] defines information systems or system components on which penetration testing is to be conducted;
+
+- \[CA-8[2]\] defines the frequency to conduct penetration testing on organization-defined information systems or system components; and
+
+- \[CA-8[3]\] conducts penetration testing on organization-defined information systems or system components with the organization-defined frequency.
 
 ## Control guidance
 
-Penetration testing is a specialized type of assessment conducted on systems or individual system components to identify vulnerabilities that could be exploited by adversaries. Penetration testing goes beyond automated vulnerability scanning and is conducted by agents and teams with demonstrable skills and experience that include technical expertise in network, operating system, and/or application level security. Penetration testing can be used to validate vulnerabilities or determine the degree of penetration resistance of systems to adversaries within specified constraints. Such constraints include time, resources, and skills. Penetration testing attempts to duplicate the actions of adversaries and provides a more in-depth analysis of security- and privacy-related weaknesses or deficiencies. Penetration testing is especially important when organizations are transitioning from older technologies to newer technologies (e.g., transitioning from IPv4 to IPv6 network protocols).
-
-Organizations can use the results of vulnerability analyses to support penetration testing activities. Penetration testing can be conducted internally or externally on the hardware, software, or firmware components of a system and can exercise both physical and technical controls. A standard method for penetration testing includes a pretest analysis based on full knowledge of the system, pretest identification of potential vulnerabilities based on the pretest analysis, and testing designed to determine the exploitability of vulnerabilities. All parties agree to the rules of engagement before commencing penetration testing scenarios. Organizations correlate the rules of engagement for the penetration tests with the tools, techniques, and procedures that are anticipated to be employed by adversaries. Penetration testing may result in the exposure of information that is protected by laws or regulations, to individuals conducting the testing. Rules of engagement, contracts, or other appropriate mechanisms can be used to communicate expectations for how to protect this information. Risk assessments guide the decisions on the level of independence required for the personnel conducting penetration testing.
-
-## Control assessment-objective
-
-penetration testing is conducted {{ insert: param, ca-08_odp.01 }} on {{ insert: param, ca-08_odp.02 }}.
+Penetration testing is a specialized type of assessment conducted on information systems or individual system components to identify vulnerabilities that could be exploited by adversaries. Such testing can be used to either validate vulnerabilities or determine the degree of resistance organizational information systems have to adversaries within a set of specified constraints (e.g., time, resources, and/or skills). Penetration testing attempts to duplicate the actions of adversaries in carrying out hostile cyber attacks against organizations and provides a more in-depth analysis of security-related weaknesses/deficiencies. Organizations can also use the results of vulnerability analyses to support penetration testing activities. Penetration testing can be conducted on the hardware, software, or firmware components of an information system and can exercise both physical and technical security controls. A standard method for penetration testing includes, for example: (i) pretest analysis based on full knowledge of the target system; (ii) pretest identification of potential vulnerabilities based on pretest analysis; and (iii) testing designed to determine exploitability of identified vulnerabilities. All parties agree to the rules of engagement before the commencement of penetration testing scenarios. Organizations correlate the penetration testing rules of engagement with the tools, techniques, and procedures that are anticipated to be employed by adversaries carrying out attacks. Organizational risk assessments guide decisions on the level of independence required for personnel conducting penetration testing.

@@ -1,5 +1,4 @@
 ---
-sort-id: cp-03.01
 x-trestle-global:
   sort-id: cp-03.01
 ---
@@ -8,12 +7,8 @@ x-trestle-global:
 
 ## Control Statement
 
-Incorporate simulated events into contingency training to facilitate effective response by personnel in crisis situations.
+The organization incorporates simulated events into contingency training to facilitate effective response by personnel in crisis situations.
 
-## Control guidance
+## Control Objective
 
-The use of simulated events creates an environment for personnel to experience actual threat events, including cyber-attacks that disable websites, ransomware attacks that encrypt organizational data on servers, hurricanes that damage or destroy organizational facilities, or hardware or software failures.
-
-## Control assessment-objective
-
-simulated events are incorporated into contingency training to facilitate effective response by personnel in crisis situations.
+Determine if the organization incorporates simulated events into contingency training to facilitate effective response by personnel in crisis situations.

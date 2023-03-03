@@ -1,5 +1,4 @@
 ---
-sort-id: cm-05.06
 x-trestle-global:
   sort-id: cm-05.06
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Limit privileges to change software resident within software libraries.
+The organization limits privileges to change software resident within software libraries.
+
+## Control Objective
+
+Determine if the organization limits privileges to change software resident within software libraries.
 
 ## Control guidance
 
 Software libraries include privileged programs.
-
-## Control assessment-objective
-
-privileges to change software resident within software libraries are limited.

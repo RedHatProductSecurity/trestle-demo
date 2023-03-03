@@ -2,67 +2,69 @@
 x-trestle-set-params:
   pl-1_prm_1:
     values:
-  pl-01_odp.01:
+  pl-1_prm_2:
     values:
-  pl-01_odp.02:
+  pl-1_prm_3:
     values:
-  pl-01_odp.03:
-    values:
-  pl-01_odp.04:
-    values:
-  pl-01_odp.05:
-    values:
-  pl-01_odp.06:
-    values:
-  pl-01_odp.07:
-    values:
-  pl-01_odp.08:
-    values:
-sort-id: pl-01
 x-trestle-global:
   sort-id: pl-01
 ---
 
-# pl-1 - \[Planning\] Policy and Procedures
+# pl-1 - \[Planning\] Security Planning Policy and Procedures
 
 ## Control Statement
 
-- \[a.\] Develop, document, and disseminate to {{ insert: param, pl-1_prm_1 }}:
+The organization:
 
-  - \[1.\] {{ insert: param, pl-01_odp.03 }} planning policy that:
+- \[a.\] Develops, documents, and disseminates to {{ insert: param, pl-1_prm_1 }}:
 
-    - \[(a)\] Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
-    - \[(b)\] Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines; and
+  - \[1.\] A security planning policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
+  - \[2.\] Procedures to facilitate the implementation of the security planning policy and associated security planning controls; and
 
-  - \[2.\] Procedures to facilitate the implementation of the planning policy and the associated planning controls;
+- \[b.\] Reviews and updates the current:
 
-- \[b.\] Designate an {{ insert: param, pl-01_odp.04 }} to manage the development, documentation, and dissemination of the planning policy and procedures; and
+  - \[1.\] Security planning policy {{ insert: param, pl-1_prm_2 }}; and
+  - \[2.\] Security planning procedures {{ insert: param, pl-1_prm_3 }}.
 
-- \[c.\] Review and update the current planning:
+## Control Objective
 
-  - \[1.\] Policy {{ insert: param, pl-01_odp.05 }} and following {{ insert: param, pl-01_odp.06 }} ; and
-  - \[2.\] Procedures {{ insert: param, pl-01_odp.07 }} and following {{ insert: param, pl-01_odp.08 }}.
+Determine if the organization:
+
+- \[PL-1(a)\]
+
+  - \[PL-1(a)(1)\]
+
+    - \[PL-1(a)(1)[1]\] develops and documents a planning policy that addresses:
+
+      - \[PL-1(a)(1)[1][a]\] purpose;
+      - \[PL-1(a)(1)[1][b]\] scope;
+      - \[PL-1(a)(1)[1][c]\] roles;
+      - \[PL-1(a)(1)[1][d]\] responsibilities;
+      - \[PL-1(a)(1)[1][e]\] management commitment;
+      - \[PL-1(a)(1)[1][f]\] coordination among organizational entities;
+      - \[PL-1(a)(1)[1][g]\] compliance;
+
+    - \[PL-1(a)(1)[2]\] defines personnel or roles to whom the planning policy is to be disseminated;
+    - \[PL-1(a)(1)[3]\] disseminates the planning policy to organization-defined personnel or roles;
+
+  - \[PL-1(a)(2)\]
+
+    - \[PL-1(a)(2)[1]\] develops and documents procedures to facilitate the implementation of the planning policy and associated planning controls;
+    - \[PL-1(a)(2)[2]\] defines personnel or roles to whom the procedures are to be disseminated;
+    - \[PL-1(a)(2)[3]\] disseminates the procedures to organization-defined personnel or roles;
+
+- \[PL-1(b)\]
+
+  - \[PL-1(b)(1)\]
+
+    - \[PL-1(b)(1)[1]\] defines the frequency to review and update the current planning policy;
+    - \[PL-1(b)(1)[2]\] reviews and updates the current planning policy with the organization-defined frequency;
+
+  - \[PL-1(b)(2)\]
+
+    - \[PL-1(b)(2)[1]\] defines the frequency to review and update the current planning procedures; and
+    - \[PL-1(b)(2)[2]\] reviews and updates the current planning procedures with the organization-defined frequency.
 
 ## Control guidance
 
-Planning policy and procedures for the controls in the PL family implemented within systems and organizations. The risk management strategy is an important factor in establishing such policies and procedures. Policies and procedures contribute to security and privacy assurance. Therefore, it is important that security and privacy programs collaborate on their development. Security and privacy program policies and procedures at the organization level are preferable, in general, and may obviate the need for mission level or system-specific policies and procedures. The policy can be included as part of the general security and privacy policy or be represented by multiple policies that reflect the complex nature of organizations. Procedures can be established for security and privacy programs, for mission/business processes, and for systems, if needed. Procedures describe how the policies or controls are implemented and can be directed at the individual or role that is the object of the procedure. Procedures can be documented in system security and privacy plans or in one or more separate documents. Events that may precipitate an update to planning policy and procedures include, but are not limited to, assessment or audit findings, security incidents or breaches, or changes in laws, executive orders, directives, regulations, policies, standards, and guidelines. Simply restating controls does not constitute an organizational policy or procedure.
-
-## Control assessment-objective
-
-a planning policy is developed and documented.
-the planning policy is disseminated to {{ insert: param, pl-01_odp.01 }};
-planning procedures to facilitate the implementation of the planning policy and associated planning controls are developed and documented;
-the planning procedures are disseminated to {{ insert: param, pl-01_odp.02 }};
-the {{ insert: param, pl-01_odp.03 }} planning policy addresses purpose;
-the {{ insert: param, pl-01_odp.03 }} planning policy addresses scope;
-the {{ insert: param, pl-01_odp.03 }} planning policy addresses roles;
-the {{ insert: param, pl-01_odp.03 }} planning policy addresses responsibilities;
-the {{ insert: param, pl-01_odp.03 }} planning policy addresses management commitment;
-the {{ insert: param, pl-01_odp.03 }} planning policy addresses coordination among organizational entities;
-the {{ insert: param, pl-01_odp.03 }} planning policy addresses compliance;
-the {{ insert: param, pl-01_odp.03 }} planning policy is consistent with applicable laws, Executive Orders, directives, regulations, policies, standards, and guidelines;
-the {{ insert: param, pl-01_odp.04 }} is designated to manage the development, documentation, and dissemination of the planning policy and procedures;
-the current planning policy is reviewed and updated {{ insert: param, pl-01_odp.05 }};
-the current planning policy is reviewed and updated following {{ insert: param, pl-01_odp.06 }};
-the current planning procedures are reviewed and updated {{ insert: param, pl-01_odp.07 }};
-the current planning procedures are reviewed and updated following {{ insert: param, pl-01_odp.08 }}.
+This control addresses the establishment of policy and procedures for the effective implementation of selected security controls and control enhancements in the PL family. Policy and procedures reflect applicable federal laws, Executive Orders, directives, regulations, policies, standards, and guidance. Security program policies and procedures at the organization level may make the need for system-specific policies and procedures unnecessary. The policy can be included as part of the general information security policy for organizations or conversely, can be represented by multiple policies reflecting the complex nature of certain organizations. The procedures can be established for the security program in general and for particular information systems, if needed. The organizational risk management strategy is a key factor in establishing policy and procedures.

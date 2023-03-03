@@ -1,5 +1,7 @@
 ---
-sort-id: ac-04.07
+x-trestle-set-params:
+  ac-4.7_prm_1:
+    values:
 x-trestle-global:
   sort-id: ac-04.07
 ---
@@ -8,12 +10,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Enforce one-way information flows through hardware-based flow control mechanisms.
+The information system enforces {{ insert: param, ac-4.7_prm_1 }} using hardware mechanisms.
 
-## Control guidance
+## Control Objective
 
-One-way flow mechanisms may also be referred to as a unidirectional network, unidirectional security gateway, or data diode. One-way flow mechanisms can be used to prevent data from being exported from a higher impact or classified domain or system while permitting data from a lower impact or unclassified domain or system to be imported.
+Determine if:
 
-## Control assessment-objective
+- \[AC-4(7)[1]\] the organization defines one-way information flows to be enforced by the information system; and
 
-one-way information flows are enforced through hardware-based flow control mechanisms.
+- \[AC-4(7)[2]\] the information system enforces organization-defined one-way information flows using hardware mechanisms.

@@ -1,5 +1,4 @@
 ---
-sort-id: sa-02
 x-trestle-global:
   sort-id: sa-02
 ---
@@ -8,21 +7,28 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Determine the high-level information security and privacy requirements for the system or system service in mission and business process planning;
+The organization:
 
-- \[b.\] Determine, document, and allocate the resources required to protect the system or system service as part of the organizational capital planning and investment control process; and
+- \[a.\] Determines information security requirements for the information system or information system service in mission/business process planning;
 
-- \[c.\] Establish a discrete line item for information security and privacy in organizational programming and budgeting documentation.
+- \[b.\] Determines, documents, and allocates the resources required to protect the information system or information system service as part of its capital planning and investment control process; and
+
+- \[c.\] Establishes a discrete line item for information security in organizational programming and budgeting documentation.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[SA-2(a)\] determines information security requirements for the information system or information system service in mission/business process planning;
+
+- \[SA-2(b)\] to protect the information system or information system service as part of its capital planning and investment control process:
+
+  - \[SA-2(b)[1]\] determines the resources required;
+  - \[SA-2(b)[2]\] documents the resources required;
+  - \[SA-2(b)[3]\] allocates the resources required; and
+
+- \[SA-2(c)\] establishes a discrete line item for information security in organizational programming and budgeting documentation.
 
 ## Control guidance
 
-Resource allocation for information security and privacy includes funding for system and services acquisition, sustainment, and supply chain-related risks throughout the system development life cycle.
-
-## Control assessment-objective
-
-the high-level information security requirements for the system or system service are determined in mission and business process planning;
-the high-level privacy requirements for the system or system service are determined in mission and business process planning;
-the resources required to protect the system or system service are determined and documented as part of the organizational capital planning and investment control process;
-the resources required to protect the system or system service are allocated as part of the organizational capital planning and investment control process;
-a discrete line item for information security is established in organizational programming and budgeting documentation;
-a discrete line item for privacy is established in organizational programming and budgeting documentation.
+Resource allocation for information security includes funding for the initial information system or information system service acquisition and funding for the sustainment of the system/service.

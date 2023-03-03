@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  cm-08.09_odp:
+  cm-8.9_prm_1:
     values:
-sort-id: cm-08.09
 x-trestle-global:
   sort-id: cm-08.09
 ---
@@ -11,15 +10,23 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[(a)\] Assign system components to a system; and
+The organization:
 
-- \[(b)\] Receive an acknowledgement from {{ insert: param, cm-08.09_odp }} of this assignment.
+- \[(a)\] Assigns {{ insert: param, cm-8.9_prm_1 }} to an information system; and
+
+- \[(b)\] Receives an acknowledgement from the information system owner of this assignment.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CM-8(9)(a)\]
+
+  - \[CM-8(9)(a)[1]\] defines acquired information system components to be assigned to an information system; and
+  - \[CM-8(9)(a)[2]\] assigns organization-defined acquired information system components to an information system; and
+
+- \[CM-8(9)(b)\] receives an acknowledgement from the information system owner of the assignment.
 
 ## Control guidance
 
-System components that are not assigned to a system may be unmanaged, lack the required protection, and become an organizational vulnerability.
-
-## Control assessment-objective
-
-system components are assigned to a system;
-an acknowledgement of the component assignment is received from {{ insert: param, cm-08.09_odp }}.
+Organizations determine the criteria for or types of information system components (e.g., microprocessors, motherboards, software, programmable logic controllers, and network devices) that are subject to this control enhancement.

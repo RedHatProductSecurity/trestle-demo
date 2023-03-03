@@ -1,5 +1,4 @@
 ---
-sort-id: cp-08.02
 x-trestle-global:
   sort-id: cp-08.02
 ---
@@ -8,12 +7,8 @@ x-trestle-global:
 
 ## Control Statement
 
-Obtain alternate telecommunications services to reduce the likelihood of sharing a single point of failure with primary telecommunications services.
+The organization obtains alternate telecommunications services to reduce the likelihood of sharing a single point of failure with primary telecommunications services.
 
-## Control guidance
+## Control Objective
 
-In certain circumstances, telecommunications service providers or services may share the same physical lines, which increases the vulnerability of a single failure point. It is important to have provider transparency for the actual physical transmission capability for telecommunication services.
-
-## Control assessment-objective
-
-alternate telecommunications services to reduce the likelihood of sharing a single point of failure with primary telecommunications services are obtained.
+Determine if the organization obtains alternate telecommunications services to reduce the likelihood of sharing a single point of failure with primary telecommunications services.

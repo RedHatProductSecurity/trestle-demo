@@ -1,25 +1,25 @@
 ---
 x-trestle-set-params:
-  ac-02.08_odp:
+  ac-2.8_prm_1:
     values:
-sort-id: ac-02.08
 x-trestle-global:
   sort-id: ac-02.08
 ---
 
-# ac-2.8 - \[Access Control\] Dynamic Account Management
+# ac-2.8 - \[Access Control\] Dynamic Account Creation
 
 ## Control Statement
 
-Create, activate, manage, and deactivate {{ insert: param, ac-02.08_odp }} dynamically.
+The information system creates {{ insert: param, ac-2.8_prm_1 }} dynamically.
+
+## Control Objective
+
+Determine if:
+
+- \[AC-2(8)[1]\] the organization defines information system accounts to be created by the information system dynamically; and
+
+- \[AC-2(8)[2]\] the information system creates organization-defined information system accounts dynamically.
 
 ## Control guidance
 
-Approaches for dynamically creating, activating, managing, and deactivating system accounts rely on automatically provisioning the accounts at runtime for entities that were previously unknown. Organizations plan for the dynamic management, creation, activation, and deactivation of system accounts by establishing trust relationships, business rules, and mechanisms with appropriate authorities to validate related authorizations and privileges.
-
-## Control assessment-objective
-
-{{ insert: param, ac-02.08_odp }} are created dynamically;
-{{ insert: param, ac-02.08_odp }} are activated dynamically;
-{{ insert: param, ac-02.08_odp }} are managed dynamically;
-{{ insert: param, ac-02.08_odp }} are deactivated dynamically.
+Dynamic approaches for creating information system accounts (e.g., as implemented within service-oriented architectures) rely on establishing accounts (identities) at run time for entities that were previously unknown. Organizations plan for dynamic creation of information system accounts by establishing trust relationships and mechanisms with the appropriate authorities to validate related authorizations and privileges.

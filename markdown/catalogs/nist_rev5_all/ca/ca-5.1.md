@@ -1,22 +1,20 @@
 ---
-x-trestle-set-params:
-  ca-05.01_odp:
-    values:
-sort-id: ca-05.01
 x-trestle-global:
   sort-id: ca-05.01
 ---
 
-# ca-5.1 - \[Assessment, Authorization, and Monitoring\] Automation Support for Accuracy and Currency
+# ca-5.1 - \[Security Assessment and Authorization\] Automation Support for Accuracy / Currency
 
 ## Control Statement
 
-Ensure the accuracy, currency, and availability of the plan of action and milestones for the system using {{ insert: param, ca-05.01_odp }}.
+The organization employs automated mechanisms to help ensure that the plan of action and milestones for the information system is accurate, up to date, and readily available.
 
-## Control guidance
+## Control Objective
 
-Using automated tools helps maintain the accuracy, currency, and availability of the plan of action and milestones and facilitates the coordination and sharing of security and privacy information throughout the organization. Such coordination and information sharing help to identify systemic weaknesses or deficiencies in organizational systems and ensure that appropriate resources are directed at the most critical system vulnerabilities in a timely manner.
+Determine if the organization employs automated mechanisms to help ensure that the plan of action and milestones for the information system is:
 
-## Control assessment-objective
+- \[CA-5(1)[1]\] accurate;
 
-{{ insert: param, ca-05.01_odp }} are used to ensure the accuracy, currency, and availability of the plan of action and milestones for the system.
+- \[CA-5(1)[2]\] up to date; and
+
+- \[CA-5(1)[3]\] readily available.

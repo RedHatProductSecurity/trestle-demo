@@ -2,67 +2,69 @@
 x-trestle-set-params:
   ia-1_prm_1:
     values:
-  ia-01_odp.01:
+  ia-1_prm_2:
     values:
-  ia-01_odp.02:
+  ia-1_prm_3:
     values:
-  ia-01_odp.03:
-    values:
-  ia-01_odp.04:
-    values:
-  ia-01_odp.05:
-    values:
-  ia-01_odp.06:
-    values:
-  ia-01_odp.07:
-    values:
-  ia-01_odp.08:
-    values:
-sort-id: ia-01
 x-trestle-global:
   sort-id: ia-01
 ---
 
-# ia-1 - \[Identification and Authentication\] Policy and Procedures
+# ia-1 - \[Identification and Authentication\] Identification and Authentication Policy and Procedures
 
 ## Control Statement
 
-- \[a.\] Develop, document, and disseminate to {{ insert: param, ia-1_prm_1 }}:
+The organization:
 
-  - \[1.\] {{ insert: param, ia-01_odp.03 }} identification and authentication policy that:
+- \[a.\] Develops, documents, and disseminates to {{ insert: param, ia-1_prm_1 }}:
 
-    - \[(a)\] Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
-    - \[(b)\] Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines; and
+  - \[1.\] An identification and authentication policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
+  - \[2.\] Procedures to facilitate the implementation of the identification and authentication policy and associated identification and authentication controls; and
 
-  - \[2.\] Procedures to facilitate the implementation of the identification and authentication policy and the associated identification and authentication controls;
+- \[b.\] Reviews and updates the current:
 
-- \[b.\] Designate an {{ insert: param, ia-01_odp.04 }} to manage the development, documentation, and dissemination of the identification and authentication policy and procedures; and
+  - \[1.\] Identification and authentication policy {{ insert: param, ia-1_prm_2 }}; and
+  - \[2.\] Identification and authentication procedures {{ insert: param, ia-1_prm_3 }}.
 
-- \[c.\] Review and update the current identification and authentication:
+## Control Objective
 
-  - \[1.\] Policy {{ insert: param, ia-01_odp.05 }} and following {{ insert: param, ia-01_odp.06 }} ; and
-  - \[2.\] Procedures {{ insert: param, ia-01_odp.07 }} and following {{ insert: param, ia-01_odp.08 }}.
+Determine if the organization:
+
+- \[IA-1(a)\]
+
+  - \[IA-1(a)(1)\]
+
+    - \[IA-1(a)(1)[1]\] develops and documents an identification and authentication policy that addresses:
+
+      - \[IA-1(a)(1)[1][a]\] purpose;
+      - \[IA-1(a)(1)[1][b]\] scope;
+      - \[IA-1(a)(1)[1][c]\] roles;
+      - \[IA-1(a)(1)[1][d]\] responsibilities;
+      - \[IA-1(a)(1)[1][e]\] management commitment;
+      - \[IA-1(a)(1)[1][f]\] coordination among organizational entities;
+      - \[IA-1(a)(1)[1][g]\] compliance;
+
+    - \[IA-1(a)(1)[2]\] defines personnel or roles to whom the identification and authentication policy is to be disseminated; and
+    - \[IA-1(a)(1)[3]\] disseminates the identification and authentication policy to organization-defined personnel or roles;
+
+  - \[IA-1(a)(2)\]
+
+    - \[IA-1(a)(2)[1]\] develops and documents procedures to facilitate the implementation of the identification and authentication policy and associated identification and authentication controls;
+    - \[IA-1(a)(2)[2]\] defines personnel or roles to whom the procedures are to be disseminated;
+    - \[IA-1(a)(2)[3]\] disseminates the procedures to organization-defined personnel or roles;
+
+- \[IA-1(b)\]
+
+  - \[IA-1(b)(1)\]
+
+    - \[IA-1(b)(1)[1]\] defines the frequency to review and update the current identification and authentication policy;
+    - \[IA-1(b)(1)[2]\] reviews and updates the current identification and authentication policy with the organization-defined frequency; and
+
+  - \[IA-1(b)(2)\]
+
+    - \[IA-1(b)(2)[1]\] defines the frequency to review and update the current identification and authentication procedures; and
+    - \[IA-1(b)(2)[2]\] reviews and updates the current identification and authentication procedures with the organization-defined frequency.
 
 ## Control guidance
 
-Identification and authentication policy and procedures address the controls in the IA family that are implemented within systems and organizations. The risk management strategy is an important factor in establishing such policies and procedures. Policies and procedures contribute to security and privacy assurance. Therefore, it is important that security and privacy programs collaborate on the development of identification and authentication policy and procedures. Security and privacy program policies and procedures at the organization level are preferable, in general, and may obviate the need for mission- or system-specific policies and procedures. The policy can be included as part of the general security and privacy policy or be represented by multiple policies that reflect the complex nature of organizations. Procedures can be established for security and privacy programs, for mission or business processes, and for systems, if needed. Procedures describe how the policies or controls are implemented and can be directed at the individual or role that is the object of the procedure. Procedures can be documented in system security and privacy plans or in one or more separate documents. Events that may precipitate an update to identification and authentication policy and procedures include assessment or audit findings, security incidents or breaches, or changes in applicable laws, executive orders, directives, regulations, policies, standards, and guidelines. Simply restating controls does not constitute an organizational policy or procedure.
-
-## Control assessment-objective
-
-an identification and authentication policy is developed and documented;
-the identification and authentication policy is disseminated to {{ insert: param, ia-01_odp.01 }};
-identification and authentication procedures to facilitate the implementation of the identification and authentication policy and associated identification and authentication controls are developed and documented;
-the identification and authentication procedures are disseminated to {{ insert: param, ia-01_odp.02 }};
-the {{ insert: param, ia-01_odp.03 }} identification and authentication policy addresses purpose;
-the {{ insert: param, ia-01_odp.03 }} identification and authentication policy addresses scope;
-the {{ insert: param, ia-01_odp.03 }} identification and authentication policy addresses roles;
-the {{ insert: param, ia-01_odp.03 }} identification and authentication policy addresses responsibilities;
-the {{ insert: param, ia-01_odp.03 }} identification and authentication policy addresses management commitment;
-the {{ insert: param, ia-01_odp.03 }} identification and authentication policy addresses coordination among organizational entities;
-the {{ insert: param, ia-01_odp.03 }} identification and authentication policy addresses compliance;
-the {{ insert: param, ia-01_odp.03 }} identification and authentication policy is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines;
-the {{ insert: param, ia-01_odp.04 }} is designated to manage the development, documentation, and dissemination of the identification and authentication policy and procedures;
-the current identification and authentication policy is reviewed and updated {{ insert: param, ia-01_odp.05 }};
-the current identification and authentication policy is reviewed and updated following {{ insert: param, ia-01_odp.06 }};
-the current identification and authentication procedures are reviewed and updated {{ insert: param, ia-01_odp.07 }};
-the current identification and authentication procedures are reviewed and updated following {{ insert: param, ia-01_odp.08 }}.
+This control addresses the establishment of policy and procedures for the effective implementation of selected security controls and control enhancements in the IA family. Policy and procedures reflect applicable federal laws, Executive Orders, directives, regulations, policies, standards, and guidance. Security program policies and procedures at the organization level may make the need for system-specific policies and procedures unnecessary. The policy can be included as part of the general information security policy for organizations or conversely, can be represented by multiple policies reflecting the complex nature of certain organizations. The procedures can be established for the security program in general and for particular information systems, if needed. The organizational risk management strategy is a key factor in establishing policy and procedures.

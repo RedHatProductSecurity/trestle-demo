@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  ma-06.03_odp:
-    values:
-sort-id: ma-06.03
 x-trestle-global:
   sort-id: ma-06.03
 ---
@@ -11,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Transfer predictive maintenance data to a maintenance management system using {{ insert: param, ma-06.03_odp }}.
+The organization employs automated mechanisms to transfer predictive maintenance data to a computerized maintenance management system.
+
+## Control Objective
+
+Determine if the organization employs automated mechanisms to transfer predictive maintenance data to a computerized maintenance management system.
 
 ## Control guidance
 
-A computerized maintenance management system maintains a database of information about the maintenance operations of organizations and automates the processing of equipment condition data to trigger maintenance planning, execution, and reporting.
-
-## Control assessment-objective
-
-predictive maintenance data is transferred to a maintenance management system using {{ insert: param, ma-06.03_odp }}.
+A computerized maintenance management system maintains a computer database of information about the maintenance operations of organizations and automates processing equipment condition data in order to trigger maintenance planning, execution, and reporting.

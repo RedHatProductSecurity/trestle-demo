@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  sc-07.11_odp.01:
+  sc-7.11_prm_1:
     values:
-  sc-07.11_odp.02:
+  sc-7.11_prm_2:
     values:
-sort-id: sc-07.11
 x-trestle-global:
   sort-id: sc-07.11
 ---
@@ -13,12 +12,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Only allow incoming communications from {{ insert: param, sc-07.11_odp.01 }} to be routed to {{ insert: param, sc-07.11_odp.02 }}.
+The information system only allows incoming communications from {{ insert: param, sc-7.11_prm_1 }} to be routed to {{ insert: param, sc-7.11_prm_2 }}.
+
+## Control Objective
+
+Determine if:
+
+- \[SC-7(11)[1]\] the organization defines internal communications traffic to be routed to external networks;
+
+- \[SC-7(11)[2]\] the organization defines authorized destinations only to which that incoming communications from organization-defined authorized sources may be routed; and
+
+- \[SC-7(11)[3]\] the information system only allows incoming communications from organization-defined authorized sources to be routed to organization-defined authorized destinations.
 
 ## Control guidance
 
-General source address validation techniques are applied to restrict the use of illegal and unallocated source addresses as well as source addresses that should only be used within the system. The restriction of incoming communications traffic provides determinations that source and destination address pairs represent authorized or allowed communications. Determinations can be based on several factors, including the presence of such address pairs in the lists of authorized or allowed communications, the absence of such address pairs in lists of unauthorized or disallowed pairs, or meeting more general rules for authorized or allowed source and destination pairs. Strong authentication of network addresses is not possible without the use of explicit security protocols, and thus, addresses can often be spoofed. Further, identity-based incoming traffic restriction methods can be employed, including router access control lists and firewall rules.
-
-## Control assessment-objective
-
-only incoming communications from {{ insert: param, sc-07.11_odp.01 }} are allowed to be routed to {{ insert: param, sc-07.11_odp.02 }}.
+This control enhancement provides determinations that source and destination address pairs represent authorized/allowed communications. Such determinations can be based on several factors including, for example, the presence of source/destination address pairs in lists of authorized/allowed communications, the absence of address pairs in lists of unauthorized/disallowed pairs, or meeting more general rules for authorized/allowed source/destination pairs.

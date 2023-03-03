@@ -2,67 +2,69 @@
 x-trestle-set-params:
   ra-1_prm_1:
     values:
-  ra-01_odp.01:
+  ra-1_prm_2:
     values:
-  ra-01_odp.02:
+  ra-1_prm_3:
     values:
-  ra-01_odp.03:
-    values:
-  ra-01_odp.04:
-    values:
-  ra-01_odp.05:
-    values:
-  ra-01_odp.06:
-    values:
-  ra-01_odp.07:
-    values:
-  ra-01_odp.08:
-    values:
-sort-id: ra-01
 x-trestle-global:
   sort-id: ra-01
 ---
 
-# ra-1 - \[Risk Assessment\] Policy and Procedures
+# ra-1 - \[Risk Assessment\] Risk Assessment Policy and Procedures
 
 ## Control Statement
 
-- \[a.\] Develop, document, and disseminate to {{ insert: param, ra-1_prm_1 }}:
+The organization:
 
-  - \[1.\] {{ insert: param, ra-01_odp.03 }} risk assessment policy that:
+- \[a.\] Develops, documents, and disseminates to {{ insert: param, ra-1_prm_1 }}:
 
-    - \[(a)\] Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
-    - \[(b)\] Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines; and
+  - \[1.\] A risk assessment policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
+  - \[2.\] Procedures to facilitate the implementation of the risk assessment policy and associated risk assessment controls; and
 
-  - \[2.\] Procedures to facilitate the implementation of the risk assessment policy and the associated risk assessment controls;
+- \[b.\] Reviews and updates the current:
 
-- \[b.\] Designate an {{ insert: param, ra-01_odp.04 }} to manage the development, documentation, and dissemination of the risk assessment policy and procedures; and
+  - \[1.\] Risk assessment policy {{ insert: param, ra-1_prm_2 }}; and
+  - \[2.\] Risk assessment procedures {{ insert: param, ra-1_prm_3 }}.
 
-- \[c.\] Review and update the current risk assessment:
+## Control Objective
 
-  - \[1.\] Policy {{ insert: param, ra-01_odp.05 }} and following {{ insert: param, ra-01_odp.06 }} ; and
-  - \[2.\] Procedures {{ insert: param, ra-01_odp.07 }} and following {{ insert: param, ra-01_odp.08 }}.
+Determine if the organization:
+
+- \[RA-1(a)\]
+
+  - \[RA-1(a)(1)\]
+
+    - \[RA-1(a)(1)[1]\] develops and documents a risk assessment policy that addresses:
+
+      - \[RA-1(a)(1)[1][a]\] purpose;
+      - \[RA-1(a)(1)[1][b]\] scope;
+      - \[RA-1(a)(1)[1][c]\] roles;
+      - \[RA-1(a)(1)[1][d]\] responsibilities;
+      - \[RA-1(a)(1)[1][e]\] management commitment;
+      - \[RA-1(a)(1)[1][f]\] coordination among organizational entities;
+      - \[RA-1(a)(1)[1][g]\] compliance;
+
+    - \[RA-1(a)(1)[2]\] defines personnel or roles to whom the risk assessment policy is to be disseminated;
+    - \[RA-1(a)(1)[3]\] disseminates the risk assessment policy to organization-defined personnel or roles;
+
+  - \[RA-1(a)(2)\]
+
+    - \[RA-1(a)(2)[1]\] develops and documents procedures to facilitate the implementation of the risk assessment policy and associated risk assessment controls;
+    - \[RA-1(a)(2)[2]\] defines personnel or roles to whom the procedures are to be disseminated;
+    - \[RA-1(a)(2)[3]\] disseminates the procedures to organization-defined personnel or roles;
+
+- \[RA-1(b)\]
+
+  - \[RA-1(b)(1)\]
+
+    - \[RA-1(b)(1)[1]\] defines the frequency to review and update the current risk assessment policy;
+    - \[RA-1(b)(1)[2]\] reviews and updates the current risk assessment policy with the organization-defined frequency;
+
+  - \[RA-1(b)(2)\]
+
+    - \[RA-1(b)(2)[1]\] defines the frequency to review and update the current risk assessment procedures; and
+    - \[RA-1(b)(2)[2]\] reviews and updates the current risk assessment procedures with the organization-defined frequency.
 
 ## Control guidance
 
-Risk assessment policy and procedures address the controls in the RA family that are implemented within systems and organizations. The risk management strategy is an important factor in establishing such policies and procedures. Policies and procedures contribute to security and privacy assurance. Therefore, it is important that security and privacy programs collaborate on the development of risk assessment policy and procedures. Security and privacy program policies and procedures at the organization level are preferable, in general, and may obviate the need for mission- or system-specific policies and procedures. The policy can be included as part of the general security and privacy policy or be represented by multiple policies reflecting the complex nature of organizations. Procedures can be established for security and privacy programs, for mission or business processes, and for systems, if needed. Procedures describe how the policies or controls are implemented and can be directed at the individual or role that is the object of the procedure. Procedures can be documented in system security and privacy plans or in one or more separate documents. Events that may precipitate an update to risk assessment policy and procedures include assessment or audit findings, security incidents or breaches, or changes in laws, executive orders, directives, regulations, policies, standards, and guidelines. Simply restating controls does not constitute an organizational policy or procedure.
-
-## Control assessment-objective
-
-a risk assessment policy is developed and documented;
-the risk assessment policy is disseminated to {{ insert: param, ra-01_odp.01 }};
-risk assessment procedures to facilitate the implementation of the risk assessment policy and associated risk assessment controls are developed and documented;
-the risk assessment procedures are disseminated to {{ insert: param, ra-01_odp.02 }};
-the {{ insert: param, ra-01_odp.03 }} risk assessment policy addresses purpose;
-the {{ insert: param, ra-01_odp.03 }} risk assessment policy addresses scope;
-the {{ insert: param, ra-01_odp.03 }} risk assessment policy addresses roles;
-the {{ insert: param, ra-01_odp.03 }} risk assessment policy addresses responsibilities;
-the {{ insert: param, ra-01_odp.03 }} risk assessment policy addresses management commitment;
-the {{ insert: param, ra-01_odp.03 }} risk assessment policy addresses coordination among organizational entities;
-the {{ insert: param, ra-01_odp.03 }} risk assessment policy addresses compliance;
-the {{ insert: param, ra-01_odp.03 }} risk assessment policy is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines;
-the {{ insert: param, ra-01_odp.04 }} is designated to manage the development, documentation, and dissemination of the risk assessment policy and procedures;
-the current risk assessment policy is reviewed and updated {{ insert: param, ra-01_odp.05 }};
-the current risk assessment policy is reviewed and updated following {{ insert: param, ra-01_odp.06 }};
-the current risk assessment procedures are reviewed and updated {{ insert: param, ra-01_odp.07 }};
-the current risk assessment procedures are reviewed and updated following {{ insert: param, ra-01_odp.08 }}.
+This control addresses the establishment of policy and procedures for the effective implementation of selected security controls and control enhancements in the RA family. Policy and procedures reflect applicable federal laws, Executive Orders, directives, regulations, policies, standards, and guidance. Security program policies and procedures at the organization level may make the need for system-specific policies and procedures unnecessary. The policy can be included as part of the general information security policy for organizations or conversely, can be represented by multiple policies reflecting the complex nature of certain organizations. The procedures can be established for the security program in general and for particular information systems, if needed. The organizational risk management strategy is a key factor in establishing policy and procedures.

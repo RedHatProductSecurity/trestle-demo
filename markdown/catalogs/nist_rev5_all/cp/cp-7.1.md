@@ -1,5 +1,4 @@
 ---
-sort-id: cp-07.01
 x-trestle-global:
   sort-id: cp-07.01
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Identify an alternate processing site that is sufficiently separated from the primary processing site to reduce susceptibility to the same threats.
+The organization identifies an alternate processing site that is separated from the primary processing site to reduce susceptibility to the same threats.
+
+## Control Objective
+
+Determine if the organization identifies an alternate processing site that is separated from the primary storage site to reduce susceptibility to the same threats.
 
 ## Control guidance
 
-Threats that affect alternate processing sites are defined in organizational assessments of risk and include natural disasters, structural failures, hostile attacks, and errors of omission or commission. Organizations determine what is considered a sufficient degree of separation between primary and alternate processing sites based on the types of threats that are of concern. For threats such as hostile attacks, the degree of separation between sites is less relevant.
-
-## Control assessment-objective
-
-an alternate processing site that is sufficiently separated from the primary processing site to reduce susceptibility to the same threats is identified.
+Threats that affect alternate processing sites are typically defined in organizational assessments of risk and include, for example, natural disasters, structural failures, hostile cyber attacks, and errors of omission/commission. Organizations determine what is considered a sufficient degree of separation between primary and alternate processing sites based on the types of threats that are of concern. For one particular type of threat (i.e., hostile cyber attack), the degree of separation between sites is less relevant.

@@ -1,24 +1,27 @@
 ---
 x-trestle-set-params:
-  ra-05.02_odp.01:
+  ra-5.2_prm_1:
     values:
-  ra-05.02_odp.02:
+  ra-5.2_prm_2:
     values:
-sort-id: ra-05.02
 x-trestle-global:
   sort-id: ra-05.02
 ---
 
-# ra-5.2 - \[Risk Assessment\] Update Vulnerabilities to Be Scanned
+# ra-5.2 - \[Risk Assessment\] Update by Frequency / Prior to New Scan / When Identified
 
 ## Control Statement
 
-Update the system vulnerabilities to be scanned {{ insert: param, ra-05.02_odp.01 }}.
+The organization updates the information system vulnerabilities scanned {{ insert: param, ra-5.2_prm_1 }}.
 
-## Control guidance
+## Control Objective
 
-Due to the complexity of modern software, systems, and other factors, new vulnerabilities are discovered on a regular basis. It is important that newly discovered vulnerabilities are added to the list of vulnerabilities to be scanned to ensure that the organization can take steps to mitigate those vulnerabilities in a timely manner.
+Determine if the organization:
 
-## Control assessment-objective
+- \[RA-5(2)[1]\] defines the frequency to update the information system vulnerabilities scanned;
 
-the system vulnerabilities to be scanned are updated {{ insert: param, ra-05.02_odp.01 }}.
+- \[RA-5(2)[2]\] updates the information system vulnerabilities scanned one or more of the following:
+
+  - \[RA-5(2)[2][a]\] with the organization-defined frequency;
+  - \[RA-5(2)[2][b]\] prior to a new scan; and/or
+  - \[RA-5(2)[2][c]\] when new vulnerabilities are identified and reported.

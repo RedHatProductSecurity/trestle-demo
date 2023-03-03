@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  ir-06.01_odp:
-    values:
-sort-id: ir-06.01
 x-trestle-global:
   sort-id: ir-06.01
 ---
@@ -11,12 +7,8 @@ x-trestle-global:
 
 ## Control Statement
 
-Report incidents using {{ insert: param, ir-06.01_odp }}.
+The organization employs automated mechanisms to assist in the reporting of security incidents.
 
-## Control guidance
+## Control Objective
 
-The recipients of incident reports are specified in [IR-6b](#ir-6_smt.b) . Automated reporting mechanisms include email, posting on websites (with automatic updates), and automated incident response tools and programs.
-
-## Control assessment-objective
-
-incidents are reported using {{ insert: param, ir-06.01_odp }}.
+Determine if the organization employs automated mechanisms to assist in the reporting of security incidents.

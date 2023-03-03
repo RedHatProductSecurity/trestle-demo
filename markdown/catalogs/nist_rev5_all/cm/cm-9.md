@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  cm-09_odp:
-    values:
-sort-id: cm-09
 x-trestle-global:
   sort-id: cm-09
 ---
@@ -11,37 +7,41 @@ x-trestle-global:
 
 ## Control Statement
 
-Develop, document, and implement a configuration management plan for the system that:
+The organization develops, documents, and implements a configuration management plan for the information system that:
 
 - \[a.\] Addresses roles, responsibilities, and configuration management processes and procedures;
 
 - \[b.\] Establishes a process for identifying configuration items throughout the system development life cycle and for managing the configuration of the configuration items;
 
-- \[c.\] Defines the configuration items for the system and places the configuration items under configuration management;
+- \[c.\] Defines the configuration items for the information system and places the configuration items under configuration management; and
 
-- \[d.\] Is reviewed and approved by {{ insert: param, cm-09_odp }} ; and
+- \[d.\] Protects the configuration management plan from unauthorized disclosure and modification.
 
-- \[e.\] Protects the configuration management plan from unauthorized disclosure and modification.
+## Control Objective
+
+Determine if the organization develops, documents, and implements a configuration management plan for the information system that:
+
+- \[CM-9(a)\]
+
+  - \[CM-9(a)[1]\] addresses roles;
+  - \[CM-9(a)[2]\] addresses responsibilities;
+  - \[CM-9(a)[3]\] addresses configuration management processes and procedures;
+
+- \[CM-9(b)\] establishes a process for:
+
+  - \[CM-9(b)[1]\] identifying configuration items throughout the SDLC;
+  - \[CM-9(b)[2]\] managing the configuration of the configuration items;
+
+- \[CM-9(c)\]
+
+  - \[CM-9(c)[1]\] defines the configuration items for the information system;
+  - \[CM-9(c)[2]\] places the configuration items under configuration management;
+
+- \[CM-9(d)\] protects the configuration management plan from unauthorized:
+
+  - \[CM-9(d)[1]\] disclosure; and
+  - \[CM-9(d)[2]\] modification.
 
 ## Control guidance
 
-Configuration management activities occur throughout the system development life cycle. As such, there are developmental configuration management activities (e.g., the control of code and software libraries) and operational configuration management activities (e.g., control of installed components and how the components are configured). Configuration management plans satisfy the requirements in configuration management policies while being tailored to individual systems. Configuration management plans define processes and procedures for how configuration management is used to support system development life cycle activities.
-
-Configuration management plans are generated during the development and acquisition stage of the system development life cycle. The plans describe how to advance changes through change management processes; update configuration settings and baselines; maintain component inventories; control development, test, and operational environments; and develop, release, and update key documents.
-
-Organizations can employ templates to help ensure the consistent and timely development and implementation of configuration management plans. Templates can represent a configuration management plan for the organization with subsets of the plan implemented on a system by system basis. Configuration management approval processes include the designation of key stakeholders responsible for reviewing and approving proposed changes to systems, and personnel who conduct security and privacy impact analyses prior to the implementation of changes to the systems. Configuration items are the system components, such as the hardware, software, firmware, and documentation to be configuration-managed. As systems continue through the system development life cycle, new configuration items may be identified, and some existing configuration items may no longer need to be under configuration control.
-
-## Control assessment-objective
-
-a configuration management plan for the system is developed and documented;
-a configuration management plan for the system is implemented;
-the configuration management plan addresses roles;
-the configuration management plan addresses responsibilities;
-the configuration management plan addresses configuration management processes and procedures;
-the configuration management plan establishes a process for identifying configuration items throughout the system development life cycle;
-the configuration management plan establishes a process for managing the configuration of the configuration items;
-the configuration management plan defines the configuration items for the system;
-the configuration management plan places the configuration items under configuration management;
-the configuration management plan is reviewed and approved by {{ insert: param, cm-09_odp }};
-the configuration management plan is protected from unauthorized disclosure;
-the configuration management plan is protected from unauthorized modification.
+Configuration management plans satisfy the requirements in configuration management policies while being tailored to individual information systems. Such plans define detailed processes and procedures for how configuration management is used to support system development life cycle activities at the information system level. Configuration management plans are typically developed during the development/acquisition phase of the system development life cycle. The plans describe how to move changes through change management processes, how to update configuration settings and baselines, how to maintain information system component inventories, how to control development, test, and operational environments, and how to develop, release, and update key documents. Organizations can employ templates to help ensure consistent and timely development and implementation of configuration management plans. Such templates can represent a master configuration management plan for the organization at large with subsets of the plan implemented on a system by system basis. Configuration management approval processes include designation of key management stakeholders responsible for reviewing and approving proposed changes to information systems, and personnel that conduct security impact analyses prior to the implementation of changes to the systems. Configuration items are the information system items (hardware, software, firmware, and documentation) to be configuration-managed. As information systems continue through the system development life cycle, new configuration items may be identified and some existing configuration items may no longer need to be under configuration control.

@@ -1,5 +1,4 @@
 ---
-sort-id: ac-06.06
 x-trestle-global:
   sort-id: ac-06.06
 ---
@@ -8,12 +7,8 @@ x-trestle-global:
 
 ## Control Statement
 
-Prohibit privileged access to the system by non-organizational users.
+The organization prohibits privileged access to the information system by non-organizational users.
 
-## Control guidance
+## Control Objective
 
-An organizational user is an employee or an individual considered by the organization to have the equivalent status of an employee. Organizational users include contractors, guest researchers, or individuals detailed from other organizations. A non-organizational user is a user who is not an organizational user. Policies and procedures for granting equivalent status of employees to individuals include a need-to-know, citizenship, and the relationship to the organization.
-
-## Control assessment-objective
-
-privileged access to the system by non-organizational users is prohibited.
+Determine if the organization prohibits privileged access to the information system by non-organizational users.

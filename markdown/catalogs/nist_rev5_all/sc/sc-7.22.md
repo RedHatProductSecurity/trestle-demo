@@ -1,5 +1,4 @@
 ---
-sort-id: sc-07.22
 x-trestle-global:
   sort-id: sc-07.22
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement separate network addresses to connect to systems in different security domains.
+The information system implements separate network addresses (i.e., different subnets) to connect to systems in different security domains.
+
+## Control Objective
+
+Determine if the information system implements separate network addresses (i.e., different subnets) to connect to systems in different security domains.
 
 ## Control guidance
 
-The decomposition of systems into subnetworks (i.e., subnets) helps to provide the appropriate level of protection for network connections to different security domains that contain information with different security categories or classification levels.
-
-## Control assessment-objective
-
-separate network addresses are implemented to connect to systems in different security domains.
+Decomposition of information systems into subnets helps to provide the appropriate level of protection for network connections to different security domains containing information with different security categories or classification levels.

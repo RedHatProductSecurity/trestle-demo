@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  sc-07.08_odp.01:
+  sc-7.8_prm_1:
     values:
-  sc-07.08_odp.02:
+  sc-7.8_prm_2:
     values:
-sort-id: sc-07.08
 x-trestle-global:
   sort-id: sc-07.08
 ---
@@ -13,12 +12,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Route {{ insert: param, sc-07.08_odp.01 }} to {{ insert: param, sc-07.08_odp.02 }} through authenticated proxy servers at managed interfaces.
+The information system routes {{ insert: param, sc-7.8_prm_1 }} to {{ insert: param, sc-7.8_prm_2 }} through authenticated proxy servers at managed interfaces.
+
+## Control Objective
+
+Determine if:
+
+- \[SC-7(8)[1]\] the organization defines internal communications traffic to be routed to external networks;
+
+- \[SC-7(8)[2]\] the organization defines external networks to which organization-defined internal communications traffic is to be routed; and
+
+- \[SC-7(8)[3]\] the information system routes organization-defined internal communications traffic to organization-defined external networks through authenticated proxy servers at managed interfaces.
 
 ## Control guidance
 
-External networks are networks outside of organizational control. A proxy server is a server (i.e., system or application) that acts as an intermediary for clients requesting system resources from non-organizational or other organizational servers. System resources that may be requested include files, connections, web pages, or services. Client requests established through a connection to a proxy server are assessed to manage complexity and provide additional protection by limiting direct connectivity. Web content filtering devices are one of the most common proxy servers that provide access to the Internet. Proxy servers can support the logging of Transmission Control Protocol sessions and the blocking of specific Uniform Resource Locators, Internet Protocol addresses, and domain names. Web proxies can be configured with organization-defined lists of authorized and unauthorized websites. Note that proxy servers may inhibit the use of virtual private networks (VPNs) and create the potential for "man-in-the-middle" attacks (depending on the implementation).
-
-## Control assessment-objective
-
-{{ insert: param, sc-07.08_odp.01 }} is routed to {{ insert: param, sc-07.08_odp.02 }} through authenticated proxy servers at managed interfaces.
+External networks are networks outside of organizational control. A proxy server is a server (i.e., information system or application) that acts as an intermediary for clients requesting information system resources (e.g., files, connections, web pages, or services) from other organizational servers. Client requests established through an initial connection to the proxy server are evaluated to manage complexity and to provide additional protection by limiting direct connectivity. Web content filtering devices are one of the most common proxy servers providing access to the Internet. Proxy servers support logging individual Transmission Control Protocol (TCP) sessions and blocking specific Uniform Resource Locators (URLs), domain names, and Internet Protocol (IP) addresses. Web proxies can be configured with organization-defined lists of authorized and unauthorized websites.

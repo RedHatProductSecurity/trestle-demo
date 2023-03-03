@@ -1,12 +1,9 @@
 ---
 x-trestle-set-params:
-  ma-02_odp.01:
+  ma-2_prm_1:
     values:
-  ma-02_odp.02:
+  ma-2_prm_2:
     values:
-  ma-02_odp.03:
-    values:
-sort-id: ma-02
 x-trestle-global:
   sort-id: ma-02
 ---
@@ -15,30 +12,65 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Schedule, document, and review records of maintenance, repair, and replacement on system components in accordance with manufacturer or vendor specifications and/or organizational requirements;
+The organization:
 
-- \[b.\] Approve and monitor all maintenance activities, whether performed on site or remotely and whether the system or system components are serviced on site or removed to another location;
+- \[a.\] Schedules, performs, documents, and reviews records of maintenance and repairs on information system components in accordance with manufacturer or vendor specifications and/or organizational requirements;
 
-- \[c.\] Require that {{ insert: param, ma-02_odp.01 }} explicitly approve the removal of the system or system components from organizational facilities for off-site maintenance, repair, or replacement;
+- \[b.\] Approves and monitors all maintenance activities, whether performed on site or remotely and whether the equipment is serviced on site or removed to another location;
 
-- \[d.\] Sanitize equipment to remove the following information from associated media prior to removal from organizational facilities for off-site maintenance, repair, or replacement: {{ insert: param, ma-02_odp.02 }};
+- \[c.\] Requires that {{ insert: param, ma-2_prm_1 }} explicitly approve the removal of the information system or system components from organizational facilities for off-site maintenance or repairs;
 
-- \[e.\] Check all potentially impacted controls to verify that the controls are still functioning properly following maintenance, repair, or replacement actions; and
+- \[d.\] Sanitizes equipment to remove all information from associated media prior to removal from organizational facilities for off-site maintenance or repairs;
 
-- \[f.\] Include the following information in organizational maintenance records: {{ insert: param, ma-02_odp.03 }}.
+- \[e.\] Checks all potentially impacted security controls to verify that the controls are still functioning properly following maintenance or repair actions; and
+
+- \[f.\] Includes {{ insert: param, ma-2_prm_2 }} in organizational maintenance records.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[MA-2(a)\]
+
+  - \[MA-2(a)[1]\] schedules maintenance and repairs on information system components in accordance with:
+
+    - \[MA-2(a)[1][a]\] manufacturer or vendor specifications; and/or
+    - \[MA-2(a)[1][b]\] organizational requirements;
+
+  - \[MA-2(a)[2]\] performs maintenance and repairs on information system components in accordance with:
+
+    - \[MA-2(a)[2][a]\] manufacturer or vendor specifications; and/or
+    - \[MA-2(a)[2][b]\] organizational requirements;
+
+  - \[MA-2(a)[3]\] documents maintenance and repairs on information system components in accordance with:
+
+    - \[MA-2(a)[3][a]\] manufacturer or vendor specifications; and/or
+    - \[MA-2(a)[3][b]\] organizational requirements;
+
+  - \[MA-2(a)[4]\] reviews records of maintenance and repairs on information system components in accordance with:
+
+    - \[MA-2(a)[4][a]\] manufacturer or vendor specifications; and/or
+    - \[MA-2(a)[4][b]\] organizational requirements;
+
+- \[MA-2(b)\]
+
+  - \[MA-2(b)[1]\] approves all maintenance activities, whether performed on site or remotely and whether the equipment is serviced on site or removed to another location;
+  - \[MA-2(b)[2]\] monitors all maintenance activities, whether performed on site or remotely and whether the equipment is serviced on site or removed to another location;
+
+- \[MA-2(c)\]
+
+  - \[MA-2(c)[1]\] defines personnel or roles required to explicitly approve the removal of the information system or system components from organizational facilities for off-site maintenance or repairs;
+  - \[MA-2(c)[2]\] requires that organization-defined personnel or roles explicitly approve the removal of the information system or system components from organizational facilities for off-site maintenance or repairs;
+
+- \[MA-2(d)\] sanitizes equipment to remove all information from associated media prior to removal from organizational facilities for off-site maintenance or repairs;
+
+- \[MA-2(e)\] checks all potentially impacted security controls to verify that the controls are still functioning properly following maintenance or repair actions;
+
+- \[MA-2(f)\]
+
+  - \[MA-2(f)[1]\] defines maintenance-related information to be included in organizational maintenance records; and
+  - \[MA-2(f)[2]\] includes organization-defined maintenance-related information in organizational maintenance records.
 
 ## Control guidance
 
-Controlling system maintenance addresses the information security aspects of the system maintenance program and applies to all types of maintenance to system components conducted by local or nonlocal entities. Maintenance includes peripherals such as scanners, copiers, and printers. Information necessary for creating effective maintenance records includes the date and time of maintenance, a description of the maintenance performed, names of the individuals or group performing the maintenance, name of the escort, and system components or equipment that are removed or replaced. Organizations consider supply chain-related risks associated with replacement components for systems.
-
-## Control assessment-objective
-
-maintenance, repair, and replacement of system components are scheduled in accordance with manufacturer or vendor specifications and/or organizational requirements;
-maintenance, repair, and replacement of system components are documented in accordance with manufacturer or vendor specifications and/or organizational requirements;
-records of maintenance, repair, and replacement of system components are reviewed in accordance with manufacturer or vendor specifications and/or organizational requirements;
-all maintenance activities, whether performed on site or remotely and whether the system or system components are serviced on site or removed to another location, are approved;
-all maintenance activities, whether performed on site or remotely and whether the system or system components are serviced on site or removed to another location, are monitored;
-{{ insert: param, ma-02_odp.01 }} is/are required to explicitly approve the removal of the system or system components from organizational facilities for off-site maintenance, repair, or replacement;
-equipment is sanitized to remove {{ insert: param, ma-02_odp.02 }} from associated media prior to removal from organizational facilities for off-site maintenance, repair, or replacement;
-all potentially impacted controls are checked to verify that the controls are still functioning properly following maintenance, repair, or replacement actions;
-{{ insert: param, ma-02_odp.03 }} is included in organizational maintenance records.
+This control addresses the information security aspects of the information system maintenance program and applies to all types of maintenance to any system component (including applications) conducted by any local or nonlocal entity (e.g., in-contract, warranty, in-house, software maintenance agreement). System maintenance also includes those components not directly associated with information processing and/or data/information retention such as scanners, copiers, and printers. Information necessary for creating effective maintenance records includes, for example: (i) date and time of maintenance; (ii) name of individuals or group performing the maintenance; (iii) name of escort, if necessary; (iv) a description of the maintenance performed; and (v) information system components/equipment removed or replaced (including identification numbers, if applicable). The level of detail included in maintenance records can be informed by the security categories of organizational information systems. Organizations consider supply chain issues associated with replacement components for information systems.

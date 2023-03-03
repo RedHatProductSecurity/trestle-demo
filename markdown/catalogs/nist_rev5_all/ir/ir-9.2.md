@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ir-09.02_odp:
+  ir-9.2_prm_1:
     values:
-sort-id: ir-09.02
 x-trestle-global:
   sort-id: ir-09.02
 ---
@@ -11,12 +10,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Provide information spillage response training {{ insert: param, ir-09.02_odp }}.
+The organization provides information spillage response training {{ insert: param, ir-9.2_prm_1 }}.
 
-## Control guidance
+## Control Objective
 
-Organizations establish requirements for responding to information spillage incidents in incident response plans. Incident response training on a regular basis helps to ensure that organizational personnel understand their individual responsibilities and what specific actions to take when spillage incidents occur.
+Determine if the organization:
 
-## Control assessment-objective
+- \[IR-9(2)[1]\] defines the frequency to provide information spillage response training; and
 
-information spillage response training is provided {{ insert: param, ir-09.02_odp }}.
+- \[IR-9(2)[2]\] provides information spillage response training with the organization-defined frequency.

@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  mp-06.07_odp:
+  mp-6.7_prm_1:
     values:
-sort-id: mp-06.07
 x-trestle-global:
   sort-id: mp-06.07
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Enforce dual authorization for the sanitization of {{ insert: param, mp-06.07_odp }}.
+The organization enforces dual authorization for the sanitization of {{ insert: param, mp-6.7_prm_1 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[MP-6(7)[1]\] defines information system media requiring dual authorization to be enforced for sanitization of such media; and
+
+- \[MP-6(7)[2]\] enforces dual authorization for the sanitization of organization-defined information system media.
 
 ## Control guidance
 
-Organizations employ dual authorization to help ensure that system media sanitization cannot occur unless two technically qualified individuals conduct the designated task. Individuals who sanitize system media possess sufficient skills and expertise to determine if the proposed sanitization reflects applicable federal and organizational standards, policies, and procedures. Dual authorization also helps to ensure that sanitization occurs as intended, protecting against errors and false claims of having performed the sanitization actions. Dual authorization may also be known as two-person control. To reduce the risk of collusion, organizations consider rotating dual authorization duties to other individuals.
-
-## Control assessment-objective
-
-dual authorization for sanitization of {{ insert: param, mp-06.07_odp }} is enforced.
+Organizations employ dual authorization to ensure that information system media sanitization cannot occur unless two technically qualified individuals conduct the task. Individuals sanitizing information system media possess sufficient skills/expertise to determine if the proposed sanitization reflects applicable federal/organizational standards, policies, and procedures. Dual authorization also helps to ensure that sanitization occurs as intended, both protecting against errors and false claims of having performed the sanitization actions. Dual authorization may also be known as two-person control.

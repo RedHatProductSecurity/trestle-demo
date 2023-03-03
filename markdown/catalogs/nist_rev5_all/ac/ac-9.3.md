@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  ac-09.03_odp.01:
+  ac-9.3_prm_1:
     values:
-  ac-09.03_odp.02:
+  ac-9.3_prm_2:
     values:
-sort-id: ac-09.03
 x-trestle-global:
   sort-id: ac-09.03
 ---
@@ -13,12 +12,14 @@ x-trestle-global:
 
 ## Control Statement
 
-Notify the user, upon successful logon, of changes to {{ insert: param, ac-09.03_odp.01 }} during {{ insert: param, ac-09.03_odp.02 }}.
+The information system notifies the user of changes to {{ insert: param, ac-9.3_prm_1 }} during {{ insert: param, ac-9.3_prm_2 }}.
 
-## Control guidance
+## Control Objective
 
-Information about changes to security-related account characteristics within a specified time period allows users to recognize if changes were made without their knowledge.
+Determine if:
 
-## Control assessment-objective
+- \[AC-9(3)[1]\] the organization defines security-related characteristics/parameters of a user’s account;
 
-the user is notified, upon successful logon, of changes to {{ insert: param, ac-09.03_odp.01 }} during {{ insert: param, ac-09.03_odp.02 }}.
+- \[AC-9(3)[2]\] the organization defines the time period within which changes to organization-defined security-related characteristics/parameters of a user’s account must occur; and
+
+- \[AC-9(3)[3]\] the information system notifies the user of changes to organization-defined security-related characteristics/parameters of the user’s account during the organization-defined time period.

@@ -1,5 +1,4 @@
 ---
-sort-id: ir-02.01
 x-trestle-global:
   sort-id: ir-02.01
 ---
@@ -8,12 +7,8 @@ x-trestle-global:
 
 ## Control Statement
 
-Incorporate simulated events into incident response training to facilitate the required response by personnel in crisis situations.
+The organization incorporates simulated events into incident response training to facilitate effective response by personnel in crisis situations.
 
-## Control guidance
+## Control Objective
 
-Organizations establish requirements for responding to incidents in incident response plans. Incorporating simulated events into incident response training helps to ensure that personnel understand their individual responsibilities and what specific actions to take in crisis situations.
-
-## Control assessment-objective
-
-simulated events are incorporated into incident response training to facilitate the required response by personnel in crisis situations.
+Determine if the organization incorporates simulated events into incident response training to facilitate effective response by personnel in crisis situations.

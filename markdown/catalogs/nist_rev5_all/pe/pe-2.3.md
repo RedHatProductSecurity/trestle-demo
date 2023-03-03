@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  pe-02.03_odp.01:
+  pe-2.3_prm_1:
     values:
-  pe-02.03_odp.02:
+  pe-2.3_prm_2:
     values:
-sort-id: pe-02.03
 x-trestle-global:
   sort-id: pe-02.03
 ---
@@ -13,12 +12,21 @@ x-trestle-global:
 
 ## Control Statement
 
-Restrict unescorted access to the facility where the system resides to personnel with {{ insert: param, pe-02.03_odp.01 }}.
+The organization restricts unescorted access to the facility where the information system resides to personnel with {{ insert: param, pe-2.3_prm_1 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PE-2(3)[1]\] defines credentials to be employed to restrict unescorted access to the facility where the information system resides to authorized personnel;
+
+- \[PE-2(3)[2]\] restricts unescorted access to the facility where the information system resides to personnel with one or more of the following:
+
+  - \[PE-2(3)[2][a]\] security clearances for all information contained within the system;
+  - \[PE-2(3)[2][b]\] formal access authorizations for all information contained within the system;
+  - \[PE-2(3)[2][c]\] need for access to all information contained within the system; and/or
+  - \[PE-2(3)[2][d]\] organization-defined credentials.
 
 ## Control guidance
 
-Individuals without required security clearances, access approvals, or need to know are escorted by individuals with appropriate physical access authorizations to ensure that information is not exposed or otherwise compromised.
-
-## Control assessment-objective
-
-unescorted access to the facility where the system resides is restricted to personnel with {{ insert: param, pe-02.03_odp.01 }}.
+Due to the highly sensitive nature of classified information stored within certain facilities, it is important that individuals lacking sufficient security clearances, access approvals, or need to know, be escorted by individuals with appropriate credentials to ensure that such information is not exposed or otherwise compromised.

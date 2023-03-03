@@ -1,30 +1,38 @@
 ---
-sort-id: ia-05.02
 x-trestle-global:
   sort-id: ia-05.02
 ---
 
-# ia-5.2 - \[Identification and Authentication\] Public Key-based Authentication
+# ia-5.2 - \[Identification and Authentication\] Pki-based Authentication
 
 ## Control Statement
 
-- \[(a)\] For public key-based authentication:
+The information system, for PKI-based authentication:
 
-  - \[(1)\] Enforce authorized access to the corresponding private key; and
-  - \[(2)\] Map the authenticated identity to the account of the individual or group; and
+- \[(a)\] Validates certifications by constructing and verifying a certification path to an accepted trust anchor including checking certificate status information;
 
-- \[(b)\] When public key infrastructure (PKI) is used:
+- \[(b)\] Enforces authorized access to the corresponding private key;
 
-  - \[(1)\] Validate certificates by constructing and verifying a certification path to an accepted trust anchor, including checking certificate status information; and
-  - \[(2)\] Implement a local cache of revocation data to support path discovery and validation.
+- \[(c)\] Maps the authenticated identity to the account of the individual or group; and
+
+- \[(d)\] Implements a local cache of revocation data to support path discovery and validation in case of inability to access revocation information via the network.
+
+## Control Objective
+
+Determine if the information system, for PKI-based authentication:
+
+- \[IA-5(2)(a)\]
+
+  - \[IA-5(2)(a)[1]\] validates certifications by constructing a certification path to an accepted trust anchor;
+  - \[IA-5(2)(a)[2]\] validates certifications by verifying a certification path to an accepted trust anchor;
+  - \[IA-5(2)(a)[3]\] includes checking certificate status information when constructing and verifying the certification path;
+
+- \[IA-5(2)(b)\] enforces authorized access to the corresponding private key;
+
+- \[IA-5(2)(c)\] maps the authenticated identity to the account of the individual or group; and
+
+- \[IA-5(2)(d)\] implements a local cache of revocation data to support path discovery and validation in case of inability to access revocation information via the network.
 
 ## Control guidance
 
-Public key cryptography is a valid authentication mechanism for individuals, machines, and devices. For PKI solutions, status information for certification paths includes certificate revocation lists or certificate status protocol responses. For PIV cards, certificate validation involves the construction and verification of a certification path to the Common Policy Root trust anchor, which includes certificate policy processing. Implementing a local cache of revocation data to support path discovery and validation also supports system availability in situations where organizations are unable to access revocation information via the network.
-
-## Control assessment-objective
-
-authorized access to the corresponding private key is enforced for public key-based authentication;
-the authenticated identity is mapped to the account of the individual or group for public key-based authentication;
-when public key infrastructure (PKI) is used, certificates are validated by constructing and verifying a certification path to an accepted trust anchor, including checking certificate status information;
-when public key infrastructure (PKI) is used, a local cache of revocation data is implemented to support path discovery and validation.
+Status information for certification paths includes, for example, certificate revocation lists or certificate status protocol responses. For PIV cards, validation of certifications involves the construction and verification of a certification path to the Common Policy Root trust anchor including certificate policy processing.

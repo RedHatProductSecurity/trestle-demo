@@ -1,5 +1,4 @@
 ---
-sort-id: au-06.09
 x-trestle-global:
   sort-id: au-06.09
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Correlate information from nontechnical sources with audit record information to enhance organization-wide situational awareness.
+The organization correlates information from nontechnical sources with audit information to enhance organization-wide situational awareness.
+
+## Control Objective
+
+Determine if the organization correlates information from nontechnical sources with audit information to enhance organization-wide situational awareness.
 
 ## Control guidance
 
-Nontechnical sources include records that document organizational policy violations related to harassment incidents and the improper use of information assets. Such information can lead to a directed analytical effort to detect potential malicious insider activity. Organizations limit access to information that is available from nontechnical sources due to its sensitive nature. Limited access minimizes the potential for inadvertent release of privacy-related information to individuals who do not have a need to know. The correlation of information from nontechnical sources with audit record information generally occurs only when individuals are suspected of being involved in an incident. Organizations obtain legal advice prior to initiating such actions.
-
-## Control assessment-objective
-
-information from non-technical sources is correlated with audit record information to enhance organization-wide situational awareness.
+Nontechnical sources include, for example, human resources records documenting organizational policy violations (e.g., sexual harassment incidents, improper use of organizational information assets). Such information can lead organizations to a more directed analytical effort to detect potential malicious insider activity. Due to the sensitive nature of the information available from nontechnical sources, organizations limit access to such information to minimize the potential for the inadvertent release of privacy-related information to individuals that do not have a need to know. Thus, correlation of information from nontechnical sources with audit information generally occurs only when individuals are suspected of being involved in a security incident. Organizations obtain legal advice prior to initiating such actions.

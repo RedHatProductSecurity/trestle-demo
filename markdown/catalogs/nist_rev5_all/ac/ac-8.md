@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  ac-08_odp.01:
+  ac-8_prm_1:
     values:
-  ac-08_odp.02:
+  ac-8_prm_2:
     values:
-sort-id: ac-08
 x-trestle-global:
   sort-id: ac-08
 ---
@@ -13,33 +12,49 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Display {{ insert: param, ac-08_odp.01 }} to users before granting access to the system that provides privacy and security notices consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines and state that:
+The information system:
 
-  - \[1.\] Users are accessing a U.S. Government system;
-  - \[2.\] System usage may be monitored, recorded, and subject to audit;
-  - \[3.\] Unauthorized use of the system is prohibited and subject to criminal and civil penalties; and
-  - \[4.\] Use of the system indicates consent to monitoring and recording;
+- \[a.\] Displays to users {{ insert: param, ac-8_prm_1 }} before granting access to the system that provides privacy and security notices consistent with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance and states that:
 
-- \[b.\] Retain the notification message or banner on the screen until users acknowledge the usage conditions and take explicit actions to log on to or further access the system; and
+  - \[1.\] Users are accessing a U.S. Government information system;
+  - \[2.\] Information system usage may be monitored, recorded, and subject to audit;
+  - \[3.\] Unauthorized use of the information system is prohibited and subject to criminal and civil penalties; and
+  - \[4.\] Use of the information system indicates consent to monitoring and recording;
+
+- \[b.\] Retains the notification message or banner on the screen until users acknowledge the usage conditions and take explicit actions to log on to or further access the information system; and
 
 - \[c.\] For publicly accessible systems:
 
-  - \[1.\] Display system use information {{ insert: param, ac-08_odp.02 }} , before granting further access to the publicly accessible system;
-  - \[2.\] Display references, if any, to monitoring, recording, or auditing that are consistent with privacy accommodations for such systems that generally prohibit those activities; and
-  - \[3.\] Include a description of the authorized uses of the system.
+  - \[1.\] Displays system use information {{ insert: param, ac-8_prm_2 }}, before granting further access;
+  - \[2.\] Displays references, if any, to monitoring, recording, or auditing that are consistent with privacy accommodations for such systems that generally prohibit those activities; and
+  - \[3.\] Includes a description of the authorized uses of the system.
+
+## Control Objective
+
+Determine if:
+
+- \[AC-8(a)\]
+
+  - \[AC-8(a)[1]\] the organization defines a system use notification message or banner to be displayed by the information system to users before granting access to the system;
+  - \[AC-8(a)[2]\] the information system displays to users the organization-defined system use notification message or banner before granting access to the information system that provides privacy and security notices consistent with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance, and states that:
+
+    - \[AC-8(a)[2](1)\] users are accessing a U.S. Government information system;
+    - \[AC-8(a)[2](2)\] information system usage may be monitored, recorded, and subject to audit;
+    - \[AC-8(a)[2](3)\] unauthorized use of the information system is prohibited and subject to criminal and civil penalties;
+    - \[AC-8(a)[2](4)\] use of the information system indicates consent to monitoring and recording;
+
+- \[AC-8(b)\] the information system retains the notification message or banner on the screen until users acknowledge the usage conditions and take explicit actions to log on to or further access the information system;
+
+- \[AC-8(c)\] for publicly accessible systems:
+
+  - \[AC-8(c)(1)\]
+
+    - \[AC-8(c)(1)[1]\] the organization defines conditions for system use to be displayed by the information system before granting further access;
+    - \[AC-8(c)(1)[2]\] the information system displays organization-defined conditions before granting further access;
+
+  - \[AC-8(c)(2)\] the information system displays references, if any, to monitoring, recording, or auditing that are consistent with privacy accommodations for such systems that generally prohibit those activities; and
+  - \[AC-8(c)(3)\] the information system includes a description of the authorized uses of the system.
 
 ## Control guidance
 
-System use notifications can be implemented using messages or warning banners displayed before individuals log in to systems. System use notifications are used only for access via logon interfaces with human users. Notifications are not required when human interfaces do not exist. Based on an assessment of risk, organizations consider whether or not a secondary system use notification is needed to access applications or other system resources after the initial network logon. Organizations consider system use notification messages or banners displayed in multiple languages based on organizational needs and the demographics of system users. Organizations consult with the privacy office for input regarding privacy messaging and the Office of the General Counsel or organizational equivalent for legal review and approval of warning banner content.
-
-## Control assessment-objective
-
-{{ insert: param, ac-08_odp.01 }} is displayed to users before granting access to the system that provides privacy and security notices consistent with applicable laws, Executive Orders, directives, regulations, policies, standards, and guidelines;
-the system use notification states that users are accessing a U.S. Government system;
-the system use notification states that system usage may be monitored, recorded, and subject to audit;
-the system use notification states that unauthorized use of the system is prohibited and subject to criminal and civil penalties; and
-the system use notification states that use of the system indicates consent to monitoring and recording;
-the notification message or banner is retained on the screen until users acknowledge the usage conditions and take explicit actions to log on to or further access the system;
-for publicly accessible systems, system use information {{ insert: param, ac-08_odp.02 }} is displayed before granting further access to the publicly accessible system;
-for publicly accessible systems, any references to monitoring, recording, or auditing that are consistent with privacy accommodations for such systems that generally prohibit those activities are displayed;
-for publicly accessible systems, a description of the authorized uses of the system is included.
+System use notifications can be implemented using messages or warning banners displayed before individuals log in to information systems. System use notifications are used only for access via logon interfaces with human users and are not required when such human interfaces do not exist. Organizations consider system use notification messages/banners displayed in multiple languages based on specific organizational needs and the demographics of information system users. Organizations also consult with the Office of the General Counsel for legal review and approval of warning banner content.

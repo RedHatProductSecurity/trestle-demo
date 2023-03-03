@@ -2,30 +2,27 @@
 x-trestle-set-params:
   ma-4.1_prm_1:
     values:
-  ma-04.01_odp.01:
-    values:
-  ma-04.01_odp.02:
-    values:
-sort-id: ma-04.01
 x-trestle-global:
   sort-id: ma-04.01
 ---
 
-# ma-4.1 - \[Maintenance\] Logging and Review
+# ma-4.1 - \[Maintenance\] Auditing and Review
 
 ## Control Statement
 
-- \[(a)\] Log {{ insert: param, ma-4.1_prm_1 }} for nonlocal maintenance and diagnostic sessions; and
+The organization:
 
-- \[(b)\] Review the audit records of the maintenance and diagnostic sessions to detect anomalous behavior.
+- \[(a)\] Audits nonlocal maintenance and diagnostic sessions {{ insert: param, ma-4.1_prm_1 }}; and
 
-## Control guidance
+- \[(b)\] Reviews the records of the maintenance and diagnostic sessions.
 
-Audit logging for nonlocal maintenance is enforced by [AU-2](#au-2) . Audit events are defined in [AU-2a](#au-2_smt.a).
+## Control Objective
 
-## Control assessment-objective
+Determine if the organization:
 
-{{ insert: param, ma-04.01_odp.01 }} are logged for nonlocal maintenance sessions;
-{{ insert: param, ma-04.01_odp.02 }} are logged for nonlocal diagnostic sessions;
-the audit records of the maintenance sessions are reviewed to detect anomalous behavior;
-the audit records of the diagnostic sessions are reviewed to detect anomalous behavior.
+- \[MA-4(1)(a)\]
+
+  - \[MA-4(1)(a)[1]\] defines audit events to audit nonlocal maintenance and diagnostic sessions;
+  - \[MA-4(1)(a)[2]\] audits organization-defined audit events for non-local maintenance and diagnostic sessions; and
+
+- \[MA-4(1)(b)\] reviews records of the maintenance and diagnostic sessions.

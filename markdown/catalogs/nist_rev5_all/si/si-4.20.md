@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  si-04.20_odp:
+  si-4.20_prm_1:
     values:
-sort-id: si-04.20
 x-trestle-global:
   sort-id: si-04.20
 ---
@@ -11,12 +10,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement the following additional monitoring of privileged users: {{ insert: param, si-04.20_odp }}.
+The organization implements {{ insert: param, si-4.20_prm_1 }} of privileged users.
 
-## Control guidance
+## Control Objective
 
-Privileged users have access to more sensitive information, including security-related information, than the general user population. Access to such information means that privileged users can potentially do greater damage to systems and organizations than non-privileged users. Therefore, implementing additional monitoring on privileged users helps to ensure that organizations can identify malicious activity at the earliest possible time and take appropriate actions.
+Determine if the organization:
 
-## Control assessment-objective
+- \[SI-4(20)[1]\] defines additional monitoring to be implemented on privileged users; and
 
-{{ insert: param, si-04.20_odp }} of privileged users is implemented.
+- \[SI-4(20)[2]\] implements organization-defined additional monitoring of privileged users;

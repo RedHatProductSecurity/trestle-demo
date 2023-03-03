@@ -1,22 +1,18 @@
 ---
-x-trestle-set-params:
-  pe-03.03_odp:
-    values:
-sort-id: pe-03.03
 x-trestle-global:
   sort-id: pe-03.03
 ---
 
-# pe-3.3 - \[Physical and Environmental Protection\] Continuous Guards
+# pe-3.3 - \[Physical and Environmental Protection\] Continuous Guards / Alarms / Monitoring
 
 ## Control Statement
 
-Employ guards to control {{ insert: param, pe-03.03_odp }} to the facility where the system resides 24 hours per day, 7 days per week.
+The organization employs guards and/or alarms to monitor every physical access point to the facility where the information system resides 24 hours per day, 7 days per week.
 
-## Control guidance
+## Control Objective
 
-Employing guards at selected physical access points to the facility provides a more rapid response capability for organizations. Guards also provide the opportunity for human surveillance in areas of the facility not covered by video surveillance.
+Determine if the organization employs one or more of the following to monitor every physical access point to the facility where the information system resides 24 hours per day, 7 days per week:
 
-## Control assessment-objective
+- \[PE-3(3)[1]\] guards; and/or
 
-guards are employed to control {{ insert: param, pe-03.03_odp }} to the facility where the system resides 24 hours per day, 7 days per week.
+- \[PE-3(3)[2]\] alarms.

@@ -1,5 +1,4 @@
 ---
-sort-id: cp-09.06
 x-trestle-global:
   sort-id: cp-09.06
 ---
@@ -8,13 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Conduct system backup by maintaining a redundant secondary system that is not collocated with the primary system and that can be activated without loss of information or disruption to operations.
+The organization accomplishes information system backup by maintaining a redundant secondary system that is not collocated with the primary system and that can be activated without loss of information or disruption to operations.
 
-## Control guidance
+## Control Objective
 
-The effect of system backup can be achieved by maintaining a redundant secondary system that mirrors the primary system, including the replication of information. If this type of redundancy is in place and there is sufficient geographic separation between the two systems, the secondary system can also serve as the alternate processing site.
+Determine if the organization accomplishes information system backup by maintaining a redundant secondary system that:
 
-## Control assessment-objective
+- \[CP-9(6)[1]\] is not collocated with the primary system; and
 
-system backup is conducted by maintaining a redundant secondary system that is not collocated with the primary system;
-system backup is conducted by maintaining a redundant secondary system that can be activated without loss of information or disruption to operations.
+- \[CP-9(6)[2]\] can be activated without loss of information or disruption to operations.

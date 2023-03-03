@@ -1,5 +1,4 @@
 ---
-sort-id: cp-06
 x-trestle-global:
   sort-id: cp-06
 ---
@@ -8,16 +7,20 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Establish an alternate storage site, including necessary agreements to permit the storage and retrieval of system backup information; and
+The organization:
 
-- \[b.\] Ensure that the alternate storage site provides controls equivalent to that of the primary site.
+- \[a.\] Establishes an alternate storage site including necessary agreements to permit the storage and retrieval of information system backup information; and
+
+- \[b.\] Ensures that the alternate storage site provides information security safeguards equivalent to that of the primary site.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CP-6[1]\] establishes an alternate storage site including necessary agreements to permit the storage and retrieval of information system backup information; and
+
+- \[CP-6[2]\] ensures that the alternate storage site provides information security safeguards equivalent to that of the primary site.
 
 ## Control guidance
 
-Alternate storage sites are geographically distinct from primary storage sites and maintain duplicate copies of information and data if the primary storage site is not available. Similarly, alternate processing sites provide processing capability if the primary processing site is not available. Geographically distributed architectures that support contingency requirements may be considered alternate storage sites. Items covered by alternate storage site agreements include environmental conditions at the alternate sites, access rules for systems and facilities, physical and environmental protection requirements, and coordination of delivery and retrieval of backup media. Alternate storage sites reflect the requirements in contingency plans so that organizations can maintain essential mission and business functions despite compromise, failure, or disruption in organizational systems.
-
-## Control assessment-objective
-
-an alternate storage site is established;
-establishment of the alternate storage site includes necessary agreements to permit the storage and retrieval of system backup information;
-the alternate storage site provides controls equivalent to that of the primary site.
+Alternate storage sites are sites that are geographically distinct from primary storage sites. An alternate storage site maintains duplicate copies of information and data in the event that the primary storage site is not available. Items covered by alternate storage site agreements include, for example, environmental conditions at alternate sites, access rules, physical and environmental protection requirements, and coordination of delivery/retrieval of backup media. Alternate storage sites reflect the requirements in contingency plans so that organizations can maintain essential missions/business functions despite disruption, compromise, or failure in organizational information systems.

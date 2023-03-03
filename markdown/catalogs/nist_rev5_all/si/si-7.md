@@ -2,21 +2,6 @@
 x-trestle-set-params:
   si-7_prm_1:
     values:
-  si-7_prm_2:
-    values:
-  si-07_odp.01:
-    values:
-  si-07_odp.02:
-    values:
-  si-07_odp.03:
-    values:
-  si-07_odp.04:
-    values:
-  si-07_odp.05:
-    values:
-  si-07_odp.06:
-    values:
-sort-id: si-07
 x-trestle-global:
   sort-id: si-07
 ---
@@ -25,19 +10,24 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Employ integrity verification tools to detect unauthorized changes to the following software, firmware, and information: {{ insert: param, si-7_prm_1 }} ; and
+The organization employs integrity verification tools to detect unauthorized changes to {{ insert: param, si-7_prm_1 }}.
 
-- \[b.\] Take the following actions when unauthorized changes to the software, firmware, and information are detected: {{ insert: param, si-7_prm_2 }}.
+## Control Objective
+
+Determine if the organization:
+
+- \[SI-7[1]\]
+
+  - \[SI-7[1][a]\] defines software requiring integrity verification tools to be employed to detect unauthorized changes;
+  - \[SI-7[1][b]\] defines firmware requiring integrity verification tools to be employed to detect unauthorized changes;
+  - \[SI-7[1][c]\] defines information requiring integrity verification tools to be employed to detect unauthorized changes;
+
+- \[SI-7[2]\] employs integrity verification tools to detect unauthorized changes to organization-defined:
+
+  - \[SI-7[2][a]\] software;
+  - \[SI-7[2][b]\] firmware; and
+  - \[SI-7[2][c]\] information.
 
 ## Control guidance
 
-Unauthorized changes to software, firmware, and information can occur due to errors or malicious activity. Software includes operating systems (with key internal components, such as kernels or drivers), middleware, and applications. Firmware interfaces include Unified Extensible Firmware Interface (UEFI) and Basic Input/Output System (BIOS). Information includes personally identifiable information and metadata that contains security and privacy attributes associated with information. Integrity-checking mechanisms—including parity checks, cyclical redundancy checks, cryptographic hashes, and associated tools—can automatically monitor the integrity of systems and hosted applications.
-
-## Control assessment-objective
-
-integrity verification tools are employed to detect unauthorized changes to {{ insert: param, si-07_odp.01 }};
-integrity verification tools are employed to detect unauthorized changes to {{ insert: param, si-07_odp.02 }};
-integrity verification tools are employed to detect unauthorized changes to {{ insert: param, si-07_odp.03 }};
-{{ insert: param, si-07_odp.04 }} are taken when unauthorized changes to the software, are detected;
-{{ insert: param, si-07_odp.05 }} are taken when unauthorized changes to the firmware are detected;
-{{ insert: param, si-07_odp.06 }} are taken when unauthorized changes to the information are detected.
+Unauthorized changes to software, firmware, and information can occur due to errors or malicious activity (e.g., tampering). Software includes, for example, operating systems (with key internal components such as kernels, drivers), middleware, and applications. Firmware includes, for example, the Basic Input Output System (BIOS). Information includes metadata such as security attributes associated with information. State-of-the-practice integrity-checking mechanisms (e.g., parity checks, cyclical redundancy checks, cryptographic hashes) and associated tools can automatically monitor the integrity of information systems and hosted applications.

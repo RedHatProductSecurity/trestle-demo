@@ -1,22 +1,25 @@
 ---
 x-trestle-set-params:
-  ia-05.09_odp:
+  ia-5.9_prm_1:
     values:
-sort-id: ia-05.09
 x-trestle-global:
   sort-id: ia-05.09
 ---
 
-# ia-5.9 - \[Identification and Authentication\] Federated Credential Management
+# ia-5.9 - \[Identification and Authentication\] Cross-organization Credential Management
 
 ## Control Statement
 
-Use the following external organizations to federate credentials: {{ insert: param, ia-05.09_odp }}.
+The organization coordinates with {{ insert: param, ia-5.9_prm_1 }} for cross-organization management of credentials.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[IA-5(9)[1]\] defines external organizations with whom to coordinate cross-organizational management of credentials; and
+
+- \[IA-5(9)[2]\] coordinates with organization-defined external organizations for cross-organizational management of credentials.
 
 ## Control guidance
 
-Federation provides organizations with the capability to authenticate individuals and devices when conducting cross-organization activities involving the processing, storage, or transmission of information. Using a specific list of approved external organizations for authentication helps to ensure that those organizations are vetted and trusted.
-
-## Control assessment-objective
-
-{{ insert: param, ia-05.09_odp }} are used to federate credentials.
+Cross-organization management of credentials provides the capability for organizations to appropriately authenticate individuals, groups, roles, or devices when conducting cross-organization activities involving the processing, storage, or transmission of information.

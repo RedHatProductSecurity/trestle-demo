@@ -1,31 +1,23 @@
 ---
 x-trestle-set-params:
-  ia-02.06_odp.01:
+  ia-2.6_prm_1:
     values:
-  ia-02.06_odp.02:
-    values:
-  ia-02.06_odp.03:
-    values:
-sort-id: ia-02.06
 x-trestle-global:
   sort-id: ia-02.06
 ---
 
-# ia-2.6 - \[Identification and Authentication\] Access to Accounts —separate Device
+# ia-2.6 - \[Identification and Authentication\] Network Access to Privileged Accounts - Separate Device
 
 ## Control Statement
 
-Implement multi-factor authentication for {{ insert: param, ia-02.06_odp.01 }} access to {{ insert: param, ia-02.06_odp.02 }} such that:
+The information system implements multifactor authentication for network access to privileged accounts such that one of the factors is provided by a device separate from the system gaining access and the device meets {{ insert: param, ia-2.6_prm_1 }}.
 
-- \[(a)\] One of the factors is provided by a device separate from the system gaining access; and
+## Control Objective
 
-- \[(b)\] The device meets {{ insert: param, ia-02.06_odp.03 }}.
+Determine if:
 
-## Control guidance
+- \[IA-2(6)[1]\] the information system implements multifactor authentication for network access to privileged accounts such that one of the factors is provided by a device separate from the system gaining access;
 
-The purpose of requiring a device that is separate from the system to which the user is attempting to gain access for one of the factors during multi-factor authentication is to reduce the likelihood of compromising authenticators or credentials stored on the system. Adversaries may be able to compromise such authenticators or credentials and subsequently impersonate authorized users. Implementing one of the factors on a separate device (e.g., a hardware token), provides a greater strength of mechanism and an increased level of assurance in the authentication process.
+- \[IA-2(6)[2]\] the organization defines strength of mechanism requirements to be enforced by a device separate from the system gaining network access to privileged accounts; and
 
-## Control assessment-objective
-
-multi-factor authentication is implemented for {{ insert: param, ia-02.06_odp.01 }} access to {{ insert: param, ia-02.06_odp.02 }} such that one of the factors is provided by a device separate from the system gaining access;
-multi-factor authentication is implemented for {{ insert: param, ia-02.06_odp.01 }} access to {{ insert: param, ia-02.06_odp.02 }} such that the device meets {{ insert: param, ia-02.06_odp.03 }}.
+- \[IA-2(6)[3]\] the information system implements multifactor authentication for network access to privileged accounts such that a device, separate from the system gaining access, meets organization-defined strength of mechanism requirements.

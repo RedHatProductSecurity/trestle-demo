@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ac-04.17_odp:
+  ac-4.17_prm_1:
     values:
-sort-id: ac-04.17
 x-trestle-global:
   sort-id: ac-04.17
 ---
@@ -11,12 +10,24 @@ x-trestle-global:
 
 ## Control Statement
 
-Uniquely identify and authenticate source and destination points by {{ insert: param, ac-04.17_odp }} for information transfer.
+The information system uniquely identifies and authenticates source and destination points by {{ insert: param, ac-4.17_prm_1 }} for information transfer.
+
+## Control Objective
+
+Determine if the information system uniquely identifies and authenticates:
+
+- \[AC-4(17)[1]\]
+
+  - \[AC-4(17)[1][a]\] source points for information transfer;
+  - \[AC-4(17)[1][b]\] destination points for information transfer;
+
+- \[AC-4(17)[2]\] by one or more of the following:
+
+  - \[AC-4(17)[2][a]\] organization;
+  - \[AC-4(17)[2][b]\] system;
+  - \[AC-4(17)[2][c]\] application; and/or
+  - \[AC-4(17)[2][d]\] individual.
 
 ## Control guidance
 
-Attribution is a critical component of a security and privacy concept of operations. The ability to identify source and destination points for information flowing within systems allows the forensic reconstruction of events and encourages policy compliance by attributing policy violations to specific organizations or individuals. Successful domain authentication requires that system labels distinguish among systems, organizations, and individuals involved in preparing, sending, receiving, or disseminating information. Attribution also allows organizations to better maintain the lineage of personally identifiable information processing as it flows through systems and can facilitate consent tracking, as well as correction, deletion, or access requests from individuals.
-
-## Control assessment-objective
-
-source and destination points are uniquely identified and authenticated by {{ insert: param, ac-04.17_odp }} for information transfer.
+Attribution is a critical component of a security concept of operations. The ability to identify source and destination points for information flowing in information systems, allows the forensic reconstruction of events when required, and encourages policy compliance by attributing policy violations to specific organizations/individuals. Successful domain authentication requires that information system labels distinguish among systems, organizations, and individuals involved in preparing, sending, receiving, or disseminating information.

@@ -1,19 +1,18 @@
 ---
-sort-id: ir-04.06
 x-trestle-global:
   sort-id: ir-04.06
 ---
 
-# ir-4.6 - \[Incident Response\] Insider Threats
+# ir-4.6 - \[Incident Response\] Insider Threats - Specific Capabilities
 
 ## Control Statement
 
-Implement an incident handling capability for incidents involving insider threats.
+The organization implements incident handling capability for insider threats.
+
+## Control Objective
+
+Determine if the organization implements incident handling capability for insider threats.
 
 ## Control guidance
 
-Explicit focus on handling incidents involving insider threats provides additional emphasis on this type of threat and the need for specific incident handling capabilities to provide appropriate and timely responses.
-
-## Control assessment-objective
-
-an incident handling capability is implemented for incidents involving insider threats.
+While many organizations address insider threat incidents as an inherent part of their organizational incident response capability, this control enhancement provides additional emphasis on this type of threat and the need for specific incident handling capabilities (as defined within organizations) to provide appropriate and timely responses.

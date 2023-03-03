@@ -1,5 +1,4 @@
 ---
-sort-id: cm-04.01
 x-trestle-global:
   sort-id: cm-04.01
 ---
@@ -8,20 +7,21 @@ x-trestle-global:
 
 ## Control Statement
 
-Analyze changes to the system in a separate test environment before implementation in an operational environment, looking for security and privacy impacts due to flaws, weaknesses, incompatibility, or intentional malice.
+The organization analyzes changes to the information system in a separate test environment before implementation in an operational environment, looking for security impacts due to flaws, weaknesses, incompatibility, or intentional malice.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CM-4(1)[1]\] analyzes changes to the information system in a separate test environment before implementation in an operational environment;
+
+- \[CM-4(1)[2]\] when analyzing changes to the information system in a separate test environment, looks for security impacts due to:
+
+  - \[CM-4(1)[2][a]\] flaws;
+  - \[CM-4(1)[2][b]\] weaknesses;
+  - \[CM-4(1)[2][c]\] incompatibility; and
+  - \[CM-4(1)[2][d]\] intentional malice.
 
 ## Control guidance
 
-A separate test environment requires an environment that is physically or logically separate and distinct from the operational environment. The separation is sufficient to ensure that activities in the test environment do not impact activities in the operational environment and that information in the operational environment is not inadvertently transmitted to the test environment. Separate environments can be achieved by physical or logical means. If physically separate test environments are not implemented, organizations determine the strength of mechanism required when implementing logical separation.
-
-## Control assessment-objective
-
-changes to the system are analyzed in a separate test environment before implementation in an operational environment;
-changes to the system are analyzed for security impacts due to flaws;
-changes to the system are analyzed for privacy impacts due to flaws;
-changes to the system are analyzed for security impacts due to weaknesses;
-changes to the system are analyzed for privacy impacts due to weaknesses;
-changes to the system are analyzed for security impacts due to incompatibility;
-changes to the system are analyzed for privacy impacts due to incompatibility;
-changes to the system are analyzed for security impacts due to intentional malice;
-changes to the system are analyzed for privacy impacts due to intentional malice.
+Separate test environment in this context means an environment that is physically or logically isolated and distinct from the operational environment. The separation is sufficient to ensure that activities in the test environment do not impact activities in the operational environment, and information in the operational environment is not inadvertently transmitted to the test environment. Separate environments can be achieved by physical or logical means. If physically separate test environments are not used, organizations determine the strength of mechanism required when implementing logical separation (e.g., separation achieved through virtual machines).

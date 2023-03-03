@@ -2,67 +2,69 @@
 x-trestle-set-params:
   pe-1_prm_1:
     values:
-  pe-01_odp.01:
+  pe-1_prm_2:
     values:
-  pe-01_odp.02:
+  pe-1_prm_3:
     values:
-  pe-01_odp.03:
-    values:
-  pe-01_odp.04:
-    values:
-  pe-01_odp.05:
-    values:
-  pe-01_odp.06:
-    values:
-  pe-01_odp.07:
-    values:
-  pe-01_odp.08:
-    values:
-sort-id: pe-01
 x-trestle-global:
   sort-id: pe-01
 ---
 
-# pe-1 - \[Physical and Environmental Protection\] Policy and Procedures
+# pe-1 - \[Physical and Environmental Protection\] Physical and Environmental Protection Policy and Procedures
 
 ## Control Statement
 
-- \[a.\] Develop, document, and disseminate to {{ insert: param, pe-1_prm_1 }}:
+The organization:
 
-  - \[1.\] {{ insert: param, pe-01_odp.03 }} physical and environmental protection policy that:
+- \[a.\] Develops, documents, and disseminates to {{ insert: param, pe-1_prm_1 }}:
 
-    - \[(a)\] Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
-    - \[(b)\] Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines; and
+  - \[1.\] A physical and environmental protection policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
+  - \[2.\] Procedures to facilitate the implementation of the physical and environmental protection policy and associated physical and environmental protection controls; and
 
-  - \[2.\] Procedures to facilitate the implementation of the physical and environmental protection policy and the associated physical and environmental protection controls;
+- \[b.\] Reviews and updates the current:
 
-- \[b.\] Designate an {{ insert: param, pe-01_odp.04 }} to manage the development, documentation, and dissemination of the physical and environmental protection policy and procedures; and
+  - \[1.\] Physical and environmental protection policy {{ insert: param, pe-1_prm_2 }}; and
+  - \[2.\] Physical and environmental protection procedures {{ insert: param, pe-1_prm_3 }}.
 
-- \[c.\] Review and update the current physical and environmental protection:
+## Control Objective
 
-  - \[1.\] Policy {{ insert: param, pe-01_odp.05 }} and following {{ insert: param, pe-01_odp.06 }} ; and
-  - \[2.\] Procedures {{ insert: param, pe-01_odp.07 }} and following {{ insert: param, pe-01_odp.08 }}.
+Determine if the organization:
+
+- \[PE-1(a)\]
+
+  - \[PE-1(a)(1)\]
+
+    - \[PE-1(a)(1)[1]\] develops and documents a physical and environmental protection policy that addresses:
+
+      - \[PE-1(a)(1)[1][a]\] purpose;
+      - \[PE-1(a)(1)[1][b]\] scope;
+      - \[PE-1(a)(1)[1][c]\] roles;
+      - \[PE-1(a)(1)[1][d]\] responsibilities;
+      - \[PE-1(a)(1)[1][e]\] management commitment;
+      - \[PE-1(a)(1)[1][f]\] coordination among organizational entities;
+      - \[PE-1(a)(1)[1][g]\] compliance;
+
+    - \[PE-1(a)(1)[2]\] defines personnel or roles to whom the physical and environmental protection policy is to be disseminated;
+    - \[PE-1(a)(1)[3]\] disseminates the physical and environmental protection policy to organization-defined personnel or roles;
+
+  - \[PE-1(a)(2)\]
+
+    - \[PE-1(a)(2)[1]\] develops and documents procedures to facilitate the implementation of the physical and environmental protection policy and associated physical and environmental protection controls;
+    - \[PE-1(a)(2)[2]\] defines personnel or roles to whom the procedures are to be disseminated;
+    - \[PE-1(a)(2)[3]\] disseminates the procedures to organization-defined personnel or roles;
+
+- \[PE-1(b)\]
+
+  - \[PE-1(b)(1)\]
+
+    - \[PE-1(b)(1)[1]\] defines the frequency to review and update the current physical and environmental protection policy;
+    - \[PE-1(b)(1)[2]\] reviews and updates the current physical and environmental protection policy with the organization-defined frequency;
+
+  - \[PE-1(b)(2)\]
+
+    - \[PE-1(b)(2)[1]\] defines the frequency to review and update the current physical and environmental protection procedures; and
+    - \[PE-1(b)(2)[2]\] reviews and updates the current physical and environmental protection procedures with the organization-defined frequency.
 
 ## Control guidance
 
-Physical and environmental protection policy and procedures address the controls in the PE family that are implemented within systems and organizations. The risk management strategy is an important factor in establishing such policies and procedures. Policies and procedures contribute to security and privacy assurance. Therefore, it is important that security and privacy programs collaborate on the development of physical and environmental protection policy and procedures. Security and privacy program policies and procedures at the organization level are preferable, in general, and may obviate the need for mission- or system-specific policies and procedures. The policy can be included as part of the general security and privacy policy or be represented by multiple policies that reflect the complex nature of organizations. Procedures can be established for security and privacy programs, for mission or business processes, and for systems, if needed. Procedures describe how the policies or controls are implemented and can be directed at the individual or role that is the object of the procedure. Procedures can be documented in system security and privacy plans or in one or more separate documents. Events that may precipitate an update to physical and environmental protection policy and procedures include assessment or audit findings, security incidents or breaches, or changes in applicable laws, executive orders, directives, regulations, policies, standards, and guidelines. Simply restating controls does not constitute an organizational policy or procedure.
-
-## Control assessment-objective
-
-a physical and environmental protection policy is developed and documented;
-the physical and environmental protection policy is disseminated to {{ insert: param, pe-01_odp.01 }};
-physical and environmental protection procedures to facilitate the implementation of the physical and environmental protection policy and associated physical and environmental protection controls are developed and documented;
-the physical and environmental protection procedures are disseminated to {{ insert: param, pe-01_odp.02 }};
-the {{ insert: param, pe-01_odp.03 }} physical and environmental protection policy addresses purpose;
-the {{ insert: param, pe-01_odp.03 }} physical and environmental protection policy addresses scope;
-the {{ insert: param, pe-01_odp.03 }} physical and environmental protection policy addresses roles;
-the {{ insert: param, pe-01_odp.03 }} physical and environmental protection policy addresses responsibilities;
-the {{ insert: param, pe-01_odp.03 }} physical and environmental protection policy addresses management commitment;
-the {{ insert: param, pe-01_odp.03 }} physical and environmental protection policy addresses coordination among organizational entities;
-the {{ insert: param, pe-01_odp.03 }} physical and environmental protection policy addresses compliance;
-the {{ insert: param, pe-01_odp.03 }} physical and environmental protection policy is consistent with applicable laws, Executive Orders, directives, regulations, policies, standards, and guidelines;
-the {{ insert: param, pe-01_odp.04 }} is designated to manage the development, documentation, and dissemination of the physical and environmental protection policy and procedures;
-the current physical and environmental protection policy is reviewed and updated {{ insert: param, pe-01_odp.05 }};
-the current physical and environmental protection policy is reviewed and updated following {{ insert: param, pe-01_odp.06 }};
-the current physical and environmental protection procedures are reviewed and updated {{ insert: param, pe-01_odp.07 }};
-the current physical and environmental protection procedures are reviewed and updated following {{ insert: param, pe-01_odp.08 }}.
+This control addresses the establishment of policy and procedures for the effective implementation of selected security controls and control enhancements in the PE family. Policy and procedures reflect applicable federal laws, Executive Orders, directives, regulations, policies, standards, and guidance. Security program policies and procedures at the organization level may make the need for system-specific policies and procedures unnecessary. The policy can be included as part of the general information security policy for organizations or conversely, can be represented by multiple policies reflecting the complex nature of certain organizations. The procedures can be established for the security program in general and for particular information systems, if needed. The organizational risk management strategy is a key factor in establishing policy and procedures.

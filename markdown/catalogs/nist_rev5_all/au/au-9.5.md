@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  au-09.05_odp.01:
+  au-9.5_prm_1:
     values:
-  au-09.05_odp.02:
+  au-9.5_prm_2:
     values:
-sort-id: au-09.05
 x-trestle-global:
   sort-id: au-09.05
 ---
@@ -13,12 +12,21 @@ x-trestle-global:
 
 ## Control Statement
 
-Enforce dual authorization for {{ insert: param, au-09.05_odp.01 }} of {{ insert: param, au-09.05_odp.02 }}.
+The organization enforces dual authorization for {{ insert: param, au-9.5_prm_1 }} of {{ insert: param, au-9.5_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[AU-9(5)[1]\] defines audit information for which dual authorization is to be enforced;
+
+- \[AU-9(5)[2]\] defines one or more of the following types of operations on audit information for which dual authorization is to be enforced:
+
+  - \[AU-9(5)[2][a]\] movement; and/or
+  - \[AU-9(5)[2][b]\] deletion; and
+
+- \[AU-9(5)[3]\] enforces dual authorization for the movement and/or deletion of organization-defined audit information.
 
 ## Control guidance
 
-Organizations may choose different selection options for different types of audit information. Dual authorization mechanisms (also known as two-person control) require the approval of two authorized individuals to execute audit functions. To reduce the risk of collusion, organizations consider rotating dual authorization duties to other individuals. Organizations do not require dual authorization mechanisms when immediate responses are necessary to ensure public and environmental safety.
-
-## Control assessment-objective
-
-dual authorization is enforced for the {{ insert: param, au-09.05_odp.01 }} of {{ insert: param, au-09.05_odp.02 }}.
+Organizations may choose different selection options for different types of audit information. Dual authorization mechanisms require the approval of two authorized individuals in order to execute. Dual authorization may also be known as two-person control.

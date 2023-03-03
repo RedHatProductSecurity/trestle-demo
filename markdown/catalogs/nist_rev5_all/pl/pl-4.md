@@ -1,12 +1,7 @@
 ---
 x-trestle-set-params:
-  pl-04_odp.01:
+  pl-4_prm_1:
     values:
-  pl-04_odp.02:
-    values:
-  pl-04_odp.03:
-    values:
-sort-id: pl-04
 x-trestle-global:
   sort-id: pl-04
 ---
@@ -15,22 +10,34 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Establish and provide to individuals requiring access to the system, the rules that describe their responsibilities and expected behavior for information and system usage, security, and privacy;
+The organization:
 
-- \[b.\] Receive a documented acknowledgment from such individuals, indicating that they have read, understand, and agree to abide by the rules of behavior, before authorizing access to information and the system;
+- \[a.\] Establishes and makes readily available to individuals requiring access to the information system, the rules that describe their responsibilities and expected behavior with regard to information and information system usage;
 
-- \[c.\] Review and update the rules of behavior {{ insert: param, pl-04_odp.01 }} ; and
+- \[b.\] Receives a signed acknowledgment from such individuals, indicating that they have read, understand, and agree to abide by the rules of behavior, before authorizing access to information and the information system;
 
-- \[d.\] Require individuals who have acknowledged a previous version of the rules of behavior to read and re-acknowledge {{ insert: param, pl-04_odp.02 }}.
+- \[c.\] Reviews and updates the rules of behavior {{ insert: param, pl-4_prm_1 }}; and
+
+- \[d.\] Requires individuals who have signed a previous version of the rules of behavior to read and re-sign when the rules of behavior are revised/updated.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PL-4(a)\]
+
+  - \[PL-4(a)[1]\] establishes, for individuals requiring access to the information system, the rules that describe their responsibilities and expected behavior with regard to information and information system usage;
+  - \[PL-4(a)[2]\] makes readily available to individuals requiring access to the information system, the rules that describe their responsibilities and expected behavior with regard to information and information system usage;
+
+- \[PL-4(b)\] receives a signed acknowledgement from such individuals, indicating that they have read, understand, and agree to abide by the rules of behavior, before authorizing access to information and the information system;
+
+- \[PL-4(c)\]
+
+  - \[PL-4(c)[1]\] defines the frequency to review and update the rules of behavior;
+  - \[PL-4(c)[2]\] reviews and updates the rules of behavior with the organization-defined frequency; and
+
+- \[PL-4(d)\] requires individuals who have signed a previous version of the rules of behavior to read and resign when the rules of behavior are revised/updated.
 
 ## Control guidance
 
-Rules of behavior represent a type of access agreement for organizational users. Other types of access agreements include nondisclosure agreements, conflict-of-interest agreements, and acceptable use agreements (see [PS-6](#ps-6) ). Organizations consider rules of behavior based on individual user roles and responsibilities and differentiate between rules that apply to privileged users and rules that apply to general users. Establishing rules of behavior for some types of non-organizational users, including individuals who receive information from federal systems, is often not feasible given the large number of such users and the limited nature of their interactions with the systems. Rules of behavior for organizational and non-organizational users can also be established in [AC-8](#ac-8) . The related controls section provides a list of controls that are relevant to organizational rules of behavior. [PL-4b](#pl-4_smt.b) , the documented acknowledgment portion of the control, may be satisfied by the literacy training and awareness and role-based training programs conducted by organizations if such training includes rules of behavior. Documented acknowledgements for rules of behavior include electronic or physical signatures and electronic agreement check boxes or radio buttons.
-
-## Control assessment-objective
-
-rules that describe responsibilities and expected behavior for information and system usage, security, and privacy are established for individuals requiring access to the system;
-rules that describe responsibilities and expected behavior for information and system usage, security, and privacy are provided to individuals requiring access to the system;
-before authorizing access to information and the system, a documented acknowledgement from such individuals indicating that they have read, understand, and agree to abide by the rules of behavior is received;
-rules of behavior are reviewed and updated {{ insert: param, pl-04_odp.01 }};
-individuals who have acknowledged a previous version of the rules of behavior are required to read and reacknowledge {{ insert: param, pl-04_odp.02 }}.
+This control enhancement applies to organizational users. Organizations consider rules of behavior based on individual user roles and responsibilities, differentiating, for example, between rules that apply to privileged users and rules that apply to general users. Establishing rules of behavior for some types of non-organizational users including, for example, individuals who simply receive data/information from federal information systems, is often not feasible given the large number of such users and the limited nature of their interactions with the systems. Rules of behavior for both organizational and non-organizational users can also be established in AC-8, System Use Notification. PL-4 b. (the signed acknowledgment portion of this control) may be satisfied by the security awareness training and role-based security training programs conducted by organizations if such training includes rules of behavior. Organizations can use electronic signatures for acknowledging rules of behavior.

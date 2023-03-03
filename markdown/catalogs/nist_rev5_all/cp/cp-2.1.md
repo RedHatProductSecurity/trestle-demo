@@ -1,5 +1,4 @@
 ---
-sort-id: cp-02.01
 x-trestle-global:
   sort-id: cp-02.01
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Coordinate contingency plan development with organizational elements responsible for related plans.
+The organization coordinates contingency plan development with organizational elements responsible for related plans.
+
+## Control Objective
+
+Determine if the organization coordinates contingency plan development with organizational elements responsible for related plans.
 
 ## Control guidance
 
-Plans that are related to contingency plans include Business Continuity Plans, Disaster Recovery Plans, Critical Infrastructure Plans, Continuity of Operations Plans, Crisis Communications Plans, Insider Threat Implementation Plans, Data Breach Response Plans, Cyber Incident Response Plans, Breach Response Plans, and Occupant Emergency Plans.
-
-## Control assessment-objective
-
-contingency plan development is coordinated with organizational elements responsible for related plans.
+Plans related to contingency plans for organizational information systems include, for example, Business Continuity Plans, Disaster Recovery Plans, Continuity of Operations Plans, Crisis Communications Plans, Critical Infrastructure Plans, Cyber Incident Response Plans, Insider Threat Implementation Plan, and Occupant Emergency Plans.

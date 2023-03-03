@@ -2,19 +2,10 @@
 x-trestle-set-params:
   cm-8.3_prm_1:
     values:
-  cm-08.03_odp.01:
+  cm-8.3_prm_2:
     values:
-  cm-08.03_odp.02:
+  cm-8.3_prm_3:
     values:
-  cm-08.03_odp.03:
-    values:
-  cm-08.03_odp.04:
-    values:
-  cm-08.03_odp.05:
-    values:
-  cm-08.03_odp.06:
-    values:
-sort-id: cm-08.03
 x-trestle-global:
   sort-id: cm-08.03
 ---
@@ -23,19 +14,39 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[(a)\] Detect the presence of unauthorized hardware, software, and firmware components within the system using {{ insert: param, cm-8.3_prm_1 }} {{ insert: param, cm-08.03_odp.04 }} ; and
+The organization:
 
-- \[(b)\] Take the following actions when unauthorized components are detected: {{ insert: param, cm-08.03_odp.05 }}.
+- \[(a)\] Employs automated mechanisms {{ insert: param, cm-8.3_prm_1 }} to detect the presence of unauthorized hardware, software, and firmware components within the information system; and
+
+- \[(b)\] Takes the following actions when unauthorized components are detected: {{ insert: param, cm-8.3_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CM-8(3)(a)\]
+
+  - \[CM-8(3)(a)[1]\] defines the frequency to employ automated mechanisms to detect the presence of unauthorized:
+
+    - \[CM-8(3)(a)[1][a]\] hardware components within the information system;
+    - \[CM-8(3)(a)[1][b]\] software components within the information system;
+    - \[CM-8(3)(a)[1][c]\] firmware components within the information system;
+
+  - \[CM-8(3)(a)[2]\] employs automated mechanisms with the organization-defined frequency to detect the presence of unauthorized:
+
+    - \[CM-8(3)(a)[2][a]\] hardware components within the information system;
+    - \[CM-8(3)(a)[2][b]\] software components within the information system;
+    - \[CM-8(3)(a)[2][c]\] firmware components within the information system;
+
+- \[CM-8(3)(b)\]
+
+  - \[CM-8(3)(b)[1]\] defines personnel or roles to be notified when unauthorized components are detected;
+  - \[CM-8(3)(b)[2]\] takes one or more of the following actions when unauthorized components are detected:
+
+    - \[CM-8(3)(b)[2][a]\] disables network access by such components;
+    - \[CM-8(3)(b)[2][b]\] isolates the components; and/or
+    - \[CM-8(3)(b)[2][c]\] notifies organization-defined personnel or roles.
 
 ## Control guidance
 
-Automated unauthorized component detection is applied in addition to the monitoring for unauthorized remote connections and mobile devices. Monitoring for unauthorized system components may be accomplished on an ongoing basis or by the periodic scanning of systems for that purpose. Automated mechanisms may also be used to prevent the connection of unauthorized components (see [CM-7(9)](#cm-7.9) ). Automated mechanisms can be implemented in systems or in separate system components. When acquiring and implementing automated mechanisms, organizations consider whether such mechanisms depend on the ability of the system component to support an agent or supplicant in order to be detected since some types of components do not have or cannot support agents (e.g., IoT devices, sensors). Isolation can be achieved , for example, by placing unauthorized system components in separate domains or subnets or quarantining such components. This type of component isolation is commonly referred to as "sandboxing."
-
-## Control assessment-objective
-
-the presence of unauthorized hardware within the system is detected using {{ insert: param, cm-08.03_odp.01 }} {{ insert: param, cm-08.03_odp.04 }};
-the presence of unauthorized software within the system is detected using {{ insert: param, cm-08.03_odp.02 }} {{ insert: param, cm-08.03_odp.04 }};
-the presence of unauthorized firmware within the system is detected using {{ insert: param, cm-08.03_odp.03 }} {{ insert: param, cm-08.03_odp.04 }};
-{{ insert: param, cm-08.03_odp.05 }} are taken when unauthorized hardware is detected;
-{{ insert: param, cm-08.03_odp.05 }} are taken when unauthorized software is detected;
-{{ insert: param, cm-08.03_odp.05 }} are taken when unauthorized firmware is detected.
+This control enhancement is applied in addition to the monitoring for unauthorized remote connections and mobile devices. Monitoring for unauthorized system components may be accomplished on an ongoing basis or by the periodic scanning of systems for that purpose. Automated mechanisms can be implemented within information systems or in other separate devices. Isolation can be achieved, for example, by placing unauthorized information system components in separate domains or subnets or otherwise quarantining such components. This type of component isolation is commonly referred to as sandboxing.

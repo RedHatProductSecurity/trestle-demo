@@ -1,29 +1,37 @@
 ---
 x-trestle-set-params:
-  au-05_odp.01:
+  au-5_prm_1:
     values:
-  au-05_odp.02:
+  au-5_prm_2:
     values:
-  au-05_odp.03:
-    values:
-sort-id: au-05
 x-trestle-global:
   sort-id: au-05
 ---
 
-# au-5 - \[Audit and Accountability\] Response to Audit Logging Process Failures
+# au-5 - \[Audit and Accountability\] Response to Audit Processing Failures
 
 ## Control Statement
 
-- \[a.\] Alert {{ insert: param, au-05_odp.01 }} within {{ insert: param, au-05_odp.02 }} in the event of an audit logging process failure; and
+The information system:
 
-- \[b.\] Take the following additional actions: {{ insert: param, au-05_odp.03 }}.
+- \[a.\] Alerts {{ insert: param, au-5_prm_1 }} in the event of an audit processing failure; and
+
+- \[b.\] Takes the following additional actions: {{ insert: param, au-5_prm_2 }}.
+
+## Control Objective
+
+Determine if:
+
+- \[AU-5(a)\]
+
+  - \[AU-5(a)[1]\] the organization defines the personnel or roles to be alerted in the event of an audit processing failure;
+  - \[AU-5(a)[2]\] the information system alerts the organization-defined personnel or roles in the event of an audit processing failure;
+
+- \[AU-5(b)\]
+
+  - \[AU-5(b)[1]\] the organization defines additional actions to be taken (e.g., shutdown information system, overwrite oldest audit records, stop generating audit records) in the event of an audit processing failure; and
+  - \[AU-5(b)[2]\] the information system takes the additional organization-defined actions in the event of an audit processing failure.
 
 ## Control guidance
 
-Audit logging process failures include software and hardware errors, failures in audit log capturing mechanisms, and reaching or exceeding audit log storage capacity. Organization-defined actions include overwriting oldest audit records, shutting down the system, and stopping the generation of audit records. Organizations may choose to define additional actions for audit logging process failures based on the type of failure, the location of the failure, the severity of the failure, or a combination of such factors. When the audit logging process failure is related to storage, the response is carried out for the audit log storage repository (i.e., the distinct system component where the audit logs are stored), the system on which the audit logs reside, the total audit log storage capacity of the organization (i.e., all audit log storage repositories combined), or all three. Organizations may decide to take no additional actions after alerting designated roles or personnel.
-
-## Control assessment-objective
-
-{{ insert: param, au-05_odp.01 }} are alerted in the event of an audit logging process failure within {{ insert: param, au-05_odp.02 }};
-{{ insert: param, au-05_odp.03 }} are taken in the event of an audit logging process failure.
+Audit processing failures include, for example, software/hardware errors, failures in the audit capturing mechanisms, and audit storage capacity being reached or exceeded. Organizations may choose to define additional actions for different audit processing failures (e.g., by type, by location, by severity, or a combination of such factors). This control applies to each audit data storage repository (i.e., distinct information system component where audit records are stored), the total audit storage capacity of organizations (i.e., all audit data storage repositories combined), or both.

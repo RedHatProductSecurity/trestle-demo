@@ -1,26 +1,31 @@
 ---
-sort-id: au-07
 x-trestle-global:
   sort-id: au-07
 ---
 
-# au-7 - \[Audit and Accountability\] Audit Record Reduction and Report Generation
+# au-7 - \[Audit and Accountability\] Audit Reduction and Report Generation
 
 ## Control Statement
 
-Provide and implement an audit record reduction and report generation capability that:
+The information system provides an audit reduction and report generation capability that:
 
-- \[a.\] Supports on-demand audit record review, analysis, and reporting requirements and after-the-fact investigations of incidents; and
+- \[a.\] Supports on-demand audit review, analysis, and reporting requirements and after-the-fact investigations of security incidents; and
 
 - \[b.\] Does not alter the original content or time ordering of audit records.
 
+## Control Objective
+
+Determine if the information system provides an audit reduction and report generation capability that supports:
+
+- \[AU-7(a)\]
+
+  - \[AU-7(a)[1]\] on-demand audit review;
+  - \[AU-7(a)[2]\] analysis;
+  - \[AU-7(a)[3]\] reporting requirements;
+  - \[AU-7(a)[4]\] after-the-fact investigations of security incidents; and
+
+- \[AU-7(b)\] does not alter the original content or time ordering of audit records.
+
 ## Control guidance
 
-Audit record reduction is a process that manipulates collected audit log information and organizes it into a summary format that is more meaningful to analysts. Audit record reduction and report generation capabilities do not always emanate from the same system or from the same organizational entities that conduct audit logging activities. The audit record reduction capability includes modern data mining techniques with advanced data filters to identify anomalous behavior in audit records. The report generation capability provided by the system can generate customizable reports. Time ordering of audit records can be an issue if the granularity of the timestamp in the record is insufficient.
-
-## Control assessment-objective
-
-an audit record reduction and report generation capability is provided that supports on-demand audit record review, analysis, and reporting requirements and after-the-fact investigations of incidents;
-an audit record reduction and report generation capability is implemented that supports on-demand audit record review, analysis, and reporting requirements and after-the-fact investigations of incidents;
-an audit record reduction and report generation capability is provided that does not alter the original content or time ordering of audit records;
-an audit record reduction and report generation capability is implemented that does not alter the original content or time ordering of audit records.
+Audit reduction is a process that manipulates collected audit information and organizes such information in a summary format that is more meaningful to analysts. Audit reduction and report generation capabilities do not always emanate from the same information system or from the same organizational entities conducting auditing activities. Audit reduction capability can include, for example, modern data mining techniques with advanced data filters to identify anomalous behavior in audit records. The report generation capability provided by the information system can generate customizable reports. Time ordering of audit records can be a significant issue if the granularity of the timestamp in the record is insufficient.

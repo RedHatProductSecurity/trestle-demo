@@ -1,93 +1,76 @@
 ---
 x-trestle-set-params:
-  pl-02_odp.01:
+  pl-2_prm_1:
     values:
-  pl-02_odp.02:
+  pl-2_prm_2:
     values:
-  pl-02_odp.03:
-    values:
-sort-id: pl-02
 x-trestle-global:
   sort-id: pl-02
 ---
 
-# pl-2 - \[Planning\] System Security and Privacy Plans
+# pl-2 - \[Planning\] System Security Plan
 
 ## Control Statement
 
-- \[a.\] Develop security and privacy plans for the system that:
+The organization:
 
-  - \[1.\] Are consistent with the organization’s enterprise architecture;
-  - \[2.\] Explicitly define the constituent system components;
-  - \[3.\] Describe the operational context of the system in terms of mission and business processes;
-  - \[4.\] Identify the individuals that fulfill system roles and responsibilities;
-  - \[5.\] Identify the information types processed, stored, and transmitted by the system;
-  - \[6.\] Provide the security categorization of the system, including supporting rationale;
-  - \[7.\] Describe any specific threats to the system that are of concern to the organization;
-  - \[8.\] Provide the results of a privacy risk assessment for systems processing personally identifiable information;
-  - \[9.\] Describe the operational environment for the system and any dependencies on or connections to other systems or system components;
-  - \[10.\] Provide an overview of the security and privacy requirements for the system;
-  - \[11.\] Identify any relevant control baselines or overlays, if applicable;
-  - \[12.\] Describe the controls in place or planned for meeting the security and privacy requirements, including a rationale for any tailoring decisions;
-  - \[13.\] Include risk determinations for security and privacy architecture and design decisions;
-  - \[14.\] Include security- and privacy-related activities affecting the system that require planning and coordination with {{ insert: param, pl-02_odp.01 }} ; and
-  - \[15.\] Are reviewed and approved by the authorizing official or designated representative prior to plan implementation.
+- \[a.\] Develops a security plan for the information system that:
 
-- \[b.\] Distribute copies of the plans and communicate subsequent changes to the plans to {{ insert: param, pl-02_odp.02 }};
+  - \[1.\] Is consistent with the organization’s enterprise architecture;
+  - \[2.\] Explicitly defines the authorization boundary for the system;
+  - \[3.\] Describes the operational context of the information system in terms of missions and business processes;
+  - \[4.\] Provides the security categorization of the information system including supporting rationale;
+  - \[5.\] Describes the operational environment for the information system and relationships with or connections to other information systems;
+  - \[6.\] Provides an overview of the security requirements for the system;
+  - \[7.\] Identifies any relevant overlays, if applicable;
+  - \[8.\] Describes the security controls in place or planned for meeting those requirements including a rationale for the tailoring decisions; and
+  - \[9.\] Is reviewed and approved by the authorizing official or designated representative prior to plan implementation;
 
-- \[c.\] Review the plans {{ insert: param, pl-02_odp.03 }};
+- \[b.\] Distributes copies of the security plan and communicates subsequent changes to the plan to {{ insert: param, pl-2_prm_1 }};
 
-- \[d.\] Update the plans to address changes to the system and environment of operation or problems identified during plan implementation or control assessments; and
+- \[c.\] Reviews the security plan for the information system {{ insert: param, pl-2_prm_2 }};
 
-- \[e.\] Protect the plans from unauthorized disclosure and modification.
+- \[d.\] Updates the plan to address changes to the information system/environment of operation or problems identified during plan implementation or security control assessments; and
+
+- \[e.\] Protects the security plan from unauthorized disclosure and modification.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PL-2(a)\] develops a security plan for the information system that:
+
+  - \[PL-2(a)(1)\] is consistent with the organization’s enterprise architecture;
+  - \[PL-2(a)(2)\] explicitly defines the authorization boundary for the system;
+  - \[PL-2(a)(3)\] describes the operational context of the information system in terms of missions and business processes;
+  - \[PL-2(a)(4)\] provides the security categorization of the information system including supporting rationale;
+  - \[PL-2(a)(5)\] describes the operational environment for the information system and relationships with or connections to other information systems;
+  - \[PL-2(a)(6)\] provides an overview of the security requirements for the system;
+  - \[PL-2(a)(7)\] identifies any relevant overlays, if applicable;
+  - \[PL-2(a)(8)\] describes the security controls in place or planned for meeting those requirements including a rationale for the tailoring and supplemental decisions;
+  - \[PL-2(a)(9)\] is reviewed and approved by the authorizing official or designated representative prior to plan implementation;
+
+- \[PL-2(b)\]
+
+  - \[PL-2(b)[1]\] defines personnel or roles to whom copies of the security plan are to be distributed and subsequent changes to the plan are to be communicated;
+  - \[PL-2(b)[2]\] distributes copies of the security plan and communicates subsequent changes to the plan to organization-defined personnel or roles;
+
+- \[PL-2(c)\]
+
+  - \[PL-2(c)[1]\] defines the frequency to review the security plan for the information system;
+  - \[PL-2(c)[2]\] reviews the security plan for the information system with the organization-defined frequency;
+
+- \[PL-2(d)\] updates the plan to address:
+
+  - \[PL-2(d)[1]\] changes to the information system/environment of operation;
+  - \[PL-2(d)[2]\] problems identified during plan implementation;
+  - \[PL-2(d)[3]\] problems identified during security control assessments;
+
+- \[PL-2(e)\] protects the security plan from unauthorized:
+
+  - \[PL-2(e)[1]\] disclosure; and
+  - \[PL-2(e)[2]\] modification.
 
 ## Control guidance
 
-System security and privacy plans are scoped to the system and system components within the defined authorization boundary and contain an overview of the security and privacy requirements for the system and the controls selected to satisfy the requirements. The plans describe the intended application of each selected control in the context of the system with a sufficient level of detail to correctly implement the control and to subsequently assess the effectiveness of the control. The control documentation describes how system-specific and hybrid controls are implemented and the plans and expectations regarding the functionality of the system. System security and privacy plans can also be used in the design and development of systems in support of life cycle-based security and privacy engineering processes. System security and privacy plans are living documents that are updated and adapted throughout the system development life cycle (e.g., during capability determination, analysis of alternatives, requests for proposal, and design reviews). [Section 2.1](#c3397cc9-83c6-4459-adb2-836739dc1b94) describes the different types of requirements that are relevant to organizations during the system development life cycle and the relationship between requirements and controls.
-
-Organizations may develop a single, integrated security and privacy plan or maintain separate plans. Security and privacy plans relate security and privacy requirements to a set of controls and control enhancements. The plans describe how the controls and control enhancements meet the security and privacy requirements but do not provide detailed, technical descriptions of the design or implementation of the controls and control enhancements. Security and privacy plans contain sufficient information (including specifications of control parameter values for selection and assignment operations explicitly or by reference) to enable a design and implementation that is unambiguously compliant with the intent of the plans and subsequent determinations of risk to organizational operations and assets, individuals, other organizations, and the Nation if the plan is implemented.
-
-Security and privacy plans need not be single documents. The plans can be a collection of various documents, including documents that already exist. Effective security and privacy plans make extensive use of references to policies, procedures, and additional documents, including design and implementation specifications where more detailed information can be obtained. The use of references helps reduce the documentation associated with security and privacy programs and maintains the security- and privacy-related information in other established management and operational areas, including enterprise architecture, system development life cycle, systems engineering, and acquisition. Security and privacy plans need not contain detailed contingency plan or incident response plan information but can instead provide—explicitly or by reference—sufficient information to define what needs to be accomplished by those plans.
-
-Security- and privacy-related activities that may require coordination and planning with other individuals or groups within the organization include assessments, audits, inspections, hardware and software maintenance, acquisition and supply chain risk management, patch management, and contingency plan testing. Planning and coordination include emergency and nonemergency (i.e., planned or non-urgent unplanned) situations. The process defined by organizations to plan and coordinate security- and privacy-related activities can also be included in other documents, as appropriate.
-
-## Control assessment-objective
-
-a security plan for the system is developed that is consistent with the organization’s enterprise architecture;
-a privacy plan for the system is developed that is consistent with the organization’s enterprise architecture;
-a security plan for the system is developed that explicitly defines the constituent system components;
-a privacy plan for the system is developed that explicitly defines the constituent system components;
-a security plan for the system is developed that describes the operational context of the system in terms of mission and business processes;
-a privacy plan for the system is developed that describes the operational context of the system in terms of mission and business processes;
-a security plan for the system is developed that identifies the individuals that fulfill system roles and responsibilities;
-a privacy plan for the system is developed that identifies the individuals that fulfill system roles and responsibilities;
-a security plan for the system is developed that identifies the information types processed, stored, and transmitted by the system;
-a privacy plan for the system is developed that identifies the information types processed, stored, and transmitted by the system;
-a security plan for the system is developed that provides the security categorization of the system, including supporting rationale;
-a privacy plan for the system is developed that provides the security categorization of the system, including supporting rationale;
-a security plan for the system is developed that describes any specific threats to the system that are of concern to the organization;
-a privacy plan for the system is developed that describes any specific threats to the system that are of concern to the organization;
-a security plan for the system is developed that provides the results of a privacy risk assessment for systems processing personally identifiable information;
-a privacy plan for the system is developed that provides the results of a privacy risk assessment for systems processing personally identifiable information;
-a security plan for the system is developed that describes the operational environment for the system and any dependencies on or connections to other systems or system components;
-a privacy plan for the system is developed that describes the operational environment for the system and any dependencies on or connections to other systems or system components;
-a security plan for the system is developed that provides an overview of the security requirements for the system;
-a privacy plan for the system is developed that provides an overview of the privacy requirements for the system;
-a security plan for the system is developed that identifies any relevant control baselines or overlays, if applicable;
-a privacy plan for the system is developed that identifies any relevant control baselines or overlays, if applicable;
-a security plan for the system is developed that describes the controls in place or planned for meeting the security requirements, including rationale for any tailoring decisions;
-a privacy plan for the system is developed that describes the controls in place or planned for meeting the privacy requirements, including rationale for any tailoring decisions;
-a security plan for the system is developed that includes risk determinations for security architecture and design decisions;
-a privacy plan for the system is developed that includes risk determinations for privacy architecture and design decisions;
-a security plan for the system is developed that includes security-related activities affecting the system that require planning and coordination with {{ insert: param, pl-02_odp.01 }};
-a privacy plan for the system is developed that includes privacy-related activities affecting the system that require planning and coordination with {{ insert: param, pl-02_odp.01 }};
-a security plan for the system is developed that is reviewed and approved by the authorizing official or designated representative prior to plan implementation;
-a privacy plan for the system is developed that is reviewed and approved by the authorizing official or designated representative prior to plan implementation.
-copies of the plans are distributed to {{ insert: param, pl-02_odp.02 }};
-subsequent changes to the plans are communicated to {{ insert: param, pl-02_odp.02 }};
-plans are reviewed {{ insert: param, pl-02_odp.03 }};
-plans are updated to address changes to the system and environment of operations;
-plans are updated to address problems identified during the plan implementation;
-plans are updated to address problems identified during control assessments;
-plans are protected from unauthorized disclosure;
-plans are protected from unauthorized modification.
+Security plans relate security requirements to a set of security controls and control enhancements. Security plans also describe, at a high level, how the security controls and control enhancements meet those security requirements, but do not provide detailed, technical descriptions of the specific design or implementation of the controls/enhancements. Security plans contain sufficient information (including the specification of parameter values for assignment and selection statements either explicitly or by reference) to enable a design and implementation that is unambiguously compliant with the intent of the plans and subsequent determinations of risk to organizational operations and assets, individuals, other organizations, and the Nation if the plan is implemented as intended. Organizations can also apply tailoring guidance to the security control baselines in Appendix D and CNSS Instruction 1253 to develop overlays for community-wide use or to address specialized requirements, technologies, or missions/environments of operation (e.g., DoD-tactical, Federal Public Key Infrastructure, or Federal Identity, Credential, and Access Management, space operations). Appendix I provides guidance on developing overlays. Security plans need not be single documents; the plans can be a collection of various documents including documents that already exist. Effective security plans make extensive use of references to policies, procedures, and additional documents (e.g., design and implementation specifications) where more detailed information can be obtained. This reduces the documentation requirements associated with security programs and maintains security-related information in other established management/operational areas related to enterprise architecture, system development life cycle, systems engineering, and acquisition. For example, security plans do not contain detailed contingency plan or incident response plan information but instead provide explicitly or by reference, sufficient information to define what needs to be accomplished by those plans.

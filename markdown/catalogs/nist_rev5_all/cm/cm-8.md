@@ -1,39 +1,47 @@
 ---
 x-trestle-set-params:
-  cm-08_odp.01:
+  cm-8_prm_1:
     values:
-  cm-08_odp.02:
+  cm-8_prm_2:
     values:
-sort-id: cm-08
 x-trestle-global:
   sort-id: cm-08
 ---
 
-# cm-8 - \[Configuration Management\] System Component Inventory
+# cm-8 - \[Configuration Management\] Information System Component Inventory
 
 ## Control Statement
 
-- \[a.\] Develop and document an inventory of system components that:
+The organization:
 
-  - \[1.\] Accurately reflects the system;
-  - \[2.\] Includes all components within the system;
-  - \[3.\] Does not include duplicate accounting of components or components assigned to any other system;
-  - \[4.\] Is at the level of granularity deemed necessary for tracking and reporting; and
-  - \[5.\] Includes the following information to achieve system component accountability: {{ insert: param, cm-08_odp.01 }} ; and
+- \[a.\] Develops and documents an inventory of information system components that:
 
-- \[b.\] Review and update the system component inventory {{ insert: param, cm-08_odp.02 }}.
+  - \[1.\] Accurately reflects the current information system;
+  - \[2.\] Includes all components within the authorization boundary of the information system;
+  - \[3.\] Is at the level of granularity deemed necessary for tracking and reporting; and
+  - \[4.\] Includes {{ insert: param, cm-8_prm_1 }}; and
+
+- \[b.\] Reviews and updates the information system component inventory {{ insert: param, cm-8_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CM-8(a)\]
+
+  - \[CM-8(a)(1)\] develops and documents an inventory of information system components that accurately reflects the current information system;
+  - \[CM-8(a)(2)\] develops and documents an inventory of information system components that includes all components within the authorization boundary of the information system;
+  - \[CM-8(a)(3)\] develops and documents an inventory of information system components that is at the level of granularity deemed necessary for tracking and reporting;
+  - \[CM-8(a)(4)\]
+
+    - \[CM-8(a)(4)[1]\] defines the information deemed necessary to achieve effective information system component accountability;
+    - \[CM-8(a)(4)[2]\] develops and documents an inventory of information system components that includes organization-defined information deemed necessary to achieve effective information system component accountability;
+
+- \[CM-8(b)\]
+
+  - \[CM-8(b)[1]\] defines the frequency to review and update the information system component inventory; and
+  - \[CM-8(b)[2]\] reviews and updates the information system component inventory with the organization-defined frequency.
 
 ## Control guidance
 
-System components are discrete, identifiable information technology assets that include hardware, software, and firmware. Organizations may choose to implement centralized system component inventories that include components from all organizational systems. In such situations, organizations ensure that the inventories include system-specific information required for component accountability. The information necessary for effective accountability of system components includes the system name, software owners, software version numbers, hardware inventory specifications, software license information, and for networked components, the machine names and network addresses across all implemented protocols (e.g., IPv4, IPv6). Inventory specifications include date of receipt, cost, model, serial number, manufacturer, supplier information, component type, and physical location.
-
-Preventing duplicate accounting of system components addresses the lack of accountability that occurs when component ownership and system association is not known, especially in large or complex connected systems. Effective prevention of duplicate accounting of system components necessitates use of a unique identifier for each component. For software inventory, centrally managed software that is accessed via other systems is addressed as a component of the system on which it is installed and managed. Software installed on multiple organizational systems and managed at the system level is addressed for each individual system and may appear more than once in a centralized component inventory, necessitating a system association for each software instance in the centralized inventory to avoid duplicate accounting of components. Scanning systems implementing multiple network protocols (e.g., IPv4 and IPv6) can result in duplicate components being identified in different address spaces. The implementation of [CM-8(7)](#cm-8.7) can help to eliminate duplicate accounting of components.
-
-## Control assessment-objective
-
-an inventory of system components that accurately reflects the system is developed and documented;
-an inventory of system components that includes all components within the system is developed and documented;
-an inventory of system components that does not include duplicate accounting of components or components assigned to any other system is developed and documented;
-an inventory of system components that is at the level of granularity deemed necessary for tracking and reporting is developed and documented;
-an inventory of system components that includes {{ insert: param, cm-08_odp.01 }} is developed and documented;
-the system component inventory is reviewed and updated {{ insert: param, cm-08_odp.02 }}.
+Organizations may choose to implement centralized information system component inventories that include components from all organizational information systems. In such situations, organizations ensure that the resulting inventories include system-specific information required for proper component accountability (e.g., information system association, information system owner). Information deemed necessary for effective accountability of information system components includes, for example, hardware inventory specifications, software license information, software version numbers, component owners, and for networked components or devices, machine names and network addresses. Inventory specifications include, for example, manufacturer, device type, model, serial number, and physical location.

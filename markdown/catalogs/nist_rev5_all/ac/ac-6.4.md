@@ -1,5 +1,4 @@
 ---
-sort-id: ac-06.04
 x-trestle-global:
   sort-id: ac-06.04
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Provide separate processing domains to enable finer-grained allocation of user privileges.
+The information system provides separate processing domains to enable finer-grained allocation of user privileges.
+
+## Control Objective
+
+Determine if the information system provides separate processing domains to enable finer-grained allocation of user privileges.
 
 ## Control guidance
 
-Providing separate processing domains for finer-grained allocation of user privileges includes using virtualization techniques to permit additional user privileges within a virtual machine while restricting privileges to other virtual machines or to the underlying physical machine, implementing separate physical domains, and employing hardware or software domain separation mechanisms.
-
-## Control assessment-objective
-
-separate processing domains are provided to enable finer-grain allocation of user privileges.
+Providing separate processing domains for finer-grained allocation of user privileges includes, for example: (i) using virtualization techniques to allow additional privileges within a virtual machine while restricting privileges to other virtual machines or to the underlying actual machine; (ii) employing hardware and/or software domain separation mechanisms; and (iii) implementing separate physical domains.

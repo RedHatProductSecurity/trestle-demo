@@ -1,5 +1,4 @@
 ---
-sort-id: ac-09.01
 x-trestle-global:
   sort-id: ac-09.01
 ---
@@ -8,12 +7,8 @@ x-trestle-global:
 
 ## Control Statement
 
-Notify the user, upon successful logon, of the number of unsuccessful logon attempts since the last successful logon.
+The information system notifies the user, upon successful logon/access, of the number of unsuccessful logon/access attempts since the last successful logon/access.
 
-## Control guidance
+## Control Objective
 
-Information about the number of unsuccessful logon attempts since the last successful logon allows the user to recognize if the number of unsuccessful logon attempts is consistent with the user’s actual logon attempts.
-
-## Control assessment-objective
-
-the user is notified, upon successful logon, of the number of unsuccessful logon attempts since the last successful logon.
+Determine if the information system notifies the user, upon successful logon/access, of the number of unsuccessful logon/access attempts since the last successful logon/access.

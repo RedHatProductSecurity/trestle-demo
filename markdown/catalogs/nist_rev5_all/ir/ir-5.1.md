@@ -1,30 +1,24 @@
 ---
-x-trestle-set-params:
-  ir-5.1_prm_1:
-    values:
-  ir-05.01_odp.01:
-    values:
-  ir-05.01_odp.02:
-    values:
-  ir-05.01_odp.03:
-    values:
-sort-id: ir-05.01
 x-trestle-global:
   sort-id: ir-05.01
 ---
 
-# ir-5.1 - \[Incident Response\] Automated Tracking, Data Collection, and Analysis
+# ir-5.1 - \[Incident Response\] Automated Tracking / Data Collection / Analysis
 
 ## Control Statement
 
-Track incidents and collect and analyze incident information using {{ insert: param, ir-5.1_prm_1 }}.
+The organization employs automated mechanisms to assist in the tracking of security incidents and in the collection and analysis of incident information.
+
+## Control Objective
+
+Determine if the organization employs automated mechanisms to assist in:
+
+- \[IR-5(1)[1]\] the tracking of security incidents;
+
+- \[IR-5(1)[2]\] the collection of incident information; and
+
+- \[IR-5(1)[3]\] the analysis of incident information.
 
 ## Control guidance
 
-Automated mechanisms for tracking incidents and collecting and analyzing incident information include Computer Incident Response Centers or other electronic databases of incidents and network monitoring devices.
-
-## Control assessment-objective
-
-incidents are tracked using {{ insert: param, ir-05.01_odp.01 }};
-incident information is collected using {{ insert: param, ir-05.01_odp.02 }};
-incident information is analyzed using {{ insert: param, ir-05.01_odp.03 }}.
+Automated mechanisms for tracking security incidents and collecting/analyzing incident information include, for example, the Einstein network monitoring device and monitoring online Computer Incident Response Centers (CIRCs) or other electronic databases of incidents.

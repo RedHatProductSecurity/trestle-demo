@@ -1,5 +1,4 @@
 ---
-sort-id: pe-09
 x-trestle-global:
   sort-id: pe-09
 ---
@@ -8,13 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Protect power equipment and power cabling for the system from damage and destruction.
+The organization protects power equipment and power cabling for the information system from damage and destruction.
+
+## Control Objective
+
+Determine if the organization protects power equipment and power cabling for the information system from damage and destruction.
 
 ## Control guidance
 
-Organizations determine the types of protection necessary for the power equipment and cabling employed at different locations that are both internal and external to organizational facilities and environments of operation. Types of power equipment and cabling include internal cabling and uninterruptable power sources in offices or data centers, generators and power cabling outside of buildings, and power sources for self-contained components such as satellites, vehicles, and other deployable systems.
-
-## Control assessment-objective
-
-power equipment for the system is protected from damage and destruction;
-power cabling for the system is protected from damage and destruction.
+Organizations determine the types of protection necessary for power equipment and cabling employed at different locations both internal and external to organizational facilities and environments of operation. This includes, for example, generators and power cabling outside of buildings, internal cabling and uninterruptable power sources within an office or data center, and power sources for self-contained entities such as vehicles and satellites.

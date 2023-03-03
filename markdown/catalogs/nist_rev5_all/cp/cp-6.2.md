@@ -1,20 +1,14 @@
 ---
-sort-id: cp-06.02
 x-trestle-global:
   sort-id: cp-06.02
 ---
 
-# cp-6.2 - \[Contingency Planning\] Recovery Time and Recovery Point Objectives
+# cp-6.2 - \[Contingency Planning\] Recovery Time / Point Objectives
 
 ## Control Statement
 
-Configure the alternate storage site to facilitate recovery operations in accordance with recovery time and recovery point objectives.
+The organization configures the alternate storage site to facilitate recovery operations in accordance with recovery time and recovery point objectives.
 
-## Control guidance
+## Control Objective
 
-Organizations establish recovery time and recovery point objectives as part of contingency planning. Configuration of the alternate storage site includes physical facilities and the systems supporting recovery operations that ensure accessibility and correct execution.
-
-## Control assessment-objective
-
-the alternate storage site is configured to facilitate recovery operations in accordance with recovery time objectives;
-the alternate storage site is configured to facilitate recovery operations in accordance with recovery point objectives.
+Determine if the organization configures the alternate storage site to facilitate recovery operations in accordance with recovery time objectives and recovery point objectives (as specified in the information system contingency plan).

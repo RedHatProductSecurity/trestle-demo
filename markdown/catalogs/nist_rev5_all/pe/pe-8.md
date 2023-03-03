@@ -1,12 +1,9 @@
 ---
 x-trestle-set-params:
-  pe-08_odp.01:
+  pe-8_prm_1:
     values:
-  pe-08_odp.02:
+  pe-8_prm_2:
     values:
-  pe-08_odp.03:
-    values:
-sort-id: pe-08
 x-trestle-global:
   sort-id: pe-08
 ---
@@ -15,18 +12,26 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Maintain visitor access records to the facility where the system resides for {{ insert: param, pe-08_odp.01 }};
+The organization:
 
-- \[b.\] Review visitor access records {{ insert: param, pe-08_odp.02 }} ; and
+- \[a.\] Maintains visitor access records to the facility where the information system resides for {{ insert: param, pe-8_prm_1 }}; and
 
-- \[c.\] Report anomalies in visitor access records to {{ insert: param, pe-08_odp.03 }}.
+- \[b.\] Reviews visitor access records {{ insert: param, pe-8_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PE-8(a)\]
+
+  - \[PE-8(a)[1]\] defines the time period to maintain visitor access records to the facility where the information system resides;
+  - \[PE-8(a)[2]\] maintains visitor access records to the facility where the information system resides for the organization-defined time period;
+
+- \[PE-8(b)\]
+
+  - \[PE-8(b)[1]\] defines the frequency to review visitor access records; and
+  - \[PE-8(b)[2]\] reviews visitor access records with the organization-defined frequency.
 
 ## Control guidance
 
-Visitor access records include the names and organizations of individuals visiting, visitor signatures, forms of identification, dates of access, entry and departure times, purpose of visits, and the names and organizations of individuals visited. Access record reviews determine if access authorizations are current and are still required to support organizational mission and business functions. Access records are not required for publicly accessible areas.
-
-## Control assessment-objective
-
-visitor access records for the facility where the system resides are maintained for {{ insert: param, pe-08_odp.01 }};
-visitor access records are reviewed {{ insert: param, pe-08_odp.02 }};
-visitor access records anomalies are reported to {{ insert: param, pe-08_odp.03 }}.
+Visitor access records include, for example, names and organizations of persons visiting, visitor signatures, forms of identification, dates of access, entry and departure times, purposes of visits, and names and organizations of persons visited. Visitor access records are not required for publicly accessible areas.

@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  ir-03_odp.01:
+  ir-3_prm_1:
     values:
-  ir-03_odp.02:
+  ir-3_prm_2:
     values:
-sort-id: ir-03
 x-trestle-global:
   sort-id: ir-03
 ---
@@ -13,12 +12,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Test the effectiveness of the incident response capability for the system {{ insert: param, ir-03_odp.01 }} using the following tests: {{ insert: param, ir-03_odp.02 }}.
+The organization tests the incident response capability for the information system {{ insert: param, ir-3_prm_1 }} using {{ insert: param, ir-3_prm_2 }} to determine the incident response effectiveness and documents the results.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[IR-3[1]\] defines incident response tests to test the incident response capability for the information system;
+
+- \[IR-3[2]\] defines the frequency to test the incident response capability for the information system; and
+
+- \[IR-3[3]\] tests the incident response capability for the information system with the organization-defined frequency, using organization-defined tests to determine the incident response effectiveness and documents the results.
 
 ## Control guidance
 
-Organizations test incident response capabilities to determine their effectiveness and identify potential weaknesses or deficiencies. Incident response testing includes the use of checklists, walk-through or tabletop exercises, and simulations (parallel or full interrupt). Incident response testing can include a determination of the effects on organizational operations and assets and individuals due to incident response. The use of qualitative and quantitative data aids in determining the effectiveness of incident response processes.
-
-## Control assessment-objective
-
-the effectiveness of the incident response capability for the system is tested {{ insert: param, ir-03_odp.01 }} using {{ insert: param, ir-03_odp.02 }}.
+Organizations test incident response capabilities to determine the overall effectiveness of the capabilities and to identify potential weaknesses or deficiencies. Incident response testing includes, for example, the use of checklists, walk-through or tabletop exercises, simulations (parallel/full interrupt), and comprehensive exercises. Incident response testing can also include a determination of the effects on organizational operations (e.g., reduction in mission capabilities), organizational assets, and individuals due to incident response.

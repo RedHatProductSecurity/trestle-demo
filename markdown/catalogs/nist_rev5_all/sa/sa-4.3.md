@@ -1,44 +1,36 @@
 ---
 x-trestle-set-params:
-  sa-04.03_odp.01:
+  sa-4.3_prm_1:
     values:
-  sa-04.03_odp.02:
-    values:
-  sa-04.03_odp.03:
-    values:
-  sa-04.03_odp.04:
-    values:
-  sa-04.03_odp.05:
-    values:
-  sa-04.03_odp.06:
-    values:
-  sa-04.03_odp.07:
-    values:
-  sa-04.03_odp.08:
-    values:
-sort-id: sa-04.03
 x-trestle-global:
   sort-id: sa-04.03
 ---
 
-# sa-4.3 - \[System and Services Acquisition\] Development Methods, Techniques, and Practices
+# sa-4.3 - \[System and Services Acquisition\] Development Methods / Techniques / Practices
 
 ## Control Statement
 
-Require the developer of the system, system component, or system service to demonstrate the use of a system development life cycle process that includes:
+The organization requires the developer of the information system, system component, or information system service to demonstrate the use of a system development life cycle that includes {{ insert: param, sa-4.3_prm_1 }}.
 
-- \[(a)\] {{ insert: param, sa-04.03_odp.01 }};
+## Control Objective
 
-- \[(b)\] {{ insert: param, sa-04.03_odp.02 }} ; and
+Determine if the organization:
 
-- \[(c)\] {{ insert: param, sa-04.03_odp.05 }}.
+- \[SA-4(3)[1]\] defines state-of-the-practice system/security engineering methods to be included in the system development life cycle employed by the developer of the information system, system component, or information system service;
+
+- \[SA-4(3)[2]\] defines software development methods to be included in the system development life cycle employed by the developer of the information system, system component, or information system service;
+
+- \[SA-4(3)[3]\] defines testing/evaluation/validation techniques to be included in the system development life cycle employed by the developer of the information system, system component, or information system service;
+
+- \[SA-4(3)[4]\] defines quality control processes to be included in the system development life cycle employed by the developer of the information system, system component, or information system service;
+
+- \[SA-4(3)[5]\] requires the developer of the information system, system component, or information system service to demonstrate the use of a system development life cycle that includes:
+
+  - \[SA-4(3)[5][a]\] organization-defined state-of-the-practice system/security engineering methods;
+  - \[SA-4(3)[5][b]\] organization-defined software development methods;
+  - \[SA-4(3)[5][c]\] organization-defined testing/evaluation/validation techniques; and
+  - \[SA-4(3)[5][d]\] organization-defined quality control processes.
 
 ## Control guidance
 
-Following a system development life cycle that includes state-of-the-practice software development methods, systems engineering methods, systems security and privacy engineering methods, and quality control processes helps to reduce the number and severity of latent errors within systems, system components, and system services. Reducing the number and severity of such errors reduces the number of vulnerabilities in those systems, components, and services. Transparency in the methods and techniques that developers select and implement for systems engineering, systems security and privacy engineering, software development, component and system assessments, and quality control processes provides an increased level of assurance in the trustworthiness of the system, system component, or system service being acquired.
-
-## Control assessment-objective
-
-the developer of the system, system component, or system service is required to demonstrate the use of a system development life cycle process that includes {{ insert: param, sa-04.03_odp.01 }};
-the developer of the system, system component, or system service is required to demonstrate the use of a system development life cycle process that includes {{ insert: param, sa-04.03_odp.02 }};
-the developer of the system, system component, or system service is required to demonstrate the use of a system development life cycle process that includes {{ insert: param, sa-04.03_odp.05 }}.
+Following a well-defined system development life cycle that includes state-of-the-practice software development methods, systems/security engineering methods, quality control processes, and testing, evaluation, and validation techniques helps to reduce the number and severity of latent errors within information systems, system components, and information system services. Reducing the number/severity of such errors reduces the number of vulnerabilities in those systems, components, and services.

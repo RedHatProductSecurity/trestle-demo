@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ma-03.03_odp:
+  ma-3.3_prm_1:
     values:
-sort-id: ma-03.03
 x-trestle-global:
   sort-id: ma-03.03
 ---
@@ -11,7 +10,7 @@ x-trestle-global:
 
 ## Control Statement
 
-Prevent the removal of maintenance equipment containing organizational information by:
+The organization prevents the unauthorized removal of maintenance equipment containing organizational information by:
 
 - \[(a)\] Verifying that there is no organizational information contained on the equipment;
 
@@ -19,15 +18,23 @@ Prevent the removal of maintenance equipment containing organizational informati
 
 - \[(c)\] Retaining the equipment within the facility; or
 
-- \[(d)\] Obtaining an exemption from {{ insert: param, ma-03.03_odp }} explicitly authorizing removal of the equipment from the facility.
+- \[(d)\] Obtaining an exemption from {{ insert: param, ma-3.3_prm_1 }} explicitly authorizing removal of the equipment from the facility.
+
+## Control Objective
+
+Determine if the organization prevents the unauthorized removal of maintenance equipment containing organizational information by:
+
+- \[MA-3(3)(a)\] verifying that there is no organizational information contained on the equipment;
+
+- \[MA-3(3)(b)\] sanitizing or destroying the equipment;
+
+- \[MA-3(3)(c)\] retaining the equipment within the facility; or
+
+- \[MA-3(3)(d)\]
+
+  - \[MA-3(3)(d)[1]\] defining personnel or roles that can grant an exemption from explicitly authorizing removal of the equipment from the facility; and
+  - \[MA-3(3)(d)[2]\] obtaining an exemption from organization-defined personnel or roles explicitly authorizing removal of the equipment from the facility.
 
 ## Control guidance
 
-Organizational information includes all information owned by organizations and any information provided to organizations for which the organizations serve as information stewards.
-
-## Control assessment-objective
-
-the removal of maintenance equipment containing organizational information is prevented by verifying that there is no organizational information contained on the equipment; or
-the removal of maintenance equipment containing organizational information is prevented by sanitizing or destroying the equipment; or
-the removal of maintenance equipment containing organizational information is prevented by retaining the equipment within the facility; or
-the removal of maintenance equipment containing organizational information is prevented by obtaining an exemption from {{ insert: param, ma-03.03_odp }} explicitly authorizing removal of the equipment from the facility.
+Organizational information includes all information specifically owned by organizations and information provided to organizations in which organizations serve as information stewards.

@@ -2,58 +2,86 @@
 x-trestle-set-params:
   ra-5_prm_1:
     values:
-  ra-05_odp.01:
+  ra-5_prm_2:
     values:
-  ra-05_odp.02:
+  ra-5_prm_3:
     values:
-  ra-05_odp.03:
-    values:
-  ra-05_odp.04:
-    values:
-sort-id: ra-05
 x-trestle-global:
   sort-id: ra-05
 ---
 
-# ra-5 - \[Risk Assessment\] Vulnerability Monitoring and Scanning
+# ra-5 - \[Risk Assessment\] Vulnerability Scanning
 
 ## Control Statement
 
-- \[a.\] Monitor and scan for vulnerabilities in the system and hosted applications {{ insert: param, ra-5_prm_1 }} and when new vulnerabilities potentially affecting the system are identified and reported;
+The organization:
 
-- \[b.\] Employ vulnerability monitoring tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for:
+- \[a.\] Scans for vulnerabilities in the information system and hosted applications {{ insert: param, ra-5_prm_1 }} and when new vulnerabilities potentially affecting the system/applications are identified and reported;
+
+- \[b.\] Employs vulnerability scanning tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for:
 
   - \[1.\] Enumerating platforms, software flaws, and improper configurations;
   - \[2.\] Formatting checklists and test procedures; and
   - \[3.\] Measuring vulnerability impact;
 
-- \[c.\] Analyze vulnerability scan reports and results from vulnerability monitoring;
+- \[c.\] Analyzes vulnerability scan reports and results from security control assessments;
 
-- \[d.\] Remediate legitimate vulnerabilities {{ insert: param, ra-05_odp.03 }} in accordance with an organizational assessment of risk;
+- \[d.\] Remediates legitimate vulnerabilities {{ insert: param, ra-5_prm_2 }} in accordance with an organizational assessment of risk; and
 
-- \[e.\] Share information obtained from the vulnerability monitoring process and control assessments with {{ insert: param, ra-05_odp.04 }} to help eliminate similar vulnerabilities in other systems; and
+- \[e.\] Shares information obtained from the vulnerability scanning process and security control assessments with {{ insert: param, ra-5_prm_3 }} to help eliminate similar vulnerabilities in other information systems (i.e., systemic weaknesses or deficiencies).
 
-- \[f.\] Employ vulnerability monitoring tools that include the capability to readily update the vulnerabilities to be scanned.
+## Control Objective
+
+Determine if the organization:
+
+- \[RA-5(a)\]
+
+  - \[RA-5(a)[1]\]
+
+    - \[RA-5(a)[1][a]\] defines the frequency for conducting vulnerability scans on the information system and hosted applications; and/or
+    - \[RA-5(a)[1][b]\] defines the process for conducting random vulnerability scans on the information system and hosted applications;
+
+  - \[RA-5(a)[2]\] in accordance with the organization-defined frequency and/or organization-defined process for conducting random scans, scans for vulnerabilities in:
+
+    - \[RA-5(a)[2][a]\] the information system;
+    - \[RA-5(a)[2][b]\] hosted applications;
+
+  - \[RA-5(a)[3]\] when new vulnerabilities potentially affecting the system/applications are identified and reported, scans for vulnerabilities in:
+
+    - \[RA-5(a)[3][a]\] the information system;
+    - \[RA-5(a)[3][b]\] hosted applications;
+
+- \[RA-5(b)\] employs vulnerability scanning tools and techniques that facilitate interoperability among tools and automate parts of the vulnerability management process by using standards for:
+
+  - \[RA-5(b)(1)\]
+
+    - \[RA-5(b)(1)[1]\] enumerating platforms;
+    - \[RA-5(b)(1)[2]\] enumerating software flaws;
+    - \[RA-5(b)(1)[3]\] enumerating improper configurations;
+
+  - \[RA-5(b)(2)\]
+
+    - \[RA-5(b)(2)[1]\] formatting checklists;
+    - \[RA-5(b)(2)[2]\] formatting test procedures;
+
+  - \[RA-5(b)(3)\] measuring vulnerability impact;
+
+- \[RA-5(c)\]
+
+  - \[RA-5(c)[1]\] analyzes vulnerability scan reports;
+  - \[RA-5(c)[2]\] analyzes results from security control assessments;
+
+- \[RA-5(d)\]
+
+  - \[RA-5(d)[1]\] defines response times to remediate legitimate vulnerabilities in accordance with an organizational assessment of risk;
+  - \[RA-5(d)[2]\] remediates legitimate vulnerabilities within the organization-defined response times in accordance with an organizational assessment of risk;
+
+- \[RA-5(e)\]
+
+  - \[RA-5(e)[1]\] defines personnel or roles with whom information obtained from the vulnerability scanning process and security control assessments is to be shared;
+  - \[RA-5(e)[2]\] shares information obtained from the vulnerability scanning process with organization-defined personnel or roles to help eliminate similar vulnerabilities in other information systems (i.e., systemic weaknesses or deficiencies); and
+  - \[RA-5(e)[3]\] shares information obtained from security control assessments with organization-defined personnel or roles to help eliminate similar vulnerabilities in other information systems (i.e., systemic weaknesses or deficiencies).
 
 ## Control guidance
 
-Security categorization of information and systems guides the frequency and comprehensiveness of vulnerability monitoring (including scans). Organizations determine the required vulnerability monitoring for system components, ensuring that the potential sources of vulnerabilities—such as infrastructure components (e.g., switches, routers, guards, sensors), networked printers, scanners, and copiers—are not overlooked. The capability to readily update vulnerability monitoring tools as new vulnerabilities are discovered and announced and as new scanning methods are developed helps to ensure that new vulnerabilities are not missed by employed vulnerability monitoring tools. The vulnerability monitoring tool update process helps to ensure that potential vulnerabilities in the system are identified and addressed as quickly as possible. Vulnerability monitoring and analyses for custom software may require additional approaches, such as static analysis, dynamic analysis, binary analysis, or a hybrid of the three approaches. Organizations can use these analysis approaches in source code reviews and in a variety of tools, including web-based application scanners, static analysis tools, and binary analyzers.
-
-Vulnerability monitoring includes scanning for patch levels; scanning for functions, ports, protocols, and services that should not be accessible to users or devices; and scanning for flow control mechanisms that are improperly configured or operating incorrectly. Vulnerability monitoring may also include continuous vulnerability monitoring tools that use instrumentation to continuously analyze components. Instrumentation-based tools may improve accuracy and may be run throughout an organization without scanning. Vulnerability monitoring tools that facilitate interoperability include tools that are Security Content Automated Protocol (SCAP)-validated. Thus, organizations consider using scanning tools that express vulnerabilities in the Common Vulnerabilities and Exposures (CVE) naming convention and that employ the Open Vulnerability Assessment Language (OVAL) to determine the presence of vulnerabilities. Sources for vulnerability information include the Common Weakness Enumeration (CWE) listing and the National Vulnerability Database (NVD). Control assessments, such as red team exercises, provide additional sources of potential vulnerabilities for which to scan. Organizations also consider using scanning tools that express vulnerability impact by the Common Vulnerability Scoring System (CVSS).
-
-Vulnerability monitoring includes a channel and process for receiving reports of security vulnerabilities from the public at-large. Vulnerability disclosure programs can be as simple as publishing a monitored email address or web form that can receive reports, including notification authorizing good-faith research and disclosure of security vulnerabilities. Organizations generally expect that such research is happening with or without their authorization and can use public vulnerability disclosure channels to increase the likelihood that discovered vulnerabilities are reported directly to the organization for remediation.
-
-Organizations may also employ the use of financial incentives (also known as "bug bounties" ) to further encourage external security researchers to report discovered vulnerabilities. Bug bounty programs can be tailored to the organization’s needs. Bounties can be operated indefinitely or over a defined period of time and can be offered to the general public or to a curated group. Organizations may run public and private bounties simultaneously and could choose to offer partially credentialed access to certain participants in order to evaluate security vulnerabilities from privileged vantage points.
-
-## Control assessment-objective
-
-systems and hosted applications are monitored for vulnerabilities {{ insert: param, ra-05_odp.01 }} and when new vulnerabilities potentially affecting the system are identified and reported;
-systems and hosted applications are scanned for vulnerabilities {{ insert: param, ra-05_odp.02 }} and when new vulnerabilities potentially affecting the system are identified and reported;
-vulnerability monitoring tools and techniques are employed to facilitate interoperability among tools;
-vulnerability monitoring tools and techniques are employed to automate parts of the vulnerability management process by using standards for enumerating platforms, software flaws, and improper configurations;
-vulnerability monitoring tools and techniques are employed to facilitate interoperability among tools and to automate parts of the vulnerability management process by using standards for formatting checklists and test procedures;
-vulnerability monitoring tools and techniques are employed to facilitate interoperability among tools and to automate parts of the vulnerability management process by using standards for measuring vulnerability impact;
-vulnerability scan reports and results from vulnerability monitoring are analyzed;
-legitimate vulnerabilities are remediated {{ insert: param, ra-05_odp.03 }} in accordance with an organizational assessment of risk;
-information obtained from the vulnerability monitoring process and control assessments is shared with {{ insert: param, ra-05_odp.04 }} to help eliminate similar vulnerabilities in other systems;
-vulnerability monitoring tools that include the capability to readily update the vulnerabilities to be scanned are employed.
+Security categorization of information systems guides the frequency and comprehensiveness of vulnerability scans. Organizations determine the required vulnerability scanning for all information system components, ensuring that potential sources of vulnerabilities such as networked printers, scanners, and copiers are not overlooked. Vulnerability analyses for custom software applications may require additional approaches such as static analysis, dynamic analysis, binary analysis, or a hybrid of the three approaches. Organizations can employ these analysis approaches in a variety of tools (e.g., web-based application scanners, static analysis tools, binary analyzers) and in source code reviews. Vulnerability scanning includes, for example: (i) scanning for patch levels; (ii) scanning for functions, ports, protocols, and services that should not be accessible to users or devices; and (iii) scanning for improperly configured or incorrectly operating information flow control mechanisms. Organizations consider using tools that express vulnerabilities in the Common Vulnerabilities and Exposures (CVE) naming convention and that use the Open Vulnerability Assessment Language (OVAL) to determine/test for the presence of vulnerabilities. Suggested sources for vulnerability information include the Common Weakness Enumeration (CWE) listing and the National Vulnerability Database (NVD). In addition, security control assessments such as red team exercises provide other sources of potential vulnerabilities for which to scan. Organizations also consider using tools that express vulnerability impact by the Common Vulnerability Scoring System (CVSS).

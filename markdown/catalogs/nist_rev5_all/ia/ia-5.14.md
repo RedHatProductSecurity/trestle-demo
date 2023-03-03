@@ -1,5 +1,4 @@
 ---
-sort-id: ia-05.14
 x-trestle-global:
   sort-id: ia-05.14
 ---
@@ -8,12 +7,16 @@ x-trestle-global:
 
 ## Control Statement
 
-For PKI-based authentication, employ an organization-wide methodology for managing the content of PKI trust stores installed across all platforms, including networks, operating systems, browsers, and applications.
+The organization, for PKI-based authentication, employs a deliberate organization-wide methodology for managing the content of PKI trust stores installed across all platforms including networks, operating systems, browsers, and applications.
 
-## Control guidance
+## Control Objective
 
-An organization-wide methodology for managing the content of PKI trust stores helps improve the accuracy and currency of PKI-based authentication credentials across the organization.
+Determine if the organization, for PKI-based authentication, employs a deliberate organization-wide methodology for managing the content of PKI trust stores installed across all platforms including:
 
-## Control assessment-objective
+- \[IA-5(14)[1]\] networks;
 
-an organization-wide methodology for managing the content of PKI trust stores is employed across all platforms, including networks, operating systems, browsers, and applications for PKI-based authentication.
+- \[IA-5(14)[2]\] operating systems;
+
+- \[IA-5(14)[3]\] browsers; and
+
+- \[IA-5(14)[4]\] applications.

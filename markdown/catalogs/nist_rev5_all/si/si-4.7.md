@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  si-04.07_odp.01:
+  si-4.7_prm_1:
     values:
-  si-04.07_odp.02:
+  si-4.7_prm_2:
     values:
-sort-id: si-04.07
 x-trestle-global:
   sort-id: si-04.07
 ---
@@ -13,15 +12,20 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[(a)\] Notify {{ insert: param, si-04.07_odp.01 }} of detected suspicious events; and
+The information system notifies {{ insert: param, si-4.7_prm_1 }} of detected suspicious events and takes {{ insert: param, si-4.7_prm_2 }}.
 
-- \[(b)\] Take the following actions upon detection: {{ insert: param, si-04.07_odp.02 }}.
+## Control Objective
+
+Determine if:
+
+- \[SI-4(7)[1]\] the organization defines incident response personnel (identified by name and/or by role) to be notified of detected suspicious events;
+
+- \[SI-4(7)[2]\] the organization defines least-disruptive actions to be taken by the information system to terminate suspicious events;
+
+- \[SI-4(7)[3]\] the information system notifies organization-defined incident response personnel of detected suspicious events; and
+
+- \[SI-4(7)[4]\] the information system takes organization-defined least-disruptive actions to terminate suspicious events.
 
 ## Control guidance
 
-Least-disruptive actions include initiating requests for human responses.
-
-## Control assessment-objective
-
-{{ insert: param, si-04.07_odp.01 }} are notified of detected suspicious events;
-{{ insert: param, si-04.07_odp.02 }} are taken upon the detection of suspicious events.
+Least-disruptive actions may include, for example, initiating requests for human responses.

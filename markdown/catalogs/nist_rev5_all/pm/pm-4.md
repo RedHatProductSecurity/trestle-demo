@@ -1,5 +1,4 @@
 ---
-sort-id: pm-04
 x-trestle-global:
   sort-id: pm-04
 ---
@@ -8,31 +7,35 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Implement a process to ensure that plans of action and milestones for the information security, privacy, and supply chain risk management programs and associated organizational systems:
+The organization:
+
+- \[a.\] Implements a process for ensuring that plans of action and milestones for the security program and associated organizational information systems:
 
   - \[1.\] Are developed and maintained;
-  - \[2.\] Document the remedial information security, privacy, and supply chain risk management actions to adequately respond to risk to organizational operations and assets, individuals, other organizations, and the Nation; and
-  - \[3.\] Are reported in accordance with established reporting requirements.
+  - \[2.\] Document the remedial information security actions to adequately respond to risk to organizational operations and assets, individuals, other organizations, and the Nation; and
+  - \[3.\] Are reported in accordance with OMB FISMA reporting requirements.
 
-- \[b.\] Review plans of action and milestones for consistency with the organizational risk management strategy and organization-wide priorities for risk response actions.
+- \[b.\] Reviews plans of action and milestones for consistency with the organizational risk management strategy and organization-wide priorities for risk response actions.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PM-4(a)\] implements a process for ensuring that plans of action and milestones for the security program and associated organizational information systems:
+
+  - \[PM-4(a)(1)\]
+
+    - \[PM-4(a)(1)[1]\] are developed;
+    - \[PM-4(a)(1)[2]\] are maintained;
+
+  - \[PM-4(a)(2)\] document the remedial information security actions to adequately respond to risk to organizational operations and assets, individuals, other organizations, and the Nation;
+  - \[PM-4(a)(3)\] are reported in accordance with OMB FISMA reporting requirements;
+
+- \[PM-4(b)\] reviews plans of action and milestones for consistency with:
+
+  - \[PM-4(b)[1]\] the organizational risk management strategy; and
+  - \[PM-4(b)[2]\] organization-wide priorities for risk response actions.
 
 ## Control guidance
 
-The plan of action and milestones is a key organizational document and is subject to reporting requirements established by the Office of Management and Budget. Organizations develop plans of action and milestones with an organization-wide perspective, prioritizing risk response actions and ensuring consistency with the goals and objectives of the organization. Plan of action and milestones updates are based on findings from control assessments and continuous monitoring activities. There can be multiple plans of action and milestones corresponding to the information system level, mission/business process level, and organizational/governance level. While plans of action and milestones are required for federal organizations, other types of organizations can help reduce risk by documenting and tracking planned remediations. Specific guidance on plans of action and milestones at the system level is provided in [CA-5](#ca-5).
-
-## Control assessment-objective
-
-a process to ensure that plans of action and milestones for the information security program and associated organizational systems are developed;
-a process to ensure that plans of action and milestones for the information security program and associated organizational systems are maintained;
-a process to ensure that plans of action and milestones for the privacy program and associated organizational systems are developed;
-a process to ensure that plans of action and milestones for the privacy program and associated organizational systems are maintained;
-a process to ensure that plans of action and milestones for the supply chain risk management program and associated organizational systems are developed;
-a process to ensure that plans of action and milestones for the supply chain risk management program and associated organizational systems are maintained;
-a process to ensure that plans of action and milestones for the information security program and associated organizational systems document remedial information security risk management actions to adequately respond to risks to organizational operations and assets, individuals, other organizations, and the Nation;
-a process to ensure that plans of action and milestones for the privacy program and associated organizational systems document remedial privacy risk management actions to adequately respond to risks to organizational operations and assets, individuals, other organizations, and the Nation;
-a process to ensure that plans of action and milestones for the supply chain risk management program and associated organizational systems document remedial supply chain risk management actions to adequately respond to risks to organizational operations and assets, individuals, other organizations, and the Nation;
-a process to ensure that plans of action and milestones for the information security risk management programs and associated organizational systems are reported in accordance with established reporting requirements;
-a process to ensure that plans of action and milestones for the privacy risk management programs and associated organizational systems are reported in accordance with established reporting requirements;
-a process to ensure that plans of action and milestones for the supply chain risk management programs and associated organizational systems are reported in accordance with established reporting requirements;
-plans of action and milestones are reviewed for consistency with the organizational risk management strategy;
-plans of action and milestones are reviewed for consistency with organization-wide priorities for risk response actions.
+The plan of action and milestones is a key document in the information security program and is subject to federal reporting requirements established by OMB. With the increasing emphasis on organization-wide risk management across all three tiers in the risk management hierarchy (i.e., organization, mission/business process, and information system), organizations view plans of action and milestones from an organizational perspective, prioritizing risk response actions and ensuring consistency with the goals and objectives of the organization. Plan of action and milestones updates are based on findings from security control assessments and continuous monitoring activities. OMB FISMA reporting guidance contains instructions regarding organizational plans of action and milestones.

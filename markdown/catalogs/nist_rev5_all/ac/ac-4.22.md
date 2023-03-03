@@ -1,5 +1,4 @@
 ---
-sort-id: ac-04.22
 x-trestle-global:
   sort-id: ac-04.22
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Provide access from a single device to computing platforms, applications, or data residing in multiple different security domains, while preventing information flow between the different security domains.
+The information system provides access from a single device to computing platforms, applications, or data residing on multiple different security domains, while preventing any information flow between the different security domains.
+
+## Control Objective
+
+Determine if the information system provides access from a single device to computing platforms, applications, or data residing on multiple different security domains, while preventing any information flow between the different security domains.
 
 ## Control guidance
 
-The system provides a capability for users to access each connected security domain without providing any mechanisms to allow users to transfer data or information between the different security domains. An example of an access-only solution is a terminal that provides a user access to information with different security classifications while assuredly keeping the information separate.
-
-## Control assessment-objective
-
-access is provided from a single device to computing platforms, applications, or data that reside in multiple different security domains while preventing information flow between the different security domains.
+The information system, for example, provides a desktop for users to access each connected security domain without providing any mechanisms to allow transfer of information between the different security domains.

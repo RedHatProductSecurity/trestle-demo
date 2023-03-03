@@ -1,27 +1,37 @@
 ---
 x-trestle-set-params:
-  ac-02.12_odp.01:
+  ac-2.12_prm_1:
     values:
-  ac-02.12_odp.02:
+  ac-2.12_prm_2:
     values:
-sort-id: ac-02.12
 x-trestle-global:
   sort-id: ac-02.12
 ---
 
-# ac-2.12 - \[Access Control\] Account Monitoring for Atypical Usage
+# ac-2.12 - \[Access Control\] Account Monitoring / Atypical Usage
 
 ## Control Statement
 
-- \[(a)\] Monitor system accounts for {{ insert: param, ac-02.12_odp.01 }} ; and
+The organization:
 
-- \[(b)\] Report atypical usage of system accounts to {{ insert: param, ac-02.12_odp.02 }}.
+- \[(a)\] Monitors information system accounts for {{ insert: param, ac-2.12_prm_1 }}; and
+
+- \[(b)\] Reports atypical usage of information system accounts to {{ insert: param, ac-2.12_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[AC-2(12)(a)\]
+
+  - \[AC-2(12)(a)[1]\] defines atypical usage to be monitored for information system accounts;
+  - \[AC-2(12)(a)[2]\] monitors information system accounts for organization-defined atypical usage;
+
+- \[AC-2(12)(b)\]
+
+  - \[AC-2(12)(b)[1]\] defines personnel or roles to whom atypical usage of information system accounts are to be reported; and
+  - \[AC-2(12)(b)[2]\] reports atypical usage of information system accounts to organization-defined personnel or roles.
 
 ## Control guidance
 
-Atypical usage includes accessing systems at certain times of the day or from locations that are not consistent with the normal usage patterns of individuals. Monitoring for atypical usage may reveal rogue behavior by individuals or an attack in progress. Account monitoring may inadvertently create privacy risks since data collected to identify atypical usage may reveal previously unknown information about the behavior of individuals. Organizations assess and document privacy risks from monitoring accounts for atypical usage in their privacy impact assessment and make determinations that are in alignment with their privacy program plan.
-
-## Control assessment-objective
-
-system accounts are monitored for {{ insert: param, ac-02.12_odp.01 }};
-atypical usage of system accounts is reported to {{ insert: param, ac-02.12_odp.02 }}.
+Atypical usage includes, for example, accessing information systems at certain times of the day and from locations that are not consistent with the normal usage patterns of individuals working in organizations.

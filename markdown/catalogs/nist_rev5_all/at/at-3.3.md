@@ -1,5 +1,4 @@
 ---
-sort-id: at-03.03
 x-trestle-global:
   sort-id: at-03.03
 ---
@@ -8,13 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Provide practical exercises in security and privacy training that reinforce training objectives.
+The organization includes practical exercises in security training that reinforce training objectives.
+
+## Control Objective
+
+Determine if the organization includes practical exercises in security training that reinforce training objectives.
 
 ## Control guidance
 
-Practical exercises for security include training for software developers that addresses simulated attacks that exploit common software vulnerabilities or spear or whale phishing attacks targeted at senior leaders or executives. Practical exercises for privacy include modules with quizzes on identifying and processing personally identifiable information in various scenarios or scenarios on conducting privacy impact assessments.
-
-## Control assessment-objective
-
-practical exercises in security training that reinforce training objectives are provided;
-practical exercises in privacy training that reinforce training objectives are provided.
+Practical exercises may include, for example, security training for software developers that includes simulated cyber attacks exploiting common software vulnerabilities (e.g., buffer overflows), or spear/whale phishing attacks targeted at senior leaders/executives. These types of practical exercises help developers better understand the effects of such vulnerabilities and appreciate the need for security coding standards and processes.

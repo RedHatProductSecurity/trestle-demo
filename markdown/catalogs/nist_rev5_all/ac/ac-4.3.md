@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ac-04.03_odp:
+  ac-4.3_prm_1:
     values:
-sort-id: ac-04.03
 x-trestle-global:
   sort-id: ac-04.03
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Enforce {{ insert: param, ac-04.03_odp }}.
+The information system enforces dynamic information flow control based on {{ insert: param, ac-4.3_prm_1 }}.
+
+## Control Objective
+
+Determine if:
+
+- \[AC-4(3)[1]\] the organization defines policies to enforce dynamic information flow control; and
+
+- \[AC-4(3)[2]\] the information system enforces dynamic information flow control based on organization-defined policies.
 
 ## Control guidance
 
-Organizational policies regarding dynamic information flow control include allowing or disallowing information flows based on changing conditions or mission or operational considerations. Changing conditions include changes in risk tolerance due to changes in the immediacy of mission or business needs, changes in the threat environment, and detection of potentially harmful or adverse events.
-
-## Control assessment-objective
-
-{{ insert: param, ac-04.03_odp }} are enforced.
+Organizational policies regarding dynamic information flow control include, for example, allowing or disallowing information flows based on changing conditions or mission/operational considerations. Changing conditions include, for example, changes in organizational risk tolerance due to changes in the immediacy of mission/business needs, changes in the threat environment, and detection of potentially harmful or adverse events.

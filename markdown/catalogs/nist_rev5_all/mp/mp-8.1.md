@@ -1,5 +1,4 @@
 ---
-sort-id: mp-08.01
 x-trestle-global:
   sort-id: mp-08.01
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Document system media downgrading actions.
+The organization documents information system media downgrading actions.
+
+## Control Objective
+
+Determine if the organization documents information system media downgrading actions.
 
 ## Control guidance
 
-Organizations can document the media downgrading process by providing information, such as the downgrading technique employed, the identification number of the downgraded media, and the identity of the individual that authorized and/or performed the downgrading action.
-
-## Control assessment-objective
-
-system media downgrading actions are documented.
+Organizations can document the media downgrading process by providing information such as the downgrading technique employed, the identification number of the downgraded media, and the identity of the individual that authorized and/or performed the downgrading action.

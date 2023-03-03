@@ -1,31 +1,34 @@
 ---
 x-trestle-set-params:
-  ma-04.04_odp:
+  ma-4.4_prm_1:
     values:
-sort-id: ma-04.04
 x-trestle-global:
   sort-id: ma-04.04
 ---
 
-# ma-4.4 - \[Maintenance\] Authentication and Separation of Maintenance Sessions
+# ma-4.4 - \[Maintenance\] Authentication / Separation of Maintenance Sessions
 
 ## Control Statement
 
-Protect nonlocal maintenance sessions by:
+The organization protects nonlocal maintenance sessions by:
 
-- \[(a)\] Employing {{ insert: param, ma-04.04_odp }} ; and
+- \[(a)\] Employing {{ insert: param, ma-4.4_prm_1 }}; and
 
-- \[(b)\] Separating the maintenance sessions from other network sessions with the system by either:
+- \[(b)\] Separating the maintenance sessions from other network sessions with the information system by either:
 
   - \[(1)\] Physically separated communications paths; or
-  - \[(2)\] Logically separated communications paths.
+  - \[(2)\] Logically separated communications paths based upon encryption.
 
-## Control guidance
+## Control Objective
 
-Communications paths can be logically separated using encryption.
+Determine if the organization protects nonlocal maintenance sessions by:
 
-## Control assessment-objective
+- \[MA-4(4)(a)\]
 
-nonlocal maintenance sessions are protected by employing {{ insert: param, ma-04.04_odp }};
-nonlocal maintenance sessions are protected by separating maintenance sessions from other network sessions with the system by physically separated communication paths; or
-nonlocal maintenance sessions are protected by logically separated communication paths.
+  - \[MA-4(4)(a)[1]\] defining replay resistant authenticators to be employed to protect nonlocal maintenance sessions;
+  - \[MA-4(4)(a)[2]\] employing organization-defined authenticators that are replay resistant;
+
+- \[MA-4(4)(b)\] separating the maintenance sessions from other network sessions with the information system by either:
+
+  - \[MA-4(4)(b)(1)\] physically separated communications paths; or
+  - \[MA-4(4)(b)(2)\] logically separated communications paths based upon encryption.

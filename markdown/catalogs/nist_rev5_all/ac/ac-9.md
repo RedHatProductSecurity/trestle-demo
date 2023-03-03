@@ -1,19 +1,18 @@
 ---
-sort-id: ac-09
 x-trestle-global:
   sort-id: ac-09
 ---
 
-# ac-9 - \[Access Control\] Previous Logon Notification
+# ac-9 - \[Access Control\] Previous Logon (access) Notification
 
 ## Control Statement
 
-Notify the user, upon successful logon to the system, of the date and time of the last logon.
+The information system notifies the user, upon successful logon (access) to the system, of the date and time of the last logon (access).
+
+## Control Objective
+
+Determine if the information system notifies the user, upon successful logon (access) to the system, of the date and time of the last logon (access).
 
 ## Control guidance
 
-Previous logon notification is applicable to system access via human user interfaces and access to systems that occurs in other types of architectures. Information about the last successful logon allows the user to recognize if the date and time provided is not consistent with the user’s last access.
-
-## Control assessment-objective
-
-the user is notified, upon successful logon to the system, of the date and time of the last logon.
+This control is applicable to logons to information systems via human user interfaces and logons to systems that occur in other types of architectures (e.g., service-oriented architectures).

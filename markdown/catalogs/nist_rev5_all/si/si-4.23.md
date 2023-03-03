@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  si-04.23_odp.01:
+  si-4.23_prm_1:
     values:
-  si-04.23_odp.02:
+  si-4.23_prm_2:
     values:
-sort-id: si-04.23
 x-trestle-global:
   sort-id: si-04.23
 ---
@@ -13,12 +12,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement the following host-based monitoring mechanisms at {{ insert: param, si-04.23_odp.02 }}: {{ insert: param, si-04.23_odp.01 }}.
+The organization implements {{ insert: param, si-4.23_prm_1 }} at {{ insert: param, si-4.23_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[SI-4(23)[1]\] defines host-based monitoring mechanisms to be implemented;
+
+- \[SI-4(23)[2]\] defines information system components where organization-defined host-based monitoring is to be implemented; and
+
+- \[SI-4(23)[3]\] implements organization-defined host-based monitoring mechanisms at organization-defined information system components.
 
 ## Control guidance
 
-Host-based monitoring collects information about the host (or system in which it resides). System components in which host-based monitoring can be implemented include servers, notebook computers, and mobile devices. Organizations may consider employing host-based monitoring mechanisms from multiple product developers or vendors.
-
-## Control assessment-objective
-
-{{ insert: param, si-04.23_odp.01 }} are implemented on {{ insert: param, si-04.23_odp.02 }}.
+Information system components where host-based monitoring can be implemented include, for example, servers, workstations, and mobile devices. Organizations consider employing host-based monitoring mechanisms from multiple information technology product developers.

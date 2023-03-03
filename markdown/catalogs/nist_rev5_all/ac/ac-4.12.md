@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ac-04.12_odp:
+  ac-4.12_prm_1:
     values:
-sort-id: ac-04.12
 x-trestle-global:
   sort-id: ac-04.12
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-When transferring information between different security domains, use {{ insert: param, ac-04.12_odp }} to validate data essential for information flow decisions.
+The information system, when transferring information between different security domains, uses {{ insert: param, ac-4.12_prm_1 }} to validate data essential for information flow decisions.
+
+## Control Objective
+
+Determine if:
+
+- \[AC-4(12)[1]\] the organization defines data type identifiers to be used, when transferring information between different security domains, to validate data essential for information flow decisions; and
+
+- \[AC-4(12)[2]\] the information system, when transferring information between different security domains, uses organization-defined data type identifiers to validate data essential for information flow decisions.
 
 ## Control guidance
 
-Data type identifiers include filenames, file types, file signatures or tokens, and multiple internal file signatures or tokens. Systems only allow transfer of data that is compliant with data type format specifications. Identification and validation of data types is based on defined specifications associated with each allowed data format. The filename and number alone are not used for data type identification. Content is validated syntactically and semantically against its specification to ensure that it is the proper data type.
-
-## Control assessment-objective
-
-when transferring information between different security domains, {{ insert: param, ac-04.12_odp }} are used to validate data essential for information flow decisions.
+Data type identifiers include, for example, filenames, file types, file signatures/tokens, and multiple internal file signatures/tokens. Information systems may allow transfer of data only if compliant with data type format specifications.

@@ -1,30 +1,38 @@
 ---
 x-trestle-set-params:
-  cm-07.05_odp.01:
+  cm-7.5_prm_1:
     values:
-  cm-07.05_odp.02:
+  cm-7.5_prm_2:
     values:
-sort-id: cm-07.05
 x-trestle-global:
   sort-id: cm-07.05
 ---
 
-# cm-7.5 - \[Configuration Management\] Authorized Software — Allow-by-exception
+# cm-7.5 - \[Configuration Management\] Authorized Software / Whitelisting
 
 ## Control Statement
 
-- \[(a)\] Identify {{ insert: param, cm-07.05_odp.01 }};
+The organization:
 
-- \[(b)\] Employ a deny-all, permit-by-exception policy to allow the execution of authorized software programs on the system; and
+- \[(a)\] Identifies {{ insert: param, cm-7.5_prm_1 }};
 
-- \[(c)\] Review and update the list of authorized software programs {{ insert: param, cm-07.05_odp.02 }}.
+- \[(b)\] Employs a deny-all, permit-by-exception policy to allow the execution of authorized software programs on the information system; and
+
+- \[(c)\] Reviews and updates the list of authorized software programs {{ insert: param, cm-7.5_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CM-7(5)(a)\] Identifies/defines software programs authorized to execute on the information system;
+
+- \[CM-7(5)(b)\] employs a deny-all, permit-by-exception policy to allow the execution of authorized software programs on the information system;
+
+- \[CM-7(5)(c)\]
+
+  - \[CM-7(5)(c)[1]\] defines the frequency to review and update the list of authorized software programs on the information system; and
+  - \[CM-7(5)(c)[2]\] reviews and updates the list of authorized software programs with the organization-defined frequency.
 
 ## Control guidance
 
-Authorized software programs can be limited to specific versions or from a specific source. To facilitate a comprehensive authorized software process and increase the strength of protection for attacks that bypass application level authorized software, software programs may be decomposed into and monitored at different levels of detail. These levels include applications, application programming interfaces, application modules, scripts, system processes, system services, kernel functions, registries, drivers, and dynamic link libraries. The concept of permitting the execution of authorized software may also be applied to user actions, system ports and protocols, IP addresses/ranges, websites, and MAC addresses. Organizations consider verifying the integrity of authorized software programs using digital signatures, cryptographic checksums, or hash functions. Verification of authorized software can occur either prior to execution or at system startup. The identification of authorized URLs for websites is addressed in [CA-3(5)](#ca-3.5) and [SC-7](#sc-7).
-
-## Control assessment-objective
-
-{{ insert: param, cm-07.05_odp.01 }} are identified;
-a deny-all, permit-by-exception policy to allow the execution of authorized software programs on the system is employed;
-the list of authorized software programs is reviewed and updated {{ insert: param, cm-07.05_odp.02 }}.
+The process used to identify software programs that are authorized to execute on organizational information systems is commonly referred to as whitelisting. In addition to whitelisting, organizations consider verifying the integrity of white-listed software programs using, for example, cryptographic checksums, digital signatures, or hash functions. Verification of white-listed software can occur either prior to execution or at system startup.

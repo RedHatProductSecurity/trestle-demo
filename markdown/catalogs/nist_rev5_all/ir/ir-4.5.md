@@ -1,22 +1,21 @@
 ---
 x-trestle-set-params:
-  ir-04.05_odp:
+  ir-4.5_prm_1:
     values:
-sort-id: ir-04.05
 x-trestle-global:
   sort-id: ir-04.05
 ---
 
-# ir-4.5 - \[Incident Response\] Automatic Disabling of System
+# ir-4.5 - \[Incident Response\] Automatic Disabling of Information System
 
 ## Control Statement
 
-Implement a configurable capability to automatically disable the system if {{ insert: param, ir-04.05_odp }} are detected.
+The organization implements a configurable capability to automatically disable the information system if {{ insert: param, ir-4.5_prm_1 }} are detected.
 
-## Control guidance
+## Control Objective
 
-Organizations consider whether the capability to automatically disable the system conflicts with continuity of operations requirements specified as part of [CP-2](#cp-2) or [IR-4(3)](#ir-4.3) . Security violations include cyber-attacks that have compromised the integrity of the system or exfiltrated organizational information and serious errors in software programs that could adversely impact organizational missions or functions or jeopardize the safety of individuals.
+Determine if the organization:
 
-## Control assessment-objective
+- \[IR-4(5)[1]\] defines security violations that, if detected, initiate a configurable capability to automatically disable the information system; and
 
-a configurable capability is implemented to automatically disable the system if {{ insert: param, ir-04.05_odp }} are detected.
+- \[IR-4(5)[2]\] implements a configurable capability to automatically disable the information system if any of the organization-defined security violations are detected.

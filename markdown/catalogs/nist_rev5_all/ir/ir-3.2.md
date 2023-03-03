@@ -1,5 +1,4 @@
 ---
-sort-id: ir-03.02
 x-trestle-global:
   sort-id: ir-03.02
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Coordinate incident response testing with organizational elements responsible for related plans.
+The organization coordinates incident response testing with organizational elements responsible for related plans.
+
+## Control Objective
+
+Determine if the organization coordinates incident response testing with organizational elements responsible for related plans.
 
 ## Control guidance
 
-Organizational plans related to incident response testing include business continuity plans, disaster recovery plans, continuity of operations plans, contingency plans, crisis communications plans, critical infrastructure plans, and occupant emergency plans.
-
-## Control assessment-objective
-
-incident response testing is coordinated with organizational elements responsible for related plans.
+Organizational plans related to incident response testing include, for example, Business Continuity Plans, Contingency Plans, Disaster Recovery Plans, Continuity of Operations Plans, Crisis Communications Plans, Critical Infrastructure Plans, and Occupant Emergency Plans.

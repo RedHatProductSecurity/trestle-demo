@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  ac-09.04_odp:
+  ac-9.4_prm_1:
     values:
-sort-id: ac-09.04
 x-trestle-global:
   sort-id: ac-09.04
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Notify the user, upon successful logon, of the following additional information: {{ insert: param, ac-09.04_odp }}.
+The information system notifies the user, upon successful logon (access), of the following additional information: {{ insert: param, ac-9.4_prm_1 }}.
+
+## Control Objective
+
+Determine if:
+
+- \[AC-9(4)[1]\] the organization defines information to be included in addition to the date and time of the last logon (access); and
+
+- \[AC-9(4)[2]\] the information system notifies the user, upon successful logon (access), of the organization-defined information to be included in addition to the date and time of the last logon (access).
 
 ## Control guidance
 
-Organizations can specify additional information to be provided to users upon logon, including the location of the last logon. User location is defined as information that can be determined by systems, such as Internet Protocol (IP) addresses from which network logons occurred, notifications of local logons, or device identifiers.
-
-## Control assessment-objective
-
-the user is notified, upon successful logon, of {{ insert: param, ac-09.04_odp }}.
+This control enhancement permits organizations to specify additional information to be provided to users upon logon including, for example, the location of last logon. User location is defined as that information which can be determined by information systems, for example, IP addresses from which network logons occurred, device identifiers, or notifications of local logons.

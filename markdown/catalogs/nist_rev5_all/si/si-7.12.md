@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  si-07.12_odp:
+  si-7.12_prm_1:
     values:
-sort-id: si-07.12
 x-trestle-global:
   sort-id: si-07.12
 ---
@@ -11,12 +10,16 @@ x-trestle-global:
 
 ## Control Statement
 
-Require that the integrity of the following user-installed software be verified prior to execution: {{ insert: param, si-07.12_odp }}.
+The organization requires that the integrity of {{ insert: param, si-7.12_prm_1 }} be verified prior to execution.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[SI-7(12)[1]\] defines user-installed software requiring integrity verification prior to execution; and
+
+- \[SI-7(12)[2]\] requires that the integrity of organization-defined user-installed software be verified prior to execution.
 
 ## Control guidance
 
-Organizations verify the integrity of user-installed software prior to execution to reduce the likelihood of executing malicious code or programs that contains errors from unauthorized modifications. Organizations consider the practicality of approaches to verifying software integrity, including the availability of trustworthy checksums from software developers and vendors.
-
-## Control assessment-objective
-
-the integrity of {{ insert: param, si-07.12_odp }} is verified prior to execution.
+Organizations verify the integrity of user-installed software prior to execution to reduce the likelihood of executing malicious code or code that contains errors from unauthorized modifications. Organizations consider the practicality of approaches to verifying software integrity including, for example, availability of checksums of adequate trustworthiness from software developers or vendors.

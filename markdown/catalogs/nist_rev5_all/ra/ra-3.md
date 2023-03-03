@@ -1,16 +1,15 @@
 ---
 x-trestle-set-params:
-  ra-03_odp.01:
+  ra-3_prm_1:
     values:
-  ra-03_odp.02:
+  ra-3_prm_2:
     values:
-  ra-03_odp.03:
+  ra-3_prm_3:
     values:
-  ra-03_odp.04:
+  ra-3_prm_4:
     values:
-  ra-03_odp.05:
+  ra-3_prm_5:
     values:
-sort-id: ra-03
 x-trestle-global:
   sort-id: ra-03
 ---
@@ -19,37 +18,55 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Conduct a risk assessment, including:
+The organization:
 
-  - \[1.\] Identifying threats to and vulnerabilities in the system;
-  - \[2.\] Determining the likelihood and magnitude of harm from unauthorized access, use, disclosure, disruption, modification, or destruction of the system, the information it processes, stores, or transmits, and any related information; and
-  - \[3.\] Determining the likelihood and impact of adverse effects on individuals arising from the processing of personally identifiable information;
+- \[a.\] Conducts an assessment of risk, including the likelihood and magnitude of harm, from the unauthorized access, use, disclosure, disruption, modification, or destruction of the information system and the information it processes, stores, or transmits;
 
-- \[b.\] Integrate risk assessment results and risk management decisions from the organization and mission or business process perspectives with system-level risk assessments;
+- \[b.\] Documents risk assessment results in {{ insert: param, ra-3_prm_1 }};
 
-- \[c.\] Document risk assessment results in {{ insert: param, ra-03_odp.01 }};
+- \[c.\] Reviews risk assessment results {{ insert: param, ra-3_prm_3 }};
 
-- \[d.\] Review risk assessment results {{ insert: param, ra-03_odp.03 }};
+- \[d.\] Disseminates risk assessment results to {{ insert: param, ra-3_prm_4 }}; and
 
-- \[e.\] Disseminate risk assessment results to {{ insert: param, ra-03_odp.04 }} ; and
+- \[e.\] Updates the risk assessment {{ insert: param, ra-3_prm_5 }} or whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities), or other conditions that may impact the security state of the system.
 
-- \[f.\] Update the risk assessment {{ insert: param, ra-03_odp.05 }} or when there are significant changes to the system, its environment of operation, or other conditions that may impact the security or privacy state of the system.
+## Control Objective
+
+Determine if the organization:
+
+- \[RA-3(a)\] conducts an assessment of risk, including the likelihood and magnitude of harm, from the unauthorized access, use, disclosure, disruption, modification, or destruction of:
+
+  - \[RA-3(a)[1]\] the information system;
+  - \[RA-3(a)[2]\] the information the system processes, stores, or transmits;
+
+- \[RA-3(b)\]
+
+  - \[RA-3(b)[1]\] defines a document in which risk assessment results are to be documented (if not documented in the security plan or risk assessment report);
+  - \[RA-3(b)[2]\] documents risk assessment results in one of the following:
+
+    - \[RA-3(b)[2][a]\] the security plan;
+    - \[RA-3(b)[2][b]\] the risk assessment report; or
+    - \[RA-3(b)[2][c]\] the organization-defined document;
+
+- \[RA-3(c)\]
+
+  - \[RA-3(c)[1]\] defines the frequency to review risk assessment results;
+  - \[RA-3(c)[2]\] reviews risk assessment results with the organization-defined frequency;
+
+- \[RA-3(d)\]
+
+  - \[RA-3(d)[1]\] defines personnel or roles to whom risk assessment results are to be disseminated;
+  - \[RA-3(d)[2]\] disseminates risk assessment results to organization-defined personnel or roles;
+
+- \[RA-3(e)\]
+
+  - \[RA-3(e)[1]\] defines the frequency to update the risk assessment;
+  - \[RA-3(e)[2]\] updates the risk assessment:
+
+    - \[RA-3(e)[2][a]\] with the organization-defined frequency;
+    - \[RA-3(e)[2][b]\] whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities); and
+    - \[RA-3(e)[2][c]\] whenever there are other conditions that may impact the security state of the system.
 
 ## Control guidance
 
-Risk assessments consider threats, vulnerabilities, likelihood, and impact to organizational operations and assets, individuals, other organizations, and the Nation. Risk assessments also consider risk from external parties, including contractors who operate systems on behalf of the organization, individuals who access organizational systems, service providers, and outsourcing entities.
-
-Organizations can conduct risk assessments at all three levels in the risk management hierarchy (i.e., organization level, mission/business process level, or information system level) and at any stage in the system development life cycle. Risk assessments can also be conducted at various steps in the Risk Management Framework, including preparation, categorization, control selection, control implementation, control assessment, authorization, and control monitoring. Risk assessment is an ongoing activity carried out throughout the system development life cycle.
-
-Risk assessments can also address information related to the system, including system design, the intended use of the system, testing results, and supply chain-related information or artifacts. Risk assessments can play an important role in control selection processes, particularly during the application of tailoring guidance and in the earliest phases of capability determination.
-
-## Control assessment-objective
-
-a risk assessment is conducted to identify threats to and vulnerabilities in the system;
-a risk assessment is conducted to determine the likelihood and magnitude of harm from unauthorized access, use, disclosure, disruption, modification, or destruction of the system; the information it processes, stores, or transmits; and any related information;
-a risk assessment is conducted to determine the likelihood and impact of adverse effects on individuals arising from the processing of personally identifiable information;
-risk assessment results and risk management decisions from the organization and mission or business process perspectives are integrated with system-level risk assessments;
-risk assessment results are documented in {{ insert: param, ra-03_odp.01 }};
-risk assessment results are reviewed {{ insert: param, ra-03_odp.03 }};
-risk assessment results are disseminated to {{ insert: param, ra-03_odp.04 }};
-the risk assessment is updated {{ insert: param, ra-03_odp.05 }} or when there are significant changes to the system, its environment of operation, or other conditions that may impact the security or privacy state of the system.
+Clearly defined authorization boundaries are a prerequisite for effective risk assessments. Risk assessments take into account threats, vulnerabilities, likelihood, and impact to organizational operations and assets, individuals, other organizations, and the Nation based on the operation and use of information systems. Risk assessments also take into account risk from external parties (e.g., service providers, contractors operating information systems on behalf of the organization, individuals accessing organizational information systems, outsourcing entities). In accordance with OMB policy and related E-authentication initiatives, authentication of public users accessing federal information systems may also be required to protect nonpublic or privacy-related information. As such, organizational assessments of risk also address public access to federal information systems. Risk assessments (either formal or informal) can be conducted at all three tiers in the risk management hierarchy (i.e., organization level, mission/business process level, or information system level) and at any phase in the system development life cycle. Risk assessments can also be conducted at various steps in the Risk Management Framework, including categorization, security control selection, security control implementation, security control assessment, information system authorization, and security control monitoring. RA-3 is noteworthy in that the control must be partially implemented prior to the implementation of other controls in order to complete the first two steps in the Risk Management Framework. Risk assessments can play an important role in security control selection processes, particularly during the application of tailoring guidance, which includes security control supplementation.

@@ -1,14 +1,9 @@
 ---
 x-trestle-set-params:
-  ir-02_odp.01:
+  ir-2_prm_1:
     values:
-  ir-02_odp.02:
+  ir-2_prm_2:
     values:
-  ir-02_odp.03:
-    values:
-  ir-02_odp.04:
-    values:
-sort-id: ir-02
 x-trestle-global:
   sort-id: ir-02
 ---
@@ -17,22 +12,30 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Provide incident response training to system users consistent with assigned roles and responsibilities:
+The organization provides incident response training to information system users consistent with assigned roles and responsibilities:
 
-  - \[1.\] Within {{ insert: param, ir-02_odp.01 }} of assuming an incident response role or responsibility or acquiring system access;
-  - \[2.\] When required by system changes; and
-  - \[3.\] {{ insert: param, ir-02_odp.02 }} thereafter; and
+- \[a.\] Within {{ insert: param, ir-2_prm_1 }} of assuming an incident response role or responsibility;
 
-- \[b.\] Review and update incident response training content {{ insert: param, ir-02_odp.03 }} and following {{ insert: param, ir-02_odp.04 }}.
+- \[b.\] When required by information system changes; and
+
+- \[c.\] {{ insert: param, ir-2_prm_2 }} thereafter.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[IR-2(a)\]
+
+  - \[IR-2(a)[1]\] defines a time period within which incident response training is to be provided to information system users assuming an incident response role or responsibility;
+  - \[IR-2(a)[2]\] provides incident response training to information system users consistent with assigned roles and responsibilities within the organization-defined time period of assuming an incident response role or responsibility;
+
+- \[IR-2(b)\] provides incident response training to information system users consistent with assigned roles and responsibilities when required by information system changes;
+
+- \[IR-2(c)\]
+
+  - \[IR-2(c)[1]\] defines the frequency to provide refresher incident response training to information system users consistent with assigned roles or responsibilities; and
+  - \[IR-2(c)[2]\] after the initial incident response training, provides refresher incident response training to information system users consistent with assigned roles and responsibilities in accordance with the organization-defined frequency to provide refresher training.
 
 ## Control guidance
 
-Incident response training is associated with the assigned roles and responsibilities of organizational personnel to ensure that the appropriate content and level of detail are included in such training. For example, users may only need to know who to call or how to recognize an incident; system administrators may require additional training on how to handle incidents; and incident responders may receive more specific training on forensics, data collection techniques, reporting, system recovery, and system restoration. Incident response training includes user training in identifying and reporting suspicious activities from external and internal sources. Incident response training for users may be provided as part of [AT-2](#at-2) or [AT-3](#at-3) . Events that may precipitate an update to incident response training content include, but are not limited to, incident response plan testing or response to an actual incident (lessons learned), assessment or audit findings, or changes in applicable laws, executive orders, directives, regulations, policies, standards, and guidelines.
-
-## Control assessment-objective
-
-incident response training is provided to system users consistent with assigned roles and responsibilities within {{ insert: param, ir-02_odp.01 }} of assuming an incident response role or responsibility or acquiring system access;
-incident response training is provided to system users consistent with assigned roles and responsibilities when required by system changes;
-incident response training is provided to system users consistent with assigned roles and responsibilities {{ insert: param, ir-02_odp.02 }} thereafter;
-incident response training content is reviewed and updated {{ insert: param, ir-02_odp.03 }};
-incident response training content is reviewed and updated following {{ insert: param, ir-02_odp.04 }}.
+Incident response training provided by organizations is linked to the assigned roles and responsibilities of organizational personnel to ensure the appropriate content and level of detail is included in such training. For example, regular users may only need to know who to call or how to recognize an incident on the information system; system administrators may require additional training on how to handle/remediate incidents; and incident responders may receive more specific training on forensics, reporting, system recovery, and restoration. Incident response training includes user training in the identification and reporting of suspicious activities, both from external and internal sources.

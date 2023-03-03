@@ -1,22 +1,25 @@
 ---
 x-trestle-set-params:
-  sc-07.14_odp:
+  sc-7.14_prm_1:
     values:
-sort-id: sc-07.14
 x-trestle-global:
   sort-id: sc-07.14
 ---
 
-# sc-7.14 - \[System and Communications Protection\] Protect Against Unauthorized Physical Connections
+# sc-7.14 - \[System and Communications Protection\] Protects Against Unauthorized Physical Connections
 
 ## Control Statement
 
-Protect against unauthorized physical connections at {{ insert: param, sc-07.14_odp }}.
+The organization protects against unauthorized physical connections at {{ insert: param, sc-7.14_prm_1 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[SC-7(14)[1]\] defines managed interfaces to be protected against unauthorized physical connections; and
+
+- \[SC-7(14)[2]\] protects against unauthorized physical connections at organization-defined managed interfaces.
 
 ## Control guidance
 
-Systems that operate at different security categories or classification levels may share common physical and environmental controls, since the systems may share space within the same facilities. In practice, it is possible that these separate systems may share common equipment rooms, wiring closets, and cable distribution paths. Protection against unauthorized physical connections can be achieved by using clearly identified and physically separated cable trays, connection frames, and patch panels for each side of managed interfaces with physical access controls that enforce limited authorized access to these items.
-
-## Control assessment-objective
-
-{{ insert: param, sc-07.14_odp }} are protected against unauthorized physical connections.
+Information systems operating at different security categories or classification levels may share common physical and environmental controls, since the systems may share space within organizational facilities. In practice, it is possible that these separate information systems may share common equipment rooms, wiring closets, and cable distribution paths. Protection against unauthorized physical connections can be achieved, for example, by employing clearly identified and physically separated cable trays, connection frames, and patch panels for each side of managed interfaces with physical access controls enforcing limited authorized access to these items.

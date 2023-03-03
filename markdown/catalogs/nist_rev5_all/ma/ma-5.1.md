@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  ma-05.01_odp:
-    values:
-sort-id: ma-05.01
 x-trestle-global:
   sort-id: ma-05.01
 ---
@@ -11,19 +7,35 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[(a)\] Implement procedures for the use of maintenance personnel that lack appropriate security clearances or are not U.S. citizens, that include the following requirements:
+The organization:
 
-  - \[(1)\] Maintenance personnel who do not have needed access authorizations, clearances, or formal access approvals are escorted and supervised during the performance of maintenance and diagnostic activities on the system by approved organizational personnel who are fully cleared, have appropriate access authorizations, and are technically qualified; and
-  - \[(2)\] Prior to initiating maintenance or diagnostic activities by personnel who do not have needed access authorizations, clearances or formal access approvals, all volatile information storage components within the system are sanitized and all nonvolatile storage media are removed or physically disconnected from the system and secured; and
+- \[(a)\] Implements procedures for the use of maintenance personnel that lack appropriate security clearances or are not U.S. citizens, that include the following requirements:
 
-- \[(b)\] Develop and implement {{ insert: param, ma-05.01_odp }} in the event a system component cannot be sanitized, removed, or disconnected from the system.
+  - \[(1)\] Maintenance personnel who do not have needed access authorizations, clearances, or formal access approvals are escorted and supervised during the performance of maintenance and diagnostic activities on the information system by approved organizational personnel who are fully cleared, have appropriate access authorizations, and are technically qualified;
+  - \[(2)\] Prior to initiating maintenance or diagnostic activities by personnel who do not have needed access authorizations, clearances or formal access approvals, all volatile information storage components within the information system are sanitized and all nonvolatile storage media are removed or physically disconnected from the system and secured; and
+
+- \[(b)\] Develops and implements alternate security safeguards in the event an information system component cannot be sanitized, removed, or disconnected from the system.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[MA-5(1)(a)\] implements procedures for the use of maintenance personnel that lack appropriate security clearances or are not U.S. citizens, that include the following requirements:
+
+  - \[MA-5(1)(a)(1)\] maintenance personnel who do not have needed access authorizations, clearances, or formal access approvals are escorted and supervised during the performance of maintenance and diagnostic activities on the information system by approved organizational personnel who:
+
+    - \[MA-5(1)(a)(1)[1]\] are fully cleared;
+    - \[MA-5(1)(a)(1)[2]\] have appropriate access authorizations;
+    - \[MA-5(1)(a)(1)[3]\] are technically qualified;
+
+  - \[MA-5(1)(a)(2)\] prior to initiating maintenance or diagnostic activities by personnel who do not have needed access authorizations, clearances, or formal access approvals:
+
+    - \[MA-5(1)(a)(2)[1]\] all volatile information storage components within the information system are sanitized; and
+    - \[MA-5(1)(a)(2)[2]\] all nonvolatile storage media are removed; or
+    - \[MA-5(1)(a)(2)[3]\] all nonvolatile storage media are physically disconnected from the system and secured; and
+
+- \[MA-5(1)(b)\] develops and implements alternative security safeguards in the event an information system component cannot be sanitized, removed, or disconnected from the system.
 
 ## Control guidance
 
-Procedures for individuals who lack appropriate security clearances or who are not U.S. citizens are intended to deny visual and electronic access to classified or controlled unclassified information contained on organizational systems. Procedures for the use of maintenance personnel can be documented in security plans for the systems.
-
-## Control assessment-objective
-
-procedures for the use of maintenance personnel who lack appropriate security clearances or are not U.S. citizens are implemented and include approved organizational personnel who are fully cleared, have appropriate access authorizations, and are technically qualified escorting and supervising maintenance personnel without the needed access authorization during the performance of maintenance and diagnostic activities;
-procedures for the use of maintenance personnel who lack appropriate security clearances or are not U.S. citizens are implemented and include all volatile information storage components within the system being sanitized and all non-volatile storage media being removed or physically disconnected from the system and secured prior to initiating maintenance or diagnostic activities;
-{{ insert: param, ma-05.01_odp }} are developed and implemented in the event that a system cannot be sanitized, removed, or disconnected from the system.
+This control enhancement denies individuals who lack appropriate security clearances (i.e., individuals who do not possess security clearances or possess security clearances at a lower level than required) or who are not U.S. citizens, visual and electronic access to any classified information, Controlled Unclassified Information (CUI), or any other sensitive information contained on organizational information systems. Procedures for the use of maintenance personnel can be documented in security plans for the information systems.

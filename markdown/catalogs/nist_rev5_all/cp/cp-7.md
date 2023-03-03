@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  cp-07_odp.01:
+  cp-7_prm_1:
     values:
-  cp-07_odp.02:
+  cp-7_prm_2:
     values:
-sort-id: cp-07
 x-trestle-global:
   sort-id: cp-07
 ---
@@ -13,19 +12,31 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Establish an alternate processing site, including necessary agreements to permit the transfer and resumption of {{ insert: param, cp-07_odp.01 }} for essential mission and business functions within {{ insert: param, cp-07_odp.02 }} when the primary processing capabilities are unavailable;
+The organization:
 
-- \[b.\] Make available at the alternate processing site, the equipment and supplies required to transfer and resume operations or put contracts in place to support delivery to the site within the organization-defined time period for transfer and resumption; and
+- \[a.\] Establishes an alternate processing site including necessary agreements to permit the transfer and resumption of {{ insert: param, cp-7_prm_1 }} for essential missions/business functions within {{ insert: param, cp-7_prm_2 }} when the primary processing capabilities are unavailable;
 
-- \[c.\] Provide controls at the alternate processing site that are equivalent to those at the primary site.
+- \[b.\] Ensures that equipment and supplies required to transfer and resume operations are available at the alternate processing site or contracts are in place to support delivery to the site within the organization-defined time period for transfer/resumption; and
+
+- \[c.\] Ensures that the alternate processing site provides information security safeguards equivalent to those of the primary site.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[CP-7(a)\]
+
+  - \[CP-7(a)[1]\] defines information system operations requiring an alternate processing site to be established to permit the transfer and resumption of such operations;
+  - \[CP-7(a)[2]\] defines the time period consistent with recovery time objectives and recovery point objectives (as specified in the information system contingency plan) for transfer/resumption of organization-defined information system operations for essential missions/business functions;
+  - \[CP-7(a)[3]\] establishes an alternate processing site including necessary agreements to permit the transfer and resumption of organization-defined information system operations for essential missions/business functions, within the organization-defined time period, when the primary processing capabilities are unavailable;
+
+- \[CP-7(b)\]
+
+  - \[CP-7(b)[1]\] ensures that equipment and supplies required to transfer and resume operations are available at the alternate processing site; or
+  - \[CP-7(b)[2]\] ensures that contracts are in place to support delivery to the site within the organization-defined time period for transfer/resumption; and
+
+- \[CP-7(c)\] ensures that the alternate processing site provides information security safeguards equivalent to those of the primary site.
 
 ## Control guidance
 
-Alternate processing sites are geographically distinct from primary processing sites and provide processing capability if the primary processing site is not available. The alternate processing capability may be addressed using a physical processing site or other alternatives, such as failover to a cloud-based service provider or other internally or externally provided processing service. Geographically distributed architectures that support contingency requirements may also be considered alternate processing sites. Controls that are covered by alternate processing site agreements include the environmental conditions at alternate sites, access rules, physical and environmental protection requirements, and the coordination for the transfer and assignment of personnel. Requirements are allocated to alternate processing sites that reflect the requirements in contingency plans to maintain essential mission and business functions despite disruption, compromise, or failure in organizational systems.
-
-## Control assessment-objective
-
-an alternate processing site, including necessary agreements to permit the transfer and resumption of {{ insert: param, cp-07_odp.01 }} for essential mission and business functions, is established within {{ insert: param, cp-07_odp.02 }} when the primary processing capabilities are unavailable;
-the equipment and supplies required to transfer operations are made available at the alternate processing site or if contracts are in place to support delivery to the site within {{ insert: param, cp-07_odp.02 }} for transfer;
-the equipment and supplies required to resume operations are made available at the alternate processing site or if contracts are in place to support delivery to the site within {{ insert: param, cp-07_odp.02 }} for resumption;
-controls provided at the alternate processing site are equivalent to those at the primary site.
+Alternate processing sites are sites that are geographically distinct from primary processing sites. An alternate processing site provides processing capability in the event that the primary processing site is not available. Items covered by alternate processing site agreements include, for example, environmental conditions at alternate sites, access rules, physical and environmental protection requirements, and coordination for the transfer/assignment of personnel. Requirements are specifically allocated to alternate processing sites that reflect the requirements in contingency plans to maintain essential missions/business functions despite disruption, compromise, or failure in organizational information systems.

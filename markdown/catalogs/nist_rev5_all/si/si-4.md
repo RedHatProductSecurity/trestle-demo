@@ -1,63 +1,97 @@
 ---
 x-trestle-set-params:
-  si-04_odp.01:
+  si-4_prm_1:
     values:
-  si-04_odp.02:
+  si-4_prm_2:
     values:
-  si-04_odp.03:
+  si-4_prm_3:
     values:
-  si-04_odp.04:
+  si-4_prm_4:
     values:
-  si-04_odp.05:
+  si-4_prm_5:
     values:
-  si-04_odp.06:
+  si-4_prm_6:
     values:
-sort-id: si-04
 x-trestle-global:
   sort-id: si-04
 ---
 
-# si-4 - \[System and Information Integrity\] System Monitoring
+# si-4 - \[System and Information Integrity\] Information System Monitoring
 
 ## Control Statement
 
-- \[a.\] Monitor the system to detect:
+The organization:
 
-  - \[1.\] Attacks and indicators of potential attacks in accordance with the following monitoring objectives: {{ insert: param, si-04_odp.01 }} ; and
+- \[a.\] Monitors the information system to detect:
+
+  - \[1.\] Attacks and indicators of potential attacks in accordance with {{ insert: param, si-4_prm_1 }}; and
   - \[2.\] Unauthorized local, network, and remote connections;
 
-- \[b.\] Identify unauthorized use of the system through the following techniques and methods: {{ insert: param, si-04_odp.02 }};
+- \[b.\] Identifies unauthorized use of the information system through {{ insert: param, si-4_prm_2 }};
 
-- \[c.\] Invoke internal monitoring capabilities or deploy monitoring devices:
+- \[c.\] Deploys monitoring devices:
 
-  - \[1.\] Strategically within the system to collect organization-determined essential information; and
+  - \[1.\] Strategically within the information system to collect organization-determined essential information; and
   - \[2.\] At ad hoc locations within the system to track specific types of transactions of interest to the organization;
 
-- \[d.\] Analyze detected events and anomalies;
+- \[d.\] Protects information obtained from intrusion-monitoring tools from unauthorized access, modification, and deletion;
 
-- \[e.\] Adjust the level of system monitoring activity when there is a change in risk to organizational operations and assets, individuals, other organizations, or the Nation;
+- \[e.\] Heightens the level of information system monitoring activity whenever there is an indication of increased risk to organizational operations and assets, individuals, other organizations, or the Nation based on law enforcement information, intelligence information, or other credible sources of information;
 
-- \[f.\] Obtain legal opinion regarding system monitoring activities; and
+- \[f.\] Obtains legal opinion with regard to information system monitoring activities in accordance with applicable federal laws, Executive Orders, directives, policies, or regulations; and
 
-- \[g.\] Provide {{ insert: param, si-04_odp.03 }} to {{ insert: param, si-04_odp.04 }} {{ insert: param, si-04_odp.05 }}.
+- \[g.\] Provides {{ insert: param, si-4_prm_3 }} to {{ insert: param, si-4_prm_4 }} {{ insert: param, si-4_prm_5 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[SI-4(a)\]
+
+  - \[SI-4(a)(1)\]
+
+    - \[SI-4(a)(1)[1]\] defines monitoring objectives to detect attacks and indicators of potential attacks on the information system;
+    - \[SI-4(a)(1)[2]\] monitors the information system to detect, in accordance with organization-defined monitoring objectives,:
+
+      - \[SI-4(a)(1)[2][a]\] attacks;
+      - \[SI-4(a)(1)[2][b]\] indicators of potential attacks;
+
+  - \[SI-4(a)(2)\] monitors the information system to detect unauthorized:
+
+    - \[SI-4(a)(2)[1]\] local connections;
+    - \[SI-4(a)(2)[2]\] network connections;
+    - \[SI-4(a)(2)[3]\] remote connections;
+
+- \[SI-4(b)\]
+
+  - \[SI-4(b)(1)\] defines techniques and methods to identify unauthorized use of the information system;
+  - \[SI-4(b)(2)\] identifies unauthorized use of the information system through organization-defined techniques and methods;
+
+- \[SI-4(c)\] deploys monitoring devices:
+
+  - \[SI-4(c)[1]\] strategically within the information system to collect organization-determined essential information;
+  - \[SI-4(c)[2]\] at ad hoc locations within the system to track specific types of transactions of interest to the organization;
+
+- \[SI-4(d)\] protects information obtained from intrusion-monitoring tools from unauthorized:
+
+  - \[SI-4(d)[1]\] access;
+  - \[SI-4(d)[2]\] modification;
+  - \[SI-4(d)[3]\] deletion;
+
+- \[SI-4(e)\] heightens the level of information system monitoring activity whenever there is an indication of increased risk to organizational operations and assets, individuals, other organizations, or the Nation based on law enforcement information, intelligence information, or other credible sources of information;
+
+- \[SI-4(f)\] obtains legal opinion with regard to information system monitoring activities in accordance with applicable federal laws, Executive Orders, directives, policies, or regulations;
+
+- \[SI-4(g)\]
+
+  - \[SI-4(g)[1]\] defines personnel or roles to whom information system monitoring information is to be provided;
+  - \[SI-4(g)[2]\] defines information system monitoring information to be provided to organization-defined personnel or roles;
+  - \[SI-4(g)[3]\] defines a frequency to provide organization-defined information system monitoring to organization-defined personnel or roles;
+  - \[SI-4(g)[4]\] provides organization-defined information system monitoring information to organization-defined personnel or roles one or more of the following:
+
+    - \[SI-4(g)[4][a]\] as needed; and/or
+    - \[SI-4(g)[4][b]\] with the organization-defined frequency.
 
 ## Control guidance
 
-System monitoring includes external and internal monitoring. External monitoring includes the observation of events occurring at external interfaces to the system. Internal monitoring includes the observation of events occurring within the system. Organizations monitor systems by observing audit activities in real time or by observing other system aspects such as access patterns, characteristics of access, and other actions. The monitoring objectives guide and inform the determination of the events. System monitoring capabilities are achieved through a variety of tools and techniques, including intrusion detection and prevention systems, malicious code protection software, scanning tools, audit record monitoring software, and network monitoring software.
-
-Depending on the security architecture, the distribution and configuration of monitoring devices may impact throughput at key internal and external boundaries as well as at other locations across a network due to the introduction of network throughput latency. If throughput management is needed, such devices are strategically located and deployed as part of an established organization-wide security architecture. Strategic locations for monitoring devices include selected perimeter locations and near key servers and server farms that support critical applications. Monitoring devices are typically employed at the managed interfaces associated with controls [SC-7](#sc-7) and [AC-17](#ac-17) . The information collected is a function of the organizational monitoring objectives and the capability of systems to support such objectives. Specific types of transactions of interest include Hypertext Transfer Protocol (HTTP) traffic that bypasses HTTP proxies. System monitoring is an integral part of organizational continuous monitoring and incident response programs, and output from system monitoring serves as input to those programs. System monitoring requirements, including the need for specific types of system monitoring, may be referenced in other controls (e.g., [AC-2g](#ac-2_smt.g), [AC-2(7)](#ac-2.7), [AC-2(12)(a)](#ac-2.12_smt.a), [AC-17(1)](#ac-17.1), [AU-13](#au-13), [AU-13(1)](#au-13.1), [AU-13(2)](#au-13.2), [CM-3f](#cm-3_smt.f), [CM-6d](#cm-6_smt.d), [MA-3a](#ma-3_smt.a), [MA-4a](#ma-4_smt.a), [SC-5(3)(b)](#sc-5.3_smt.b), [SC-7a](#sc-7_smt.a), [SC-7(24)(b)](#sc-7.24_smt.b), [SC-18b](#sc-18_smt.b), [SC-43b](#sc-43_smt.b) ). Adjustments to levels of system monitoring are based on law enforcement information, intelligence information, or other sources of information. The legality of system monitoring activities is based on applicable laws, executive orders, directives, regulations, policies, standards, and guidelines.
-
-## Control assessment-objective
-
-the system is monitored to detect attacks and indicators of potential attacks in accordance with {{ insert: param, si-04_odp.01 }};
-the system is monitored to detect unauthorized local connections;
-the system is monitored to detect unauthorized network connections;
-the system is monitored to detect unauthorized remote connections;
-unauthorized use of the system is identified through {{ insert: param, si-04_odp.02 }};
-internal monitoring capabilities are invoked or monitoring devices are deployed strategically within the system to collect organization-determined essential information;
-internal monitoring capabilities are invoked or monitoring devices are deployed at ad hoc locations within the system to track specific types of transactions of interest to the organization;
-detected events are analyzed;
-detected anomalies are analyzed;
-the level of system monitoring activity is adjusted when there is a change in risk to organizational operations and assets, individuals, other organizations, or the Nation;
-a legal opinion regarding system monitoring activities is obtained;
-{{ insert: param, si-04_odp.03 }} is provided to {{ insert: param, si-04_odp.04 }} {{ insert: param, si-04_odp.05 }}.
+Information system monitoring includes external and internal monitoring. External monitoring includes the observation of events occurring at the information system boundary (i.e., part of perimeter defense and boundary protection). Internal monitoring includes the observation of events occurring within the information system. Organizations can monitor information systems, for example, by observing audit activities in real time or by observing other system aspects such as access patterns, characteristics of access, and other actions. The monitoring objectives may guide determination of the events. Information system monitoring capability is achieved through a variety of tools and techniques (e.g., intrusion detection systems, intrusion prevention systems, malicious code protection software, scanning tools, audit record monitoring software, network monitoring software). Strategic locations for monitoring devices include, for example, selected perimeter locations and near server farms supporting critical applications, with such devices typically being employed at the managed interfaces associated with controls SC-7 and AC-17. Einstein network monitoring devices from the Department of Homeland Security can also be included as monitoring devices. The granularity of monitoring information collected is based on organizational monitoring objectives and the capability of information systems to support such objectives. Specific types of transactions of interest include, for example, Hyper Text Transfer Protocol (HTTP) traffic that bypasses HTTP proxies. Information system monitoring is an integral part of organizational continuous monitoring and incident response programs. Output from system monitoring serves as input to continuous monitoring and incident response programs. A network connection is any connection with a device that communicates through a network (e.g., local area network, Internet). A remote connection is any connection with a device communicating through an external network (e.g., the Internet). Local, network, and remote connections can be either wired or wireless.

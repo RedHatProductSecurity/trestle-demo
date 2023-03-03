@@ -1,5 +1,4 @@
 ---
-sort-id: cm-09.01
 x-trestle-global:
   sort-id: cm-09.01
 ---
@@ -8,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Assign responsibility for developing the configuration management process to organizational personnel that are not directly involved in system development.
+The organization assigns responsibility for developing the configuration management process to organizational personnel that are not directly involved in information system development.
+
+## Control Objective
+
+Determine if the organization assigns responsibility for developing the configuration management process to organizational personnel that are not directly involved in information system development.
 
 ## Control guidance
 
-In the absence of dedicated configuration management teams assigned within organizations, system developers may be tasked with developing configuration management processes using personnel who are not directly involved in system development or system integration. This separation of duties ensures that organizations establish and maintain a sufficient degree of independence between the system development and integration processes and configuration management processes to facilitate quality control and more effective oversight.
-
-## Control assessment-objective
-
-the responsibility for developing the configuration management process is assigned to organizational personnel who are not directly involved in system development.
+In the absence of dedicated configuration management teams assigned within organizations, system developers may be tasked to develop configuration management processes using personnel who are not directly involved in system development or integration. This separation of duties ensures that organizations establish and maintain a sufficient degree of independence between the information system development and integration processes and configuration management processes to facilitate quality control and more effective oversight.

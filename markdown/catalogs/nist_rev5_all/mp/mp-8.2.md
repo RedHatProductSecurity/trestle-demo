@@ -2,11 +2,8 @@
 x-trestle-set-params:
   mp-8.2_prm_1:
     values:
-  mp-08.02_odp.01:
+  mp-8.2_prm_2:
     values:
-  mp-08.02_odp.02:
-    values:
-sort-id: mp-08.02
 x-trestle-global:
   sort-id: mp-08.02
 ---
@@ -15,13 +12,17 @@ x-trestle-global:
 
 ## Control Statement
 
-Test downgrading equipment and procedures {{ insert: param, mp-8.2_prm_1 }} to ensure that downgrading actions are being achieved.
+The organization employs {{ insert: param, mp-8.2_prm_1 }} of downgrading equipment and procedures to verify correct performance {{ insert: param, mp-8.2_prm_2 }}.
 
-## Control guidance
+## Control Objective
 
-None.
+Determine if the organization:
 
-## Control assessment-objective
+- \[MP-8(2)[1]\]
 
-downgrading equipment is tested {{ insert: param, mp-08.02_odp.01 }} to ensure that downgrading actions are being achieved;
-downgrading procedures are tested {{ insert: param, mp-08.02_odp.02 }} to ensure that downgrading actions are being achieved.
+  - \[MP-8(2)[1][a]\] defines tests to be employed for downgrading equipment;
+  - \[MP-8(2)[1][b]\] defines procedures to verify correct performance;
+
+- \[MP-8(2)[2]\] defines the frequency for employing tests of downgrading equipment and procedures to verify correct performance; and
+
+- \[MP-8(2)[3]\] employs organization-defined tests of downgrading equipment and procedures to verify correct performance with the organization-defined frequency.

@@ -1,5 +1,4 @@
 ---
-sort-id: ma-05.04
 x-trestle-global:
   sort-id: ma-05.04
 ---
@@ -8,19 +7,19 @@ x-trestle-global:
 
 ## Control Statement
 
-Ensure that:
+The organization ensures that:
 
-- \[(a)\] Foreign nationals with appropriate security clearances are used to conduct maintenance and diagnostic activities on classified systems only when the systems are jointly owned and operated by the United States and foreign allied governments, or owned and operated solely by foreign allied governments; and
+- \[(a)\] Cleared foreign nationals (i.e., foreign nationals with appropriate security clearances), are used to conduct maintenance and diagnostic activities on classified information systems only when the systems are jointly owned and operated by the United States and foreign allied governments, or owned and operated solely by foreign allied governments; and
 
-- \[(b)\] Approvals, consents, and detailed operational conditions regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified systems are fully documented within Memoranda of Agreements.
+- \[(b)\] Approvals, consents, and detailed operational conditions regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified information systems are fully documented within Memoranda of Agreements.
 
-## Control guidance
+## Control Objective
 
-Personnel who conduct maintenance and diagnostic activities on organizational systems may be exposed to classified information. If non-U.S. citizens are permitted to perform maintenance and diagnostics activities on classified systems, then additional vetting is required to ensure agreements and restrictions are not being violated.
+Determine if the organization ensures that:
 
-## Control assessment-objective
+- \[MA-5(4)(a)\] cleared foreign nationals (i.e., foreign nationals with appropriate security clearances) are used to conduct maintenance and diagnostic activities on classified information systems only when the systems are:
 
-foreign nationals with appropriate security clearances are used to conduct maintenance and diagnostic activities on classified systems only when the systems are jointly owned and operated by the United States and foreign allied governments or owned and operated solely by foreign allied governments;
-approvals regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified systems are fully documented within Memoranda of Agreements;
-consents regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified systems are fully documented within Memoranda of Agreements;
-detailed operational conditions regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified systems are fully documented within Memoranda of Agreements.
+  - \[MA-5(4)(a)[1]\] jointly owned and operated by the United States and foreign allied governments; or
+  - \[MA-5(4)(a)[2]\] owned and operated solely by foreign allied governments; and
+
+- \[MA-5(4)(b)\] approvals, consents, and detailed operational conditions regarding the use of foreign nationals to conduct maintenance and diagnostic activities on classified information systems are fully documented within Memoranda of Agreements.

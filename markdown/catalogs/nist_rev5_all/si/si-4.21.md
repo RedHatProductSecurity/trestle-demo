@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  si-04.21_odp.01:
+  si-4.21_prm_1:
     values:
-  si-04.21_odp.02:
+  si-4.21_prm_2:
     values:
-sort-id: si-04.21
 x-trestle-global:
   sort-id: si-04.21
 ---
@@ -13,12 +12,14 @@ x-trestle-global:
 
 ## Control Statement
 
-Implement the following additional monitoring of individuals during {{ insert: param, si-04.21_odp.02 }}: {{ insert: param, si-04.21_odp.01 }}.
+The organization implements {{ insert: param, si-4.21_prm_1 }} of individuals during {{ insert: param, si-4.21_prm_2 }}.
 
-## Control guidance
+## Control Objective
 
-During probationary periods, employees do not have permanent employment status within organizations. Without such status or access to information that is resident on the system, additional monitoring can help identify any potentially malicious activity or inappropriate behavior.
+Determine if the organization:
 
-## Control assessment-objective
+- \[SI-4(21)[1]\] defines additional monitoring to be implemented on individuals during probationary periods;
 
-{{ insert: param, si-04.21_odp.01 }} of individuals is implemented during {{ insert: param, si-04.21_odp.02 }}.
+- \[SI-4(21)[2]\] defines probationary period during which organization-defined additional monitoring of individuals is to be performed; and
+
+- \[SI-4(21)[3]\] implements organization-defined additional monitoring of individuals during organization-defined probationary period.

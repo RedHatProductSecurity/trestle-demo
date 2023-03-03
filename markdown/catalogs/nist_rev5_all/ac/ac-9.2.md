@@ -1,24 +1,29 @@
 ---
 x-trestle-set-params:
-  ac-09.02_odp.01:
+  ac-9.2_prm_1:
     values:
-  ac-09.02_odp.02:
+  ac-9.2_prm_2:
     values:
-sort-id: ac-09.02
 x-trestle-global:
   sort-id: ac-09.02
 ---
 
-# ac-9.2 - \[Access Control\] Successful and Unsuccessful Logons
+# ac-9.2 - \[Access Control\] Successful / Unsuccessful Logons
 
 ## Control Statement
 
-Notify the user, upon successful logon, of the number of {{ insert: param, ac-09.02_odp.01 }} during {{ insert: param, ac-09.02_odp.02 }}.
+The information system notifies the user of the number of {{ insert: param, ac-9.2_prm_1 }} during {{ insert: param, ac-9.2_prm_2 }}.
 
-## Control guidance
+## Control Objective
 
-Information about the number of successful and unsuccessful logon attempts within a specified time period allows the user to recognize if the number and type of logon attempts are consistent with the user’s actual logon attempts.
+Determine if:
 
-## Control assessment-objective
+- \[AC-9(2)[1]\] the organization defines the time period within which the information system must notify the user of the number of:
 
-the user is notified, upon successful logon, of the number of {{ insert: param, ac-09.02_odp.01 }} during {{ insert: param, ac-09.02_odp.02 }}.
+  - \[AC-9(2)[1][a]\] successful logons/accesses; and/or
+  - \[AC-9(2)[1][b]\] unsuccessful logon/access attempts;
+
+- \[AC-9(2)[2]\] the information system, during the organization-defined time period, notifies the user of the number of:
+
+  - \[AC-9(2)[2][a]\] successful logons/accesses; and/or
+  - \[AC-9(2)[2][b]\] unsuccessful logon/access attempts.

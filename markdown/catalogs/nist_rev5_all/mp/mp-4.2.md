@@ -1,14 +1,4 @@
 ---
-x-trestle-set-params:
-  mp-4.2_prm_1:
-    values:
-  mp-04.02_odp.01:
-    values:
-  mp-04.02_odp.02:
-    values:
-  mp-04.02_odp.03:
-    values:
-sort-id: mp-04.02
 x-trestle-global:
   sort-id: mp-04.02
 ---
@@ -17,14 +7,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Restrict access to media storage areas and log access attempts and access granted using {{ insert: param, mp-4.2_prm_1 }}.
+The organization employs automated mechanisms to restrict access to media storage areas and to audit access attempts and access granted.
+
+## Control Objective
+
+Determine if the organization employs automated mechanisms to:
+
+- \[MP-4(2)[1]\] restrict access to media storage areas;
+
+- \[MP-4(2)[2]\] audit access attempts; and
+
+- \[MP-4(2)[3]\] audit access granted.
 
 ## Control guidance
 
-Automated mechanisms include keypads, biometric readers, or card readers on the external entries to media storage areas.
-
-## Control assessment-objective
-
-access to media storage areas is restricted using {{ insert: param, mp-04.02_odp.01 }};
-access attempts to media storage areas are logged using {{ insert: param, mp-04.02_odp.02 }};
-access granted to media storage areas is logged using {{ insert: param, mp-04.02_odp.03 }}.
+Automated mechanisms can include, for example, keypads on the external entries to media storage areas.

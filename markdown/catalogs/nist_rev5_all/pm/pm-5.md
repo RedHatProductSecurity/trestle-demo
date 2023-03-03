@@ -1,23 +1,22 @@
 ---
-x-trestle-set-params:
-  pm-05_odp:
-    values:
-sort-id: pm-05
 x-trestle-global:
   sort-id: pm-05
 ---
 
-# pm-5 - \[Program Management\] System Inventory
+# pm-5 - \[Program Management\] Information System Inventory
 
 ## Control Statement
 
-Develop and update {{ insert: param, pm-05_odp }} an inventory of organizational systems.
+The organization develops and maintains an inventory of its information systems.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PM-5[1]\] develops an inventory of its information systems; and
+
+- \[PM-5[2]\] maintains the inventory of its information systems.
 
 ## Control guidance
 
-[OMB A-130](#27847491-5ce1-4f6a-a1e4-9e483782f0ef) provides guidance on developing systems inventories and associated reporting requirements. System inventory refers to an organization-wide inventory of systems, not system components as described in [CM-8](#cm-8).
-
-## Control assessment-objective
-
-an inventory of organizational systems is developed;
-the inventory of organizational systems is updated {{ insert: param, pm-05_odp }}.
+This control addresses the inventory requirements in FISMA. OMB provides guidance on developing information systems inventories and associated reporting requirements. For specific information system inventory reporting requirements, organizations consult OMB annual FISMA reporting guidance.

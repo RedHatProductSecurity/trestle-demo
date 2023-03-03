@@ -1,5 +1,4 @@
 ---
-sort-id: cp-02.02
 x-trestle-global:
   sort-id: cp-02.02
 ---
@@ -8,14 +7,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Conduct capacity planning so that necessary capacity for information processing, telecommunications, and environmental support exists during contingency operations.
+The organization conducts capacity planning so that necessary capacity for information processing, telecommunications, and environmental support exists during contingency operations.
+
+## Control Objective
+
+Determine if the organization conducts capacity planning so that necessary capacity exists during contingency operations for:
+
+- \[CP-2(2)[1]\] information processing;
+
+- \[CP-2(2)[2]\] telecommunications; and
+
+- \[CP-2(2)[3]\] environmental support.
 
 ## Control guidance
 
-Capacity planning is needed because different threats can result in a reduction of the available processing, telecommunications, and support services intended to support essential mission and business functions. Organizations anticipate degraded operations during contingency operations and factor the degradation into capacity planning. For capacity planning, environmental support refers to any environmental factor for which the organization determines that it needs to provide support in a contingency situation, even if in a degraded state. Such determinations are based on an organizational assessment of risk, system categorization (impact level), and organizational risk tolerance.
-
-## Control assessment-objective
-
-capacity planning is conducted so that the necessary capacity exists during contingency operations for information processing;
-capacity planning is conducted so that the necessary capacity exists during contingency operations for telecommunications;
-capacity planning is conducted so that the necessary capacity exists during contingency operations for environmental support.
+Capacity planning is needed because different types of threats (e.g., natural disasters, targeted cyber attacks) can result in a reduction of the available processing, telecommunications, and support services originally intended to support the organizational missions/business functions. Organizations may need to anticipate degraded operations during contingency operations and factor such degradation into capacity planning.

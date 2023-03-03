@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  pe-09.02_odp:
+  pe-9.2_prm_1:
     values:
-sort-id: pe-09.02
 x-trestle-global:
   sort-id: pe-09.02
 ---
@@ -11,12 +10,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Employ automatic voltage controls for {{ insert: param, pe-09.02_odp }}.
+The organization employs automatic voltage controls for {{ insert: param, pe-9.2_prm_1 }}.
 
-## Control guidance
+## Control Objective
 
-Automatic voltage controls can monitor and control voltage. Such controls include voltage regulators, voltage conditioners, and voltage stabilizers.
+Determine if the organization:
 
-## Control assessment-objective
+- \[PE-9(2)[1]\] defines critical information system components that require automatic voltage controls; and
 
-automatic voltage controls for {{ insert: param, pe-09.02_odp }} are employed.
+- \[PE-9(2)[2]\] employs automatic voltage controls for organization-defined critical information system components.

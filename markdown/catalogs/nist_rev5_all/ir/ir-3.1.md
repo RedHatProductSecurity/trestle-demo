@@ -1,8 +1,4 @@
 ---
-x-trestle-set-params:
-  ir-03.01_odp:
-    values:
-sort-id: ir-03.01
 x-trestle-global:
   sort-id: ir-03.01
 ---
@@ -11,12 +7,12 @@ x-trestle-global:
 
 ## Control Statement
 
-Test the incident response capability using {{ insert: param, ir-03.01_odp }}.
+The organization employs automated mechanisms to more thoroughly and effectively test the incident response capability.
+
+## Control Objective
+
+Determine if the organization employs automated mechanisms to more thoroughly and effectively test the incident response capability.
 
 ## Control guidance
 
-Organizations use automated mechanisms to more thoroughly and effectively test incident response capabilities. This can be accomplished by providing more complete coverage of incident response issues, selecting realistic test scenarios and environments, and stressing the response capability.
-
-## Control assessment-objective
-
-the incident response capability is tested using {{ insert: param, ir-03.01_odp }}.
+Organizations use automated mechanisms to more thoroughly and effectively test incident response capabilities, for example: (i) by providing more complete coverage of incident response issues; (ii) by selecting more realistic test scenarios and test environments; and (iii) by stressing the response capability.

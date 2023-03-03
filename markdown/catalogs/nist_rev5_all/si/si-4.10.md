@@ -1,10 +1,9 @@
 ---
 x-trestle-set-params:
-  si-04.10_odp.01:
+  si-4.10_prm_1:
     values:
-  si-04.10_odp.02:
+  si-4.10_prm_2:
     values:
-sort-id: si-04.10
 x-trestle-global:
   sort-id: si-04.10
 ---
@@ -13,12 +12,18 @@ x-trestle-global:
 
 ## Control Statement
 
-Make provisions so that {{ insert: param, si-04.10_odp.01 }} is visible to {{ insert: param, si-04.10_odp.02 }}.
+The organization makes provisions so that {{ insert: param, si-4.10_prm_1 }} is visible to {{ insert: param, si-4.10_prm_2 }}.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[SI-4(10)[1]\] defines encrypted communications traffic required to be visible to information system monitoring tools;
+
+- \[SI-4(10)[2]\] defines information system monitoring tools to be provided access to organization-defined encrypted communications traffic; and
+
+- \[SI-4(10)[3]\] makes provisions so that organization-defined encrypted communications traffic is visible to organization-defined information system monitoring tools.
 
 ## Control guidance
 
-Organizations balance the need to encrypt communications traffic to protect data confidentiality with the need to maintain visibility into such traffic from a monitoring perspective. Organizations determine whether the visibility requirement applies to internal encrypted traffic, encrypted traffic intended for external destinations, or a subset of the traffic types.
-
-## Control assessment-objective
-
-provisions are made so that {{ insert: param, si-04.10_odp.01 }} is visible to {{ insert: param, si-04.10_odp.02 }}.
+Organizations balance the potentially conflicting needs for encrypting communications traffic and for having insight into such traffic from a monitoring perspective. For some organizations, the need to ensure the confidentiality of communications traffic is paramount; for others, mission-assurance is of greater concern. Organizations determine whether the visibility requirement applies to internal encrypted traffic, encrypted traffic intended for external destinations, or a subset of the traffic types.

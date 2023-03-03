@@ -1,8 +1,7 @@
 ---
 x-trestle-set-params:
-  pe-02_odp:
+  pe-2_prm_1:
     values:
-sort-id: pe-02
 x-trestle-global:
   sort-id: pe-02
 ---
@@ -11,23 +10,35 @@ x-trestle-global:
 
 ## Control Statement
 
-- \[a.\] Develop, approve, and maintain a list of individuals with authorized access to the facility where the system resides;
+The organization:
 
-- \[b.\] Issue authorization credentials for facility access;
+- \[a.\] Develops, approves, and maintains a list of individuals with authorized access to the facility where the information system resides;
 
-- \[c.\] Review the access list detailing authorized facility access by individuals {{ insert: param, pe-02_odp }} ; and
+- \[b.\] Issues authorization credentials for facility access;
 
-- \[d.\] Remove individuals from the facility access list when access is no longer required.
+- \[c.\] Reviews the access list detailing authorized facility access by individuals {{ insert: param, pe-2_prm_1 }}; and
+
+- \[d.\] Removes individuals from the facility access list when access is no longer required.
+
+## Control Objective
+
+Determine if the organization:
+
+- \[PE-2(a)\]
+
+  - \[PE-2(a)[1]\] develops a list of individuals with authorized access to the facility where the information system resides;
+  - \[PE-2(a)[2]\] approves a list of individuals with authorized access to the facility where the information system resides;
+  - \[PE-2(a)[3]\] maintains a list of individuals with authorized access to the facility where the information system resides;
+
+- \[PE-2(b)\] issues authorization credentials for facility access;
+
+- \[PE-2(c)\]
+
+  - \[PE-2(c)[1]\] defines the frequency to review the access list detailing authorized facility access by individuals;
+  - \[PE-2(c)[2]\] reviews the access list detailing authorized facility access by individuals with the organization-defined frequency; and
+
+- \[PE-2(d)\] removes individuals from the facility access list when access is no longer required.
 
 ## Control guidance
 
-Physical access authorizations apply to employees and visitors. Individuals with permanent physical access authorization credentials are not considered visitors. Authorization credentials include ID badges, identification cards, and smart cards. Organizations determine the strength of authorization credentials needed consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines. Physical access authorizations may not be necessary to access certain areas within facilities that are designated as publicly accessible.
-
-## Control assessment-objective
-
-a list of individuals with authorized access to the facility where the system resides has been developed;
-the list of individuals with authorized access to the facility where the system resides has been approved;
-the list of individuals with authorized access to the facility where the system resides has been maintained;
-authorization credentials are issued for facility access;
-the access list detailing authorized facility access by individuals is reviewed {{ insert: param, pe-02_odp }};
-individuals are removed from the facility access list when access is no longer required.
+This control applies to organizational employees and visitors. Individuals (e.g., employees, contractors, and others) with permanent physical access authorization credentials are not considered visitors. Authorization credentials include, for example, badges, identification cards, and smart cards. Organizations determine the strength of authorization credentials needed (including level of forge-proof badges, smart cards, or identification cards) consistent with federal standards, policies, and procedures. This control only applies to areas within facilities that have not been designated as publicly accessible.
