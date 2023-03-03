@@ -8,7 +8,7 @@
       "oscal-version": "1.0.2"
     },
     "import-profile": {
-      "href": "REPLACE_ME"
+      "href": "trestle://profiles/fedramp_rev4_moderate/profile.json"
     },
     "system-characteristics": {
       "system-ids": [
