@@ -6,6 +6,9 @@ trestleDirs=("assessment-plans" "assessment-results" "catalogs" "component-defin
 
 
 function update () {
+  git config user.name "github-actions"
+  git config user.email "github-actions@github.com"
+
   local COMMIT_BODY="${1:-"Sync OSCAL Content"}"
   local COMMIT_TITLE="chore: automatic content update"
   git checkout -b "autoupdate_$GITHUB_RUN_ID"
