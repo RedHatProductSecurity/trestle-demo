@@ -5,6 +5,8 @@ x-trestle-set-params:
   ir-04.08_odp.02:
     values:
 sort-id: ir-04.08
+x-trestle-global:
+  sort-id: ir-04.08
 ---
 
 # ir-4.8 - \[Incident Response\] Correlation with External Organizations

@@ -25,6 +25,28 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  au-8.1_prm_1:
+    values:
+  au-8.1_prm_2:
+    values:
+  au-8.1_prm_3:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: au-08.01
 ---
 
 # au-8.1 - \[Audit and Accountability\] Synchronization with Authoritative Time Source
@@ -33,9 +55,9 @@ x-trestle-fedramp-props:
 
 The information system:
 
-- \[(a)\] Compares the internal information system clocks organization-defined frequency with organization-defined authoritative time source; and
+- \[(a)\] Compares the internal information system clocks [organization-defined frequency] with [organization-defined authoritative time source]; and
 
-- \[(b)\] Synchronizes the internal system clocks to the authoritative time source when the time difference is greater than organization-defined time period.
+- \[(b)\] Synchronizes the internal system clocks to the authoritative time source when the time difference is greater than [organization-defined time period].
 
 ## Control Objective
 
@@ -61,21 +83,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part (a)
+### This System
 
-Add control implementation description here for item au-8.1_smt.a
+<!-- Add implementation prose for the main This System component for control: au-8.1 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part (b)
-
-Add control implementation description here for item au-8.1_smt.b
+<!-- Add control implementation description here for control: au-8.1 -->
 
 #### Implementation Status: planned
 

@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-06.07_odp.02:
     values:
 sort-id: ac-06.07
+x-trestle-global:
+  sort-id: ac-06.07
 ---
 
 # ac-6.7 - \[Access Control\] Review of User Privileges

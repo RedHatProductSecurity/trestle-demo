@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-07.04_odp:
     values:
 sort-id: sc-07.04
+x-trestle-global:
+  sort-id: sc-07.04
 ---
 
 # sc-7.4 - \[System and Communications Protection\] External Telecommunications Services

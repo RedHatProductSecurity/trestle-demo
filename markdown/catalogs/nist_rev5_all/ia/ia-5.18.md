@@ -5,6 +5,8 @@ x-trestle-set-params:
   ia-05.18_odp.02:
     values:
 sort-id: ia-05.18
+x-trestle-global:
+  sort-id: ia-05.18
 ---
 
 # ia-5.18 - \[Identification and Authentication\] Password Managers

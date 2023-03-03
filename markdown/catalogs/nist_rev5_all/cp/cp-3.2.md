@@ -1,5 +1,7 @@
 ---
 sort-id: cp-03.02
+x-trestle-global:
+  sort-id: cp-03.02
 ---
 
 # cp-3.2 - \[Contingency Planning\] Mechanisms Used in Training Environments

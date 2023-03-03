@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-02.10_odp:
     values:
 sort-id: ia-02.10
+x-trestle-global:
+  sort-id: ia-02.10
 ---
 
 # ia-2.10 - \[Identification and Authentication\] Single Sign-on

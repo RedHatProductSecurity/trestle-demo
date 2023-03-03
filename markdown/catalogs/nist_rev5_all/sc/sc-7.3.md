@@ -1,5 +1,7 @@
 ---
 sort-id: sc-07.03
+x-trestle-global:
+  sort-id: sc-07.03
 ---
 
 # sc-7.3 - \[System and Communications Protection\] Access Points

@@ -1,5 +1,7 @@
 ---
 sort-id: sc-02.02
+x-trestle-global:
+  sort-id: sc-02.02
 ---
 
 # sc-2.2 - \[System and Communications Protection\] Disassociability

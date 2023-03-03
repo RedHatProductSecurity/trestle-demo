@@ -3,6 +3,8 @@ x-trestle-set-params:
   pm-05.01_odp:
     values:
 sort-id: pm-05.01
+x-trestle-global:
+  sort-id: pm-05.01
 ---
 
 # pm-5.1 - \[Program Management\] Inventory of Personally Identifiable Information

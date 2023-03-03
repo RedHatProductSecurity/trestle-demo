@@ -5,6 +5,8 @@ x-trestle-set-params:
   si-04.05_odp.02:
     values:
 sort-id: si-04.05
+x-trestle-global:
+  sort-id: si-04.05
 ---
 
 # si-4.5 - \[System and Information Integrity\] System-generated Alerts

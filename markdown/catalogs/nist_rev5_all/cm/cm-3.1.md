@@ -9,6 +9,8 @@ x-trestle-set-params:
   cm-03.01_odp.04:
     values:
 sort-id: cm-03.01
+x-trestle-global:
+  sort-id: cm-03.01
 ---
 
 # cm-3.1 - \[Configuration Management\] Automated Documentation, Notification, and Prohibition of Changes

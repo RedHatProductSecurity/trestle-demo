@@ -25,6 +25,30 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ia-5.1_prm_1:
+    values:
+  ia-5.1_prm_2:
+    values:
+  ia-5.1_prm_3:
+    values:
+  ia-5.1_prm_4:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ia-05.01
 ---
 
 # ia-5.1 - \[Identification and Authentication\] Password-based Authentication
@@ -33,15 +57,15 @@ x-trestle-fedramp-props:
 
 The information system, for password-based authentication:
 
-- \[(a)\] Enforces minimum password complexity of organization-defined requirements for case sensitivity, number of characters, mix of upper-case letters, lower-case letters, numbers, and special characters, including minimum requirements for each type;
+- \[(a)\] Enforces minimum password complexity of [organization-defined requirements for case sensitivity, number of characters, mix of upper-case letters, lower-case letters, numbers, and special characters, including minimum requirements for each type];
 
-- \[(b)\] Enforces at least the following number of changed characters when new passwords are created: organization-defined number;
+- \[(b)\] Enforces at least the following number of changed characters when new passwords are created: [organization-defined number];
 
 - \[(c)\] Stores and transmits only cryptographically-protected passwords;
 
-- \[(d)\] Enforces password minimum and maximum lifetime restrictions of organization-defined numbers for lifetime minimum, lifetime maximum;
+- \[(d)\] Enforces password minimum and maximum lifetime restrictions of [organization-defined numbers for lifetime minimum, lifetime maximum];
 
-- \[(e)\] Prohibits password reuse for organization-defined number generations; and
+- \[(e)\] Prohibits password reuse for [organization-defined number] generations; and
 
 - \[(f)\] Allows the use of a temporary password for system logons with an immediate change to a permanent password.
 
@@ -87,53 +111,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part (a)
+### This System
 
-Add control implementation description here for item ia-5.1_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part (b)
-
-Add control implementation description here for item ia-5.1_smt.b
+<!-- Add implementation prose for the main This System component for control: ia-5.1 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part (c)
-
-Add control implementation description here for item ia-5.1_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part (d)
-
-Add control implementation description here for item ia-5.1_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part (e)
-
-Add control implementation description here for item ia-5.1_smt.e
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part (f)
-
-Add control implementation description here for item ia-5.1_smt.f
+<!-- Add control implementation description here for control: ia-5.1 -->
 
 #### Implementation Status: planned
 

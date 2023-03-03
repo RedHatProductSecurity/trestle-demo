@@ -1,5 +1,7 @@
 ---
 sort-id: mp-08.01
+x-trestle-global:
+  sort-id: mp-08.01
 ---
 
 # mp-8.1 - \[Media Protection\] Documentation of Process

@@ -1,5 +1,7 @@
 ---
 sort-id: pm-06
+x-trestle-global:
+  sort-id: pm-06
 ---
 
 # pm-6 - \[Program Management\] Measures of Performance

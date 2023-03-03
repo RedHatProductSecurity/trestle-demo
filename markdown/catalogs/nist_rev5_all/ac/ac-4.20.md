@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-04.20_odp.02:
     values:
 sort-id: ac-04.20
+x-trestle-global:
+  sort-id: ac-04.20
 ---
 
 # ac-4.20 - \[Access Control\] Approved Solutions

@@ -1,5 +1,7 @@
 ---
 sort-id: au-06.03
+x-trestle-global:
+  sort-id: au-06.03
 ---
 
 # au-6.3 - \[Audit and Accountability\] Correlate Audit Record Repositories

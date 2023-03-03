@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-04.05_odp:
     values:
 sort-id: ia-04.05
+x-trestle-global:
+  sort-id: ia-04.05
 ---
 
 # ia-4.5 - \[Identification and Authentication\] Dynamic Management

@@ -1,5 +1,7 @@
 ---
 sort-id: mp-05.03
+x-trestle-global:
+  sort-id: mp-05.03
 ---
 
 # mp-5.3 - \[Media Protection\] Custodians

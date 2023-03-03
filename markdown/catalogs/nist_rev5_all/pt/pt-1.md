@@ -19,6 +19,8 @@ x-trestle-set-params:
   pt-01_odp.08:
     values:
 sort-id: pt-01
+x-trestle-global:
+  sort-id: pt-01
 ---
 
 # pt-1 - \[Personally Identifiable Information Processing and Transparency\] Policy and Procedures

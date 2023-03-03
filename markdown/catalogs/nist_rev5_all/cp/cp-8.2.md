@@ -1,5 +1,7 @@
 ---
 sort-id: cp-08.02
+x-trestle-global:
+  sort-id: cp-08.02
 ---
 
 # cp-8.2 - \[Contingency Planning\] Single Points of Failure

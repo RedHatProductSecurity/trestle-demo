@@ -23,6 +23,8 @@ x-trestle-set-params:
   ac-04.01_odp.09:
     values:
 sort-id: ac-04.01
+x-trestle-global:
+  sort-id: ac-04.01
 ---
 
 # ac-4.1 - \[Access Control\] Object Security and Privacy Attributes

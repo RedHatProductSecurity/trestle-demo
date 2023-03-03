@@ -7,6 +7,8 @@ x-trestle-set-params:
   ac-07.04_odp.03:
     values:
 sort-id: ac-07.04
+x-trestle-global:
+  sort-id: ac-07.04
 ---
 
 # ac-7.4 - \[Access Control\] Use of Alternate Authentication Factor

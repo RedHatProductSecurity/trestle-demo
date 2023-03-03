@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-08_odp:
     values:
 sort-id: sc-08
+x-trestle-global:
+  sort-id: sc-08
 ---
 
 # sc-8 - \[System and Communications Protection\] Transmission Confidentiality and Integrity

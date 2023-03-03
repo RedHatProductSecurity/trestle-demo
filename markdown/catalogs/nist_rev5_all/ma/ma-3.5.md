@@ -1,5 +1,7 @@
 ---
 sort-id: ma-03.05
+x-trestle-global:
+  sort-id: ma-03.05
 ---
 
 # ma-3.5 - \[Maintenance\] Execution with Privilege

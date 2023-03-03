@@ -5,6 +5,8 @@ x-trestle-set-params:
   cm-08_odp.02:
     values:
 sort-id: cm-08
+x-trestle-global:
+  sort-id: cm-08
 ---
 
 # cm-8 - \[Configuration Management\] System Component Inventory

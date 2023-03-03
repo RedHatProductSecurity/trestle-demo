@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-02.02_odp:
     values:
 sort-id: pe-02.02
+x-trestle-global:
+  sort-id: pe-02.02
 ---
 
 # pe-2.2 - \[Physical and Environmental Protection\] Two Forms of Identification

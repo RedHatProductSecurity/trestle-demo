@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.21_odp:
     values:
 sort-id: sa-08.21
+x-trestle-global:
+  sort-id: sa-08.21
 ---
 
 # sa-8.21 - \[System and Services Acquisition\] Self-analysis

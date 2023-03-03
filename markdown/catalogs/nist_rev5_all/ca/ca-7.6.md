@@ -3,6 +3,8 @@ x-trestle-set-params:
   ca-07.06_odp:
     values:
 sort-id: ca-07.06
+x-trestle-global:
+  sort-id: ca-07.06
 ---
 
 # ca-7.6 - \[Assessment, Authorization, and Monitoring\] Automation Support for Monitoring

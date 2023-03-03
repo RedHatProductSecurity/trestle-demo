@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.08_odp:
     values:
 sort-id: sa-08.08
+x-trestle-global:
+  sort-id: sa-08.08
 ---
 
 # sa-8.8 - \[System and Services Acquisition\] Secure Evolvability

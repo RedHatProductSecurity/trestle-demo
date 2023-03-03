@@ -5,6 +5,8 @@ x-trestle-set-params:
   cm-06.02_odp.02:
     values:
 sort-id: cm-06.02
+x-trestle-global:
+  sort-id: cm-06.02
 ---
 
 # cm-6.2 - \[Configuration Management\] Respond to Unauthorized Changes

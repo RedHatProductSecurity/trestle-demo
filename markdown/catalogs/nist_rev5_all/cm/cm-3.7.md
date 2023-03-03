@@ -5,6 +5,8 @@ x-trestle-set-params:
   cm-03.07_odp.02:
     values:
 sort-id: cm-03.07
+x-trestle-global:
+  sort-id: cm-03.07
 ---
 
 # cm-3.7 - \[Configuration Management\] Review System Changes

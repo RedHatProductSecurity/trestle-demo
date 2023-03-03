@@ -5,6 +5,8 @@ x-trestle-set-params:
   si-07.10_odp.02:
     values:
 sort-id: si-07.10
+x-trestle-global:
+  sort-id: si-07.10
 ---
 
 # si-7.10 - \[System and Information Integrity\] Protection of Boot Firmware

@@ -9,6 +9,8 @@ x-trestle-set-params:
   ra-06_odp.04:
     values:
 sort-id: ra-06
+x-trestle-global:
+  sort-id: ra-06
 ---
 
 # ra-6 - \[Risk Assessment\] Technical Surveillance Countermeasures Survey

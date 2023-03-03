@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-04.05_odp:
     values:
 sort-id: sa-04.05
+x-trestle-global:
+  sort-id: sa-04.05
 ---
 
 # sa-4.5 - \[System and Services Acquisition\] System, Component, and Service Configurations

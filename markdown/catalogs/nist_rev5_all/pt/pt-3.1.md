@@ -5,6 +5,8 @@ x-trestle-set-params:
   pt-03.01_odp.02:
     values:
 sort-id: pt-03.01
+x-trestle-global:
+  sort-id: pt-03.01
 ---
 
 # pt-3.1 - \[Personally Identifiable Information Processing and Transparency\] Data Tagging

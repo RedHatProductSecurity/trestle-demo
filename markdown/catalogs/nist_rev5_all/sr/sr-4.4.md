@@ -5,6 +5,8 @@ x-trestle-set-params:
   sr-04.04_odp.02:
     values:
 sort-id: sr-04.04
+x-trestle-global:
+  sort-id: sr-04.04
 ---
 
 # sr-4.4 - \[Supply Chain Risk Management\] Supply Chain Integrity — Pedigree

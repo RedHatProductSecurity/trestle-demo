@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  cp-3_prm_1:
+    values:
+  cp-3_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: cp-03
 ---
 
 # cp-3 - \[Contingency Planning\] Contingency Training
@@ -33,11 +53,11 @@ x-trestle-fedramp-props:
 
 The organization provides contingency training to information system users consistent with assigned roles and responsibilities:
 
-- \[a.\] Within organization-defined time period of assuming a contingency role or responsibility;
+- \[a.\] Within [organization-defined time period] of assuming a contingency role or responsibility;
 
 - \[b.\] When required by information system changes; and
 
-- \[c.\] organization-defined frequency thereafter.
+- \[c.\] [organization-defined frequency] thereafter.
 
 ## Control Objective
 
@@ -63,29 +83,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item cp-3_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item cp-3_smt.b
+<!-- Add implementation prose for the main This System component for control: cp-3 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item cp-3_smt.c
+<!-- Add control implementation description here for control: cp-3 -->
 
 #### Implementation Status: planned
 

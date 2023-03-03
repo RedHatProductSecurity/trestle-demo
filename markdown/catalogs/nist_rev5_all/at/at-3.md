@@ -13,6 +13,8 @@ x-trestle-set-params:
   at-03_odp.05:
     values:
 sort-id: at-03
+x-trestle-global:
+  sort-id: at-03
 ---
 
 # at-3 - \[Awareness and Training\] Role-based Training

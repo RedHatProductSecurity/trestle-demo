@@ -5,6 +5,8 @@ x-trestle-set-params:
   mp-03_odp.02:
     values:
 sort-id: mp-03
+x-trestle-global:
+  sort-id: mp-03
 ---
 
 # mp-3 - \[Media Protection\] Media Marking

@@ -5,6 +5,8 @@ x-trestle-set-params:
   ra-09_odp.02:
     values:
 sort-id: ra-09
+x-trestle-global:
+  sort-id: ra-09
 ---
 
 # ra-9 - \[Risk Assessment\] Criticality Analysis

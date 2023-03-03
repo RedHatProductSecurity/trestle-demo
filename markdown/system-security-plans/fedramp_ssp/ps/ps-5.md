@@ -25,6 +25,30 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ps-5_prm_1:
+    values:
+  ps-5_prm_2:
+    values:
+  ps-5_prm_3:
+    values:
+  ps-5_prm_4:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ps-05
 ---
 
 # ps-5 - \[Personnel Security\] Personnel Transfer
@@ -35,11 +59,11 @@ The organization:
 
 - \[a.\] Reviews and confirms ongoing operational need for current logical and physical access authorizations to information systems/facilities when individuals are reassigned or transferred to other positions within the organization;
 
-- \[b.\] Initiates organization-defined transfer or reassignment actions within organization-defined time period following the formal transfer action;
+- \[b.\] Initiates [organization-defined transfer or reassignment actions] within [organization-defined time period following the formal transfer action];
 
 - \[c.\] Modifies access authorization as needed to correspond with any changes in operational need due to reassignment or transfer; and
 
-- \[d.\] Notifies organization-defined personnel or roles within organization-defined time period.
+- \[d.\] Notifies [organization-defined personnel or roles] within [organization-defined time period].
 
 ## Control Objective
 
@@ -72,37 +96,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ps-5_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ps-5_smt.b
+<!-- Add implementation prose for the main This System component for control: ps-5 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ps-5_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item ps-5_smt.d
+<!-- Add control implementation description here for control: ps-5 -->
 
 #### Implementation Status: planned
 

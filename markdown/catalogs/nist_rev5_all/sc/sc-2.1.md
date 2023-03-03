@@ -1,5 +1,7 @@
 ---
 sort-id: sc-02.01
+x-trestle-global:
+  sort-id: sc-02.01
 ---
 
 # sc-2.1 - \[System and Communications Protection\] Interfaces for Non-privileged Users

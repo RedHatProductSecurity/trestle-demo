@@ -1,5 +1,7 @@
 ---
 sort-id: ir-05
+x-trestle-global:
+  sort-id: ir-05
 ---
 
 # ir-5 - \[Incident Response\] Incident Monitoring

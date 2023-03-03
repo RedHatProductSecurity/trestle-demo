@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-03.06_odp:
     values:
 sort-id: si-03.06
+x-trestle-global:
+  sort-id: si-03.06
 ---
 
 # si-3.6 - \[System and Information Integrity\] Testing and Verification

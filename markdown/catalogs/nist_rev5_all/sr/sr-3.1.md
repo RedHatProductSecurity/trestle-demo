@@ -7,6 +7,8 @@ x-trestle-set-params:
   sr-03.01_odp.02:
     values:
 sort-id: sr-03.01
+x-trestle-global:
+  sort-id: sr-03.01
 ---
 
 # sr-3.1 - \[Supply Chain Risk Management\] Diverse Supply Base

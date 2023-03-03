@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-04.02_odp:
     values:
 sort-id: sc-04.02
+x-trestle-global:
+  sort-id: sc-04.02
 ---
 
 # sc-4.2 - \[System and Communications Protection\] Multilevel or Periods Processing

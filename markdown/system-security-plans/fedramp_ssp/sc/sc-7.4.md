@@ -25,6 +25,24 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  sc-7.4_prm_1:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: sc-07.04
 ---
 
 # sc-7.4 - \[System and Communications Protection\] External Telecommunications Services
@@ -41,7 +59,7 @@ The organization:
 
 - \[(d)\] Documents each exception to the traffic flow policy with a supporting mission/business need and duration of that need; and
 
-- \[(e)\] Reviews exceptions to the traffic flow policy organization-defined frequency and removes exceptions that are no longer supported by an explicit mission/business need.
+- \[(e)\] Reviews exceptions to the traffic flow policy [organization-defined frequency] and removes exceptions that are no longer supported by an explicit mission/business need.
 
 ## Control Objective
 
@@ -68,45 +86,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part (a)
+### This System
 
-Add control implementation description here for item sc-7.4_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part (b)
-
-Add control implementation description here for item sc-7.4_smt.b
+<!-- Add implementation prose for the main This System component for control: sc-7.4 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part (c)
-
-Add control implementation description here for item sc-7.4_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part (d)
-
-Add control implementation description here for item sc-7.4_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part (e)
-
-Add control implementation description here for item sc-7.4_smt.e
+<!-- Add control implementation description here for control: sc-7.4 -->
 
 #### Implementation Status: planned
 

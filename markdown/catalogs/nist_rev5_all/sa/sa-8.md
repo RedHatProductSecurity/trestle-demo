@@ -7,6 +7,8 @@ x-trestle-set-params:
   sa-08_odp.02:
     values:
 sort-id: sa-08
+x-trestle-global:
+  sort-id: sa-08
 ---
 
 # sa-8 - \[System and Services Acquisition\] Security and Privacy Engineering Principles

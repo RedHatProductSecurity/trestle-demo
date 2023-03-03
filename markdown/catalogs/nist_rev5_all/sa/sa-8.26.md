@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.26_odp:
     values:
 sort-id: sa-08.26
+x-trestle-global:
+  sort-id: sa-08.26
 ---
 
 # sa-8.26 - \[System and Services Acquisition\] Performance Security

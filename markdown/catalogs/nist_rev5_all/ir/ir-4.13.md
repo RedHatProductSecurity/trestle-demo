@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-04.13_odp:
     values:
 sort-id: ir-04.13
+x-trestle-global:
+  sort-id: ir-04.13
 ---
 
 # ir-4.13 - \[Incident Response\] Behavior Analysis

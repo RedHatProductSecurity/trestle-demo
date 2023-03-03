@@ -7,6 +7,8 @@ x-trestle-set-params:
   sa-08.22_odp.02:
     values:
 sort-id: sa-08.22
+x-trestle-global:
+  sort-id: sa-08.22
 ---
 
 # sa-8.22 - \[System and Services Acquisition\] Accountability and Traceability

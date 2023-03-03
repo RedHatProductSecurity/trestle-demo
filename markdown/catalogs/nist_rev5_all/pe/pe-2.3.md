@@ -5,6 +5,8 @@ x-trestle-set-params:
   pe-02.03_odp.02:
     values:
 sort-id: pe-02.03
+x-trestle-global:
+  sort-id: pe-02.03
 ---
 
 # pe-2.3 - \[Physical and Environmental Protection\] Restrict Unescorted Access

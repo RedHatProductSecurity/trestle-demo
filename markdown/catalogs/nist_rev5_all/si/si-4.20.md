@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-04.20_odp:
     values:
 sort-id: si-04.20
+x-trestle-global:
+  sort-id: si-04.20
 ---
 
 # si-4.20 - \[System and Information Integrity\] Privileged Users

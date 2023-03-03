@@ -1,5 +1,7 @@
 ---
 sort-id: ac-04.24
+x-trestle-global:
+  sort-id: ac-04.24
 ---
 
 # ac-4.24 - \[Access Control\] Internal Normalized Format

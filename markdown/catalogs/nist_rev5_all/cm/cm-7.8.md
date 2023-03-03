@@ -1,5 +1,7 @@
 ---
 sort-id: cm-07.08
+x-trestle-global:
+  sort-id: cm-07.08
 ---
 
 # cm-7.8 - \[Configuration Management\] Binary or Machine Executable Code

@@ -1,5 +1,7 @@
 ---
 sort-id: cp-04.02
+x-trestle-global:
+  sort-id: cp-04.02
 ---
 
 # cp-4.2 - \[Contingency Planning\] Alternate Processing Site

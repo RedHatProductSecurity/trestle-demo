@@ -5,6 +5,8 @@ x-trestle-set-params:
   at-03.01_odp.02:
     values:
 sort-id: at-03.01
+x-trestle-global:
+  sort-id: at-03.01
 ---
 
 # at-3.1 - \[Awareness and Training\] Environmental Controls

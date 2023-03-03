@@ -1,5 +1,7 @@
 ---
 sort-id: ia-05.05
+x-trestle-global:
+  sort-id: ia-05.05
 ---
 
 # ia-5.5 - \[Identification and Authentication\] Change Authenticators Prior to Delivery

@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-04.25_odp.02:
     values:
 sort-id: ac-04.25
+x-trestle-global:
+  sort-id: ac-04.25
 ---
 
 # ac-4.25 - \[Access Control\] Data Sanitization

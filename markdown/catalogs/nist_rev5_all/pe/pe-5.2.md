@@ -1,5 +1,7 @@
 ---
 sort-id: pe-05.02
+x-trestle-global:
+  sort-id: pe-05.02
 ---
 
 # pe-5.2 - \[Physical and Environmental Protection\] Link to Individual Identity

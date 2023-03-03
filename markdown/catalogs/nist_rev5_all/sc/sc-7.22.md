@@ -1,5 +1,7 @@
 ---
 sort-id: sc-07.22
+x-trestle-global:
+  sort-id: sc-07.22
 ---
 
 # sc-7.22 - \[System and Communications Protection\] Separate Subnets for Connecting to Different Security Domains

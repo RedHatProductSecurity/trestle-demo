@@ -3,6 +3,8 @@ x-trestle-set-params:
   sr-04_odp:
     values:
 sort-id: sr-04
+x-trestle-global:
+  sort-id: sr-04
 ---
 
 # sr-4 - \[Supply Chain Risk Management\] Provenance

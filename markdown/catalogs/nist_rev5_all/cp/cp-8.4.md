@@ -7,6 +7,8 @@ x-trestle-set-params:
   cp-08.04_odp.02:
     values:
 sort-id: cp-08.04
+x-trestle-global:
+  sort-id: cp-08.04
 ---
 
 # cp-8.4 - \[Contingency Planning\] Provider Contingency Plan

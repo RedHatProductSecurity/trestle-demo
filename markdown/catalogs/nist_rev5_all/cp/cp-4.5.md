@@ -5,6 +5,8 @@ x-trestle-set-params:
   cp-04.05_odp.02:
     values:
 sort-id: cp-04.05
+x-trestle-global:
+  sort-id: cp-04.05
 ---
 
 # cp-4.5 - \[Contingency Planning\] Self-challenge

@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-09.02_odp:
     values:
 sort-id: sa-09.02
+x-trestle-global:
+  sort-id: sa-09.02
 ---
 
 # sa-9.2 - \[System and Services Acquisition\] Identification of Functions, Ports, Protocols, and Services

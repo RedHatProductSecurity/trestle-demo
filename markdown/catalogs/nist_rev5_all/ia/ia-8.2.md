@@ -1,5 +1,7 @@
 ---
 sort-id: ia-08.02
+x-trestle-global:
+  sort-id: ia-08.02
 ---
 
 # ia-8.2 - \[Identification and Authentication\] Acceptance of External Authenticators

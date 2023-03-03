@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-05.13_odp:
     values:
 sort-id: ia-05.13
+x-trestle-global:
+  sort-id: ia-05.13
 ---
 
 # ia-5.13 - \[Identification and Authentication\] Expiration of Cached Authenticators

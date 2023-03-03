@@ -5,6 +5,8 @@ x-trestle-set-params:
   pe-04_odp.02:
     values:
 sort-id: pe-04
+x-trestle-global:
+  sort-id: pe-04
 ---
 
 # pe-4 - \[Physical and Environmental Protection\] Access Control for Transmission

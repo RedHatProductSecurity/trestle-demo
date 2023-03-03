@@ -5,6 +5,8 @@ x-trestle-set-params:
   sc-07.11_odp.02:
     values:
 sort-id: sc-07.11
+x-trestle-global:
+  sort-id: sc-07.11
 ---
 
 # sc-7.11 - \[System and Communications Protection\] Restrict Incoming Communications Traffic

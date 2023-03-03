@@ -5,6 +5,8 @@ x-trestle-set-params:
   at-06_odp.02:
     values:
 sort-id: at-06
+x-trestle-global:
+  sort-id: at-06
 ---
 
 # at-6 - \[Awareness and Training\] Training Feedback

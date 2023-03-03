@@ -3,6 +3,8 @@ x-trestle-set-params:
   cp-09.03_odp:
     values:
 sort-id: cp-09.03
+x-trestle-global:
+  sort-id: cp-09.03
 ---
 
 # cp-9.3 - \[Contingency Planning\] Separate Storage for Critical Information

@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-09.04_odp:
     values:
 sort-id: ac-09.04
+x-trestle-global:
+  sort-id: ac-09.04
 ---
 
 # ac-9.4 - \[Access Control\] Additional Logon Information

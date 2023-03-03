@@ -19,6 +19,8 @@ x-trestle-set-params:
   si-06_odp.08:
     values:
 sort-id: si-06
+x-trestle-global:
+  sort-id: si-06
 ---
 
 # si-6 - \[System and Information Integrity\] Security and Privacy Function Verification

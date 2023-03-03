@@ -19,6 +19,8 @@ x-trestle-set-params:
   ca-01_odp.08:
     values:
 sort-id: ca-01
+x-trestle-global:
+  sort-id: ca-01
 ---
 
 # ca-1 - \[Assessment, Authorization, and Monitoring\] Policy and Procedures

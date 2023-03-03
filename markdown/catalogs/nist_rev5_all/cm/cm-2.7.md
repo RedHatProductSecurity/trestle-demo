@@ -7,6 +7,8 @@ x-trestle-set-params:
   cm-02.07_odp.03:
     values:
 sort-id: cm-02.07
+x-trestle-global:
+  sort-id: cm-02.07
 ---
 
 # cm-2.7 - \[Configuration Management\] Configure Systems and Components for High-risk Areas

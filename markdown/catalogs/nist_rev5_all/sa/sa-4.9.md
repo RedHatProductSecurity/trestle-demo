@@ -1,5 +1,7 @@
 ---
 sort-id: sa-04.09
+x-trestle-global:
+  sort-id: sa-04.09
 ---
 
 # sa-4.9 - \[System and Services Acquisition\] Functions, Ports, Protocols, and Services in Use

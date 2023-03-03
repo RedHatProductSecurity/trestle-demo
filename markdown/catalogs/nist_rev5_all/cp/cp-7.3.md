@@ -1,5 +1,7 @@
 ---
 sort-id: cp-07.03
+x-trestle-global:
+  sort-id: cp-07.03
 ---
 
 # cp-7.3 - \[Contingency Planning\] Priority of Service

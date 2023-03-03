@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-09.06_odp:
     values:
 sort-id: au-09.06
+x-trestle-global:
+  sort-id: au-09.06
 ---
 
 # au-9.6 - \[Audit and Accountability\] Read-only Access

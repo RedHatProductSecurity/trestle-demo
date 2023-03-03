@@ -1,5 +1,7 @@
 ---
 sort-id: ir-04.12
+x-trestle-global:
+  sort-id: ir-04.12
 ---
 
 # ir-4.12 - \[Incident Response\] Malicious Code and Forensic Analysis

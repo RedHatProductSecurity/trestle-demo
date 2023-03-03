@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-06.02_odp:
     values:
 sort-id: ir-06.02
+x-trestle-global:
+  sort-id: ir-06.02
 ---
 
 # ir-6.2 - \[Incident Response\] Vulnerabilities Related to Incidents

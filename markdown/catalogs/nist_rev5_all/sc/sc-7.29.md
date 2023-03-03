@@ -5,6 +5,8 @@ x-trestle-set-params:
   sc-07.29_odp.02:
     values:
 sort-id: sc-07.29
+x-trestle-global:
+  sort-id: sc-07.29
 ---
 
 # sc-7.29 - \[System and Communications Protection\] Separate Subnets to Isolate Functions

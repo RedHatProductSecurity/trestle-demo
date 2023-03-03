@@ -1,5 +1,7 @@
 ---
 sort-id: pm-03
+x-trestle-global:
+  sort-id: pm-03
 ---
 
 # pm-3 - \[Program Management\] Information Security and Privacy Resources

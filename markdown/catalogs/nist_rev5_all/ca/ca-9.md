@@ -7,6 +7,8 @@ x-trestle-set-params:
   ca-09_odp.03:
     values:
 sort-id: ca-09
+x-trestle-global:
+  sort-id: ca-09
 ---
 
 # ca-9 - \[Assessment, Authorization, and Monitoring\] Internal System Connections

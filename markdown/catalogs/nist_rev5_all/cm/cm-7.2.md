@@ -5,6 +5,8 @@ x-trestle-set-params:
   cm-07.02_odp.02:
     values:
 sort-id: cm-07.02
+x-trestle-global:
+  sort-id: cm-07.02
 ---
 
 # cm-7.2 - \[Configuration Management\] Prevent Program Execution

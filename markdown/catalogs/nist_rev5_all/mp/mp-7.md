@@ -9,6 +9,8 @@ x-trestle-set-params:
   mp-07_odp.04:
     values:
 sort-id: mp-07
+x-trestle-global:
+  sort-id: mp-07
 ---
 
 # mp-7 - \[Media Protection\] Media Use

@@ -1,5 +1,7 @@
 ---
 sort-id: cm-08.06
+x-trestle-global:
+  sort-id: cm-08.06
 ---
 
 # cm-8.6 - \[Configuration Management\] Assessed Configurations and Approved Deviations

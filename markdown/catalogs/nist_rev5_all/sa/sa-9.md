@@ -5,6 +5,8 @@ x-trestle-set-params:
   sa-09_odp.02:
     values:
 sort-id: sa-09
+x-trestle-global:
+  sort-id: sa-09
 ---
 
 # sa-9 - \[System and Services Acquisition\] External System Services

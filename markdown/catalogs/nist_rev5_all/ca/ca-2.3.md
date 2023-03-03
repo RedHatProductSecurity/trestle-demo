@@ -7,6 +7,8 @@ x-trestle-set-params:
   ca-02.03_odp.03:
     values:
 sort-id: ca-02.03
+x-trestle-global:
+  sort-id: ca-02.03
 ---
 
 # ca-2.3 - \[Assessment, Authorization, and Monitoring\] Leveraging Results from External Organizations

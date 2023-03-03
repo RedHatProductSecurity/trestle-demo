@@ -25,6 +25,36 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  si-6_prm_1:
+    values:
+  si-6_prm_2:
+    values:
+  si-6_prm_3:
+    values:
+  si-6_prm_4:
+    values:
+  si-6_prm_5:
+    values:
+  si-6_prm_6:
+    values:
+  si-6_prm_7:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: si-06
 ---
 
 # si-6 - \[System and Information Integrity\] Security Function Verification
@@ -33,13 +63,13 @@ x-trestle-fedramp-props:
 
 The information system:
 
-- \[a.\] Verifies the correct operation of organization-defined security functions;
+- \[a.\] Verifies the correct operation of [organization-defined security functions];
 
-- \[b.\] Performs this verification organization-defined system transitional states; upon command by user with appropriate privilege; organization-defined frequency;
+- \[b.\] Performs this verification [[organization-defined system transitional states]; upon command by user with appropriate privilege; [organization-defined frequency]];
 
-- \[c.\] Notifies organization-defined personnel or roles of failed security verification tests; and
+- \[c.\] Notifies [organization-defined personnel or roles] of failed security verification tests; and
 
-- \[d.\] shuts the information system down; restarts the information system; organization-defined alternative action(s) when anomalies are discovered.
+- \[d.\] [shuts the information system down; restarts the information system; [organization-defined alternative action(s)]] when anomalies are discovered.
 
 ## Control Objective
 
@@ -82,37 +112,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item si-6_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item si-6_smt.b
+<!-- Add implementation prose for the main This System component for control: si-6 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item si-6_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item si-6_smt.d
+<!-- Add control implementation description here for control: si-6 -->
 
 #### Implementation Status: planned
 

@@ -1,5 +1,7 @@
 ---
 sort-id: pe-09
+x-trestle-global:
+  sort-id: pe-09
 ---
 
 # pe-9 - \[Physical and Environmental Protection\] Power Equipment and Cabling

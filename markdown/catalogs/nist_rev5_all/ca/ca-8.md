@@ -5,6 +5,8 @@ x-trestle-set-params:
   ca-08_odp.02:
     values:
 sort-id: ca-08
+x-trestle-global:
+  sort-id: ca-08
 ---
 
 # ca-8 - \[Assessment, Authorization, and Monitoring\] Penetration Testing

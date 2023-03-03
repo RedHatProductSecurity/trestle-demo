@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-07.06_odp:
     values:
 sort-id: cm-07.06
+x-trestle-global:
+  sort-id: cm-07.06
 ---
 
 # cm-7.6 - \[Configuration Management\] Confined Environments with Limited Privileges

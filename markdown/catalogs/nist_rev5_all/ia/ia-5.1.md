@@ -5,6 +5,8 @@ x-trestle-set-params:
   ia-05.01_odp.02:
     values:
 sort-id: ia-05.01
+x-trestle-global:
+  sort-id: ia-05.01
 ---
 
 # ia-5.1 - \[Identification and Authentication\] Password-based Authentication

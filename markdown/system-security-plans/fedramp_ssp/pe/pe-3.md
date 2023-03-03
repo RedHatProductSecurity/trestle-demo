@@ -25,6 +25,40 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  pe-3_prm_1:
+    values:
+  pe-3_prm_2:
+    values:
+  pe-3_prm_3:
+    values:
+  pe-3_prm_4:
+    values:
+  pe-3_prm_5:
+    values:
+  pe-3_prm_6:
+    values:
+  pe-3_prm_7:
+    values:
+  pe-3_prm_8:
+    values:
+  pe-3_prm_9:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: pe-03
 ---
 
 # pe-3 - \[Physical and Environmental Protection\] Physical Access Control
@@ -33,22 +67,22 @@ x-trestle-fedramp-props:
 
 The organization:
 
-- \[a.\] Enforces physical access authorizations at organization-defined entry/exit points to the facility where the information system resides by;
+- \[a.\] Enforces physical access authorizations at [organization-defined entry/exit points to the facility where the information system resides] by;
 
   - \[1.\] Verifying individual access authorizations before granting access to the facility; and
-  - \[2.\] Controlling ingress/egress to the facility using organization-defined physical access control systems/devices; guards;
+  - \[2.\] Controlling ingress/egress to the facility using [[organization-defined physical access control systems/devices]; guards];
 
-- \[b.\] Maintains physical access audit logs for organization-defined entry/exit points;
+- \[b.\] Maintains physical access audit logs for [organization-defined entry/exit points];
 
-- \[c.\] Provides organization-defined security safeguards to control access to areas within the facility officially designated as publicly accessible;
+- \[c.\] Provides [organization-defined security safeguards] to control access to areas within the facility officially designated as publicly accessible;
 
-- \[d.\] Escorts visitors and monitors visitor activity organization-defined circumstances requiring visitor escorts and monitoring;
+- \[d.\] Escorts visitors and monitors visitor activity [organization-defined circumstances requiring visitor escorts and monitoring];
 
 - \[e.\] Secures keys, combinations, and other physical access devices;
 
-- \[f.\] Inventories organization-defined physical access devices every organization-defined frequency; and
+- \[f.\] Inventories [organization-defined physical access devices] every [organization-defined frequency]; and
 
-- \[g.\] Changes combinations and keys organization-defined frequency and/or when keys are lost, combinations are compromised, or individuals are transferred or terminated.
+- \[g.\] Changes combinations and keys [organization-defined frequency] and/or when keys are lost, combinations are compromised, or individuals are transferred or terminated.
 
 ## Control Objective
 
@@ -119,61 +153,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item pe-3_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item pe-3_smt.b
+<!-- Add implementation prose for the main This System component for control: pe-3 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item pe-3_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item pe-3_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item pe-3_smt.e
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part f.
-
-Add control implementation description here for item pe-3_smt.f
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part g.
-
-Add control implementation description here for item pe-3_smt.g
+<!-- Add control implementation description here for control: pe-3 -->
 
 #### Implementation Status: planned
 

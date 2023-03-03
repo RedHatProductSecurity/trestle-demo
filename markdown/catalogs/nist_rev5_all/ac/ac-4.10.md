@@ -13,6 +13,8 @@ x-trestle-set-params:
   ac-04.10_odp.04:
     values:
 sort-id: ac-04.10
+x-trestle-global:
+  sort-id: ac-04.10
 ---
 
 # ac-4.10 - \[Access Control\] Enable and Disable Security or Privacy Policy Filters

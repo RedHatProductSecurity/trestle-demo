@@ -5,6 +5,8 @@ x-trestle-set-params:
   ir-06_odp.02:
     values:
 sort-id: ir-06
+x-trestle-global:
+  sort-id: ir-06
 ---
 
 # ir-6 - \[Incident Response\] Incident Reporting

@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-02.07_odp:
     values:
 sort-id: ac-02.07
+x-trestle-global:
+  sort-id: ac-02.07
 ---
 
 # ac-2.7 - \[Access Control\] Privileged User Accounts

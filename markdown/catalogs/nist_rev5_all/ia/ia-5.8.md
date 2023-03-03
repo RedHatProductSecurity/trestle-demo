@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-05.08_odp:
     values:
 sort-id: ia-05.08
+x-trestle-global:
+  sort-id: ia-05.08
 ---
 
 # ia-5.8 - \[Identification and Authentication\] Multiple System Accounts

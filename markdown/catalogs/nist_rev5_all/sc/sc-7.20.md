@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-07.20_odp:
     values:
 sort-id: sc-07.20
+x-trestle-global:
+  sort-id: sc-07.20
 ---
 
 # sc-7.20 - \[System and Communications Protection\] Dynamic Isolation and Segregation

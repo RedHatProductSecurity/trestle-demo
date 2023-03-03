@@ -1,5 +1,7 @@
 ---
 sort-id: ma-04
+x-trestle-global:
+  sort-id: ma-04
 ---
 
 # ma-4 - \[Maintenance\] Nonlocal Maintenance

@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-04.23_odp:
     values:
 sort-id: ac-04.23
+x-trestle-global:
+  sort-id: ac-04.23
 ---
 
 # ac-4.23 - \[Access Control\] Modify Non-releasable Information

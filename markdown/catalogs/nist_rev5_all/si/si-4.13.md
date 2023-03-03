@@ -1,5 +1,7 @@
 ---
 sort-id: si-04.13
+x-trestle-global:
+  sort-id: si-04.13
 ---
 
 # si-4.13 - \[System and Information Integrity\] Analyze Traffic and Event Patterns

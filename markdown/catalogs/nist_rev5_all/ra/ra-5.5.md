@@ -5,6 +5,8 @@ x-trestle-set-params:
   ra-05.05_odp.02:
     values:
 sort-id: ra-05.05
+x-trestle-global:
+  sort-id: ra-05.05
 ---
 
 # ra-5.5 - \[Risk Assessment\] Privileged Access

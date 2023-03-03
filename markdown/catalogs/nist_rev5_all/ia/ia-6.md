@@ -1,5 +1,7 @@
 ---
 sort-id: ia-06
+x-trestle-global:
+  sort-id: ia-06
 ---
 
 # ia-6 - \[Identification and Authentication\] Authentication Feedback

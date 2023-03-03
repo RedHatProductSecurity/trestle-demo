@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-09_odp:
     values:
 sort-id: au-09
+x-trestle-global:
+  sort-id: au-09
 ---
 
 # au-9 - \[Audit and Accountability\] Protection of Audit Information

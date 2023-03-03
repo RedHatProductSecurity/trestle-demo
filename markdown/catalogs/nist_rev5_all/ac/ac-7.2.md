@@ -7,6 +7,8 @@ x-trestle-set-params:
   ac-07.02_odp.03:
     values:
 sort-id: ac-07.02
+x-trestle-global:
+  sort-id: ac-07.02
 ---
 
 # ac-7.2 - \[Access Control\] Purge or Wipe Mobile Device

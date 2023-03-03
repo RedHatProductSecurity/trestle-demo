@@ -3,6 +3,8 @@ x-trestle-set-params:
   cp-09.07_odp:
     values:
 sort-id: cp-09.07
+x-trestle-global:
+  sort-id: cp-09.07
 ---
 
 # cp-9.7 - \[Contingency Planning\] Dual Authorization for Deletion or Destruction

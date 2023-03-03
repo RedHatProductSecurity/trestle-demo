@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.06_odp:
     values:
 sort-id: sa-08.06
+x-trestle-global:
+  sort-id: sa-08.06
 ---
 
 # sa-8.6 - \[System and Services Acquisition\] Minimized Sharing

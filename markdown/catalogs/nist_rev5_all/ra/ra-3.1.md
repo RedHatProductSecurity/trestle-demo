@@ -5,6 +5,8 @@ x-trestle-set-params:
   ra-03.01_odp.02:
     values:
 sort-id: ra-03.01
+x-trestle-global:
+  sort-id: ra-03.01
 ---
 
 # ra-3.1 - \[Risk Assessment\] Supply Chain Risk Assessment

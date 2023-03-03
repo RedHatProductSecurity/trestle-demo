@@ -1,5 +1,7 @@
 ---
 sort-id: ir-03.03
+x-trestle-global:
+  sort-id: ir-03.03
 ---
 
 # ir-3.3 - \[Incident Response\] Continuous Improvement

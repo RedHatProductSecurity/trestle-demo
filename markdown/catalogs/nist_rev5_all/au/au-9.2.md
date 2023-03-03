@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-09.02_odp:
     values:
 sort-id: au-09.02
+x-trestle-global:
+  sort-id: au-09.02
 ---
 
 # au-9.2 - \[Audit and Accountability\] Store on Separate Physical Systems or Components

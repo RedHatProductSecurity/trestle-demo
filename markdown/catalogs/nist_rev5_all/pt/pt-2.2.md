@@ -3,6 +3,8 @@ x-trestle-set-params:
   pt-02.02_odp:
     values:
 sort-id: pt-02.02
+x-trestle-global:
+  sort-id: pt-02.02
 ---
 
 # pt-2.2 - \[Personally Identifiable Information Processing and Transparency\] Automation

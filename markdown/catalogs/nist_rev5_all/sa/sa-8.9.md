@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.09_odp:
     values:
 sort-id: sa-08.09
+x-trestle-global:
+  sort-id: sa-08.09
 ---
 
 # sa-8.9 - \[System and Services Acquisition\] Trusted Components

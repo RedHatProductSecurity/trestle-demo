@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-06.04_odp:
     values:
 sort-id: pe-06.04
+x-trestle-global:
+  sort-id: pe-06.04
 ---
 
 # pe-6.4 - \[Physical and Environmental Protection\] Monitoring Physical Access to Systems

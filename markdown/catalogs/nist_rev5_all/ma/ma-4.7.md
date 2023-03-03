@@ -1,5 +1,7 @@
 ---
 sort-id: ma-04.07
+x-trestle-global:
+  sort-id: ma-04.07
 ---
 
 # ma-4.7 - \[Maintenance\] Disconnect Verification

@@ -17,6 +17,8 @@ x-trestle-set-params:
   mp-06_odp.06:
     values:
 sort-id: mp-06
+x-trestle-global:
+  sort-id: mp-06
 ---
 
 # mp-6 - \[Media Protection\] Media Sanitization

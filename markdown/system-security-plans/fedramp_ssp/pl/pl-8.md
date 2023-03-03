@@ -25,6 +25,24 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  pl-8_prm_1:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: pl-08
 ---
 
 # pl-8 - \[Planning\] Information Security Architecture
@@ -39,7 +57,7 @@ The organization:
   - \[2.\] Describes how the information security architecture is integrated into and supports the enterprise architecture; and
   - \[3.\] Describes any information security assumptions about, and dependencies on, external services;
 
-- \[b.\] Reviews and updates the information security architecture organization-defined frequency to reflect updates in the enterprise architecture; and
+- \[b.\] Reviews and updates the information security architecture [organization-defined frequency] to reflect updates in the enterprise architecture; and
 
 - \[c.\] Ensures that planned information security architecture changes are reflected in the security plan, the security Concept of Operations (CONOPS), and organizational procurements/acquisitions.
 
@@ -73,29 +91,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item pl-8_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item pl-8_smt.b
+<!-- Add implementation prose for the main This System component for control: pl-8 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item pl-8_smt.c
+<!-- Add control implementation description here for control: pl-8 -->
 
 #### Implementation Status: planned
 

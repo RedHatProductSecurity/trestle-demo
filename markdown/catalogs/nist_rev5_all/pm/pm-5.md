@@ -3,6 +3,8 @@ x-trestle-set-params:
   pm-05_odp:
     values:
 sort-id: pm-05
+x-trestle-global:
+  sort-id: pm-05
 ---
 
 # pm-5 - \[Program Management\] System Inventory

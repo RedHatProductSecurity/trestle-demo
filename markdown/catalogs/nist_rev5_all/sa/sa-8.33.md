@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.33_odp:
     values:
 sort-id: sa-08.33
+x-trestle-global:
+  sort-id: sa-08.33
 ---
 
 # sa-8.33 - \[System and Services Acquisition\] Minimization

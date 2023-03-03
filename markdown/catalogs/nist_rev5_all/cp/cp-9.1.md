@@ -7,6 +7,8 @@ x-trestle-set-params:
   cp-09.01_odp.02:
     values:
 sort-id: cp-09.01
+x-trestle-global:
+  sort-id: cp-09.01
 ---
 
 # cp-9.1 - \[Contingency Planning\] Testing for Reliability and Integrity

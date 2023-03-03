@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-04.11_odp:
     values:
 sort-id: ir-04.11
+x-trestle-global:
+  sort-id: ir-04.11
 ---
 
 # ir-4.11 - \[Incident Response\] Integrated Incident Response Team

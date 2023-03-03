@@ -1,5 +1,7 @@
 ---
 sort-id: ra-08
+x-trestle-global:
+  sort-id: ra-08
 ---
 
 # ra-8 - \[Risk Assessment\] Privacy Impact Assessments

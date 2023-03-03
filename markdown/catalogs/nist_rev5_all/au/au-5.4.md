@@ -5,6 +5,8 @@ x-trestle-set-params:
   au-05.04_odp.02:
     values:
 sort-id: au-05.04
+x-trestle-global:
+  sort-id: au-05.04
 ---
 
 # au-5.4 - \[Audit and Accountability\] Shutdown on Failure

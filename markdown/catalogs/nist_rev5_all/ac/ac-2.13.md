@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-02.13_odp.02:
     values:
 sort-id: ac-02.13
+x-trestle-global:
+  sort-id: ac-02.13
 ---
 
 # ac-2.13 - \[Access Control\] Disable Accounts for High-risk Individuals

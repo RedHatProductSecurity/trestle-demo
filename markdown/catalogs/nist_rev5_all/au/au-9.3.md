@@ -1,5 +1,7 @@
 ---
 sort-id: au-09.03
+x-trestle-global:
+  sort-id: au-09.03
 ---
 
 # au-9.3 - \[Audit and Accountability\] Cryptographic Protection

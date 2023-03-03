@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.32_odp:
     values:
 sort-id: sa-08.32
+x-trestle-global:
+  sort-id: sa-08.32
 ---
 
 # sa-8.32 - \[System and Services Acquisition\] Sufficient Documentation

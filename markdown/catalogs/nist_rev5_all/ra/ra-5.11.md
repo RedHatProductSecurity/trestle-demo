@@ -1,5 +1,7 @@
 ---
 sort-id: ra-05.11
+x-trestle-global:
+  sort-id: ra-05.11
 ---
 
 # ra-5.11 - \[Risk Assessment\] Public Disclosure Program

@@ -3,6 +3,8 @@ x-trestle-set-params:
   ma-04.04_odp:
     values:
 sort-id: ma-04.04
+x-trestle-global:
+  sort-id: ma-04.04
 ---
 
 # ma-4.4 - \[Maintenance\] Authentication and Separation of Maintenance Sessions

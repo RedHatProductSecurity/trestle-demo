@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-03_odp:
     values:
 sort-id: sa-03
+x-trestle-global:
+  sort-id: sa-03
 ---
 
 # sa-3 - \[System and Services Acquisition\] System Development Life Cycle

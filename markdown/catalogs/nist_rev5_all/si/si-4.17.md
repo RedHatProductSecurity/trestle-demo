@@ -1,5 +1,7 @@
 ---
 sort-id: si-04.17
+x-trestle-global:
+  sort-id: si-04.17
 ---
 
 # si-4.17 - \[System and Information Integrity\] Integrated Situational Awareness

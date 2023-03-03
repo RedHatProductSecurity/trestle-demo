@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-06.02_odp:
     values:
 sort-id: ac-06.02
+x-trestle-global:
+  sort-id: ac-06.02
 ---
 
 # ac-6.2 - \[Access Control\] Non-privileged Access for Nonsecurity Functions

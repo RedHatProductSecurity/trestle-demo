@@ -7,6 +7,8 @@ x-trestle-set-params:
   si-03.08_odp.03:
     values:
 sort-id: si-03.08
+x-trestle-global:
+  sort-id: si-03.08
 ---
 
 # si-3.8 - \[System and Information Integrity\] Detect Unauthorized Commands

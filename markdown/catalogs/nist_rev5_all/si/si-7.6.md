@@ -1,5 +1,7 @@
 ---
 sort-id: si-07.06
+x-trestle-global:
+  sort-id: si-07.06
 ---
 
 # si-7.6 - \[System and Information Integrity\] Cryptographic Protection

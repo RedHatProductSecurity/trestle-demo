@@ -1,5 +1,7 @@
 ---
 sort-id: cm-05
+x-trestle-global:
+  sort-id: cm-05
 ---
 
 # cm-5 - \[Configuration Management\] Access Restrictions for Change

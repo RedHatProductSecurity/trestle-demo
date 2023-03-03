@@ -25,13 +25,37 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  si-7.1_prm_1:
+    values:
+  si-7.1_prm_2:
+    values:
+  si-7.1_prm_3:
+    values:
+  si-7.1_prm_4:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: si-07.01
 ---
 
 # si-7.1 - \[System and Information Integrity\] Integrity Checks
 
 ## Control Statement
 
-The information system performs an integrity check of organization-defined software, firmware, and information at startup; at organization-defined transitional states or security-relevant events ;  organization-defined frequency .
+The information system performs an integrity check of [organization-defined software, firmware, and information] [at startup; at [organization-defined transitional states or security-relevant events] ;  [organization-defined frequency] ].
 
 ## Control Objective
 
@@ -69,8 +93,20 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-Add control implementation description here for control si-7.1
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-### Implementation Status: planned
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
+
+### This System
+
+<!-- Add implementation prose for the main This System component for control: si-7.1 -->
+
+#### Implementation Status: planned
+
+### 
+
+<!-- Add control implementation description here for control: si-7.1 -->
+
+#### Implementation Status: planned
 
 ______________________________________________________________________

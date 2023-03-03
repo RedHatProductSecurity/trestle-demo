@@ -5,6 +5,8 @@ x-trestle-set-params:
   at-03.05_odp.02:
     values:
 sort-id: at-03.05
+x-trestle-global:
+  sort-id: at-03.05
 ---
 
 # at-3.5 - \[Awareness and Training\] Processing Personally Identifiable Information

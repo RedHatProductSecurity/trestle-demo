@@ -1,5 +1,7 @@
 ---
 sort-id: ma-05.02
+x-trestle-global:
+  sort-id: ma-05.02
 ---
 
 # ma-5.2 - \[Maintenance\] Security Clearances for Classified Systems

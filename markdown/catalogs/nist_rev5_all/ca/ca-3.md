@@ -7,6 +7,8 @@ x-trestle-set-params:
   ca-03_odp.03:
     values:
 sort-id: ca-03
+x-trestle-global:
+  sort-id: ca-03
 ---
 
 # ca-3 - \[Assessment, Authorization, and Monitoring\] Information Exchange

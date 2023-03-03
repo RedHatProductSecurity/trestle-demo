@@ -5,6 +5,8 @@ x-trestle-set-params:
   sc-07.05_odp.02:
     values:
 sort-id: sc-07.05
+x-trestle-global:
+  sort-id: sc-07.05
 ---
 
 # sc-7.5 - \[System and Communications Protection\] Deny by Default — Allow by Exception

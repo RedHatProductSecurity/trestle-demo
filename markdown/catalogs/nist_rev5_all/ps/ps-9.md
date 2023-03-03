@@ -1,5 +1,7 @@
 ---
 sort-id: ps-09
+x-trestle-global:
+  sort-id: ps-09
 ---
 
 # ps-9 - \[Personnel Security\] Position Descriptions

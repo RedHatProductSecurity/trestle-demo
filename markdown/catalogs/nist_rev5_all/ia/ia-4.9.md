@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-04.09_odp:
     values:
 sort-id: ia-04.09
+x-trestle-global:
+  sort-id: ia-04.09
 ---
 
 # ia-4.9 - \[Identification and Authentication\] Attribute Maintenance and Protection

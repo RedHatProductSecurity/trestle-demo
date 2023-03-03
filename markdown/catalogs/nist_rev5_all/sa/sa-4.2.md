@@ -7,6 +7,8 @@ x-trestle-set-params:
   sa-04.02_odp.03:
     values:
 sort-id: sa-04.02
+x-trestle-global:
+  sort-id: sa-04.02
 ---
 
 # sa-4.2 - \[System and Services Acquisition\] Design and Implementation Information for Controls

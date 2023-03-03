@@ -9,6 +9,8 @@ x-trestle-set-params:
   ra-03.04_odp.03:
     values:
 sort-id: ra-03.04
+x-trestle-global:
+  sort-id: ra-03.04
 ---
 
 # ra-3.4 - \[Risk Assessment\] Predictive Cyber Analytics

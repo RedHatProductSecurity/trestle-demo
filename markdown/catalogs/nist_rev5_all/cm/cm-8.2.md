@@ -11,6 +11,8 @@ x-trestle-set-params:
   cm-08.02_odp.04:
     values:
 sort-id: cm-08.02
+x-trestle-global:
+  sort-id: cm-08.02
 ---
 
 # cm-8.2 - \[Configuration Management\] Automated Maintenance

@@ -5,6 +5,8 @@ x-trestle-set-params:
   ia-03_odp.02:
     values:
 sort-id: ia-03
+x-trestle-global:
+  sort-id: ia-03
 ---
 
 # ia-3 - \[Identification and Authentication\] Device Identification and Authentication

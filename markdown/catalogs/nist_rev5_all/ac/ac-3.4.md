@@ -7,6 +7,8 @@ x-trestle-set-params:
   ac-03.04_odp.02:
     values:
 sort-id: ac-03.04
+x-trestle-global:
+  sort-id: ac-03.04
 ---
 
 # ac-3.4 - \[Access Control\] Discretionary Access Control

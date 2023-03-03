@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-07.07_odp:
     values:
 sort-id: si-07.07
+x-trestle-global:
+  sort-id: si-07.07
 ---
 
 # si-7.7 - \[System and Information Integrity\] Integration of Detection and Response

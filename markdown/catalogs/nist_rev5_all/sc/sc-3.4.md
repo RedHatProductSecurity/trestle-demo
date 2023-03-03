@@ -1,5 +1,7 @@
 ---
 sort-id: sc-03.04
+x-trestle-global:
+  sort-id: sc-03.04
 ---
 
 # sc-3.4 - \[System and Communications Protection\] Module Coupling and Cohesiveness

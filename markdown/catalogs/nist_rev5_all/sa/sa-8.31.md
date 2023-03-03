@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.31_odp:
     values:
 sort-id: sa-08.31
+x-trestle-global:
+  sort-id: sa-08.31
 ---
 
 # sa-8.31 - \[System and Services Acquisition\] Secure System Modification

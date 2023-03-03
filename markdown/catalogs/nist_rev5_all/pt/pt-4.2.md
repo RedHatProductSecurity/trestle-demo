@@ -7,6 +7,8 @@ x-trestle-set-params:
   pt-04.02_odp.03:
     values:
 sort-id: pt-04.02
+x-trestle-global:
+  sort-id: pt-04.02
 ---
 
 # pt-4.2 - \[Personally Identifiable Information Processing and Transparency\] Just-in-time Consent

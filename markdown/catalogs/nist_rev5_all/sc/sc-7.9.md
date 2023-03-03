@@ -1,5 +1,7 @@
 ---
 sort-id: sc-07.09
+x-trestle-global:
+  sort-id: sc-07.09
 ---
 
 # sc-7.9 - \[System and Communications Protection\] Restrict Threatening Outgoing Communications Traffic

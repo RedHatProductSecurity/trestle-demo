@@ -1,5 +1,7 @@
 ---
 sort-id: cp-06.03
+x-trestle-global:
+  sort-id: cp-06.03
 ---
 
 # cp-6.3 - \[Contingency Planning\] Accessibility

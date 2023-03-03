@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-03.05_odp:
     values:
 sort-id: ac-03.05
+x-trestle-global:
+  sort-id: ac-03.05
 ---
 
 # ac-3.5 - \[Access Control\] Security-relevant Information

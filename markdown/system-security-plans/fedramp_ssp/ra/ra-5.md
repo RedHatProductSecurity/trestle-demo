@@ -25,6 +25,28 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ra-5_prm_1:
+    values:
+  ra-5_prm_2:
+    values:
+  ra-5_prm_3:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ra-05
 ---
 
 # ra-5 - \[Risk Assessment\] Vulnerability Scanning
@@ -33,7 +55,7 @@ x-trestle-fedramp-props:
 
 The organization:
 
-- \[a.\] Scans for vulnerabilities in the information system and hosted applications organization-defined frequency and/or randomly in accordance with organization-defined process and when new vulnerabilities potentially affecting the system/applications are identified and reported;
+- \[a.\] Scans for vulnerabilities in the information system and hosted applications [organization-defined frequency and/or randomly in accordance with organization-defined process] and when new vulnerabilities potentially affecting the system/applications are identified and reported;
 
   - \[item\] An accredited independent assessor scans operating systems/infrastructure, web applications, and databases once annually.
 
@@ -45,9 +67,9 @@ The organization:
 
 - \[c.\] Analyzes vulnerability scan reports and results from security control assessments;
 
-- \[d.\] Remediates legitimate vulnerabilities organization-defined response times in accordance with an organizational assessment of risk; and
+- \[d.\] Remediates legitimate vulnerabilities [organization-defined response times] in accordance with an organizational assessment of risk; and
 
-- \[e.\] Shares information obtained from the vulnerability scanning process and security control assessments with organization-defined personnel or roles to help eliminate similar vulnerabilities in other information systems (i.e., systemic weaknesses or deficiencies).
+- \[e.\] Shares information obtained from the vulnerability scanning process and security control assessments with [organization-defined personnel or roles] to help eliminate similar vulnerabilities in other information systems (i.e., systemic weaknesses or deficiencies).
 
   - \[item\] To include all Authorizing Officials; for JAB authorizations to include FedRAMP.
 
@@ -112,45 +134,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ra-5_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ra-5_smt.b
+<!-- Add implementation prose for the main This System component for control: ra-5 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ra-5_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item ra-5_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item ra-5_smt.e
+<!-- Add control implementation description here for control: ra-5 -->
 
 #### Implementation Status: planned
 

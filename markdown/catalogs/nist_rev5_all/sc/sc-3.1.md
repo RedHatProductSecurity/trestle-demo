@@ -1,5 +1,7 @@
 ---
 sort-id: sc-03.01
+x-trestle-global:
+  sort-id: sc-03.01
 ---
 
 # sc-3.1 - \[System and Communications Protection\] Hardware Separation

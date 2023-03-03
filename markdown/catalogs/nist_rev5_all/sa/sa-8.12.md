@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.12_odp:
     values:
 sort-id: sa-08.12
+x-trestle-global:
+  sort-id: sa-08.12
 ---
 
 # sa-8.12 - \[System and Services Acquisition\] Hierarchical Protection

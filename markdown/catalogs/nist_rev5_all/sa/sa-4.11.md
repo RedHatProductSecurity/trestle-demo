@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-04.11_odp:
     values:
 sort-id: sa-04.11
+x-trestle-global:
+  sort-id: sa-04.11
 ---
 
 # sa-4.11 - \[System and Services Acquisition\] System of Records

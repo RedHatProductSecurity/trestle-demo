@@ -25,6 +25,32 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ca-7_prm_1:
+    values:
+  ca-7_prm_2:
+    values:
+  ca-7_prm_3:
+    values:
+  ca-7_prm_4:
+    values:
+  ca-7_prm_5:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ca-07
 ---
 
 # ca-7 - \[Security Assessment and Authorization\] Continuous Monitoring
@@ -33,9 +59,9 @@ x-trestle-fedramp-props:
 
 The organization develops a continuous monitoring strategy and implements a continuous monitoring program that includes:
 
-- \[a.\] Establishment of organization-defined metrics to be monitored;
+- \[a.\] Establishment of [organization-defined metrics] to be monitored;
 
-- \[b.\] Establishment of organization-defined frequencies for monitoring and organization-defined frequencies for assessments supporting such monitoring;
+- \[b.\] Establishment of [organization-defined frequencies] for monitoring and [organization-defined frequencies] for assessments supporting such monitoring;
 
 - \[c.\] Ongoing security control assessments in accordance with the organizational continuous monitoring strategy;
 
@@ -45,7 +71,7 @@ The organization develops a continuous monitoring strategy and implements a cont
 
 - \[f.\] Response actions to address results of the analysis of security-related information; and
 
-- \[g.\] Reporting the security status of organization and the information system to organization-defined personnel or roles organization-defined frequency.
+- \[g.\] Reporting the security status of organization and the information system to [organization-defined personnel or roles] [organization-defined frequency].
 
 ## Control Objective
 
@@ -101,61 +127,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ca-7_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ca-7_smt.b
+<!-- Add implementation prose for the main This System component for control: ca-7 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ca-7_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item ca-7_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item ca-7_smt.e
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part f.
-
-Add control implementation description here for item ca-7_smt.f
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part g.
-
-Add control implementation description here for item ca-7_smt.g
+<!-- Add control implementation description here for control: ca-7 -->
 
 #### Implementation Status: planned
 

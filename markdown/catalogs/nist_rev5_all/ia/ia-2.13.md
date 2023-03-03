@@ -5,6 +5,8 @@ x-trestle-set-params:
   ia-02.13_odp.02:
     values:
 sort-id: ia-02.13
+x-trestle-global:
+  sort-id: ia-02.13
 ---
 
 # ia-2.13 - \[Identification and Authentication\] Out-of-band Authentication

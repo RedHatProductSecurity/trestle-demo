@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.04_odp:
     values:
 sort-id: sa-08.04
+x-trestle-global:
+  sort-id: sa-08.04
 ---
 
 # sa-8.4 - \[System and Services Acquisition\] Partially Ordered Dependencies

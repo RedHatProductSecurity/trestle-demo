@@ -5,6 +5,8 @@ x-trestle-set-params:
   ps-03.04_odp.02:
     values:
 sort-id: ps-03.04
+x-trestle-global:
+  sort-id: ps-03.04
 ---
 
 # ps-3.4 - \[Personnel Security\] Citizenship Requirements

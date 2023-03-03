@@ -25,6 +25,32 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  cm-3_prm_1:
+    values:
+  cm-3_prm_2:
+    values:
+  cm-3_prm_3:
+    values:
+  cm-3_prm_4:
+    values:
+  cm-3_prm_5:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: cm-03
 ---
 
 # cm-3 - \[Configuration Management\] Configuration Change Control
@@ -41,11 +67,11 @@ The organization:
 
 - \[d.\] Implements approved configuration-controlled changes to the information system;
 
-- \[e.\] Retains records of configuration-controlled changes to the information system for organization-defined time period;
+- \[e.\] Retains records of configuration-controlled changes to the information system for [organization-defined time period];
 
 - \[f.\] Audits and reviews activities associated with configuration-controlled changes to the information system; and
 
-- \[g.\] Coordinates and provides oversight for configuration change control activities through organization-defined configuration change control element (e.g., committee, board) that convenes organization-defined frequency; organization-defined configuration change conditions.
+- \[g.\] Coordinates and provides oversight for configuration change control activities through [organization-defined configuration change control element (e.g., committee, board)] that convenes [[organization-defined frequency]; [organization-defined configuration change conditions]].
 
 ## Control Objective
 
@@ -82,61 +108,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item cm-3_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item cm-3_smt.b
+<!-- Add implementation prose for the main This System component for control: cm-3 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item cm-3_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item cm-3_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item cm-3_smt.e
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part f.
-
-Add control implementation description here for item cm-3_smt.f
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part g.
-
-Add control implementation description here for item cm-3_smt.g
+<!-- Add control implementation description here for control: cm-3 -->
 
 #### Implementation Status: planned
 

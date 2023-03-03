@@ -5,6 +5,8 @@ x-trestle-set-params:
   cm-07.09_odp.02:
     values:
 sort-id: cm-07.09
+x-trestle-global:
+  sort-id: cm-07.09
 ---
 
 # cm-7.9 - \[Configuration Management\] Prohibiting The Use of Unauthorized Hardware

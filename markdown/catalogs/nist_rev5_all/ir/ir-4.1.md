@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-04.01_odp:
     values:
 sort-id: ir-04.01
+x-trestle-global:
+  sort-id: ir-04.01
 ---
 
 # ir-4.1 - \[Incident Response\] Automated Incident Handling Processes

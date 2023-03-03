@@ -1,5 +1,7 @@
 ---
 sort-id: mp-06.01
+x-trestle-global:
+  sort-id: mp-06.01
 ---
 
 # mp-6.1 - \[Media Protection\] Review, Approve, Track, Document, and Verify

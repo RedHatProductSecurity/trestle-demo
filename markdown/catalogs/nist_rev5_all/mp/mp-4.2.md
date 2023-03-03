@@ -9,6 +9,8 @@ x-trestle-set-params:
   mp-04.02_odp.03:
     values:
 sort-id: mp-04.02
+x-trestle-global:
+  sort-id: mp-04.02
 ---
 
 # mp-4.2 - \[Media Protection\] Automated Restricted Access

@@ -1,5 +1,7 @@
 ---
 sort-id: sc-07.17
+x-trestle-global:
+  sort-id: sc-07.17
 ---
 
 # sc-7.17 - \[System and Communications Protection\] Automated Enforcement of Protocol Formats

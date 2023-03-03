@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-06.01_odp:
     values:
 sort-id: au-06.01
+x-trestle-global:
+  sort-id: au-06.01
 ---
 
 # au-6.1 - \[Audit and Accountability\] Automated Process Integration

@@ -11,6 +11,8 @@ x-trestle-set-params:
   sr-03_odp.05:
     values:
 sort-id: sr-03
+x-trestle-global:
+  sort-id: sr-03
 ---
 
 # sr-3 - \[Supply Chain Risk Management\] Supply Chain Controls and Processes

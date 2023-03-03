@@ -1,5 +1,7 @@
 ---
 sort-id: sa-04.07
+x-trestle-global:
+  sort-id: sa-04.07
 ---
 
 # sa-4.7 - \[System and Services Acquisition\] NIAP-approved Protection Profiles 

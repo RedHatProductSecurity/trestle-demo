@@ -1,5 +1,7 @@
 ---
 sort-id: sr-03.03
+x-trestle-global:
+  sort-id: sr-03.03
 ---
 
 # sr-3.3 - \[Supply Chain Risk Management\] Sub-tier Flow Down

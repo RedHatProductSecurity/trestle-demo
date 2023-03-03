@@ -7,6 +7,8 @@ x-trestle-set-params:
   cp-09.05_odp.02:
     values:
 sort-id: cp-09.05
+x-trestle-global:
+  sort-id: cp-09.05
 ---
 
 # cp-9.5 - \[Contingency Planning\] Transfer to Alternate Storage Site

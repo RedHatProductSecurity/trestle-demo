@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-07.28_odp:
     values:
 sort-id: sc-07.28
+x-trestle-global:
+  sort-id: sc-07.28
 ---
 
 # sc-7.28 - \[System and Communications Protection\] Connections to Public Networks

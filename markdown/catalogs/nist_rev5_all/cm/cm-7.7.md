@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-07.07_odp:
     values:
 sort-id: cm-07.07
+x-trestle-global:
+  sort-id: cm-07.07
 ---
 
 # cm-7.7 - \[Configuration Management\] Code Execution in Protected Environments

@@ -25,13 +25,35 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  sa-4.2_prm_1:
+    values:
+  sa-4.2_prm_2:
+    values:
+  sa-4.2_prm_3:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: sa-04.02
 ---
 
 # sa-4.2 - \[System and Services Acquisition\] Design / Implementation Information for Security Controls
 
 ## Control Statement
 
-The organization requires the developer of the information system, system component, or information system service to provide design and implementation information for the security controls to be employed that includes: security-relevant external system interfaces; high-level design; low-level design; source code or hardware schematics;  organization-defined design/implementation information  at organization-defined level of detail.
+The organization requires the developer of the information system, system component, or information system service to provide design and implementation information for the security controls to be employed that includes: [security-relevant external system interfaces; high-level design; low-level design; source code or hardware schematics;  [organization-defined design/implementation information] ] at [organization-defined level of detail].
 
 ## Control Objective
 
@@ -58,8 +80,20 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-Add control implementation description here for control sa-4.2
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-### Implementation Status: planned
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
+
+### This System
+
+<!-- Add implementation prose for the main This System component for control: sa-4.2 -->
+
+#### Implementation Status: planned
+
+### 
+
+<!-- Add control implementation description here for control: sa-4.2 -->
+
+#### Implementation Status: planned
 
 ______________________________________________________________________

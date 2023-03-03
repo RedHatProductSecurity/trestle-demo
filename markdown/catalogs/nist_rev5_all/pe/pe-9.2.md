@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-09.02_odp:
     values:
 sort-id: pe-09.02
+x-trestle-global:
+  sort-id: pe-09.02
 ---
 
 # pe-9.2 - \[Physical and Environmental Protection\] Automatic Voltage Controls

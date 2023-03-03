@@ -1,5 +1,7 @@
 ---
 sort-id: pt-05.02
+x-trestle-global:
+  sort-id: pt-05.02
 ---
 
 # pt-5.2 - \[Personally Identifiable Information Processing and Transparency\] Privacy Act Statements

@@ -9,6 +9,8 @@ x-trestle-set-params:
   ia-05.16_odp.04:
     values:
 sort-id: ia-05.16
+x-trestle-global:
+  sort-id: ia-05.16
 ---
 
 # ia-5.16 - \[Identification and Authentication\] In-person or Trusted External Party Authenticator Issuance

@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-07.02_odp:
     values:
 sort-id: si-07.02
+x-trestle-global:
+  sort-id: si-07.02
 ---
 
 # si-7.2 - \[System and Information Integrity\] Automated Notifications of Integrity Violations

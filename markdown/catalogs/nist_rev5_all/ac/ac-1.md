@@ -19,6 +19,8 @@ x-trestle-set-params:
   ac-01_odp.08:
     values:
 sort-id: ac-01
+x-trestle-global:
+  sort-id: ac-01
 ---
 
 # ac-1 - \[Access Control\] Policy and Procedures

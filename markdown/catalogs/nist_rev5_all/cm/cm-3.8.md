@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-03.08_odp:
     values:
 sort-id: cm-03.08
+x-trestle-global:
+  sort-id: cm-03.08
 ---
 
 # cm-3.8 - \[Configuration Management\] Prevent or Restrict Configuration Changes

@@ -1,5 +1,7 @@
 ---
 sort-id: ia-04.08
+x-trestle-global:
+  sort-id: ia-04.08
 ---
 
 # ia-4.8 - \[Identification and Authentication\] Pairwise Pseudonymous Identifiers

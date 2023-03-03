@@ -1,5 +1,7 @@
 ---
 sort-id: ca-03.07
+x-trestle-global:
+  sort-id: ca-03.07
 ---
 
 # ca-3.7 - \[Assessment, Authorization, and Monitoring\] Transitive Information Exchanges

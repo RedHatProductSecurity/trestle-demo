@@ -1,5 +1,7 @@
 ---
 sort-id: ia-05.06
+x-trestle-global:
+  sort-id: ia-05.06
 ---
 
 # ia-5.6 - \[Identification and Authentication\] Protection of Authenticators

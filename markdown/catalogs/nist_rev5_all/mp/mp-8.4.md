@@ -1,5 +1,7 @@
 ---
 sort-id: mp-08.04
+x-trestle-global:
+  sort-id: mp-08.04
 ---
 
 # mp-8.4 - \[Media Protection\] Classified Information

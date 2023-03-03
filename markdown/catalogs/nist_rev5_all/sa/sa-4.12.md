@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-04.12_odp:
     values:
 sort-id: sa-04.12
+x-trestle-global:
+  sort-id: sa-04.12
 ---
 
 # sa-4.12 - \[System and Services Acquisition\] Data Ownership

@@ -7,6 +7,8 @@ x-trestle-set-params:
   sr-04.03_odp.02:
     values:
 sort-id: sr-04.03
+x-trestle-global:
+  sort-id: sr-04.03
 ---
 
 # sr-4.3 - \[Supply Chain Risk Management\] Validate as Genuine and Not Altered

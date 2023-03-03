@@ -23,6 +23,8 @@ x-trestle-set-params:
   pe-03_odp.10:
     values:
 sort-id: pe-03
+x-trestle-global:
+  sort-id: pe-03
 ---
 
 # pe-3 - \[Physical and Environmental Protection\] Physical Access Control

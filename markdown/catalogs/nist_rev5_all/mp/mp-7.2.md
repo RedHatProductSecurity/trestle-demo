@@ -1,5 +1,7 @@
 ---
 sort-id: mp-07.02
+x-trestle-global:
+  sort-id: mp-07.02
 ---
 
 # mp-7.2 - \[Media Protection\] Prohibit Use of Sanitization-resistant Media

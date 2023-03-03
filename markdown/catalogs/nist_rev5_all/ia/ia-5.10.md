@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-05.10_odp:
     values:
 sort-id: ia-05.10
+x-trestle-global:
+  sort-id: ia-05.10
 ---
 
 # ia-5.10 - \[Identification and Authentication\] Dynamic Credential Binding

@@ -1,5 +1,7 @@
 ---
 sort-id: ca-08.01
+x-trestle-global:
+  sort-id: ca-08.01
 ---
 
 # ca-8.1 - \[Assessment, Authorization, and Monitoring\] Independent Penetration Testing Agent or Team

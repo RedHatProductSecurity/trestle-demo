@@ -9,6 +9,8 @@ x-trestle-set-params:
   cm-03.04_odp.03:
     values:
 sort-id: cm-03.04
+x-trestle-global:
+  sort-id: cm-03.04
 ---
 
 # cm-3.4 - \[Configuration Management\] Security and Privacy Representatives

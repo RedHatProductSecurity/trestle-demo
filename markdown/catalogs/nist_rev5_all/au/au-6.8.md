@@ -1,5 +1,7 @@
 ---
 sort-id: au-06.08
+x-trestle-global:
+  sort-id: au-06.08
 ---
 
 # au-6.8 - \[Audit and Accountability\] Full Text Analysis of Privileged Commands

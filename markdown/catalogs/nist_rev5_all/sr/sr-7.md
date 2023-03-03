@@ -3,6 +3,8 @@ x-trestle-set-params:
   sr-07_odp:
     values:
 sort-id: sr-07
+x-trestle-global:
+  sort-id: sr-07
 ---
 
 # sr-7 - \[Supply Chain Risk Management\] Supply Chain Operations Security

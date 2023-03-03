@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-06.03_odp:
     values:
 sort-id: si-06.03
+x-trestle-global:
+  sort-id: si-06.03
 ---
 
 # si-6.3 - \[System and Information Integrity\] Report Verification Results

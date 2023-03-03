@@ -1,5 +1,7 @@
 ---
 sort-id: cp-08.01
+x-trestle-global:
+  sort-id: cp-08.01
 ---
 
 # cp-8.1 - \[Contingency Planning\] Priority of Service Provisions

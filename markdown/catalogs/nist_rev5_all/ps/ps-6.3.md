@@ -1,5 +1,7 @@
 ---
 sort-id: ps-06.03
+x-trestle-global:
+  sort-id: ps-06.03
 ---
 
 # ps-6.3 - \[Personnel Security\] Post-employment Requirements

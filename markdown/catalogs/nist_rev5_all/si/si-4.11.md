@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-04.11_odp:
     values:
 sort-id: si-04.11
+x-trestle-global:
+  sort-id: si-04.11
 ---
 
 # si-4.11 - \[System and Information Integrity\] Analyze Communications Traffic Anomalies

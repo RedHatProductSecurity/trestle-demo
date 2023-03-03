@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-05_odp:
     values:
 sort-id: pe-05
+x-trestle-global:
+  sort-id: pe-05
 ---
 
 # pe-5 - \[Physical and Environmental Protection\] Access Control for Output Devices

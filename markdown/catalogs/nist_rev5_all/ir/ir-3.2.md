@@ -1,5 +1,7 @@
 ---
 sort-id: ir-03.02
+x-trestle-global:
+  sort-id: ir-03.02
 ---
 
 # ir-3.2 - \[Incident Response\] Coordination with Related Plans

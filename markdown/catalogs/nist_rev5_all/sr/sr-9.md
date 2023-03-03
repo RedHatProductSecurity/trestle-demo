@@ -1,5 +1,7 @@
 ---
 sort-id: sr-09
+x-trestle-global:
+  sort-id: sr-09
 ---
 
 # sr-9 - \[Supply Chain Risk Management\] Tamper Resistance and Detection

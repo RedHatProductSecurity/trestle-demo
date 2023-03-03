@@ -7,6 +7,8 @@ x-trestle-set-params:
   pl-02_odp.03:
     values:
 sort-id: pl-02
+x-trestle-global:
+  sort-id: pl-02
 ---
 
 # pl-2 - \[Planning\] System Security and Privacy Plans

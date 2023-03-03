@@ -7,6 +7,8 @@ x-trestle-set-params:
   cm-05.04_odp.02:
     values:
 sort-id: cm-05.04
+x-trestle-global:
+  sort-id: cm-05.04
 ---
 
 # cm-5.4 - \[Configuration Management\] Dual Authorization

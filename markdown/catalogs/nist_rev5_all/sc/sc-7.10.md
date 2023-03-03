@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-07.10_odp:
     values:
 sort-id: sc-07.10
+x-trestle-global:
+  sort-id: sc-07.10
 ---
 
 # sc-7.10 - \[System and Communications Protection\] Prevent Exfiltration

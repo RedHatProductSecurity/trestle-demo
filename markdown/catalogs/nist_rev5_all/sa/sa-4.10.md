@@ -1,5 +1,7 @@
 ---
 sort-id: sa-04.10
+x-trestle-global:
+  sort-id: sa-04.10
 ---
 
 # sa-4.10 - \[System and Services Acquisition\] Use of Approved PIV Products

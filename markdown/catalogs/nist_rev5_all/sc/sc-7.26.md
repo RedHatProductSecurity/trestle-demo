@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-07.26_odp:
     values:
 sort-id: sc-07.26
+x-trestle-global:
+  sort-id: sc-07.26
 ---
 
 # sc-7.26 - \[System and Communications Protection\] Classified National Security System Connections

@@ -1,5 +1,7 @@
 ---
 sort-id: ir-08.01
+x-trestle-global:
+  sort-id: ir-08.01
 ---
 
 # ir-8.1 - \[Incident Response\] Breaches

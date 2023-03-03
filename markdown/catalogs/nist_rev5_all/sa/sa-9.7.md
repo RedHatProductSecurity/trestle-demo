@@ -1,5 +1,7 @@
 ---
 sort-id: sa-09.07
+x-trestle-global:
+  sort-id: sa-09.07
 ---
 
 # sa-9.7 - \[System and Services Acquisition\] Organization-controlled Integrity Checking

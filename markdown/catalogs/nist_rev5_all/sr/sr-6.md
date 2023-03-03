@@ -3,6 +3,8 @@ x-trestle-set-params:
   sr-06_odp:
     values:
 sort-id: sr-06
+x-trestle-global:
+  sort-id: sr-06
 ---
 
 # sr-6 - \[Supply Chain Risk Management\] Supplier Assessments and Reviews

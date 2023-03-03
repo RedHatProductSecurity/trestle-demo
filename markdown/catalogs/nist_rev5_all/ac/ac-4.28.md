@@ -1,5 +1,7 @@
 ---
 sort-id: ac-04.28
+x-trestle-global:
+  sort-id: ac-04.28
 ---
 
 # ac-4.28 - \[Access Control\] Linear Filter Pipelines

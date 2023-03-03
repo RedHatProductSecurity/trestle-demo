@@ -7,6 +7,8 @@ x-trestle-set-params:
   cm-05.05_odp.02:
     values:
 sort-id: cm-05.05
+x-trestle-global:
+  sort-id: cm-05.05
 ---
 
 # cm-5.5 - \[Configuration Management\] Privilege Limitation for Production and Operation

@@ -7,6 +7,8 @@ x-trestle-set-params:
   pe-06.02_odp.03:
     values:
 sort-id: pe-06.02
+x-trestle-global:
+  sort-id: pe-06.02
 ---
 
 # pe-6.2 - \[Physical and Environmental Protection\] Automated Intrusion Recognition and Responses

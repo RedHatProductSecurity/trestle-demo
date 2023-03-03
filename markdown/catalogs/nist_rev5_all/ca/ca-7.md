@@ -19,6 +19,8 @@ x-trestle-set-params:
   ca-07_odp.07:
     values:
 sort-id: ca-07
+x-trestle-global:
+  sort-id: ca-07
 ---
 
 # ca-7 - \[Assessment, Authorization, and Monitoring\] Continuous Monitoring

@@ -5,6 +5,8 @@ x-trestle-set-params:
   ma-06_odp.02:
     values:
 sort-id: ma-06
+x-trestle-global:
+  sort-id: ma-06
 ---
 
 # ma-6 - \[Maintenance\] Timely Maintenance

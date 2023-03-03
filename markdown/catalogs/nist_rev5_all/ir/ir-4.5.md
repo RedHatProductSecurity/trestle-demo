@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-04.05_odp:
     values:
 sort-id: ir-04.05
+x-trestle-global:
+  sort-id: ir-04.05
 ---
 
 # ir-4.5 - \[Incident Response\] Automatic Disabling of System

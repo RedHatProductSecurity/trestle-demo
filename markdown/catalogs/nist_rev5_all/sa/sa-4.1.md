@@ -1,5 +1,7 @@
 ---
 sort-id: sa-04.01
+x-trestle-global:
+  sort-id: sa-04.01
 ---
 
 # sa-4.1 - \[System and Services Acquisition\] Functional Properties of Controls

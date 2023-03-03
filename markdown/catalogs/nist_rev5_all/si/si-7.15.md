@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-07.15_odp:
     values:
 sort-id: si-07.15
+x-trestle-global:
+  sort-id: si-07.15
 ---
 
 # si-7.15 - \[System and Information Integrity\] Code Authentication

@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-04.09_odp:
     values:
 sort-id: si-04.09
+x-trestle-global:
+  sort-id: si-04.09
 ---
 
 # si-4.9 - \[System and Information Integrity\] Testing of Monitoring Tools and Mechanisms

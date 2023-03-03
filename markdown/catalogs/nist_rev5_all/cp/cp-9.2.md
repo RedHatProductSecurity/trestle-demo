@@ -1,5 +1,7 @@
 ---
 sort-id: cp-09.02
+x-trestle-global:
+  sort-id: cp-09.02
 ---
 
 # cp-9.2 - \[Contingency Planning\] Test Restoration Using Sampling

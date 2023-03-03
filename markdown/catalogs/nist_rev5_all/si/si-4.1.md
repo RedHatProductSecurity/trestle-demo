@@ -1,5 +1,7 @@
 ---
 sort-id: si-04.01
+x-trestle-global:
+  sort-id: si-04.01
 ---
 
 # si-4.1 - \[System and Information Integrity\] System-wide Intrusion Detection System

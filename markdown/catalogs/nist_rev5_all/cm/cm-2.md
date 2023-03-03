@@ -5,6 +5,8 @@ x-trestle-set-params:
   cm-02_odp.02:
     values:
 sort-id: cm-02
+x-trestle-global:
+  sort-id: cm-02
 ---
 
 # cm-2 - \[Configuration Management\] Baseline Configuration

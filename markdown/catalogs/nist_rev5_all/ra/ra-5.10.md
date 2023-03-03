@@ -1,5 +1,7 @@
 ---
 sort-id: ra-05.10
+x-trestle-global:
+  sort-id: ra-05.10
 ---
 
 # ra-5.10 - \[Risk Assessment\] Correlate Scanning Information

@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-07.12_odp:
     values:
 sort-id: si-07.12
+x-trestle-global:
+  sort-id: si-07.12
 ---
 
 # si-7.12 - \[System and Information Integrity\] Integrity Verification

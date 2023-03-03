@@ -5,6 +5,8 @@ x-trestle-set-params:
   ra-05.08_odp.02:
     values:
 sort-id: ra-05.08
+x-trestle-global:
+  sort-id: ra-05.08
 ---
 
 # ra-5.8 - \[Risk Assessment\] Review Historic Audit Logs

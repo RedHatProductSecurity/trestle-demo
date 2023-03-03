@@ -13,6 +13,8 @@ x-trestle-set-params:
   ac-07_odp.06:
     values:
 sort-id: ac-07
+x-trestle-global:
+  sort-id: ac-07
 ---
 
 # ac-7 - \[Access Control\] Unsuccessful Logon Attempts

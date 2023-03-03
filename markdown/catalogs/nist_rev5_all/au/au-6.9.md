@@ -1,5 +1,7 @@
 ---
 sort-id: au-06.09
+x-trestle-global:
+  sort-id: au-06.09
 ---
 
 # au-6.9 - \[Audit and Accountability\] Correlation with Information from Nontechnical Sources

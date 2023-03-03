@@ -7,6 +7,8 @@ x-trestle-set-params:
   au-06_odp.03:
     values:
 sort-id: au-06
+x-trestle-global:
+  sort-id: au-06
 ---
 
 # au-6 - \[Audit and Accountability\] Audit Record Review, Analysis, and Reporting

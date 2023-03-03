@@ -1,5 +1,7 @@
 ---
 sort-id: si-04.02
+x-trestle-global:
+  sort-id: si-04.02
 ---
 
 # si-4.2 - \[System and Information Integrity\] Automated Tools and Mechanisms for Real-time Analysis

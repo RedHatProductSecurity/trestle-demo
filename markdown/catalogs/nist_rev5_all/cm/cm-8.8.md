@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-08.08_odp:
     values:
 sort-id: cm-08.08
+x-trestle-global:
+  sort-id: cm-08.08
 ---
 
 # cm-8.8 - \[Configuration Management\] Automated Location Tracking

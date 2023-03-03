@@ -5,6 +5,8 @@ x-trestle-set-params:
   sc-07.08_odp.02:
     values:
 sort-id: sc-07.08
+x-trestle-global:
+  sort-id: sc-07.08
 ---
 
 # sc-7.8 - \[System and Communications Protection\] Route Traffic to Authenticated Proxy Servers

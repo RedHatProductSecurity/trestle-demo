@@ -3,6 +3,8 @@ x-trestle-set-params:
   pt-07_odp:
     values:
 sort-id: pt-07
+x-trestle-global:
+  sort-id: pt-07
 ---
 
 # pt-7 - \[Personally Identifiable Information Processing and Transparency\] Specific Categories of Personally Identifiable Information

@@ -3,6 +3,8 @@ x-trestle-set-params:
   ir-04.09_odp:
     values:
 sort-id: ir-04.09
+x-trestle-global:
+  sort-id: ir-04.09
 ---
 
 # ir-4.9 - \[Incident Response\] Dynamic Response Capability

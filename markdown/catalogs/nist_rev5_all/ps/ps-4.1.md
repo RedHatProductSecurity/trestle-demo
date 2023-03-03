@@ -1,5 +1,7 @@
 ---
 sort-id: ps-04.01
+x-trestle-global:
+  sort-id: ps-04.01
 ---
 
 # ps-4.1 - \[Personnel Security\] Post-employment Requirements

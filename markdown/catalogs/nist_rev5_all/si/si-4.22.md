@@ -7,6 +7,8 @@ x-trestle-set-params:
   si-04.22_odp.03:
     values:
 sort-id: si-04.22
+x-trestle-global:
+  sort-id: si-04.22
 ---
 
 # si-4.22 - \[System and Information Integrity\] Unauthorized Network Services

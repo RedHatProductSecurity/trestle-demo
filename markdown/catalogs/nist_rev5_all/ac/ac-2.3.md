@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-02.03_odp.02:
     values:
 sort-id: ac-02.03
+x-trestle-global:
+  sort-id: ac-02.03
 ---
 
 # ac-2.3 - \[Access Control\] Disable Accounts

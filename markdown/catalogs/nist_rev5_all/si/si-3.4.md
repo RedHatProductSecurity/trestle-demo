@@ -1,5 +1,7 @@
 ---
 sort-id: si-03.04
+x-trestle-global:
+  sort-id: si-03.04
 ---
 
 # si-3.4 - \[System and Information Integrity\] Updates Only by Privileged Users

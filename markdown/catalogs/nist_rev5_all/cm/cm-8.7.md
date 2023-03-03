@@ -1,5 +1,7 @@
 ---
 sort-id: cm-08.07
+x-trestle-global:
+  sort-id: cm-08.07
 ---
 
 # cm-8.7 - \[Configuration Management\] Centralized Repository

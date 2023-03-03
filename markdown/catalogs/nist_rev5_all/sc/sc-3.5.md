@@ -1,5 +1,7 @@
 ---
 sort-id: sc-03.05
+x-trestle-global:
+  sort-id: sc-03.05
 ---
 
 # sc-3.5 - \[System and Communications Protection\] Layered Structures

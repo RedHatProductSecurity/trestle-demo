@@ -1,5 +1,7 @@
 ---
 sort-id: pt-07.02
+x-trestle-global:
+  sort-id: pt-07.02
 ---
 
 # pt-7.2 - \[Personally Identifiable Information Processing and Transparency\] First Amendment Information

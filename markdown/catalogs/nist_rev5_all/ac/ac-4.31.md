@@ -1,5 +1,7 @@
 ---
 sort-id: ac-04.31
+x-trestle-global:
+  sort-id: ac-04.31
 ---
 
 # ac-4.31 - \[Access Control\] Failed Content Transfer Prevention

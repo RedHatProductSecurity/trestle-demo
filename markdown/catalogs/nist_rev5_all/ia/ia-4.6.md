@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-04.06_odp:
     values:
 sort-id: ia-04.06
+x-trestle-global:
+  sort-id: ia-04.06
 ---
 
 # ia-4.6 - \[Identification and Authentication\] Cross-organization Management

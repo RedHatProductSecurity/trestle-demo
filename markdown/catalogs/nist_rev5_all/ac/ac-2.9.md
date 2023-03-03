@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-02.09_odp:
     values:
 sort-id: ac-02.09
+x-trestle-global:
+  sort-id: ac-02.09
 ---
 
 # ac-2.9 - \[Access Control\] Restrictions on Use of Shared and Group Accounts

@@ -1,5 +1,7 @@
 ---
 sort-id: pm-07
+x-trestle-global:
+  sort-id: pm-07
 ---
 
 # pm-7 - \[Program Management\] Enterprise Architecture

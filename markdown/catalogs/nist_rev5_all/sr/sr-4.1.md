@@ -3,6 +3,8 @@ x-trestle-set-params:
   sr-04.01_odp:
     values:
 sort-id: sr-04.01
+x-trestle-global:
+  sort-id: sr-04.01
 ---
 
 # sr-4.1 - \[Supply Chain Risk Management\] Identity

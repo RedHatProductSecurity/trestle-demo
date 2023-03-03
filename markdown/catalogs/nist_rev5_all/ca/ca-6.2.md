@@ -1,5 +1,7 @@
 ---
 sort-id: ca-06.02
+x-trestle-global:
+  sort-id: ca-06.02
 ---
 
 # ca-6.2 - \[Assessment, Authorization, and Monitoring\] Joint Authorization — Inter-organization

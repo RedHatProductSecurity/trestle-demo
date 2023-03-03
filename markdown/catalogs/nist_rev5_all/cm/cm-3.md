@@ -11,6 +11,8 @@ x-trestle-set-params:
   cm-03_odp.05:
     values:
 sort-id: cm-03
+x-trestle-global:
+  sort-id: cm-03
 ---
 
 # cm-3 - \[Configuration Management\] Configuration Change Control

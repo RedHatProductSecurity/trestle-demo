@@ -1,5 +1,7 @@
 ---
 sort-id: ma-03.02
+x-trestle-global:
+  sort-id: ma-03.02
 ---
 
 # ma-3.2 - \[Maintenance\] Inspect Media

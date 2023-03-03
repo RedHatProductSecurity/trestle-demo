@@ -11,6 +11,8 @@ x-trestle-set-params:
   ra-05_odp.04:
     values:
 sort-id: ra-05
+x-trestle-global:
+  sort-id: ra-05
 ---
 
 # ra-5 - \[Risk Assessment\] Vulnerability Monitoring and Scanning

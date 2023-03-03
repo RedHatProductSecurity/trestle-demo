@@ -19,6 +19,8 @@ x-trestle-set-params:
   at-02_odp.07:
     values:
 sort-id: at-02
+x-trestle-global:
+  sort-id: at-02
 ---
 
 # at-2 - \[Awareness and Training\] Literacy Training and Awareness

@@ -3,6 +3,8 @@ x-trestle-set-params:
   sr-04.02_odp:
     values:
 sort-id: sr-04.02
+x-trestle-global:
+  sort-id: sr-04.02
 ---
 
 # sr-4.2 - \[Supply Chain Risk Management\] Track and Trace

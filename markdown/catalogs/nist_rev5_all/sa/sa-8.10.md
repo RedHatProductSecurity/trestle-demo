@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.10_odp:
     values:
 sort-id: sa-08.10
+x-trestle-global:
+  sort-id: sa-08.10
 ---
 
 # sa-8.10 - \[System and Services Acquisition\] Hierarchical Trust

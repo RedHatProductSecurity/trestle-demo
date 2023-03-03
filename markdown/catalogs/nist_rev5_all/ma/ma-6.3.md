@@ -3,6 +3,8 @@ x-trestle-set-params:
   ma-06.03_odp:
     values:
 sort-id: ma-06.03
+x-trestle-global:
+  sort-id: ma-06.03
 ---
 
 # ma-6.3 - \[Maintenance\] Automated Support for Predictive Maintenance

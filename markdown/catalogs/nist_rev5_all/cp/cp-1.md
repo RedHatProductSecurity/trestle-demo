@@ -19,6 +19,8 @@ x-trestle-set-params:
   cp-01_odp.08:
     values:
 sort-id: cp-01
+x-trestle-global:
+  sort-id: cp-01
 ---
 
 # cp-1 - \[Contingency Planning\] Policy and Procedures

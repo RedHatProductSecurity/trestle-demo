@@ -1,5 +1,7 @@
 ---
 sort-id: au-06.04
+x-trestle-global:
+  sort-id: au-06.04
 ---
 
 # au-6.4 - \[Audit and Accountability\] Central Review and Analysis

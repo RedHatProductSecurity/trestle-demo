@@ -1,5 +1,7 @@
 ---
 sort-id: ia-04.01
+x-trestle-global:
+  sort-id: ia-04.01
 ---
 
 # ia-4.1 - \[Identification and Authentication\] Prohibit Account Identifiers as Public Identifiers

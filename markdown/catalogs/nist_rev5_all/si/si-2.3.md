@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-02.03_odp:
     values:
 sort-id: si-02.03
+x-trestle-global:
+  sort-id: si-02.03
 ---
 
 # si-2.3 - \[System and Information Integrity\] Time to Remediate Flaws and Benchmarks for Corrective Actions

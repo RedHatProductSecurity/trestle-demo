@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-07.19_odp:
     values:
 sort-id: sc-07.19
+x-trestle-global:
+  sort-id: sc-07.19
 ---
 
 # sc-7.19 - \[System and Communications Protection\] Block Communication from Non-organizationally Configured Hosts

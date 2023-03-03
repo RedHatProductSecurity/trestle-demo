@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.02_odp:
     values:
 sort-id: sa-08.02
+x-trestle-global:
+  sort-id: sa-08.02
 ---
 
 # sa-8.2 - \[System and Services Acquisition\] Least Common Mechanism

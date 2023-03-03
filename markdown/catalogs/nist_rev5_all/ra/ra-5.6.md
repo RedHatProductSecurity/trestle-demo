@@ -3,6 +3,8 @@ x-trestle-set-params:
   ra-05.06_odp:
     values:
 sort-id: ra-05.06
+x-trestle-global:
+  sort-id: ra-05.06
 ---
 
 # ra-5.6 - \[Risk Assessment\] Automated Trend Analyses

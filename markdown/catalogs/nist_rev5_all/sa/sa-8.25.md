@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.25_odp:
     values:
 sort-id: sa-08.25
+x-trestle-global:
+  sort-id: sa-08.25
 ---
 
 # sa-8.25 - \[System and Services Acquisition\] Economic Security

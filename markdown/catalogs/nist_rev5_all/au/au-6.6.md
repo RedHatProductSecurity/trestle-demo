@@ -1,5 +1,7 @@
 ---
 sort-id: au-06.06
+x-trestle-global:
+  sort-id: au-06.06
 ---
 
 # au-6.6 - \[Audit and Accountability\] Correlation with Physical Monitoring

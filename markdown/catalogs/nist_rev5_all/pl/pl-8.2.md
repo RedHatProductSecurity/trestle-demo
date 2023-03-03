@@ -5,6 +5,8 @@ x-trestle-set-params:
   pl-08.02_odp.02:
     values:
 sort-id: pl-08.02
+x-trestle-global:
+  sort-id: pl-08.02
 ---
 
 # pl-8.2 - \[Planning\] Supplier Diversity

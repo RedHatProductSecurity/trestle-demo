@@ -7,6 +7,8 @@ x-trestle-set-params:
   sa-09.03_odp.02:
     values:
 sort-id: sa-09.03
+x-trestle-global:
+  sort-id: sa-09.03
 ---
 
 # sa-9.3 - \[System and Services Acquisition\] Establish and Maintain Trust Relationship with Providers

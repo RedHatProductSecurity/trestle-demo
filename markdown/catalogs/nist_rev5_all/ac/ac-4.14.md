@@ -7,6 +7,8 @@ x-trestle-set-params:
   ac-04.14_odp.02:
     values:
 sort-id: ac-04.14
+x-trestle-global:
+  sort-id: ac-04.14
 ---
 
 # ac-4.14 - \[Access Control\] Security or Privacy Policy Filter Constraints

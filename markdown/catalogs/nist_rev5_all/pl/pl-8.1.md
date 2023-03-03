@@ -5,6 +5,8 @@ x-trestle-set-params:
   pl-08.01_odp.02:
     values:
 sort-id: pl-08.01
+x-trestle-global:
+  sort-id: pl-08.01
 ---
 
 # pl-8.1 - \[Planning\] Defense in Depth

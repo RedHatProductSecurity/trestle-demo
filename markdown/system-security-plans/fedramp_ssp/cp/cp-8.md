@@ -25,13 +25,33 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  cp-8_prm_1:
+    values:
+  cp-8_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: cp-08
 ---
 
 # cp-8 - \[Contingency Planning\] Telecommunications Services
 
 ## Control Statement
 
-The organization establishes alternate telecommunications services including necessary agreements to permit the resumption of organization-defined information system operations for essential missions and business functions within organization-defined time period when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storage sites.
+The organization establishes alternate telecommunications services including necessary agreements to permit the resumption of [organization-defined information system operations] for essential missions and business functions within [organization-defined time period] when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storage sites.
 
 ## Control Objective
 
@@ -51,8 +71,20 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-Add control implementation description here for control cp-8
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-### Implementation Status: planned
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
+
+### This System
+
+<!-- Add implementation prose for the main This System component for control: cp-8 -->
+
+#### Implementation Status: planned
+
+### 
+
+<!-- Add control implementation description here for control: cp-8 -->
+
+#### Implementation Status: planned
 
 ______________________________________________________________________

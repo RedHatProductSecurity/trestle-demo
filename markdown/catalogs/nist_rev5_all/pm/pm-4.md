@@ -1,5 +1,7 @@
 ---
 sort-id: pm-04
+x-trestle-global:
+  sort-id: pm-04
 ---
 
 # pm-4 - \[Program Management\] Plan of Action and Milestones Process

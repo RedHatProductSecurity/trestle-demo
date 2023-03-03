@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-04_odp:
     values:
 sort-id: au-04
+x-trestle-global:
+  sort-id: au-04
 ---
 
 # au-4 - \[Audit and Accountability\] Audit Log Storage Capacity

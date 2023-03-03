@@ -25,6 +25,30 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  ac-2_prm_1:
+    values:
+  ac-2_prm_2:
+    values:
+  ac-2_prm_3:
+    values:
+  ac-2_prm_4:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ac-02
 ---
 
 # ac-2 - \[Access Control\] Account Management
@@ -33,7 +57,7 @@ x-trestle-fedramp-props:
 
 The organization:
 
-- \[a.\] Identifies and selects the following types of information system accounts to support organizational missions/business functions: organization-defined information system account types;
+- \[a.\] Identifies and selects the following types of information system accounts to support organizational missions/business functions: [organization-defined information system account types];
 
 - \[b.\] Assigns account managers for information system accounts;
 
@@ -41,9 +65,9 @@ The organization:
 
 - \[d.\] Specifies authorized users of the information system, group and role membership, and access authorizations (i.e., privileges) and other attributes (as required) for each account;
 
-- \[e.\] Requires approvals by organization-defined personnel or roles for requests to create information system accounts;
+- \[e.\] Requires approvals by [organization-defined personnel or roles] for requests to create information system accounts;
 
-- \[f.\] Creates, enables, modifies, disables, and removes information system accounts in accordance with organization-defined procedures or conditions;
+- \[f.\] Creates, enables, modifies, disables, and removes information system accounts in accordance with [organization-defined procedures or conditions];
 
 - \[g.\] Monitors the use of information system accounts;
 
@@ -59,7 +83,7 @@ The organization:
   - \[2.\] Intended system usage; and
   - \[3.\] Other attributes as required by the organization or associated missions/business functions;
 
-- \[j.\] Reviews accounts for compliance with account management requirements organization-defined frequency; and
+- \[j.\] Reviews accounts for compliance with account management requirements [organization-defined frequency]; and
 
 - \[k.\] Establishes a process for reissuing shared/group account credentials (if deployed) when individuals are removed from the group.
 
@@ -135,93 +159,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item ac-2_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item ac-2_smt.b
+<!-- Add implementation prose for the main This System component for control: ac-2 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item ac-2_smt.c
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part d.
-
-Add control implementation description here for item ac-2_smt.d
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part e.
-
-Add control implementation description here for item ac-2_smt.e
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part f.
-
-Add control implementation description here for item ac-2_smt.f
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part g.
-
-Add control implementation description here for item ac-2_smt.g
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part h.
-
-Add control implementation description here for item ac-2_smt.h
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part i.
-
-Add control implementation description here for item ac-2_smt.i
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part j.
-
-Add control implementation description here for item ac-2_smt.j
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part k.
-
-Add control implementation description here for item ac-2_smt.k
+<!-- Add control implementation description here for control: ac-2 -->
 
 #### Implementation Status: planned
 

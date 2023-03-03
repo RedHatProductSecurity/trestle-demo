@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-06.03_odp.02:
     values:
 sort-id: ac-06.03
+x-trestle-global:
+  sort-id: ac-06.03
 ---
 
 # ac-6.3 - \[Access Control\] Network Access to Privileged Commands

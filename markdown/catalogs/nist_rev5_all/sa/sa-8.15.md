@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.15_odp:
     values:
 sort-id: sa-08.15
+x-trestle-global:
+  sort-id: sa-08.15
 ---
 
 # sa-8.15 - \[System and Services Acquisition\] Predicate Permission

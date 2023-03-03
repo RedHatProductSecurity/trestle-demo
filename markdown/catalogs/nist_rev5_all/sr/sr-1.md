@@ -19,6 +19,8 @@ x-trestle-set-params:
   sr-01_odp.08:
     values:
 sort-id: sr-01
+x-trestle-global:
+  sort-id: sr-01
 ---
 
 # sr-1 - \[Supply Chain Risk Management\] Policy and Procedures

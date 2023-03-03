@@ -1,5 +1,7 @@
 ---
 sort-id: sa-09.06
+x-trestle-global:
+  sort-id: sa-09.06
 ---
 
 # sa-9.6 - \[System and Services Acquisition\] Organization-controlled Cryptographic Keys

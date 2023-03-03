@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-03.04_odp:
     values:
 sort-id: pe-03.04
+x-trestle-global:
+  sort-id: pe-03.04
 ---
 
 # pe-3.4 - \[Physical and Environmental Protection\] Lockable Casings

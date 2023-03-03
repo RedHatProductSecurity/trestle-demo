@@ -5,6 +5,8 @@ x-trestle-set-params:
   sc-07.27_odp.02:
     values:
 sort-id: sc-07.27
+x-trestle-global:
+  sort-id: sc-07.27
 ---
 
 # sc-7.27 - \[System and Communications Protection\] Unclassified Non-national Security System Connections

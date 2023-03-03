@@ -9,6 +9,8 @@ x-trestle-set-params:
   ac-04.21_odp.03:
     values:
 sort-id: ac-04.21
+x-trestle-global:
+  sort-id: ac-04.21
 ---
 
 # ac-4.21 - \[Access Control\] Physical or Logical Separation of Information Flows

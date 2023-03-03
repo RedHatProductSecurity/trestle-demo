@@ -1,5 +1,7 @@
 ---
 sort-id: sa-04.08
+x-trestle-global:
+  sort-id: sa-04.08
 ---
 
 # sa-4.8 - \[System and Services Acquisition\] Continuous Monitoring Plan for Controls

@@ -7,6 +7,8 @@ x-trestle-set-params:
   pe-06.03_odp.03:
     values:
 sort-id: pe-06.03
+x-trestle-global:
+  sort-id: pe-06.03
 ---
 
 # pe-6.3 - \[Physical and Environmental Protection\] Video Surveillance

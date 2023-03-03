@@ -11,6 +11,8 @@ x-trestle-set-params:
   si-05_odp.05:
     values:
 sort-id: si-05
+x-trestle-global:
+  sort-id: si-05
 ---
 
 # si-5 - \[System and Information Integrity\] Security Alerts, Advisories, and Directives

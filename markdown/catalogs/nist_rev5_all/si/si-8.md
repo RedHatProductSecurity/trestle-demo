@@ -1,5 +1,7 @@
 ---
 sort-id: si-08
+x-trestle-global:
+  sort-id: si-08
 ---
 
 # si-8 - \[System and Information Integrity\] Spam Protection

@@ -1,5 +1,7 @@
 ---
 sort-id: ps-03.02
+x-trestle-global:
+  sort-id: ps-03.02
 ---
 
 # ps-3.2 - \[Personnel Security\] Formal Indoctrination

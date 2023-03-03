@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-02.01_odp:
     values:
 sort-id: ac-02.01
+x-trestle-global:
+  sort-id: ac-02.01
 ---
 
 # ac-2.1 - \[Access Control\] Automated System Account Management

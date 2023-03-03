@@ -19,6 +19,8 @@ x-trestle-set-params:
   ma-01_odp.08:
     values:
 sort-id: ma-01
+x-trestle-global:
+  sort-id: ma-01
 ---
 
 # ma-1 - \[Maintenance\] Policy and Procedures

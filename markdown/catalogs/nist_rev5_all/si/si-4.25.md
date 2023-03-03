@@ -1,5 +1,7 @@
 ---
 sort-id: si-04.25
+x-trestle-global:
+  sort-id: si-04.25
 ---
 
 # si-4.25 - \[System and Information Integrity\] Optimize Network Traffic Analysis

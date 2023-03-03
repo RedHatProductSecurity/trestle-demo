@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-07.09_odp:
     values:
 sort-id: si-07.09
+x-trestle-global:
+  sort-id: si-07.09
 ---
 
 # si-7.9 - \[System and Information Integrity\] Verify Boot Process

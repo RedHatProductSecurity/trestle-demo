@@ -25,6 +25,11 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: ir-07.02
 ---
 
 # ir-7.2 - \[Incident Response\] Coordination with External Providers
@@ -53,21 +58,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part (a)
+### This System
 
-Add control implementation description here for item ir-7.2_smt.a
+<!-- Add implementation prose for the main This System component for control: ir-7.2 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part (b)
-
-Add control implementation description here for item ir-7.2_smt.b
+<!-- Add control implementation description here for control: ir-7.2 -->
 
 #### Implementation Status: planned
 

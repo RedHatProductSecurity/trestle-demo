@@ -7,6 +7,8 @@ x-trestle-set-params:
   pt-02_odp.03:
     values:
 sort-id: pt-02
+x-trestle-global:
+  sort-id: pt-02
 ---
 
 # pt-2 - \[Personally Identifiable Information Processing and Transparency\] Authority to Process Personally Identifiable Information

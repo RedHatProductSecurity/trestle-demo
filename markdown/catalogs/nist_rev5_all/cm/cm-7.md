@@ -15,6 +15,8 @@ x-trestle-set-params:
   cm-07_odp.06:
     values:
 sort-id: cm-07
+x-trestle-global:
+  sort-id: cm-07
 ---
 
 # cm-7 - \[Configuration Management\] Least Functionality

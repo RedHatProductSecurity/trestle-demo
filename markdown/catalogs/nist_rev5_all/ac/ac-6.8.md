@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-06.08_odp:
     values:
 sort-id: ac-06.08
+x-trestle-global:
+  sort-id: ac-06.08
 ---
 
 # ac-6.8 - \[Access Control\] Privilege Levels for Code Execution

@@ -1,5 +1,7 @@
 ---
 sort-id: cp-07.06
+x-trestle-global:
+  sort-id: cp-07.06
 ---
 
 # cp-7.6 - \[Contingency Planning\] Inability to Return to Primary Site

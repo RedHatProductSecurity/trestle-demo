@@ -3,6 +3,8 @@ x-trestle-set-params:
   pl-07_odp:
     values:
 sort-id: pl-07
+x-trestle-global:
+  sort-id: pl-07
 ---
 
 # pl-7 - \[Planning\] Concept of Operations

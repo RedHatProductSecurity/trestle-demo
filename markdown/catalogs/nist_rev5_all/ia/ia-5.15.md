@@ -1,5 +1,7 @@
 ---
 sort-id: ia-05.15
+x-trestle-global:
+  sort-id: ia-05.15
 ---
 
 # ia-5.15 - \[Identification and Authentication\] Gsa-approved Products and Services

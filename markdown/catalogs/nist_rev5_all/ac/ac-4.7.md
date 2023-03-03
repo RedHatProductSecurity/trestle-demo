@@ -1,5 +1,7 @@
 ---
 sort-id: ac-04.07
+x-trestle-global:
+  sort-id: ac-04.07
 ---
 
 # ac-4.7 - \[Access Control\] One-way Flow Mechanisms

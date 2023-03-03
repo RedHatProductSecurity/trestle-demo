@@ -3,6 +3,8 @@ x-trestle-set-params:
   ma-04.06_odp:
     values:
 sort-id: ma-04.06
+x-trestle-global:
+  sort-id: ma-04.06
 ---
 
 # ma-4.6 - \[Maintenance\] Cryptographic Protection

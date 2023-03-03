@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-08_odp.02:
     values:
 sort-id: ac-08
+x-trestle-global:
+  sort-id: ac-08
 ---
 
 # ac-8 - \[Access Control\] System Use Notification

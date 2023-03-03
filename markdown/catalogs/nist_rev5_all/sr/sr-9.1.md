@@ -1,5 +1,7 @@
 ---
 sort-id: sr-09.01
+x-trestle-global:
+  sort-id: sr-09.01
 ---
 
 # sr-9.1 - \[Supply Chain Risk Management\] Multiple Stages of System Development Life Cycle

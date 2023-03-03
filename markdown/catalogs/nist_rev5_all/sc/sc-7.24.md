@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-07.24_odp:
     values:
 sort-id: sc-07.24
+x-trestle-global:
+  sort-id: sc-07.24
 ---
 
 # sc-7.24 - \[System and Communications Protection\] Personally Identifiable Information

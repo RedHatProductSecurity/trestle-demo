@@ -5,6 +5,8 @@ x-trestle-set-params:
   ac-04.09_odp.02:
     values:
 sort-id: ac-04.09
+x-trestle-global:
+  sort-id: ac-04.09
 ---
 
 # ac-4.9 - \[Access Control\] Human Reviews

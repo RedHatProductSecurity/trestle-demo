@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-07.01_odp:
     values:
 sort-id: au-07.01
+x-trestle-global:
+  sort-id: au-07.01
 ---
 
 # au-7.1 - \[Audit and Accountability\] Automatic Processing

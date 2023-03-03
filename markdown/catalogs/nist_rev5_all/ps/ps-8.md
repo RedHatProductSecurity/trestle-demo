@@ -5,6 +5,8 @@ x-trestle-set-params:
   ps-08_odp.02:
     values:
 sort-id: ps-08
+x-trestle-global:
+  sort-id: ps-08
 ---
 
 # ps-8 - \[Personnel Security\] Personnel Sanctions

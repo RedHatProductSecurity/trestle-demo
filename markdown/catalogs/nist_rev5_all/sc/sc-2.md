@@ -1,5 +1,7 @@
 ---
 sort-id: sc-02
+x-trestle-global:
+  sort-id: sc-02
 ---
 
 # sc-2 - \[System and Communications Protection\] Separation of System and User Functionality

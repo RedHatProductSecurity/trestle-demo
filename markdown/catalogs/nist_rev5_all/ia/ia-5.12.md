@@ -3,6 +3,8 @@ x-trestle-set-params:
   ia-05.12_odp:
     values:
 sort-id: ia-05.12
+x-trestle-global:
+  sort-id: ia-05.12
 ---
 
 # ia-5.12 - \[Identification and Authentication\] Biometric Authentication Performance

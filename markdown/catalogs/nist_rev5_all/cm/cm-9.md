@@ -3,6 +3,8 @@ x-trestle-set-params:
   cm-09_odp:
     values:
 sort-id: cm-09
+x-trestle-global:
+  sort-id: cm-09
 ---
 
 # cm-9 - \[Configuration Management\] Configuration Management Plan

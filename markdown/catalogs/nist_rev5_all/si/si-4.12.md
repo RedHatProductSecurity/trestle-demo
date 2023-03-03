@@ -7,6 +7,8 @@ x-trestle-set-params:
   si-04.12_odp.03:
     values:
 sort-id: si-04.12
+x-trestle-global:
+  sort-id: si-04.12
 ---
 
 # si-4.12 - \[System and Information Integrity\] Automated Organization-generated Alerts

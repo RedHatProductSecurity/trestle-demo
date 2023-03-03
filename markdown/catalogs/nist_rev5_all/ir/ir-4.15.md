@@ -1,5 +1,7 @@
 ---
 sort-id: ir-04.15
+x-trestle-global:
+  sort-id: ir-04.15
 ---
 
 # ir-4.15 - \[Incident Response\] Public Relations and Reputation Repair

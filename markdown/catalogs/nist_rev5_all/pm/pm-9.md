@@ -3,6 +3,8 @@ x-trestle-set-params:
   pm-09_odp:
     values:
 sort-id: pm-09
+x-trestle-global:
+  sort-id: pm-09
 ---
 
 # pm-9 - \[Program Management\] Risk Management Strategy

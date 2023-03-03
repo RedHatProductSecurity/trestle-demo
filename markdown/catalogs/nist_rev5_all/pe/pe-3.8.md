@@ -3,6 +3,8 @@ x-trestle-set-params:
   pe-03.08_odp:
     values:
 sort-id: pe-03.08
+x-trestle-global:
+  sort-id: pe-03.08
 ---
 
 # pe-3.8 - \[Physical and Environmental Protection\] Access Control Vestibules

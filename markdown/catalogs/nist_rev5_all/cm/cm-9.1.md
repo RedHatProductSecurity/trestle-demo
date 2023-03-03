@@ -1,5 +1,7 @@
 ---
 sort-id: cm-09.01
+x-trestle-global:
+  sort-id: cm-09.01
 ---
 
 # cm-9.1 - \[Configuration Management\] Assignment of Responsibility

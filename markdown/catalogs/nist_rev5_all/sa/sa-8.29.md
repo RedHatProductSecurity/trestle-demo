@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.29_odp:
     values:
 sort-id: sa-08.29
+x-trestle-global:
+  sort-id: sa-08.29
 ---
 
 # sa-8.29 - \[System and Services Acquisition\] Repeatable and Documented Procedures

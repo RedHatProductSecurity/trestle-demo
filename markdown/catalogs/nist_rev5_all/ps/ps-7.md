@@ -5,6 +5,8 @@ x-trestle-set-params:
   ps-07_odp.02:
     values:
 sort-id: ps-07
+x-trestle-global:
+  sort-id: ps-07
 ---
 
 # ps-7 - \[Personnel Security\] External Personnel Security

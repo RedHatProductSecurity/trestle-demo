@@ -3,6 +3,8 @@ x-trestle-set-params:
   si-08.02_odp:
     values:
 sort-id: si-08.02
+x-trestle-global:
+  sort-id: si-08.02
 ---
 
 # si-8.2 - \[System and Information Integrity\] Automatic Updates

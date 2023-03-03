@@ -3,6 +3,8 @@ x-trestle-set-params:
   cp-02.06_odp:
     values:
 sort-id: cp-02.06
+x-trestle-global:
+  sort-id: cp-02.06
 ---
 
 # cp-2.6 - \[Contingency Planning\] Alternate Processing and Storage Sites

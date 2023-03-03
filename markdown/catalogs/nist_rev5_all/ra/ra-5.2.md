@@ -5,6 +5,8 @@ x-trestle-set-params:
   ra-05.02_odp.02:
     values:
 sort-id: ra-05.02
+x-trestle-global:
+  sort-id: ra-05.02
 ---
 
 # ra-5.2 - \[Risk Assessment\] Update Vulnerabilities to Be Scanned

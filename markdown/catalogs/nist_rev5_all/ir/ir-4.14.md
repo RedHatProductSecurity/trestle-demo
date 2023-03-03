@@ -1,5 +1,7 @@
 ---
 sort-id: ir-04.14
+x-trestle-global:
+  sort-id: ir-04.14
 ---
 
 # ir-4.14 - \[Incident Response\] Security Operations Center

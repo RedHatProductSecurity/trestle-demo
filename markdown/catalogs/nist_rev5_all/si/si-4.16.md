@@ -1,5 +1,7 @@
 ---
 sort-id: si-04.16
+x-trestle-global:
+  sort-id: si-04.16
 ---
 
 # si-4.16 - \[System and Information Integrity\] Correlate Monitoring Information

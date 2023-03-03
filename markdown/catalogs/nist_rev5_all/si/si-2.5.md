@@ -5,6 +5,8 @@ x-trestle-set-params:
   si-02.05_odp.02:
     values:
 sort-id: si-02.05
+x-trestle-global:
+  sort-id: si-02.05
 ---
 
 # si-2.5 - \[System and Information Integrity\] Automatic Software and Firmware Updates

@@ -3,6 +3,8 @@ x-trestle-set-params:
   ra-05.04_odp:
     values:
 sort-id: ra-05.04
+x-trestle-global:
+  sort-id: ra-05.04
 ---
 
 # ra-5.4 - \[Risk Assessment\] Discoverable Information

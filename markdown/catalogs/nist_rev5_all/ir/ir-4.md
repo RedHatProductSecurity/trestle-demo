@@ -1,5 +1,7 @@
 ---
 sort-id: ir-04
+x-trestle-global:
+  sort-id: ir-04
 ---
 
 # ir-4 - \[Incident Response\] Incident Handling

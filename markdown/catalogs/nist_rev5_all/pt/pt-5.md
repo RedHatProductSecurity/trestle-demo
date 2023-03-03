@@ -5,6 +5,8 @@ x-trestle-set-params:
   pt-05_odp.02:
     values:
 sort-id: pt-05
+x-trestle-global:
+  sort-id: pt-05
 ---
 
 # pt-5 - \[Personally Identifiable Information Processing and Transparency\] Privacy Notice

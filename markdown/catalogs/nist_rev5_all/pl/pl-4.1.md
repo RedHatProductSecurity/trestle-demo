@@ -1,5 +1,7 @@
 ---
 sort-id: pl-04.01
+x-trestle-global:
+  sort-id: pl-04.01
 ---
 
 # pl-4.1 - \[Planning\] Social Media and External Site/Application Usage Restrictions

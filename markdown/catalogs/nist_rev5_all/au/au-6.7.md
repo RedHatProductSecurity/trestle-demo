@@ -3,6 +3,8 @@ x-trestle-set-params:
   au-06.07_odp:
     values:
 sort-id: au-06.07
+x-trestle-global:
+  sort-id: au-06.07
 ---
 
 # au-6.7 - \[Audit and Accountability\] Permitted Actions

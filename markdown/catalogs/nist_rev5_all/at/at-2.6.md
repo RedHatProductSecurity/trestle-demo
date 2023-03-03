@@ -1,5 +1,7 @@
 ---
 sort-id: at-02.06
+x-trestle-global:
+  sort-id: at-02.06
 ---
 
 # at-2.6 - \[Awareness and Training\] Cyber Threat Environment

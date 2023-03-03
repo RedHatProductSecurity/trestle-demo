@@ -17,6 +17,8 @@ x-trestle-set-params:
   mp-04_odp.06:
     values:
 sort-id: mp-04
+x-trestle-global:
+  sort-id: mp-04
 ---
 
 # mp-4 - \[Media Protection\] Media Storage

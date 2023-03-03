@@ -1,5 +1,7 @@
 ---
 sort-id: ia-05.14
+x-trestle-global:
+  sort-id: ia-05.14
 ---
 
 # ia-5.14 - \[Identification and Authentication\] Managing Content of PKI Trust Stores

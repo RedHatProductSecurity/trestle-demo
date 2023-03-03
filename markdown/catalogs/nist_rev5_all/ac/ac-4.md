@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-04_odp:
     values:
 sort-id: ac-04
+x-trestle-global:
+  sort-id: ac-04
 ---
 
 # ac-4 - \[Access Control\] Information Flow Enforcement

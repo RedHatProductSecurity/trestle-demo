@@ -1,5 +1,7 @@
 ---
 sort-id: cm-02.06
+x-trestle-global:
+  sort-id: cm-02.06
 ---
 
 # cm-2.6 - \[Configuration Management\] Development and Test Environments

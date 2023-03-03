@@ -1,5 +1,7 @@
 ---
 sort-id: si-08.03
+x-trestle-global:
+  sort-id: si-08.03
 ---
 
 # si-8.3 - \[System and Information Integrity\] Continuous Learning Capability

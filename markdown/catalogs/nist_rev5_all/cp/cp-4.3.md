@@ -3,6 +3,8 @@ x-trestle-set-params:
   cp-04.03_odp:
     values:
 sort-id: cp-04.03
+x-trestle-global:
+  sort-id: cp-04.03
 ---
 
 # cp-4.3 - \[Contingency Planning\] Automated Testing

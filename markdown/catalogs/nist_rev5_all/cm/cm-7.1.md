@@ -15,6 +15,8 @@ x-trestle-set-params:
   cm-07.01_odp.06:
     values:
 sort-id: cm-07.01
+x-trestle-global:
+  sort-id: cm-07.01
 ---
 
 # cm-7.1 - \[Configuration Management\] Periodic Review

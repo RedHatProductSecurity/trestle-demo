@@ -19,6 +19,8 @@ x-trestle-set-params:
   mp-01_odp.08:
     values:
 sort-id: mp-01
+x-trestle-global:
+  sort-id: mp-01
 ---
 
 # mp-1 - \[Media Protection\] Policy and Procedures

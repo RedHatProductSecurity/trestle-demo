@@ -13,6 +13,8 @@ x-trestle-set-params:
   si-04.04_odp.04:
     values:
 sort-id: si-04.04
+x-trestle-global:
+  sort-id: si-04.04
 ---
 
 # si-4.4 - \[System and Information Integrity\] Inbound and Outbound Communications Traffic

@@ -1,5 +1,7 @@
 ---
 sort-id: ac-06.09
+x-trestle-global:
+  sort-id: ac-06.09
 ---
 
 # ac-6.9 - \[Access Control\] Log Use of Privileged Functions

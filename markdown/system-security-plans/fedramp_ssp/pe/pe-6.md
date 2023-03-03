@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  pe-6_prm_1:
+    values:
+  pe-6_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: pe-06
 ---
 
 # pe-6 - \[Physical and Environmental Protection\] Monitoring Physical Access
@@ -35,7 +55,7 @@ The organization:
 
 - \[a.\] Monitors physical access to the facility where the information system resides to detect and respond to physical security incidents;
 
-- \[b.\] Reviews physical access logs organization-defined frequency and upon occurrence of organization-defined events or potential indications of events; and
+- \[b.\] Reviews physical access logs [organization-defined frequency] and upon occurrence of [organization-defined events or potential indications of events]; and
 
 - \[c.\] Coordinates results of reviews and investigations with the organizational incident response capability.
 
@@ -61,29 +81,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item pe-6_smt.a
-
-#### Implementation Status: planned
-
-______________________________________________________________________
-
-## Implementation for part b.
-
-Add control implementation description here for item pe-6_smt.b
+<!-- Add implementation prose for the main This System component for control: pe-6 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part c.
-
-Add control implementation description here for item pe-6_smt.c
+<!-- Add control implementation description here for control: pe-6 -->
 
 #### Implementation Status: planned
 

@@ -21,6 +21,8 @@ x-trestle-set-params:
   ac-04.08_odp.07:
     values:
 sort-id: ac-04.08
+x-trestle-global:
+  sort-id: ac-04.08
 ---
 
 # ac-4.8 - \[Access Control\] Security and Privacy Policy Filters

@@ -3,6 +3,8 @@ x-trestle-set-params:
   sa-08.11_odp:
     values:
 sort-id: sa-08.11
+x-trestle-global:
+  sort-id: sa-08.11
 ---
 
 # sa-8.11 - \[System and Services Acquisition\] Inverse Modification Threshold

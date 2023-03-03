@@ -3,6 +3,8 @@ x-trestle-set-params:
   ac-02.08_odp:
     values:
 sort-id: ac-02.08
+x-trestle-global:
+  sort-id: ac-02.08
 ---
 
 # ac-2.8 - \[Access Control\] Dynamic Account Management

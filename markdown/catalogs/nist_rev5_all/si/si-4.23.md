@@ -5,6 +5,8 @@ x-trestle-set-params:
   si-04.23_odp.02:
     values:
 sort-id: si-04.23
+x-trestle-global:
+  sort-id: si-04.23
 ---
 
 # si-4.23 - \[System and Information Integrity\] Host-based Devices

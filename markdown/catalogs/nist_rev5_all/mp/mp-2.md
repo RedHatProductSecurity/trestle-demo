@@ -13,6 +13,8 @@ x-trestle-set-params:
   mp-02_odp.04:
     values:
 sort-id: mp-02
+x-trestle-global:
+  sort-id: mp-02
 ---
 
 # mp-2 - \[Media Protection\] Media Access

@@ -7,6 +7,8 @@ x-trestle-set-params:
   cm-06_odp.03:
     values:
 sort-id: cm-06
+x-trestle-global:
+  sort-id: cm-06
 ---
 
 # cm-6 - \[Configuration Management\] Configuration Settings

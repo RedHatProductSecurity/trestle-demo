@@ -1,5 +1,7 @@
 ---
 sort-id: si-06.02
+x-trestle-global:
+  sort-id: si-06.02
 ---
 
 # si-6.2 - \[System and Information Integrity\] Automation Support for Distributed Testing

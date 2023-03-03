@@ -1,5 +1,7 @@
 ---
 sort-id: at-02.03
+x-trestle-global:
+  sort-id: at-02.03
 ---
 
 # at-2.3 - \[Awareness and Training\] Social Engineering and Mining

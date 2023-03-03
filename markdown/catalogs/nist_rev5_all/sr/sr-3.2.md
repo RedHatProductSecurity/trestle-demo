@@ -3,6 +3,8 @@ x-trestle-set-params:
   sr-03.02_odp:
     values:
 sort-id: sr-03.02
+x-trestle-global:
+  sort-id: sr-03.02
 ---
 
 # sr-3.2 - \[Supply Chain Risk Management\] Limitation of Harm

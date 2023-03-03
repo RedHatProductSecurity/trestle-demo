@@ -3,6 +3,8 @@ x-trestle-set-params:
   at-04_odp:
     values:
 sort-id: at-04
+x-trestle-global:
+  sort-id: at-04
 ---
 
 # at-4 - \[Awareness and Training\] Training Records

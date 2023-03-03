@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-07.13_odp:
     values:
 sort-id: sc-07.13
+x-trestle-global:
+  sort-id: sc-07.13
 ---
 
 # sc-7.13 - \[System and Communications Protection\] Isolation of Security Tools, Mechanisms, and Support Components

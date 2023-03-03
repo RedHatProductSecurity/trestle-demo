@@ -1,5 +1,7 @@
 ---
 sort-id: pt-07.01
+x-trestle-global:
+  sort-id: pt-07.01
 ---
 
 # pt-7.1 - \[Personally Identifiable Information Processing and Transparency\] Social Security Numbers

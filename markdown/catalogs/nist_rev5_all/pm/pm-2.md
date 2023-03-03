@@ -1,5 +1,7 @@
 ---
 sort-id: pm-02
+x-trestle-global:
+  sort-id: pm-02
 ---
 
 # pm-2 - \[Program Management\] Information Security Program Leadership Role

@@ -7,6 +7,8 @@ x-trestle-set-params:
   ps-04.02_odp.03:
     values:
 sort-id: ps-04.02
+x-trestle-global:
+  sort-id: ps-04.02
 ---
 
 # ps-4.2 - \[Personnel Security\] Automated Actions

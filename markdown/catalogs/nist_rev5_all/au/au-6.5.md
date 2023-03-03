@@ -5,6 +5,8 @@ x-trestle-set-params:
   au-06.05_odp.02:
     values:
 sort-id: au-06.05
+x-trestle-global:
+  sort-id: au-06.05
 ---
 
 # au-6.5 - \[Audit and Accountability\] Integrated Analysis of Audit Records

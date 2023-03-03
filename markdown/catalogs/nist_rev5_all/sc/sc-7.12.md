@@ -5,6 +5,8 @@ x-trestle-set-params:
   sc-07.12_odp.02:
     values:
 sort-id: sc-07.12
+x-trestle-global:
+  sort-id: sc-07.12
 ---
 
 # sc-7.12 - \[System and Communications Protection\] Host-based Protection

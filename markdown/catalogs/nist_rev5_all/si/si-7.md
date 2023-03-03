@@ -17,6 +17,8 @@ x-trestle-set-params:
   si-07_odp.06:
     values:
 sort-id: si-07
+x-trestle-global:
+  sort-id: si-07
 ---
 
 # si-7 - \[System and Information Integrity\] Software, Firmware, and Information Integrity

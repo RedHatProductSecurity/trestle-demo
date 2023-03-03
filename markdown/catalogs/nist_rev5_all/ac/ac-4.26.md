@@ -1,5 +1,7 @@
 ---
 sort-id: ac-04.26
+x-trestle-global:
+  sort-id: ac-04.26
 ---
 
 # ac-4.26 - \[Access Control\] Audit Filtering Actions

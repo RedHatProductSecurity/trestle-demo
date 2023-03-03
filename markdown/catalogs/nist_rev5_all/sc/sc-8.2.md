@@ -3,6 +3,8 @@ x-trestle-set-params:
   sc-08.02_odp:
     values:
 sort-id: sc-08.02
+x-trestle-global:
+  sort-id: sc-08.02
 ---
 
 # sc-8.2 - \[System and Communications Protection\] Pre- and Post-transmission Handling

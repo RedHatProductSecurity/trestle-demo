@@ -25,6 +25,26 @@ x-trestle-fedramp-props:
     - Alternative implementation
     - Not Applicable
   responsible-roles:
+x-trestle-set-params:
+  # You may set values for parameters in the assembled SSP by adding
+  #
+  # ssp-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
+  # to be placed in SetParameters of the SSP.
+  #
+  mp-6_prm_1:
+    values:
+  mp-6_prm_2:
+    values:
+x-trestle-global:
+  profile:
+    title: FedRAMP Rev 4 Moderate Baseline
+    href: trestle://profiles/fedramp_rev4_moderate/profile.json
+  sort-id: mp-06
 ---
 
 # mp-6 - \[Media Protection\] Media Sanitization
@@ -33,7 +53,7 @@ x-trestle-fedramp-props:
 
 The organization:
 
-- \[a.\] Sanitizes organization-defined information system media prior to disposal, release out of organizational control, or release for reuse using organization-defined sanitization techniques and procedures in accordance with applicable federal and organizational standards and policies; and
+- \[a.\] Sanitizes [organization-defined information system media] prior to disposal, release out of organizational control, or release for reuse using [organization-defined sanitization techniques and procedures] in accordance with applicable federal and organizational standards and policies; and
 
 - \[b.\] Employs sanitization mechanisms with the strength and integrity commensurate with the security category or classification of the information.
 
@@ -67,21 +87,19 @@ ______________________________________________________________________
 
 ## What is the solution and how is it implemented?
 
-### Implementation Status: planned
+<!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
-______________________________________________________________________
+<!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-## Implementation for part a.
+### This System
 
-Add control implementation description here for item mp-6_smt.a
+<!-- Add implementation prose for the main This System component for control: mp-6 -->
 
 #### Implementation Status: planned
 
-______________________________________________________________________
+### 
 
-## Implementation for part b.
-
-Add control implementation description here for item mp-6_smt.b
+<!-- Add control implementation description here for control: mp-6 -->
 
 #### Implementation Status: planned
 
