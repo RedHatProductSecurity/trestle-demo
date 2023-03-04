@@ -1,0 +1,31 @@
+{
+  "component-definition": {
+    "uuid": "ded50cf2-0d03-462e-9551-ee22266af477",
+    "metadata": {
+      "title": "Hello World Component Definition",
+      "last-modified": "2023-03-04T01:51:16.434251+00:00",
+      "version": "0.0.1",
+      "oscal-version": "1.0.0",
+      "roles": [
+        {
+          "id": "provider",
+          "title": "Provider"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "ef7c799a-c50e-49ab-83e0-515e989e6df1",
+          "type": "organization",
+          "name": "Acme Inc.",
+          "links": [
+            {
+              "href": "https://www.example.com",
+              "rel": "website"
+            }
+          ]
+        }
+      ]
+    },
+    "components": []
+  }
+}
