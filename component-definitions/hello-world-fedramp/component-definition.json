@@ -1,0 +1,24 @@
+{
+  "component-definition": {
+    "uuid": "fefd131e-9025-4bd1-9659-be9273837eee",
+    "metadata": {
+      "title": "Hello World FedRAMP Component Definition",
+      "last-modified": "2023-03-04T01:52:05.894493+00:00",
+      "version": "20200723",
+      "oscal-version": "1.0.0",
+      "parties": [
+        {
+          "uuid": "ee47836c-877c-4007-bbf3-c9d9bd805a9a",
+          "type": "organization",
+          "name": "Acme Inc."
+        }
+      ]
+    },
+    "import-component-definitions": [
+      {
+        "href": "trestle://component-definitions/hello-world/component-definition.json"
+      }
+    ],
+    "components": []
+  }
+}
