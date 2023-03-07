@@ -19,6 +19,52 @@
         "href": "trestle://component-definitions/hello-world/component-definition.json"
       }
     ],
-    "components": []
+    "components": [
+      {
+        "uuid": "4be43b22-e9cf-46a4-a0d6-baad0d4e7045",
+        "type": "service",
+        "title": "Hello World",
+        "description": "Hello World Application",
+        "props": [
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "test-rule",
+            "remarks": "rule_set_000"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "This is a rule used for testing compliance workflows",
+            "remarks": "rule_set_000"
+          }
+        ],
+        "control-implementations": [
+          {
+            "uuid": "3b936838-e5d9-409e-9a2a-45dc0c441bdf",
+            "source": "profiles/fedramp_rev4_moderate/profile.json",
+            "description": "This is a partial implementation of the FedRAMP Moderate profile, focusing on the control enhancement AC-2 (3).",
+            "implemented-requirements": [
+              {
+                "uuid": "263f2475-e324-44e3-b833-b778ce1f88e3",
+                "control-id": "ac-2.3",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "test-rule"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
