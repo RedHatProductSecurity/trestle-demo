@@ -4,18 +4,17 @@ import-nist:
 
 import-fedramp: import-nist
 	source ./automation/lib/import.sh && import_fedramp_rev4_moderate_profiles
-	trestle author ssp-generate -p fedramp_rev4_moderate -o fedramp_ssp
 .PHONY: import-fedramp
 
 bootstrap-workspace: import-fedramp
 .PHONY: bootstrap-workspace
 
 generate-fedramp-ssp:
-	trestle author ssp-generate -p fedramp_rev4_moderate -o markdown/system-security-plans/fedramp_ssp -y extra/extra-ssp-metadata.yml
+	trestle author ssp-generate -p fedramp_rev4_moderate -o markdown/system-security-plans/acme_fedramp_demo_ssp -y extra/extra-ssp-metadata.yml
 .PHONY: import-fedramp
 
 generate-ssp-markdown: generate-fedramp-ssp
-	trestle author jinja -i templates/ssp_md_template.md.jinja -ssp fedramp_ssp -p fedramp_rev4_moderate -o fedramp_platform_ssp.md
+	trestle author jinja -i templates/ssp_md_template.md.jinja -ssp acme_fedramp_demo_ssp -p fedramp_rev4_moderate -o acme_fedramp_demo_ssp.md
 
 generate-ssp-word: generate-ssp-markdown
-	pandoc fedramp_platform_ssp.md --from markdown+table_captions+implicit_figures+rebase_relative_paths -t docx --reference-doc templates/FedRAMP-SSP-Moderate-Baseline-Template.docx -s --toc -o fedramp_platform_ssp.docx
+	pandoc acme_fedramp_demo_ssp.md --from markdown+table_captions+implicit_figures+rebase_relative_paths -t docx --reference-doc templates/FedRAMP-SSP-Moderate-Baseline-Template.docx -s --toc -o acme_fedramp_demo_ssp.docx
