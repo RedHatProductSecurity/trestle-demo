@@ -1,0 +1,52 @@
+{
+    "component-definition": {
+      "uuid": "ded50cf2-0d03-462e-9551-ee22266af477",
+      "metadata": {
+        "title": "Hello World Component Definition",
+        "last-modified": "$NSDATE",
+        "version": "$GITHUB_REF_NAME",
+        "oscal-version": "1.0.0",
+        "roles": [
+          {
+            "id": "provider",
+            "title": "Provider"
+          }
+        ],
+        "parties": [
+          {
+            "uuid": "ef7c799a-c50e-49ab-83e0-515e989e6df1",
+            "type": "organization",
+            "name": "Acme Inc.",
+            "links": [
+              {
+                "href": "https://www.example.com",
+                "rel": "website"
+              }
+            ]
+          }
+        ]
+      },
+      "components": [
+        {
+          "uuid": "4be43b22-e9cf-46a4-a0d6-baad0d4e7045",
+          "type": "software",
+          "title": "Hello World",
+          "description": "Hello World Application",
+          "props": [
+            {
+              "name": "Rule_Id",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "test-rule",
+              "remarks": "rule_set_000"
+            },
+            {
+              "name": "Rule_Description",
+              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+              "value": "This is a rule used for testing compliance workflows",
+              "remarks": "rule_set_000"
+            }
+          ]
+        }
+      ]  
+    }
+}

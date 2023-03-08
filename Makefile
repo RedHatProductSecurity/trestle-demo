@@ -73,6 +73,10 @@ assemble: assemble-catalogs assemble-profiles assemble-cd assemble-ssps
 sanity: sanity-catalogs sanity-profiles sanity-cd sanity-ssps
 .PHONY: sanity
 
+exportcd:
+	source ./automation/lib/export-cd.sh && export-cd
+.PHONY: exportcd
+
 
 
 
