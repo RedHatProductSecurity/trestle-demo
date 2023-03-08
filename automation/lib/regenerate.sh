@@ -34,8 +34,10 @@ components=$(find ./component-definitions -mindepth 1 -type d | wc -l)
 if [ "$components" -gt 0 ]; then
   for d in ./component-definitions/* ; do
     component=$(basename "$d")
-    run_log 0 "Regenerating ${component}"
-    trestle author component-generate --output markdown/components/"$component" --name "$component"
+    if [ "$component" != "hello-world" ]; then
+      run_log 0 "Regenerating ${component}"
+      trestle author component-generate --output markdown/components/"$component" --name "$component"
+    fi
   done
 else
     run_log 0 "No components found"
