@@ -93,14 +93,37 @@ cd trestle-workspace
 
 ## Workflows
 
-### FedRAMP SSP Authoring
+## Custom Catalog Update
+
+#### What's included
+
+- The custom control catalog. The prose for the control statements can be added and removed through the `markdown/catalogs/ACME_custom_controls` directory
+- The ACME custom profile which imports the custom catalog and NIST rev5 800_53 catalog. Parameters can be set and additional guidance can be provided in `markdown/profiles/ACME_custom_profile`
 
 #### Diagram
 
 ```mermaid
 graph TD;
-  A[Start] --> B[Import NIST 800-53 catalog]
-  B --> C[Import FedRamp rev4 moderate profile]
+  A[Start] --> B[Update control in custom catalog]
+  B --> C[Submit PR]
+  C --> D[CI: Regenerate profiles]
+  D --> E[End]
+```
+
+### FedRAMP SSP Authoring
+
+#### What's included?
+
+- The NIST rev4 800_53 catalog
+- The FedRAMP Moderate profile
+- The profile has been updated so the import href points within the trestle project to trestle://catalogs/nist_rev4_800_53/catalog.json
+
+#### Diagram
+
+```mermaid
+graph TD;
+  A[Start] --> B[Import NIST rev4 800_53 catalog]
+  B --> C[Import FedRAMP rev4 moderate profile]
   C --> D[Create an SSP with additional metadata from profile]
   D --> E[Convert using a markdown template]
   E --> F[Convert markdown to a docx format]

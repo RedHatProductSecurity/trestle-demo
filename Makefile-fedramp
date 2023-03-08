@@ -1,10 +1,9 @@
 import-nist:
-	source ./automation/lib/import.sh && import_nist_catalog
+	source ./automation/lib/import.sh && import_nist_rev4_catalog
 .PHONY: import-nist
 
 import-fedramp: import-nist
 	source ./automation/lib/import.sh && import_fedramp_rev4_moderate_profiles
-	trestle href --name fedramp_rev4_moderate -hr trestle://catalogs/nist_rev4_800_53/catalog.json
 .PHONY: import-fedramp
 
 bootstrap-workspace: import-fedramp
