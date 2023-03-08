@@ -1,7 +1,7 @@
 ---
 x-trestle-global:
   profile:
-    title: ACME Inc. custom controls profile.
+    title: ACME Inc. official controls profile.
 ---
 
 # pr-2 - \[Privilege Rating\] Registering exemptions to right to delete

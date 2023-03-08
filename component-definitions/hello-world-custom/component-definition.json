@@ -42,12 +42,12 @@
         "control-implementations": [
           {
             "uuid": "1daef382-d1e7-4c71-b9e6-e3ed3cc809d7",
-            "source": "profiles/ACME_custom_profile/profile.json",
-            "description": "This is a partial implementation of the ACME Custom profile, focusing on the control enhancement CC-1.",
+            "source": "profiles/ACME_internal_profile/profile.json",
+            "description": "This is a partial implementation of the ACME Custom profile, focusing on the control enhancement PR-1.",
             "implemented-requirements": [
               {
                 "uuid": "4a5cbc43-fe07-4339-b8da-8b8b9f32ce31",
-                "control-id": "cc-1",
+                "control-id": "pr-1",
                 "description": "",
                 "props": [
                   {

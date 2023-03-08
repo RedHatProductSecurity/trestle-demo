@@ -5,8 +5,8 @@ x-trestle-comp-def-rules:
       description: This is a rule used for testing compliance workflows
 x-trestle-global:
   profile:
-    title: ACME Inc. custom controls profile.
-    href: profiles/ACME_custom_profile/profile.json
+    title: ACME Inc. internal controls profile.
+    href: profiles/ACME_internal_profile/profile.json
 ---
 
 # cc-1 - \[Custom Controls\] Energy consumption

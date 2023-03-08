@@ -13,15 +13,12 @@ x-trestle-set-params:
   sc-1_prm_1:
     values:
       - assistants
-    label: organization-defined personnel or roles
   sc-1_prm_2:
     values:
       - hourly
-    label: organization-defined frequency
   sc-1_prm_3:
     values:
       - bi-monthly
-    label: organization-defined frequency
   sc-1_prm_4:
     values:
   sc-1_prm_5:
@@ -32,8 +29,8 @@ x-trestle-set-params:
     values:
 x-trestle-global:
   profile:
-    title: ACME Inc. custom controls profile.
-    href: trestle://profiles/ACME_custom_profile/profile.json
+    title: ACME Inc. internal controls profile.
+    href: trestle://profiles/ACME_internal_profile/profile.json
   sort-id: sc-01
 ---
 

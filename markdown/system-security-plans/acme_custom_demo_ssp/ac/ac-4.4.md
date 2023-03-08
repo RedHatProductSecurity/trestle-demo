@@ -21,8 +21,8 @@ x-trestle-set-params:
     values:
 x-trestle-global:
   profile:
-    title: ACME Inc. custom controls profile.
-    href: trestle://profiles/ACME_custom_profile/profile.json
+    title: ACME Inc. internal controls profile.
+    href: trestle://profiles/ACME_internal_profile/profile.json
   sort-id: ac-04.04
 ---
 

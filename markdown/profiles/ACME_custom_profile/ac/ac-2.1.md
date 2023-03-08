@@ -14,7 +14,7 @@ x-trestle-set-params:
     values:
 x-trestle-global:
   profile:
-    title: ACME Inc. custom controls profile.
+    title: ACME Inc. official controls profile.
   sort-id: ac-02.01
 ---
 

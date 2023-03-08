@@ -1,7 +1,7 @@
 ---
 x-trestle-global:
   profile:
-    title: ACME Inc. custom controls profile.
+    title: ACME Inc. official controls profile.
 ---
 
 # cc-2 - \[Custom Controls\] Carbon reporting

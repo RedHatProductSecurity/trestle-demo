@@ -1,7 +1,7 @@
 ---
 x-trestle-global:
   profile:
-    title: ACME Inc. official controls profile.
+    title: ACME Inc. internal controls profile.
 ---
 
 # pr-1 - \[Privilege Rating\] Right to access and deletion of records

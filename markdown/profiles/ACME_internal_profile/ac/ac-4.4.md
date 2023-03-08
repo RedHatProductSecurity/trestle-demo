@@ -1,22 +1,39 @@
 ---
+x-trestle-set-params:
+  # You may set values for parameters in the assembled Profile by adding
+  #
+  # profile-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values in the catalog, and the profile-values represent values
+  # in SetParameters of the Profile.
+  #
+  ac-4.4_prm_1:
+    values:
+      - blocking the flow of the encrypted information
+      - ACME internal method
+  ac-4.4_prm_2:
+    values:
+      - ACME internal method
+  ac-4.4_prm_3:
+    values:
 x-trestle-global:
   profile:
-    title: ACME Inc. official controls profile.
+    title: ACME Inc. internal controls profile.
+  sort-id: ac-04.04
 ---
 
-# pr-1 - \[Privilege Rating\] Right to access and deletion of records
+# ac-4.4 - \[Access Control\] Flow Control of Encrypted Information
 
 ## Control Statement
 
-Any service or offering MUST:
+Prevent encrypted information from bypassing {{ insert: param, ac-4.4_prm_1 }} by {{ insert: param, ac-4.4_prm_2 }}.
 
-- \[a\] Have a privacy focal to respond to deletion requests.
+## Control guidance
 
-- \[b\] Have an automated method for allowing users to access all of their data
-
-- \[c\] Have an automated method to allow users to request, and subsequently execute, deletion of personal records.
-
-- \[d\] The process must be documented.
+Flow control mechanisms include content checking, security policy filters, and data type identifiers. The term encryption is extended to cover encoded data not recognized by filtering mechanisms.
 
 # Editable Content
 

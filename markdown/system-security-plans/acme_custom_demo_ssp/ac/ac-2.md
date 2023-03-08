@@ -13,19 +13,15 @@ x-trestle-set-params:
   ac-2_prm_1:
     values:
       - privileged
-    label: organization-defined information system account types
   ac-2_prm_2:
     values:
       - ACME interal method
-    label: organization-defined personnel or roles
   ac-2_prm_3:
     values:
       - standard operations
-    label: organization-defined procedures or conditions
   ac-2_prm_4:
     values:
       - daily
-    label: organization-defined frequency
   ac-2_prm_5:
     values:
   ac-2_prm_6:
@@ -40,8 +36,8 @@ x-trestle-set-params:
     values:
 x-trestle-global:
   profile:
-    title: ACME Inc. custom controls profile.
-    href: trestle://profiles/ACME_custom_profile/profile.json
+    title: ACME Inc. internal controls profile.
+    href: trestle://profiles/ACME_internal_profile/profile.json
   sort-id: ac-02
 ---
 

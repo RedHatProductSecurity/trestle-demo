@@ -1,11 +1,11 @@
 {
   "profile": {
-    "uuid": "0946249a-e848-4593-8203-f5a1ed9e2b2c",
+    "uuid": "7bd0c149-c1ce-4278-8709-84d8585af4ce",
     "metadata": {
-      "title": "ACME Inc. custom controls profile.",
-      "last-modified": "2023-03-06T22:55:33.905718+00:00",
+      "title": "ACME Inc. official controls profile.",
+      "last-modified": "2022-04-01T12:38:22.694086+11:00",
       "version": "0.0.1",
-      "oscal-version": "1.0.2",
+      "oscal-version": "1.0.0",
       "remarks": "Abbreviated for demonstration purposes."
     },
     "imports": [
@@ -126,11 +126,13 @@
           "control-id": "ac-1",
           "adds": [
             {
-              "position": "ending",
+              "position": "after",
+              "by-id": "ac-1_smt",
               "parts": [
                 {
                   "id": "ac-1_acme_guidance",
                   "name": "acme_guidance",
+                  "title": "acme_guidance",
                   "prose": "Access control documentation should be at one centrally managed intranet site that is consistent across the corporation. Website should be indexed in intranet search engine."
                 }
               ]

@@ -1,12 +1,12 @@
 ---
-x-trestle-global:
-  profile:
-    title: ACME Inc. internal controls profile.
-    href: trestle://profiles/ACME_internal_profile/profile.json
 x-trestle-comp-def-rules:
   Hello World:
     - name: test-rule
       description: This is a rule used for testing compliance workflows
+x-trestle-global:
+  profile:
+    title: ACME Inc. internal controls profile.
+    href: profiles/ACME_internal_profile/profile.json
 ---
 
 # pr-1 - \[Privilege Rating\] Right to access and deletion of records
@@ -31,10 +31,12 @@ ______________________________________________________________________
 
 <!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-### This System
+<!-- Add control implementation description here for control: pr-1 -->
 
-<!-- Add implementation prose for the main This System component for control: pr-1 -->
+### Rules:
 
-#### Implementation Status: planned
+  - test-rule
+
+### Implementation Status: planned
 
 ______________________________________________________________________

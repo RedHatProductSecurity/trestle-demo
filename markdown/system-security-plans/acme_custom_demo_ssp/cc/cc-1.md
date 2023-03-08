@@ -1,12 +1,8 @@
 ---
-x-trestle-comp-def-rules:
-  Hello World:
-    - name: test-rule
-      description: This is a rule used for testing compliance workflows
 x-trestle-global:
   profile:
-    title: ACME Inc. custom controls profile.
-    href: trestle://profiles/ACME_custom_profile/profile.json
+    title: ACME Inc. internal controls profile.
+    href: trestle://profiles/ACME_internal_profile/profile.json
 ---
 
 # cc-1 - \[Custom Controls\] Energy consumption
@@ -26,16 +22,6 @@ ______________________________________________________________________
 ### This System
 
 <!-- Add implementation prose for the main This System component for control: cc-1 -->
-
-#### Implementation Status: planned
-
-### Hello World
-
-<!-- Add control implementation description here for control: cc-1 -->
-
-#### Rules:
-
-  - test-rule
 
 #### Implementation Status: planned
 
