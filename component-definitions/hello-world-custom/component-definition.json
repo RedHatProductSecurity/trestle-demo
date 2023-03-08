@@ -1,0 +1,70 @@
+{
+  "component-definition": {
+    "uuid": "b691b12b-6030-45ce-9dbe-7aad44a60704",
+    "metadata": {
+      "title": "Hello World Custom Component Definition",
+      "last-modified": "2023-03-04T01:52:05.894493+00:00",
+      "version": "20200723",
+      "oscal-version": "1.0.0",
+      "parties": [
+        {
+          "uuid": "e52bd918-19ff-446f-ac5a-4e84afd33fd9",
+          "type": "organization",
+          "name": "Acme Inc."
+        }
+      ]
+    },
+    "import-component-definitions": [
+      {
+        "href": "trestle://component-definitions/hello-world/component-definition.json"
+      }
+    ],
+    "components": [
+      {
+        "uuid": "a6dd9eee-6038-449c-99cf-9286ef392ea8",
+        "type": "service",
+        "title": "Hello World",
+        "description": "Hello World Application",
+        "props": [
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "test-rule",
+            "remarks": "rule_set_000"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "This is a rule used for testing compliance workflows",
+            "remarks": "rule_set_000"
+          }
+        ],
+        "control-implementations": [
+          {
+            "uuid": "1daef382-d1e7-4c71-b9e6-e3ed3cc809d7",
+            "source": "profiles/ACME_custom_profile/profile.json",
+            "description": "This is a partial implementation of the ACME Custom profile, focusing on the control enhancement CC-1.",
+            "implemented-requirements": [
+              {
+                "uuid": "4a5cbc43-fe07-4339-b8da-8b8b9f32ce31",
+                "control-id": "cc-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "test-rule"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
