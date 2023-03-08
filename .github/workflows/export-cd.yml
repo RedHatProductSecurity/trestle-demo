@@ -1,0 +1,30 @@
+name: Export Component Definition From Build
+on:
+  push:
+    tags:
+      - '*'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release:
+    name: Regenerate content
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install Trestle
+        run: make trestle-install
+      - name: Export component-definition
+        run: make exportcd
+      - name: Regenerate component-definitions
+        run: make regenerate-cd
+      - name: Update and PR
+        run: bash ./automation/lib/update.sh "Export CD from Build"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
