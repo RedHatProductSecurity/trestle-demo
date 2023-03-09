@@ -40,7 +40,7 @@ x-trestle-add-props:
     ns: https://fedramp.gov/ns/oscal
     smt-part: ia-1
   - name: response-point
-    value: You must fill in this response point.
+    value: "test"
     ns: https://fedramp.gov/ns/oscal
     smt-part: ia-1.a.1_obj.1
   - name: method
