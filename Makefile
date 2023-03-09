@@ -3,6 +3,7 @@ SHELL := /bin/bash
 CWD := $(shell cd -P -- '$(shell dirname -- "$0")' && pwd -P)
 
 include Makefile-fedramp
+include Makefile-custom
 
 demo-build:
 	${CMD} build -t localhost:5000/trestle-demo:latest -f Containerfile .

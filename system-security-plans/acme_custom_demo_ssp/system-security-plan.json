@@ -1,0 +1,215 @@
+{
+  "system-security-plan": {
+    "uuid": "a7280814-c6d4-4784-9a8a-bc71b2e88366",
+    "metadata": {
+      "title": "REPLACE_ME",
+      "last-modified": "2023-03-08T23:36:10.716157+00:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.0.2"
+    },
+    "import-profile": {
+      "href": "trestle://profiles/ACME_internal_profile/profile.json"
+    },
+    "system-characteristics": {
+      "system-ids": [
+        {
+          "id": "REPLACE_ME"
+        }
+      ],
+      "system-name": "REPLACE_ME",
+      "description": "REPLACE_ME",
+      "security-sensitivity-level": "REPLACE_ME",
+      "system-information": {
+        "information-types": [
+          {
+            "title": "REPLACE_ME",
+            "description": "REPLACE_ME",
+            "confidentiality-impact": {
+              "base": "REPLACE_ME"
+            },
+            "integrity-impact": {
+              "base": "REPLACE_ME"
+            },
+            "availability-impact": {
+              "base": "REPLACE_ME"
+            }
+          }
+        ]
+      },
+      "security-impact-level": {
+        "security-objective-confidentiality": "REPLACE_ME",
+        "security-objective-integrity": "REPLACE_ME",
+        "security-objective-availability": "REPLACE_ME"
+      },
+      "status": {
+        "state": "operational"
+      },
+      "authorization-boundary": {
+        "description": "REPLACE_ME"
+      }
+    },
+    "system-implementation": {
+      "users": [
+        {
+          "uuid": "cae4216b-8772-4d6f-ab70-7044f04b3dc1"
+        }
+      ],
+      "components": [
+        {
+          "uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+          "type": "this-system",
+          "title": "This System",
+          "description": "",
+          "status": {
+            "state": "operational"
+          }
+        }
+      ]
+    },
+    "control-implementation": {
+      "description": "This is the control implementation for the system.",
+      "implemented-requirements": [
+        {
+          "uuid": "323f30d4-2480-4263-85e4-60ce7a830b0a",
+          "control-id": "ac-2.1",
+          "by-components": [
+            {
+              "component-uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+              "uuid": "63a086f5-b75f-45d9-88c7-44156db78a4b",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "1ca77bcc-e214-4f12-9cf2-3d0ee4173069",
+          "control-id": "ac-4.4",
+          "by-components": [
+            {
+              "component-uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+              "uuid": "252de350-9fa1-4505-954e-3de4aca001e9",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "cd73e181-b7a2-496d-828e-67ed6cf89988",
+          "control-id": "ac-1",
+          "by-components": [
+            {
+              "component-uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+              "uuid": "2226b929-720c-4f32-8fd5-8f7f572edd98",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "d51c4b1e-a8a3-47fb-919b-39a2d815edb3",
+          "control-id": "ac-2",
+          "by-components": [
+            {
+              "component-uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+              "uuid": "993a01d6-be5d-474c-a263-7237d78cefaa",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "5ad2410d-2b9c-416d-b5bf-ce1120f19d2f",
+          "control-id": "cc-1",
+          "by-components": [
+            {
+              "component-uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+              "uuid": "09345433-0627-47ff-a27f-0b8989116e6b",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "449f5704-842f-4652-a116-38573814e448",
+          "control-id": "cc-2",
+          "by-components": [
+            {
+              "component-uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+              "uuid": "d3627a74-eeea-4b94-9b35-6aa533ab9043",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "bd6bbf62-1e95-4a2c-b07f-313cbffd2cb4",
+          "control-id": "pr-2",
+          "by-components": [
+            {
+              "component-uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+              "uuid": "a93ddf02-c413-4279-a3c5-9cb3a04705d1",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "a008ba68-affb-43b9-95d2-4007e8e5eca0",
+          "control-id": "pr-1",
+          "by-components": [
+            {
+              "component-uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+              "uuid": "5901f45d-a769-44dc-a123-1c17d06cb1a8",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "cd1ff65d-5fbe-4b3a-a6ae-25b75423f895",
+          "control-id": "sc-2",
+          "by-components": [
+            {
+              "component-uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+              "uuid": "eab09508-e172-415b-bf3b-dfeefa3d51c1",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        },
+        {
+          "uuid": "30f814f4-4106-49e7-aec3-00b8244f7b58",
+          "control-id": "sc-1",
+          "by-components": [
+            {
+              "component-uuid": "6e7728a9-328a-4c49-96cf-58332c475b35",
+              "uuid": "7ad060b9-0fec-4080-b74a-71fc4b2854a1",
+              "description": "",
+              "implementation-status": {
+                "state": "planned"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
