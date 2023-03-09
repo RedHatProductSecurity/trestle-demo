@@ -20,7 +20,7 @@ x-trestle-set-params:
     profile-values:
     values:
   ac-1_prm_3:
-    profile-values: "test"
+    profile-values: test
     values:
 sort-id: ac-01
 x-trestle-add-props:
