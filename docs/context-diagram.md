@@ -45,4 +45,24 @@ graph LR
     style Policy_Engine fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
     style Official_Catalogs_Profiles fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
     style Component_Build_Pipelines fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
-    style subgraph fill:#ffffff,stroke:#B2B2B2,stroke-width:3px,stroke-dasharray: 5 5;
+    subgraph fill:#ffffff,stroke:#B2B2B2,stroke-width:3px,stroke-dasharray: 5 5;
+    
+    Person --> Trestle_Workspace
+    Official_Catalogs_Profiles --> GH_Actions
+    Component_Build_Pipelines --> Trestle_Workspace
+    GH_Actions --> Trestle_Workspace
+    Trestle_Workspace --> SSP_Reporting
+    Trestle_Workspace --> Policy_Engine
+    Assessed_System --> Policy_Engine
+    Policy_Engine --> Trestle_Workspace
+    
+    style Person fill:#F6C90E,stroke:#F6C90E,stroke-width:3px;
+    style Trestle_Workspace fill:#5271FF,stroke:#5271FF,stroke-width:3px;
+    style GH_Actions fill:#5271FF,stroke:#5271FF,stroke-width:3px;
+    style SSP_Reporting fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style POAM_Reporting fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style Assessed_System fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style Policy_Engine fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style Official_Catalogs_Profiles fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style Component_Build_Pipelines fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    subgraph fill:#ffffff,stroke:#B2B2B2,stroke-width:3px,stroke-dasharray: 5 5;
