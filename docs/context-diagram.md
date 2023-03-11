@@ -1,4 +1,4 @@
-# Component Diagram
+# Context Diagram
 
 This diagram is a depiction of the end-to-end compliance content management automation as demonstrated within this repository. 
 
