@@ -2,28 +2,47 @@
 
 This diagram is a depiction of the end-to-end compliance content management automation as demonstrated within this repository. 
 
----
+```mermaid
 graph LR
-    subgraph Compliance Content Management
-        GitHub_Repo(GitHub Repository)
-        GitHub_Actions(GitHub Actions)
+    Person(Person)
+    subgraph Compliance Content Management Workspace
+        Trestle_Workspace(Trestle Workspace)
+        GH_Actions(GitHub Actions)
+        GH_Actions---Trestle_Workspace
     end
     subgraph OSCAL Content Management
-        Git_Repo(OSCAL Content GitHub Repo)
-    end
-    subgraph OSCAL Component Management
-        Component_Build_Pipelines(Component Build Pipelines)
-    end
-    subgraph OSCAL SSP Management
-        SSPs(OSCAL SSPs)
+        Trestle_Workspace
     end
     subgraph External Sources
         Official_Catalogs_Profiles(Official OSCAL Catalogs and Profiles)
+        Component_Build_Pipelines(Component Build Pipelines)
+    end
+    subgraph Assessment
+        Assessed_System(Assessed System)
+        Policy_Engine(Policy Engine)
+    end
+    subgraph Reporting
+        SSP_Reporting(SSP Reporting)
+        POAM_Reporting(POA&M Reporting)
+        Trestle_Workspace --> POAM_Reporting
     end
     
-    Official_Catalogs_Profiles --> GitHub_Actions
-    Component_Build_Pipelines --> Git_Repo
-    GitHub_Actions --> Git_Repo
-    Git_Repo --> SSPs
-    GitHub_Repo --> GitHub_Actions
-    ---
+    Person --> Trestle_Workspace
+    Official_Catalogs_Profiles --> GH_Actions
+    Component_Build_Pipelines --> Trestle_Workspace
+    GH_Actions --> Trestle_Workspace
+    Trestle_Workspace --> SSP_Reporting
+    Trestle_Workspace --> Policy_Engine
+    Assessed_System --> Policy_Engine
+    Policy_Engine --> Trestle_Workspace
+    
+    style Person fill:#F6C90E,stroke:#F6C90E,stroke-width:3px;
+    style Trestle_Workspace fill:#5271FF,stroke:#5271FF,stroke-width:3px;
+    style GH_Actions fill:#5271FF,stroke:#5271FF,stroke-width:3px;
+    style SSP_Reporting fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style POAM_Reporting fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style Assessed_System fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style Policy_Engine fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style Official_Catalogs_Profiles fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style Component_Build_Pipelines fill:#B2B2B2,stroke:#B2B2B2,stroke-width:3px;
+    style subgraph fill:#ffffff,stroke:#B2B2B2,stroke-width:3px,stroke-dasharray: 5 5;
