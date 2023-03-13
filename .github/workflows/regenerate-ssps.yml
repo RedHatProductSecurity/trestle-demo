@@ -1,0 +1,37 @@
+name: Regenerate ssp
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'profiles/**'
+      - 'markdown/profiles/**'
+      - 'component-defintions/**'
+      - 'markdown/components/**'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release:
+    name: Regenerate content
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install Trestle
+        run: make trestle-install
+      - name: Regenerate FedRAMP SSP
+        run: make generate-fedramp-ssp
+      - name: Regenerate custom SSP
+        run: make generate-custom-ssp
+      - name: Assemble ssps
+        run: make assemble-ssps
+      - name: Update and PR
+        run: bash ./automation/lib/update.sh "Sync OSCAL SSPs"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
