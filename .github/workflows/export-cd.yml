@@ -4,14 +4,13 @@ on:
     tags:
       - '*'
 
-permissions:
-  contents: write
-  pull-requests: write
-
 jobs:
   release:
     name: Regenerate content
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.8

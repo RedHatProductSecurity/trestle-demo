@@ -5,6 +5,10 @@
 sanity: sanity-catalogs sanity-profiles sanity-cd sanity-ssps
 .PHONY: sanity
 
+validate:
+	trestle validate -a
+.PHONY: validate
+
 sanity-catalogs: assemble-catalogs regenerate-catalogs
 	@git diff --exit-code
 .PHONY: sanity-catalog
