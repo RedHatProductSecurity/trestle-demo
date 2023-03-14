@@ -20,7 +20,7 @@ This guide provides an overview of this demo project including everything that y
 
 This repository is meant to be used as a template to ensure your repository environment has all required content and a separate commit history. 
 Use this [guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create a repository.
-If you don't have GitHub Pro, make sure the repository visibility is public so draft pull requests can be submitted.
+If you don't have a GitHub Team, GitHub Enterprise Cloud or GitHub Enterprise Server plan, make sure the repository visibility is public so draft pull requests can be submitted.
 
 Here are some additional resources for repository configuration:
 
