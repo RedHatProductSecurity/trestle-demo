@@ -8,6 +8,8 @@ jobs:
   release:
     name: Evaluate OSCAL content
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.8
@@ -17,4 +19,4 @@ jobs:
       - name: Install Trestle
         run: make trestle-install
       - name: Validate with Trestle
-        run: bash ./automation/lib/validate.sh
+        run: make validate
