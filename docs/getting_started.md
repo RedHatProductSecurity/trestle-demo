@@ -4,10 +4,10 @@ This guide provides an overview of this demo project including everything that y
 
 # What You Will Learn
 
-- Repository Creation
-- Repository Configuration
-- Editing
-- Available Workflows and Triggering
+- How to Set up the Repository
+- Instruction for Content Editing
+- GitHub Actions Workflows
+- Reporting Workflows
 
 ## Tools Required
 
@@ -63,7 +63,7 @@ To test markdown generation, edit them, and then reassemble them using the comma
 
 When pull requests are submitted, certain validation pipelines will be run based on the path that edited content is located in to ensure markdown and json content is in sync and all OSCAL documents are valid.
 
-Once the content has been merged, a pipeline will be started to regenerate dependent components and submit PRs as needed.
+Once the content has been merged, a pipeline will be started to regenerate dependent components and submit pull requests as needed.
 This enables pull requests to include specific OSCAL models, and dependent changes can be detected and submitted into a new pull request for review by other personas.
 
 This repository does not use CODEOWNERS to delegate permissions to certain groups, but that is a solution for allowing the
@@ -88,7 +88,7 @@ I --> A
 #### What's included
 
 - The custom control catalog. The prose for the control statements can be added and removed through the `markdown/catalogs/ACME_custom_controls` directory
-- The ACME custom profile which imports the custom catalog and NIST rev5 800_53 catalog. Parameters can be set and additional guidance can be provided in `markdown/profiles/ACME_custom_profile`
+- The ACME custom profile imports the custom catalog as well as the NIST rev5 800 53 catalog. Parameters can be set and additional guidance can be provided in `markdown/profiles/ACME_custom_profile`
 
 #### Diagram
 
@@ -102,29 +102,29 @@ graph TD;
 
 #### Steps
 
-To get started clone your repository create from the template to your local environment.
+Clone your repository create from the template to your local environment to get started.
 
 ```bash
 git clone https://github.com/mynamespace/my-trestle-repo
 ```
 
-Get into the container with all required dependencies.
+If necessary, create the container image and run the container. Because the local repository is mounted as a volume under 'trestle-workspace,' making changes requires you to navigate to that directory.
 
 ```bash
 make demo-build # build the container if not done already
 make sandbox-run
+cd trestle-workspace
 ````
 
-Checkout a new branch to make edits to the ACME custom controls catalog.
+To make changes to the ACME custom controls catalog, checkout a new branch.
 
 ```bash
 git checkout -b "feat/adds-cc-3"
 ```
 
-Now that the workspace and all dependencies are available, we can make changes to the ACME custom controls catalog
-to show how new or updated controls and propagated to dependent OSCAL profiles.
+Now that the workspace and all dependencies are available, we can make changes to the ACME custom controls catalog to demonstrate how new or updated controls are propagated to dependent OSCAL profiles.
 
-Populate a file called `cc-3.md` to crate a new control under the ACME custom controls catalog markdown directory.
+To create a new control, create a file called 'cc-3.md' in the ACME custom controls catalog markdown directory.
 
 ```bash
 cat << EOF > ./markdown/catalogs/ACME_custom_controls/cc/cc-3.md
@@ -136,16 +136,15 @@ All services must run my test.
 EOF
 ```
 
-Run the `assemble-catalog` commands to ensure that the OSCAL catalog is updated from the markdown changes.
+Run the `assemble-catalogs` command to ensure that the markdown changes are reflected in the OSCAL catalog.
 
 ```bash
 make assemble-catalogs
 ```
 
-You should now see two files changes when running `git status`. One under the markdown/catalogs directory and the other under the catalogs directory.
+When you run 'git status,' you should see two file changes. One in the markdown/catalogs directory, the other in the 'catalogs' directory.
 
-You can now commit the changes to the branch and create a pull request using the GitHub CLI. Alternately, you can create a pull request through the
-GitHub [UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
 ```bash
 git commit -m "feat/adds-cc-3"
@@ -153,15 +152,14 @@ git push -u origin "feat/adds-cc-3"
 gh pr create -t "feat/adds-cc-3" -b "Adds cc-3 to ACME custom catalog" -B "main" -H "feat/adds-cc-3"
 ```
 
-View the pull request using the GitHub CLI and merge when ready.
+View the pull request with the GitHub CLI and merge it when finished.
 
 ```bash
 gh pr view
 gh pr merge
 ```
 
-As a result of this pull request being merged, a workflow will run to detect the changes to the profiles and a new PR will be submitted. Watch for the pull request to be submitted
-and view the changes. To allow the CI workflow to be run, mark the PR as ready for review.
+When this pull request is merged, a workflow is started to detect changes to the profiles, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
 
 ```bash
 watch gh pr list
@@ -169,19 +167,20 @@ gh pr diff 2 --web # Use web to open a web browser.
 gh pr ready 2
 ```
 
-View the PR using the GitHub CLI and merge when ready.
+View the pull request with the GitHub CLI and merge it when finished.
 
 ```bash
+gh pr view 2
 gh pr merge 2
 ```
 
-See the recorded steps for [here](./recordings)
+See the recorded steps for this demo [here](./recordings)
 
 ## Running Reporting Workflows
 
 Reporting workflows can be demonstrated by using pre-defined `make` targets.
 
-### FedRAMP SSP Authoring
+### FedRAMP System Security Plan (SSP) Authoring
 
 #### What's included?
 
@@ -207,20 +206,20 @@ To use the container with all the required dependencies, run `make demo-build` a
 
 To move to the workspace run `cd trestle-workspace`
 
-Run `make generate-ssp-word` to run the entire workflow. This will generate a markdown SSP and convert it to the docx format.
+Run `make generate-ssp-word` to run the entire workflow. This will generate a markdown system security plan and convert it to the docx format.
 To just generate the markdown run `make generate-ssp-markdown`
 
-If starting from scratch or testing changes to the SSP:
+If starting from scratch or testing changes to the system security plan:
 
-Run `make bootstrap-workspace` to import the NIST catalog and FedRamp profile.
-Run `make generate-fedramp-ssp` to generate the SSP markdown files under `markdown/system-security-plans`
+Run `make bootstrap-workspace` to import the NIST 800-53 catalog and FedRAMP Moderate profile.
+Run `make generate-fedramp-ssp` to generate the system security plan markdown file under `markdown/system-security-plans`
 
-> If changes are made to the SSP markdown, run `make assemble-ssps`
+> If changes are made to the system security plan markdown, run `make assemble-ssps`
 
-## Next Steps
+## Additional Resources
 
-- Learn more about compliance-trestle
-- Learn more about OSCAL
+- Learn more about [compliance-trestle](https://ibm.github.io/compliance-trestle/)
+- Learn more about [OSCAL](https://pages.nist.gov/OSCAL/)
 
 
 
