@@ -8,13 +8,15 @@ This demo repository illustrates how to use [compliance-trestle](https://ibm.git
 - `make`
 - `git`
 
-## Using the Sandbox Environment
+## Using the Container Environment
 
-Using `make sandbox-run`: Using the container environment ensures `compliance-trestle` and other required dependencies are
+### Using `make sandbox-run`
+
+Using the container environment ensures `compliance-trestle` and other required dependencies are
 available for use. Currently, this container image must be built locally using `make demo-build`, but making a remote image reference available
 is part of the roadmap.
 
-## Getting Started
+## Usage
 
 Get a list of all targets:
 
@@ -30,7 +32,7 @@ make sandbox-run
 cd trestle-workspace
 ```
 
-For information on how to get started, see our [Getting Started Guide](docs/getting_started.md)
+For more information on how to get started, see our [Getting Started Guide](docs/getting_started.md)
 
 
 
