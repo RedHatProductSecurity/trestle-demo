@@ -1,8 +1,8 @@
 ---
 x-trestle-comp-def-rules:
   Hello World:
-    - name: test-rule
-      description: This is a rule used for testing compliance workflows
+    - name: Test-rule_001
+      description: Ensure all of the services are running this test
 x-trestle-global:
   profile:
     title: ACME Inc. internal controls profile.
@@ -35,7 +35,7 @@ ______________________________________________________________________
 
 ### Rules:
 
-  - test-rule
+  - Test-rule_001
 
 ### Implementation Status: planned
 
