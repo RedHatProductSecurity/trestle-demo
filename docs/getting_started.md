@@ -2,7 +2,6 @@ Getting Started Guide
 ---
 
 <!--toc-->
-    * [Getting Started Guide](#getting-started-guide)
 - [What You Will Learn](#what-you-will-learn)
 - [Tools Required](#tools-required)
 - [Setting up Your Repository](#setting-up-your-repository)
@@ -95,15 +94,15 @@ For more information on the `trestle` commands used, please see the `compliance-
 
 # Personas and Applicable Workflows
 
-To test markdown generation, edit them, and then reassemble them using the commands outlined above.
+The workflows that follow outline the content editing activities based on persona. The diagram below depicts the overall workflow when edited content is submitted to the git repository as a pull request.
 
 When pull requests are submitted, certain validation pipelines will be run based on the path that edited content is located in to ensure Markdown and JSON content is in sync and all OSCAL documents are valid.
 
 Once the content has been merged, a pipeline will be started to regenerate dependent components and submit pull requests as needed.
 This enables pull requests to include specific OSCAL models, and dependent changes can be detected and submitted into a new pull request for review by other personas.
 
-This repository does not use CODEOWNERS to delegate permissions to certain groups, but that is a solution for allowing the
-different personas control of their applicable OSCAL content.
+Note that this git repository configuration deviates from the `compliance-trestle` repository [story](https://dzone.com/articles/compliance-automated-standard-solution-compass-part-3-artifacts-and-personas) to support a demonstration environment. 
+Multiple repositories allow for a separation in managed content by persona. To delegate permissions by persona for the content in a single repository, a [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) file can be used.
 
 ```mermaid
 graph LR;
@@ -192,6 +191,7 @@ When you run `git status` ,you should see two file changes. One in the `markdown
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
 ```bash
+git add markdown/ catalogs/
 git commit -m "feat/adds-cc-3"
 git push -u origin "feat/adds-cc-3"
 gh pr create -t "feat/adds-cc-3" -b "Adds cc-3 to ACME custom catalog" -B "main" -H "feat/adds-cc-3"
@@ -295,6 +295,7 @@ When you run `git status` , you should see two file changes. One in the `markdow
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
 ```bash
+git add markdown/ profiles/
 git commit -m "feat/adds-custom-guidance"
 git push -u origin "feat/adds-custom-guidance"
 gh pr create -t "feat/adds-custom-guidance" -b "Adds guidance to control in custom profile" -B "main" -H "feat/adds-custom-guidance"
@@ -399,6 +400,7 @@ When you run `git status` for a second time, you should see two file changes. On
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
 ```bash
+git add markdown/ component-defintions/
 git commit -m "feat/add-rule-to-cc-1"
 git push -u origin "feat/add-rule-to-c-1"
 gh pr create -t "feat/adds-rule-to-cc-1" -b "Adds a rule for control CC-1" -B "main" -H "feat/adds-rule-to-cc-1"
