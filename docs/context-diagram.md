@@ -2,18 +2,18 @@
 
 This diagram is a depiction of the end-to-end compliance content management automation as demonstrated within this repository. 
 
-Catalog and profile content is imported from external sources via github actions. When this content is imported, it triggers a series of automations hosted in GitHub Actions, which synchronize all of the content within the Trestle Workspace. Each content type synchronization results in a Draft Pull request that is submitted to the Trestle Workspace for review. 
+Github Actions is used to import catalog and profile content from external sources. When this content is imported, it starts a series of automated tasks hosted in GitHub Actions that synchronize all of the `compliance-trestle` workspace's content. Each content type synchronization generates a draft pull request, which is then submitted for review to the `compliance-trestle` workspace.
 
-Component Definitions are automatically exported from their respective application build pipelines and are submitted to the Trestle Workspace via pull request. The submitted Component Definitions are then reviewed and conditionally approved by authorized parties. 
+Component Definitions are automatically exported from their respective application build pipelines and submitted via pull request to the `compliance-trestle` workspace. Authorized parties then review and conditionally approve the submitted Component Definitions.
 
-SSPs are initially created by authorized parties and then receive automatic synchronizations of Control and Component Definitions as those content modifications become available. 
+System Security Plans (SSPs) are initially created by authorized parties and then receive automatic synchronizations of Control and Component Definitions as those content modifications become available. 
 
 
 ```mermaid
 graph LR
     Person(Person)
     subgraph Compliance Content Management Workspace
-        Trestle_Workspace(Trestle Workspace)
+        Trestle_Workspace(compliance-trestle workspace)
         GH_Actions(GitHub Actions)
         GH_Actions---Trestle_Workspace
     end
