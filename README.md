@@ -32,7 +32,7 @@ make sandbox-run
 cd trestle-workspace
 ```
 
-For more information on how to get started, see our [Getting Started Guide](docs/getting_started.md)
+For more information on how to get started, see our [Getting Started Guide](docs/getting_started.md).
 
 
 

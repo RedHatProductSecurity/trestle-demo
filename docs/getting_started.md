@@ -6,28 +6,27 @@ Getting Started Guide
 - [Tools Required](#tools-required)
 - [Setting up Your Repository](#setting-up-your-repository)
 - [Editing Content](#editing-content)
-        * [What does ](#what-does-generate-edit-assemble-mean)
 - [Personas and Applicable Workflows](#personas-and-applicable-workflows)
     * [Control Issuers](#control-issuers)
         * [Applicable Workflows](#applicable-workflows)
-            * [What`s included](#whats-included)
+            * [What's included](#whats-included)
             * [Diagram](#diagram)
             * [Steps](#steps)
     * [Control Owners](#control-owners)
         * [Applicable Workflows](#applicable-workflows-1)
-            * [What`s included](#whats-included-1)
+            * [What's included](#whats-included-1)
             * [Diagram](#diagram-1)
             * [Steps](#steps-1)
     * [Control Providers](#control-providers)
         * [Applicable Workflows](#applicable-workflows-2)
-            * [What`s included](#whats-included-2)
+            * [What's included](#whats-included-2)
             * [Diagram](#diagram-2)
             * [Steps](#steps-2)
     * [Control Assessors](#control-assessors)
         * [Applicable Workflows](#applicable-workflows-3)
     * [Control Operators (System Owners)](#control-operators-system-owners)
         * [Applicable Workflows](#applicable-workflows-4)
-            * [What`s included?](#whats-included-3)
+            * [What's included?](#whats-included-3)
             * [Diagram](#diagram-3)
             * [Steps](#steps-3)
     * [Additional Resources](#additional-resources)
@@ -53,7 +52,7 @@ This guide provides an overview of this demo project including everything that y
 
 This repository is meant to be used as a template to ensure your repository environment has all required content and a separate commit history. 
 Use this [guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create a repository.
-If you don`t have a GitHub Team, GitHub Enterprise Cloud or GitHub Enterprise Server plan, make sure the repository visibility is public so draft pull requests can be submitted.
+If you don't have a GitHub Team, GitHub Enterprise Cloud or GitHub Enterprise Server plan, make sure the repository visibility is public so draft pull requests can be submitted.
 
 Here are some additional resources for repository configuration:
 
@@ -129,7 +128,7 @@ Control information can also be provided in human-readable formats such as PDF a
 
 In this workflow, we will edit an existing catalog and see how those changes are propagated downstream to OSCAL profiles.
 
-#### What`s included
+#### What's included
 
 - The custom control catalog. The prose for the control statements can be added and removed through the `markdown/catalogs/ACME_custom_controls` directory.
 - The ACME custom profile imports the custom catalog as well as the NIST rev5 800 53 catalog. Parameters can be set and additional guidance can be provided in `markdown/profiles/ACME_custom_profile`.
@@ -232,7 +231,7 @@ Profiles can be based on other profiles as well.
 
 In this workflow, we will provide additional guidance on a control imported by a profile to update the resolve profile catalog. This update will propagate to a system security plan that is based on the existing profile.
 
-#### What`s included
+#### What's included
 
 - The ACME custom profile imports the custom catalog as well as the NIST rev5 800 53 catalog. Parameters can be set and additional guidance can be provided in `markdown/profiles/ACME_custom_profile`
 - The ACME internal profile imports the ACME custom profile. Parameters can be set and additional guidance can be provided in `markdown/profiles/ACME_internal_profile`
@@ -336,7 +335,7 @@ control responses are provided in the Markdown format.
 
 In this workflow, we will add a rule to the CSV file to update the control implementation for the `hello-world` component.
 
-#### What`s included
+#### What's included
 
 - The hello-world.csv under the `rules` directory with example rules for the ACME internal profile
 - An existing Hello World component definition with one rule identified. Control implementation information can be edited under `markdown/components/hello-world-custom`
@@ -454,7 +453,7 @@ SSP is generated from a given profile and component definitions.
 Reporting workflows can be demonstrated by using pre-defined `make` targets. 
 In this workflow, we generate an OSCAL system security plan based on the FedRAMP Moderate profile and use it to populate a single Markdown file and FedRAMP docx template.
 
-#### What`s included?
+#### What's included?
 
 - The NIST rev4 800_53 catalog
 - The FedRAMP Moderate profile
