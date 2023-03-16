@@ -11,6 +11,8 @@ jobs:
   release:
     name: Evaluate profiles
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.8
