@@ -154,7 +154,7 @@ git clone https://github.com/mynamespace/my-trestle-repo
 If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace`, making changes requires you to navigate to that directory.
 
 ```bash
-make demo-build # build the container if not done already
+make demo-build # build the container image if not done already
 make sandbox-run
 cd trestle-workspace
 ````
@@ -258,7 +258,7 @@ git clone https://github.com/mynamespace/my-trestle-repo
 If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace`, making changes requires you to navigate to that directory.
 
 ```bash
-make demo-build # build the container if not done already
+make demo-build # build the container image if not done already
 make sandbox-run
 cd trestle-workspace
 ````
@@ -362,7 +362,7 @@ git clone https://github.com/mynamespace/my-trestle-repo
 If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace`, making changes requires you to navigate to that directory.
 
 ```bash
-make demo-build # build the container if not done already
+make demo-build # build the container image if not done already
 make sandbox-run
 cd trestle-workspace
 ````
@@ -484,7 +484,7 @@ git clone https://github.com/mynamespace/my-trestle-repo
 If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace,` making changes requires you to navigate to that directory.
 
 ```bash
-make demo-build # build the container if not done already
+make demo-build # build the container image if not done already
 make sandbox-run
 cd trestle-workspace
 ````
