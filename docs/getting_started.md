@@ -136,7 +136,7 @@ In this workflow, we will edit an existing catalog and see how those changes are
 #### Diagram
 
 ```mermaid
-graph TD;
+graph LR;
   A[Start] --> B[Update control in custom catalog]
   B --> C[Submit PR]
   C --> D[CI: Regenerate profiles]
@@ -240,7 +240,7 @@ In this workflow, we will provide additional guidance on a control imported by a
 #### Diagram
 
 ```mermaid
-graph TD;
+graph LR;
   A[Start] --> B[Add control to profile and add guidenace]
   B --> C[Submit PR]
   C --> D[CI: Regenerate SSP]
@@ -344,7 +344,7 @@ In this workflow, we will add a rule to the CSV file to update the control imple
 #### Diagram
 
 ```mermaid
-graph TD;
+graph LR;
   A[Start] --> B[Update rules on component definition]
   B --> C[Submit PR]
   C --> D[CI: Regenerate SSP]
