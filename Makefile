@@ -1,84 +1,27 @@
-CMD := "$(shell command -pv podman || command -pv docker)"
+############################################################################
+## Help Menu
+############################################################################
+
+# Run 'make help' to display a summary of all targets!
+
+# If you edit this Makefile, please observe these code style rules:
+#
+# * Targets that are not based on real files should be .PHONY (see
+#   https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html).
+#
+# * Mark sections with major topics with comments starting with two `##`.
+#   Document each target or group of closely related targets with comments
+#   starting with three `###`. Test help display with `make help`.
+#
+# * Notice that 'make' aborts whenever a command returns a non-zero exit code.
+#
+
 SHELL := /bin/bash
-CWD := $(shell cd -P -- '$(shell dirname -- "$0")' && pwd -P)
+MKLIB := ./automation/mk/*.mk
 
-include Makefile-fedramp
-
-demo-build:
-	${CMD} build -t localhost:5000/trestle-demo:latest -f Containerfile .
-.PHONY: demo-build
-
-demo-run:
-	${CMD} run localhost:5000/trestle-demo:latest
-.PHONY: demo-run
-
-sandbox-run:
-	${CMD} run -it --rm --entrypoint=/demo/automation/lib/sandbox-entrypoint.sh -v ${CWD}:/demo/trestle-workspace localhost:5000/trestle-demo:latest
-.PHONY: sandbox-run
-
-trestle-install:
-	source ./automation/lib/dependencies.sh && install_trestle
-.PHONY: trestle-install
-
-assemble-catalogs:
-	source ./automation/lib/assemble.sh && assemble_catalogs
-.PHONY: assemble
-
-regenerate-catalogs:
-	source ./automation/lib/regenerate.sh && regenerate_catalogs
-.PHONY: regenerate
-
-regenerate-profiles:
-	source ./automation/lib/regenerate.sh && regenerate_profiles
-.PHONY: regenerate
-
-assemble-profiles:
-	source ./automation/lib/assemble.sh && assemble_profiles
-.PHONY: assemble
-
-regenerate-cd:
-	source ./automation/lib/regenerate.sh && regenerate_components
-.PHONY: regenerate
-
-assemble-cd:
-	source ./automation/lib/assemble.sh && assemble_components
-.PHONY: assemble
-
-assemble-ssps:
-	source ./automation/lib/assemble.sh && assemble_ssps
-.PHONY: assemble
-
-sanity-catalogs: assemble-catalogs regenerate-catalogs
-	git diff --exit-code
-.PHONY: sanity-catalog
-
-sanity-profiles: assemble-profiles regenerate-profiles
-	git diff --exit-code
-.PHONY: sanity-profiles
-
-sanity-cd: assemble-cd regenerate-cd
-	git diff --exit-code
-.PHONY: sanity-cd
-
-sanity-ssps: assemble-ssps
-	git diff --exit-code
-.PHONY: sanity-ssps
-
-regenerate: regenerate-catalogs regenerate-profiles regenerate-cd
-.PHONY: regenerate
-
-assemble: assemble-catalogs assemble-profiles assemble-cd assemble-ssps
-.PHONY: assemble
-
-sanity: sanity-catalogs sanity-profiles sanity-cd sanity-ssps
-.PHONY: sanity
-
-exportcd:
-	source ./automation/lib/export-cd.sh && export-cd
-.PHONY: exportcd
+help:
+	@cat Makefile ${MKLIB} | grep -E '(^###? )|(^[a-zA-Z][a-zA-Z_.-]+:)' | sed -r "s/^(^[a-zA-Z][^:]+):.*/    $$(printf '\033')[1m\1$$(printf '\033')[0m/g" | sed -r "s/^## (.*)/\n$$(printf '\033')[4m$$(printf '\033')[3m$$(printf '\033')[1m\1$$(printf '\033')[0m\n/" | sed -r "s/^### (.*)/\n  $$(printf '\033')[3m\1$$(printf '\033')[0m/" | sed -z 's/\n\n\n/\n\n/g' | less -R
+.PHONY: help
 
 
-
-
-
-
+include ${MKLIB}

@@ -3,7 +3,7 @@
     "uuid": "b954d3b7-d2c7-453b-8eb2-459e8d3b8462",
     "metadata": {
       "title": "NIST Special Publication 800-53 Revision 4: Security and Privacy Controls for Federal Information Systems and Organizations",
-      "last-modified": "2023-03-03T17:37:03.529756+00:00",
+      "last-modified": "2023-03-08T00:25:33.483752+00:00",
       "version": "2015-01-22",
       "oscal-version": "1.0.2",
       "props": [
@@ -59,13 +59,13 @@
         {
           "role-id": "creator",
           "party-uuids": [
-            "c6d77a50-e52e-4399-8a57-896d4807952f"
+            "93122cb0-95bc-4fdb-8b48-85ff60f9509b"
           ]
         },
         {
           "role-id": "contact",
           "party-uuids": [
-            "c6d77a50-e52e-4399-8a57-896d4807952f"
+            "93122cb0-95bc-4fdb-8b48-85ff60f9509b"
           ]
         }
       ]
