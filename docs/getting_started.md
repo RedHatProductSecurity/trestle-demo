@@ -6,28 +6,27 @@ Getting Started Guide
 - [Tools Required](#tools-required)
 - [Setting up Your Repository](#setting-up-your-repository)
 - [Editing Content](#editing-content)
-        * [What does ](#what-does-generate-edit-assemble-mean)
 - [Personas and Applicable Workflows](#personas-and-applicable-workflows)
     * [Control Issuers](#control-issuers)
         * [Applicable Workflows](#applicable-workflows)
-            * [What`s included](#whats-included)
+            * [What's included](#whats-included)
             * [Diagram](#diagram)
             * [Steps](#steps)
     * [Control Owners](#control-owners)
         * [Applicable Workflows](#applicable-workflows-1)
-            * [What`s included](#whats-included-1)
+            * [What's included](#whats-included-1)
             * [Diagram](#diagram-1)
             * [Steps](#steps-1)
     * [Control Providers](#control-providers)
         * [Applicable Workflows](#applicable-workflows-2)
-            * [What`s included](#whats-included-2)
+            * [What's included](#whats-included-2)
             * [Diagram](#diagram-2)
             * [Steps](#steps-2)
     * [Control Assessors](#control-assessors)
         * [Applicable Workflows](#applicable-workflows-3)
     * [Control Operators (System Owners)](#control-operators-system-owners)
         * [Applicable Workflows](#applicable-workflows-4)
-            * [What`s included?](#whats-included-3)
+            * [What's included?](#whats-included-3)
             * [Diagram](#diagram-3)
             * [Steps](#steps-3)
     * [Additional Resources](#additional-resources)
@@ -53,7 +52,7 @@ This guide provides an overview of this demo project including everything that y
 
 This repository is meant to be used as a template to ensure your repository environment has all required content and a separate commit history. 
 Use this [guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create a repository.
-If you don`t have a GitHub Team, GitHub Enterprise Cloud or GitHub Enterprise Server plan, make sure the repository visibility is public so draft pull requests can be submitted.
+If you don't have a GitHub Team, GitHub Enterprise Cloud or GitHub Enterprise Server plan, make sure the repository visibility is public so draft pull requests can be submitted.
 
 Here are some additional resources for repository configuration:
 
@@ -129,7 +128,7 @@ Control information can also be provided in human-readable formats such as PDF a
 
 In this workflow, we will edit an existing catalog and see how those changes are propagated downstream to OSCAL profiles.
 
-#### What`s included
+#### What's included
 
 - The custom control catalog. The prose for the control statements can be added and removed through the `markdown/catalogs/ACME_custom_controls` directory.
 - The ACME custom profile imports the custom catalog as well as the NIST rev5 800 53 catalog. Parameters can be set and additional guidance can be provided in `markdown/profiles/ACME_custom_profile`.
@@ -137,7 +136,7 @@ In this workflow, we will edit an existing catalog and see how those changes are
 #### Diagram
 
 ```mermaid
-graph TD;
+graph LR;
   A[Start] --> B[Update control in custom catalog]
   B --> C[Submit PR]
   C --> D[CI: Regenerate profiles]
@@ -155,7 +154,7 @@ git clone https://github.com/mynamespace/my-trestle-repo
 If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace`, making changes requires you to navigate to that directory.
 
 ```bash
-make demo-build # build the container if not done already
+make demo-build # build the container image if not done already
 make sandbox-run
 cd trestle-workspace
 ````
@@ -192,7 +191,7 @@ Using the GitHub CLI, you can now commit the changes to the branch and create a 
 
 ```bash
 git add markdown/ catalogs/
-git commit -m "feat/adds-cc-3"
+git commit -m "feat: adds-cc-3"
 git push -u origin "feat/adds-cc-3"
 gh pr create -t "feat/adds-cc-3" -b "Adds cc-3 to ACME custom catalog" -B "main" -H "feat/adds-cc-3"
 ```
@@ -232,7 +231,7 @@ Profiles can be based on other profiles as well.
 
 In this workflow, we will provide additional guidance on a control imported by a profile to update the resolve profile catalog. This update will propagate to a system security plan that is based on the existing profile.
 
-#### What`s included
+#### What's included
 
 - The ACME custom profile imports the custom catalog as well as the NIST rev5 800 53 catalog. Parameters can be set and additional guidance can be provided in `markdown/profiles/ACME_custom_profile`
 - The ACME internal profile imports the ACME custom profile. Parameters can be set and additional guidance can be provided in `markdown/profiles/ACME_internal_profile`
@@ -241,7 +240,7 @@ In this workflow, we will provide additional guidance on a control imported by a
 #### Diagram
 
 ```mermaid
-graph TD;
+graph LR;
   A[Start] --> B[Add control to profile and add guidenace]
   B --> C[Submit PR]
   C --> D[CI: Regenerate SSP]
@@ -259,7 +258,7 @@ git clone https://github.com/mynamespace/my-trestle-repo
 If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace`, making changes requires you to navigate to that directory.
 
 ```bash
-make demo-build # build the container if not done already
+make demo-build # build the container image if not done already
 make sandbox-run
 cd trestle-workspace
 ````
@@ -272,15 +271,14 @@ git checkout -b "feat/adds-custom-guidance"
 
 Now that the workspace and all dependencies are available, we add additional guidance to a control in the ACME custom profile.
 
-To create a new control, create a file called `cc-3.md` in the ACME custom controls catalog markdown directory.
+To add additional guidance to an existing control, add information under a "## Control" heading to the end of the `pr-1.md` file.
 
 ```bash
-cat << EOF > ./markdown/catalogs/ACME_custom_controls/cc/cc-3.md
-# cc-3 - \[Custom Controls\] Test reporting
+cat << EOF >> ./markdown/profiles/ACME_custom_profile/pr/pr-1.md
 
-## Control Statement
+## Control additional_process_guidance
 
-All services must run my test.
+The process automation must be documented in Markdown.
 EOF
 ```
 
@@ -296,8 +294,8 @@ Using the GitHub CLI, you can now commit the changes to the branch and create a 
 
 ```bash
 git add markdown/ profiles/
-git commit -m "feat/adds-custom-guidance"
-git push -u origin "feat/adds-custom-guidance"
+git commit -m "feat: adds-custom-guidance"
+git push -u origin "feat/adds-custom-guidance to cc-3"
 gh pr create -t "feat/adds-custom-guidance" -b "Adds guidance to control in custom profile" -B "main" -H "feat/adds-custom-guidance"
 ```
 
@@ -336,7 +334,7 @@ control responses are provided in the Markdown format.
 
 In this workflow, we will add a rule to the CSV file to update the control implementation for the `hello-world` component.
 
-#### What`s included
+#### What's included
 
 - The hello-world.csv under the `rules` directory with example rules for the ACME internal profile
 - An existing Hello World component definition with one rule identified. Control implementation information can be edited under `markdown/components/hello-world-custom`
@@ -345,7 +343,7 @@ In this workflow, we will add a rule to the CSV file to update the control imple
 #### Diagram
 
 ```mermaid
-graph TD;
+graph LR;
   A[Start] --> B[Update rules on component definition]
   B --> C[Submit PR]
   C --> D[CI: Regenerate SSP]
@@ -363,7 +361,7 @@ git clone https://github.com/mynamespace/my-trestle-repo
 If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace`, making changes requires you to navigate to that directory.
 
 ```bash
-make demo-build # build the container if not done already
+make demo-build # build the container image if not done already
 make sandbox-run
 cd trestle-workspace
 ````
@@ -386,10 +384,10 @@ Run the `regenerate-cd` command to ensure that the rule changes are reflected in
 make regenerate-cd
 ```
 
-When you run `git status`, you should see one file changes in the `markdown/component/hello-world-custom/Hello World` directory. 
+When you run `git status`, you should see a file addition under the `markdown/components/hello-world-custom/Hello World` directory.
 Navigate to the new Markdown file in the directory and add a control implementation details.
 
-Run the `assemble-cd` command to ensure that the Markdown changes are reflected in the OSCAL component definitions.
+Run the `assemble-cd` command to ensure that the Markdown changes are reflected in the OSCAL component definitions. 
 
 ```bash
 make assemble-cd
@@ -400,9 +398,9 @@ When you run `git status` for a second time, you should see two file changes. On
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
 ```bash
-git add markdown/ component-defintions/
-git commit -m "feat/add-rule-to-cc-1"
-git push -u origin "feat/add-rule-to-c-1"
+git add markdown/ component-defintions/ rules/
+git commit -m "feat: adds rule to cc-1"
+git push -u origin "feat/adds-rule-to-cc-1"
 gh pr create -t "feat/adds-rule-to-cc-1" -b "Adds a rule for control CC-1" -B "main" -H "feat/adds-rule-to-cc-1"
 ```
 
@@ -454,7 +452,7 @@ SSP is generated from a given profile and component definitions.
 Reporting workflows can be demonstrated by using pre-defined `make` targets. 
 In this workflow, we generate an OSCAL system security plan based on the FedRAMP Moderate profile and use it to populate a single Markdown file and FedRAMP docx template.
 
-#### What`s included?
+#### What's included?
 
 - The NIST rev4 800_53 catalog
 - The FedRAMP Moderate profile
@@ -485,7 +483,7 @@ git clone https://github.com/mynamespace/my-trestle-repo
 If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace,` making changes requires you to navigate to that directory.
 
 ```bash
-make demo-build # build the container if not done already
+make demo-build # build the container image if not done already
 make sandbox-run
 cd trestle-workspace
 ````
