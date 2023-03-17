@@ -2,7 +2,7 @@
 
 This diagram is a depiction of the end-to-end compliance content management automation as demonstrated within this repository. 
 
-Github Actions is used to import catalog and profile content from external sources. When this content is imported, it starts a series of automated tasks hosted in GitHub Actions that synchronize all of the `compliance-trestle` workspace's content. Each content type synchronization generates a draft pull request, which is then submitted for review to the `compliance-trestle` workspace.
+GitHub Actions is used to import catalog and profile content from external sources. When this content is imported, it starts a series of automated tasks hosted in GitHub Actions that synchronize all of the `compliance-trestle` workspace's content. Each content type synchronization generates a draft pull request, which is then submitted for review to the `compliance-trestle` workspace.
 
 Component Definitions are automatically exported from their respective application build pipelines and submitted via pull request to the `compliance-trestle` workspace. Authorized parties then review and conditionally approve the submitted Component Definitions.
 

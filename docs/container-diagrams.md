@@ -4,13 +4,13 @@
 
 `compliance-trestle` workspace content is updated by one of three inputs:
 
-1. Human authoring and submission via PR. 
+1. Human authoring and submission via pull request (PR). 
 
 2. External machine agent opens draft PR
 
 3. GitHub Actions polling of authoritative sources opens draft PR when updates are found. 
 
-Once `compliance-trestle` workspace content modifications have been merged into the `compliance-trestle` workspace, a series of synchronization actions are performed on the `compliance-trestle` workspace with github actions. GitHub Actions opens a Draft PR on the `compliance-trestle` workspace as an step between each synchronization action. An authorized user reviews the Draft PRs
+Once `compliance-trestle` workspace content modifications have been merged into the `compliance-trestle` workspace, a series of synchronization actions are performed on the `compliance-trestle` workspace with GitHub Actions. GitHub Actions opens a Draft PR on the `compliance-trestle` workspace as an step between each synchronization action. An authorized user reviews the Draft PRs
 
 ```mermaid
 graph LR

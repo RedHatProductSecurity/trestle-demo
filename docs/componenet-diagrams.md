@@ -2,7 +2,7 @@
 
 ## Importing and Authoring Workflow
 
-When any content in the OSCAL Control and Implementation layers is updated, the change to its respective model's content is detected by GitHub Actions and propagated to the models importing the changes. Each time a synchronization action occurs, after GitHub Actions has updated the content within an OSCAL model, GitHub Actions opens a Draft PR with the content modifications to the `compliance-trestle` workspace, which is then reviewed and converted to a Pull Request by an authorized user. The Pull Request is then conditionally approved by an authorized user and merged into the `compliance-trestle` workspace. When the updated content from the merge is detected by GitHub Actions, the process repeats until the SSP content is merged. 
+When any content in the OSCAL Control and Implementation layers is updated, the change to its respective model's content is detected by GitHub Actions and propagated to the models importing the changes. Each time a synchronization action occurs, after GitHub Actions has updated the content within an OSCAL model, GitHub Actions opens a Draft Pull Request with the content modifications to the `compliance-trestle` workspace, which is then reviewed and converted to a Pull Request by an authorized user. The Pull Request is then conditionally approved by an authorized user and merged into the `compliance-trestle` workspace. When the updated content from the merge is detected by GitHub Actions, the process repeats until the SSP content is merged. 
 
 
 
@@ -24,7 +24,7 @@ graph LR
         Sync_SSPs(Sync SSPs with Controls)
         Trestle_Utility(Trestle Utility)
         Git(Git)
-        Github_CLI(GitHub CLI)
+        GitHub_CLI(GitHub CLI)
     end
     subgraph Review and Approval
         Draft_PR((Draft PR))
@@ -35,8 +35,8 @@ graph LR
     Official_Catalogs_Profiles --> Catalog_Profile_Import
     Catalog_Profile_Import --> Trestle_Utility
     Trestle_Utility --> Git
-    Git --> Github_CLI
-    Github_CLI --> Draft_PR
+    Git --> GitHub_CLI
+    GitHub_CLI --> Draft_PR
     Sync_Profiles --> Trestle_Utility
     Sync_Components --> Trestle_Utility
     Sync_SSPs --> Trestle_Utility
