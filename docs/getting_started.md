@@ -385,7 +385,7 @@ Run the `regenerate-cd` command to ensure that the rule changes are reflected in
 make regenerate-cd
 ```
 
-When you run `git status`, you should see one file changes in the `markdown/component/hello-world-custom/Hello World` directory. 
+When you run `git status`, you should see one file change in the `markdown/component/hello-world-custom/Hello World` directory. 
 Navigate to the new Markdown file in the directory and add a control implementation details.
 
 Run the `assemble-cd` command to ensure that the Markdown changes are reflected in the OSCAL component definitions.
