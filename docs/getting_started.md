@@ -191,7 +191,7 @@ Using the GitHub CLI, you can now commit the changes to the branch and create a 
 
 ```bash
 git add markdown/ catalogs/
-git commit -m "feat/adds-cc-3"
+git commit -m "feat: adds-cc-3"
 git push -u origin "feat/adds-cc-3"
 gh pr create -t "feat/adds-cc-3" -b "Adds cc-3 to ACME custom catalog" -B "main" -H "feat/adds-cc-3"
 ```
@@ -271,15 +271,14 @@ git checkout -b "feat/adds-custom-guidance"
 
 Now that the workspace and all dependencies are available, we add additional guidance to a control in the ACME custom profile.
 
-To create a new control, create a file called `cc-3.md` in the ACME custom controls catalog markdown directory.
+To add additional guidance to an existing control, add information under a "## Control" heading to the end of the `pr-1.md` file.
 
 ```bash
-cat << EOF > ./markdown/catalogs/ACME_custom_controls/cc/cc-3.md
-# cc-3 - \[Custom Controls\] Test reporting
+cat << EOF >> ./markdown/profiles/ACME_custom_profile/pr/pr-1.md
 
-## Control Statement
+## Control additional_process_guidance
 
-All services must run my test.
+The process automation must be documented in Markdown.
 EOF
 ```
 
@@ -295,8 +294,8 @@ Using the GitHub CLI, you can now commit the changes to the branch and create a 
 
 ```bash
 git add markdown/ profiles/
-git commit -m "feat/adds-custom-guidance"
-git push -u origin "feat/adds-custom-guidance"
+git commit -m "feat: adds-custom-guidance"
+git push -u origin "feat/adds-custom-guidance to cc-3"
 gh pr create -t "feat/adds-custom-guidance" -b "Adds guidance to control in custom profile" -B "main" -H "feat/adds-custom-guidance"
 ```
 
@@ -385,10 +384,10 @@ Run the `regenerate-cd` command to ensure that the rule changes are reflected in
 make regenerate-cd
 ```
 
-When you run `git status`, you should see one file change in the `markdown/component/hello-world-custom/Hello World` directory. 
+When you run `git status`, you should see a file addition under the `markdown/components/hello-world-custom/Hello World` directory.
 Navigate to the new Markdown file in the directory and add a control implementation details.
 
-Run the `assemble-cd` command to ensure that the Markdown changes are reflected in the OSCAL component definitions.
+Run the `assemble-cd` command to ensure that the Markdown changes are reflected in the OSCAL component definitions. 
 
 ```bash
 make assemble-cd
@@ -399,9 +398,9 @@ When you run `git status` for a second time, you should see two file changes. On
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
 ```bash
-git add markdown/ component-defintions/
-git commit -m "feat/add-rule-to-cc-1"
-git push -u origin "feat/add-rule-to-c-1"
+git add markdown/ component-defintions/ rules/
+git commit -m "feat: adds rule to cc-1"
+git push -u origin "feat/adds-rule-to-cc-1"
 gh pr create -t "feat/adds-rule-to-cc-1" -b "Adds a rule for control CC-1" -B "main" -H "feat/adds-rule-to-cc-1"
 ```
 
