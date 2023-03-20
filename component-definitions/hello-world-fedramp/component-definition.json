@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "ef3328fd-9edd-42cb-8c2c-77456c856dbb",
+    "uuid": "11712c51-a6f2-4784-8a40-841a484412e7",
     "metadata": {
       "title": "Hello World FedRAMP Component Definition",
-      "last-modified": "2023-03-20T21:52:25.090439+00:00",
+      "last-modified": "2023-03-20T22:14:35+00:00",
       "version": "1.0.0",
       "oscal-version": "1.0.2"
     },
     "components": [
       {
-        "uuid": "8b2d49a4-31ef-4775-85bd-830ad76b8b15",
+        "uuid": "d4ef1c4c-788b-41ae-87f7-6ad402ba57ad",
         "type": "service",
         "title": "This System",
         "description": "Hello World Application",
@@ -29,12 +29,12 @@
         ],
         "control-implementations": [
           {
-            "uuid": "1b2016cc-b000-49d7-814d-51511d976358",
+            "uuid": "09d5a4ea-0ce4-4d4f-aff3-d8e24637a6fe",
             "source": "profiles/fedramp_rev4_moderate/profile.json",
             "description": "This is a partial implementation of the FedRAMP Moderate profile, focusing on the control enhancement AC-2 (3).",
             "implemented-requirements": [
               {
-                "uuid": "6c4abfd8-4ab1-4cb5-bb75-d14e5ebde2c0",
+                "uuid": "9b5949d2-ff52-4ba8-9199-3a20b2c41c45",
                 "control-id": "ac-2.3",
                 "description": "",
                 "props": [
@@ -42,10 +42,6 @@
                     "name": "Rule_Id",
                     "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
                     "value": "Test-rule_002"
-                  },
-                  {
-                    "name": "implementation-status",
-                    "value": "partial"
                   }
                 ]
               }

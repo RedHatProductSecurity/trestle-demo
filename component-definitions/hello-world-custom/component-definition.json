@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "128ae017-4b53-4528-be86-312260a397d4",
+    "uuid": "f90b2411-c932-49e4-a0e4-9a70112f7ee6",
     "metadata": {
       "title": "Hello World Custom Component Definition",
-      "last-modified": "2023-03-20T21:52:24.568138+00:00",
+      "last-modified": "2023-03-20T22:14:34+00:00",
       "version": "1.0.0",
       "oscal-version": "1.0.2"
     },
     "components": [
       {
-        "uuid": "62d3a592-a483-4460-abf2-a223265b9a43",
+        "uuid": "37162013-206c-4e86-9fdf-8330e4a2320c",
         "type": "service",
         "title": "This System",
         "description": "Hello World Application",
@@ -29,12 +29,12 @@
         ],
         "control-implementations": [
           {
-            "uuid": "534abbb5-4ea6-4fc3-8113-95b5110b4d02",
+            "uuid": "23b5f2bd-50eb-4882-bea2-bcdab482a966",
             "source": "profiles/ACME_internal_profile/profile.json",
             "description": "This is a partial implementation of the ACME Internal profile",
             "implemented-requirements": [
               {
-                "uuid": "55a71353-a1e7-4360-b3cc-c2a1b56bf0bb",
+                "uuid": "2b4c6efc-72eb-4393-9bdb-cf3517e0557c",
                 "control-id": "pr-1",
                 "description": "",
                 "props": [
@@ -42,10 +42,6 @@
                     "name": "Rule_Id",
                     "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
                     "value": "Test-rule_001"
-                  },
-                  {
-                    "name": "implementation-status",
-                    "value": "partial"
                   }
                 ]
               }
