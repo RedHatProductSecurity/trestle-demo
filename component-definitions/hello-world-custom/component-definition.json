@@ -3,7 +3,7 @@
     "uuid": "464b8b91-50f8-4142-af74-b71483c0e2dd",
     "metadata": {
       "title": "Hello World Custom Component Definition",
-      "last-modified": "2023-03-20T22:34:40+00:00",
+      "last-modified": "2023-03-20T22:39:30.195424+00:00",
       "version": "1.0.0",
       "oscal-version": "1.0.2"
     },
@@ -42,6 +42,10 @@
                     "name": "Rule_Id",
                     "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
                     "value": "Test-rule_001"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "partial"
                   }
                 ]
               }

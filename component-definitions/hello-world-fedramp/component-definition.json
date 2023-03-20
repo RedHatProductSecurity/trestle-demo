@@ -3,7 +3,7 @@
     "uuid": "30b6f296-0594-4e33-98e1-c92c4958f541",
     "metadata": {
       "title": "Hello World FedRAMP Component Definition",
-      "last-modified": "2023-03-20T22:34:40+00:00",
+      "last-modified": "2023-03-20T22:39:30.716548+00:00",
       "version": "1.0.0",
       "oscal-version": "1.0.2"
     },
@@ -42,6 +42,10 @@
                     "name": "Rule_Id",
                     "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
                     "value": "Test-rule_002"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "partial"
                   }
                 ]
               }
