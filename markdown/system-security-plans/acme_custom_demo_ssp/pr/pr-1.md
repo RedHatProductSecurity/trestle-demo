@@ -1,12 +1,12 @@
 ---
+x-trestle-comp-def-rules:
+  This System:
+    - name: Test-rule_001
+      description: Ensure all of the services are running this test
 x-trestle-global:
   profile:
     title: ACME Inc. internal controls profile.
     href: trestle://profiles/ACME_internal_profile/profile.json
-x-trestle-comp-def-rules:
-  Hello World:
-    - name: test-rule
-      description: This is a rule used for testing compliance workflows
 ---
 
 # pr-1 - \[Privilege Rating\] Right to access and deletion of records

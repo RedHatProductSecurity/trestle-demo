@@ -1,8 +1,8 @@
 ---
 x-trestle-comp-def-rules:
-  Hello World:
-    - name: test-rule
-      description: This is a rule used for testing compliance workflows
+  This System:
+    - name: Test-rule_002
+      description: Ensure hello-world disables inactive accounts
 x-trestle-param-values:
   ac-2.3_prm_1:
 x-trestle-global:
@@ -34,12 +34,12 @@ ______________________________________________________________________
 
 <!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-<!-- Add control implementation description here for control: ac-2.3 -->
+<!-- Add control implementation description here for item  -->
 
 ### Rules:
 
-  - test-rule
+  - Test-rule_002
 
-### Implementation Status: planned
+### Implementation Status: partial
 
 ______________________________________________________________________
