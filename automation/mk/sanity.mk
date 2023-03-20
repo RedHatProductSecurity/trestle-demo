@@ -18,6 +18,7 @@ sanity-profiles: assemble-profiles regenerate-profiles
 .PHONY: sanity-profiles
 
 sanity-cd: assemble-cd regenerate-cd
+
 	@git diff --exit-code
 .PHONY: sanity-cd
 
