@@ -378,9 +378,10 @@ To create a new rule, update the `hello-world.csv` file under the `rules` direct
 Open the CSV and copy the first row. Change the rule_id in Column D, the rule description in Column E, and change the control_id in column L to cc-1.
 
 
-Run the `regenerate-cd` command to ensure that the rule changes are reflected in the component Markdown.
+Run the `update-cd` and `regenerate-cd` commands to ensure that the rule changes are reflected in the component Markdown.
 
 ```bash
+make update-cd
 make regenerate-cd
 ```
 

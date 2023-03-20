@@ -3,10 +3,6 @@ x-trestle-global:
   profile:
     title: ACME Inc. internal controls profile.
     href: trestle://profiles/ACME_internal_profile/profile.json
-x-trestle-comp-def-rules:
-  Hello World:
-    - name: Test-rule_002
-      description: Ensure all of the services are running this other test
 ---
 
 # cc-1 - \[Custom Controls\] Energy consumption

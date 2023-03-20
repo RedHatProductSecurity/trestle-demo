@@ -1,17 +1,17 @@
 {
   "component-definition": {
-    "uuid": "cf443eb5-7198-438e-b460-2a0fe3a10e35",
+    "uuid": "464b8b91-50f8-4142-af74-b71483c0e2dd",
     "metadata": {
       "title": "Hello World Custom Component Definition",
-      "last-modified": "2023-03-15T21:20:37.104860+00:00",
+      "last-modified": "2023-03-20T22:39:30.195424+00:00",
       "version": "1.0.0",
       "oscal-version": "1.0.2"
     },
     "components": [
       {
-        "uuid": "ab213cb3-c515-44c8-99d4-f937143c4489",
+        "uuid": "2b9ae8d4-578a-49b0-b9fd-5be21bda81bf",
         "type": "service",
-        "title": "Hello World",
+        "title": "This System",
         "description": "Hello World Application",
         "props": [
           {
@@ -29,12 +29,12 @@
         ],
         "control-implementations": [
           {
-            "uuid": "1f0eec60-740c-478e-a67c-f37bb849dbc6",
+            "uuid": "953f2277-96bb-48d7-8729-a37fd281d5dc",
             "source": "profiles/ACME_internal_profile/profile.json",
             "description": "This is a partial implementation of the ACME Internal profile",
             "implemented-requirements": [
               {
-                "uuid": "46a381a1-12fa-43de-8fd4-0ccb69d25b17",
+                "uuid": "58a82470-fc07-4358-919a-5ec5996f4e0b",
                 "control-id": "pr-1",
                 "description": "",
                 "props": [
@@ -45,7 +45,7 @@
                   },
                   {
                     "name": "implementation-status",
-                    "value": "planned"
+                    "value": "partial"
                   }
                 ]
               }

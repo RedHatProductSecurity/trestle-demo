@@ -31,7 +31,6 @@ if [ "$profiles" -gt 0 ]; then
 }
 
 regenerate_components() {
-transform_hello-world-csv-oscal-cd
 components=$(find ./component-definitions -mindepth 1 -type d | wc -l)
 if [ "$components" -gt 0 ]; then
   for d in ./component-definitions/* ; do

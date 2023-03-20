@@ -26,7 +26,7 @@ bootstrap-workspace: import-fedramp
 ### Generate OSCAL SSP based on FedRAMP profile
 ############################################################################
 generate-fedramp-ssp:
-	trestle author ssp-generate -p fedramp_rev4_moderate --compdefs hello-world-fedramp -o markdown/system-security-plans/acme_fedramp_demo_ssp -y extra/extra-ssp-metadata.yml
+	trestle author ssp-generate -p fedramp_rev4_moderate --compdefs hello-world-fedramp -o markdown/system-security-plans/acme_fedramp_demo_ssp -y extra/extra-ssp-metadata.yml -f
 .PHONY: generate-fedramp-ssp
 
 ############################################################################

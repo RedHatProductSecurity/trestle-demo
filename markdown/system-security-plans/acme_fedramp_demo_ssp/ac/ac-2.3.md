@@ -1,4 +1,8 @@
 ---
+x-trestle-comp-def-rules:
+  This System:
+    - name: Test-rule_002
+      description: Ensure hello-world disables inactive accounts
 x-trestle-set-params:
   # You may set values for parameters in the assembled SSP by adding
   #
@@ -42,10 +46,6 @@ x-trestle-global:
     title: FedRAMP Rev 4 Moderate Baseline
     href: trestle://profiles/fedramp_rev4_moderate/profile.json
   sort-id: ac-02.03
-x-trestle-comp-def-rules:
-  Hello World:
-    - name: test-rule
-      description: This is a rule used for testing compliance workflows
 ---
 
 # ac-2.3 - \[Access Control\] Disable Inactive Accounts
@@ -74,6 +74,6 @@ ______________________________________________________________________
 
 <!-- Add implementation prose for the main This System component for control: ac-2.3 -->
 
-#### Implementation Status: planned
+#### Implementation Status: partial
 
 ______________________________________________________________________
