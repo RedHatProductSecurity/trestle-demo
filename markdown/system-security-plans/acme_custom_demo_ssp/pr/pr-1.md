@@ -35,6 +35,6 @@ ______________________________________________________________________
 
 <!-- Add implementation prose for the main This System component for control: pr-1 -->
 
-#### Implementation Status: planned
+#### Implementation Status: partial
 
 ______________________________________________________________________
