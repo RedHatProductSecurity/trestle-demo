@@ -6,7 +6,7 @@ on:
     paths:
       - 'profiles/**'
       - 'markdown/profiles/**'
-      - 'component-defintions/**'
+      - 'component-definitions/**'
       - 'markdown/components/**'
 
 permissions:

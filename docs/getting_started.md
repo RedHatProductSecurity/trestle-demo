@@ -145,7 +145,7 @@ graph LR;
 
 #### Steps
 
-Clone your repository create from the template to your local environment to get started.
+Clone your repository created from the template to your local environment to get started.
 
 ```bash
 git clone https://github.com/mynamespace/my-trestle-repo
@@ -244,12 +244,14 @@ graph LR;
   A[Start] --> B[Add control to profile and add guidenace]
   B --> C[Submit PR]
   C --> D[CI: Regenerate SSP]
-  D --> E[End]
+  C --> E[CI: Regenerate Component Defintions]
+  D --> F[End]
+  E --> F
 ```
 
 #### Steps
 
-Clone your repository create from the template to your local environment to get started.
+Clone your repository created from the template to your local environment to get started.
 
 ```bash
 git clone https://github.com/mynamespace/my-trestle-repo
@@ -282,20 +284,26 @@ The process automation must be documented in Markdown.
 EOF
 ```
 
+Run the `regenerate-profiles` command to ensure that the Markdown for the ACME internal profile is updated.
+
+```bash
+make regenerate-profiles
+```
+
 Run the `assemble-profiles` command to ensure that the Markdown changes are reflected in the OSCAL profile.
 
 ```bash
 make assemble-profiles
 ```
 
-When you run `git status` , you should see two file changes. One in the `markdown/profiles` directory, the other in the `profiles` directory.
+When you run `git status` , you should see three file changes. Two in the `markdown/profiles` directory, the other in the `profiles` directory.
 
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
 ```bash
 git add markdown/ profiles/
 git commit -m "feat: adds-custom-guidance"
-git push -u origin "feat/adds-custom-guidance to cc-3"
+git push -u origin "feat/adds-custom-guidance"
 gh pr create -t "feat/adds-custom-guidance" -b "Adds guidance to control in custom profile" -B "main" -H "feat/adds-custom-guidance"
 ```
 
@@ -306,7 +314,7 @@ gh pr view
 gh pr merge
 ```
 
-When this pull request is merged, a workflow is started to detect changes to the system security plan, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
+When this pull request is merged, a workflow is started to detect changes to the system security plan and component definitions, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
 
 ```bash
 watch gh pr list
@@ -352,7 +360,7 @@ graph LR;
 
 #### Steps
 
-Clone your repository create from the template to your local environment to get started.
+Clone your repository created from the template to your local environment to get started.
 
 ```bash
 git clone https://github.com/mynamespace/my-trestle-repo
@@ -399,7 +407,7 @@ When you run `git status` for a second time, you should see two file changes. On
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
 ```bash
-git add markdown/ component-defintions/ rules/
+git add markdown/ component-definitions/ rules/
 git commit -m "feat: adds rule to cc-1"
 git push -u origin "feat/adds-rule-to-cc-1"
 gh pr create -t "feat/adds-rule-to-cc-1" -b "Adds a rule for control CC-1" -B "main" -H "feat/adds-rule-to-cc-1"
@@ -412,7 +420,7 @@ gh pr view
 gh pr merge
 ```
 
-When this pull request is merged, a workflow is started to detect changes to the profiles, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
+When this pull request is merged, a workflow is started to detect changes to the system security plan, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
 
 ```bash
 watch gh pr list
@@ -475,7 +483,7 @@ graph TD;
 
 #### Steps
 
-Clone your repository create from the template to your local environment to get started.
+Clone your repository created from the template to your local environment to get started.
 
 ```bash
 git clone https://github.com/mynamespace/my-trestle-repo
