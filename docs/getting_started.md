@@ -145,7 +145,7 @@ graph LR;
 
 #### Steps
 
-Clone your repository create from the template to your local environment to get started.
+Clone your repository created from the template to your local environment to get started.
 
 ```bash
 git clone https://github.com/mynamespace/my-trestle-repo
@@ -249,7 +249,7 @@ graph LR;
 
 #### Steps
 
-Clone your repository create from the template to your local environment to get started.
+Clone your repository created from the template to your local environment to get started.
 
 ```bash
 git clone https://github.com/mynamespace/my-trestle-repo
@@ -295,7 +295,7 @@ Using the GitHub CLI, you can now commit the changes to the branch and create a 
 ```bash
 git add markdown/ profiles/
 git commit -m "feat: adds-custom-guidance"
-git push -u origin "feat/adds-custom-guidance to cc-3"
+git push -u origin "feat/adds-custom-guidance"
 gh pr create -t "feat/adds-custom-guidance" -b "Adds guidance to control in custom profile" -B "main" -H "feat/adds-custom-guidance"
 ```
 
@@ -352,7 +352,7 @@ graph LR;
 
 #### Steps
 
-Clone your repository create from the template to your local environment to get started.
+Clone your repository created from the template to your local environment to get started.
 
 ```bash
 git clone https://github.com/mynamespace/my-trestle-repo
@@ -412,7 +412,7 @@ gh pr view
 gh pr merge
 ```
 
-When this pull request is merged, a workflow is started to detect changes to the profiles, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
+When this pull request is merged, a workflow is started to detect changes to the system security plan, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
 
 ```bash
 watch gh pr list
@@ -475,7 +475,7 @@ graph TD;
 
 #### Steps
 
-Clone your repository create from the template to your local environment to get started.
+Clone your repository created from the template to your local environment to get started.
 
 ```bash
 git clone https://github.com/mynamespace/my-trestle-repo
