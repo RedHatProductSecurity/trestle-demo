@@ -282,13 +282,19 @@ The process automation must be documented in Markdown.
 EOF
 ```
 
+Run the `regenerate-profiles` command to ensure that the Markdown for the ACME internal profile is updated.
+
+```bash
+make regenerate-profiles
+```
+
 Run the `assemble-profiles` command to ensure that the Markdown changes are reflected in the OSCAL profile.
 
 ```bash
 make assemble-profiles
 ```
 
-When you run `git status` , you should see two file changes. One in the `markdown/profiles` directory, the other in the `profiles` directory.
+When you run `git status` , you should see three file changes. Two in the `markdown/profiles` directory, the other in the `profiles` directory.
 
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
