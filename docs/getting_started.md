@@ -246,7 +246,7 @@ graph LR;
   C --> D[CI: Regenerate SSP]
   C --> E[CI: Regenerate Component Defintions]
   D --> F[End]
-  D --> F
+  E --> F
 ```
 
 #### Steps
