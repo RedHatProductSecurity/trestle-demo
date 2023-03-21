@@ -42,3 +42,18 @@ generate-ssp-markdown: generate-fedramp-ssp
 generate-ssp-word: generate-ssp-markdown
 	pandoc acme_fedramp_demo_ssp.md --from markdown+table_captions+implicit_figures+rebase_relative_paths -t docx --reference-doc templates/FedRAMP-SSP-Moderate-Baseline-Template.docx -s --toc -o acme_fedramp_demo_ssp.docx
 .PHONY: generate-ssp-word
+
+############################################################################
+### Generate single high-level markdown file from Jinja template from OSCAL SSP
+############################################################################
+generate-hl-ssp-markdown: generate-fedramp-ssp
+	@./automation/lib/ssp-to-markdown.py --trestle_root . --ssp_name acme_fedramp_demo_ssp > templates/details.md
+	trestle author jinja -i templates/ssp_md_high_level_template.md.jinja -ssp acme_fedramp_demo_ssp -p fedramp_rev4_moderate -o acme_high_level_fedramp_demo_ssp.md
+.PHONY: generate-hl-ssp-markdown
+
+############################################################################
+### Run full workflow to populate FedRAMP docx template with high-level information
+############################################################################
+generate-hl-ssp-word: generate-hl-ssp-markdown
+	pandoc acme_high_level_fedramp_demo_ssp.md --from markdown+table_captions+implicit_figures+rebase_relative_paths -t docx --reference-doc templates/FedRAMP-SSP-Moderate-Baseline-Template.docx -s --toc -o acme_high_level_fedramp_demo_ssp.docx
+.PHONY: generate-hl-ssp-word
