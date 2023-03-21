@@ -244,7 +244,9 @@ graph LR;
   A[Start] --> B[Add control to profile and add guidenace]
   B --> C[Submit PR]
   C --> D[CI: Regenerate SSP]
-  D --> E[End]
+  C --> E[CI: Regenerate Component Defintions]
+  D --> F[End]
+  D --> F
 ```
 
 #### Steps
@@ -312,7 +314,7 @@ gh pr view
 gh pr merge
 ```
 
-When this pull request is merged, a workflow is started to detect changes to the system security plan, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
+When this pull request is merged, a workflow is started to detect changes to the system security plan and component definitions, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
 
 ```bash
 watch gh pr list
@@ -405,7 +407,7 @@ When you run `git status` for a second time, you should see two file changes. On
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
 ```bash
-git add markdown/ component-defintions/ rules/
+git add markdown/ component-definitions/ rules/
 git commit -m "feat: adds rule to cc-1"
 git push -u origin "feat/adds-rule-to-cc-1"
 gh pr create -t "feat/adds-rule-to-cc-1" -b "Adds a rule for control CC-1" -B "main" -H "feat/adds-rule-to-cc-1"
