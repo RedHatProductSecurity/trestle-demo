@@ -7,6 +7,8 @@ function authenticate () {
 
 function config-git () {
     git config user.name ""$(gh api user -q ".login")""
-    git config user.email "trestle@example.org"
-
+    git config user.email "trestle@example.com"
 }
+
+authenticate
+config-git
