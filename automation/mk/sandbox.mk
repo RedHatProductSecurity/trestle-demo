@@ -23,9 +23,9 @@ demo-run:
 ### Run the sandbox container
 ############################################################################
 sandbox-run:
-	${CMD} run -it --rm --entrypoint=/demo/automation/lib/sandbox-entrypoint.sh -v ${CWD}:/demo/trestle-workspace localhost:5000/trestle-demo:latest
+	${CMD} run -it --rm --entrypoint=/demo/automation/sandbox-entrypoint.sh -v ${CWD}:/demo/trestle-workspace localhost:5000/trestle-demo:latest
 .PHONY: sandbox-run
 
 trestle-install:
-	@source ./automation/lib/dependencies.sh && install_trestle
+	@source ./automation/dependencies.sh && install_trestle
 .PHONY: trestle-install

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./automation/lib/logging.sh
+source ./automation/logging.sh
 
 install_epel () {
     run_log 0 "Starting base dependency install"

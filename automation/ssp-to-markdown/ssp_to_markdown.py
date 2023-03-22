@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# ssp-to-markdown.py
+# ssp_to_markdown.py
 
 import logging
 import pathlib

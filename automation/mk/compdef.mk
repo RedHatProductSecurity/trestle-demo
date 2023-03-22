@@ -3,10 +3,10 @@
 ############################################################################
 
 exportcd:
-	@source ./automation/lib/export-cd.sh && export-cd
+	@source ./automation/export-cd.sh && export-cd
 .PHONY: exportcd
 
 update-cd:
-	@source ./automation/lib/transform.sh && transform_hello-world-csv-oscal-cd
+	@source ./automation/transform.sh && transform_hello-world-csv-oscal-cd
 .PHONY: update-cd
 

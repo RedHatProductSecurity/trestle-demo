@@ -6,14 +6,14 @@
 ### Import NIST catalog
 ############################################################################
 import-nist:
-	@source ./automation/lib/import.sh && import_nist_rev4_catalog
+	@source ./automation/import.sh && import_nist_rev4_catalog
 .PHONY: import-nist
 
 ############################################################################
 ### Import FedRAMP profile and NIST catalog
 ############################################################################
 import-fedramp: import-nist
-	@source ./automation/lib/import.sh && import_fedramp_rev4_moderate_profiles
+	@source ./automation/import.sh && import_fedramp_rev4_moderate_profiles
 .PHONY: import-fedramp
 
 ############################################################################
@@ -47,7 +47,7 @@ generate-ssp-word: generate-ssp-markdown
 ### Generate single high-level markdown file from Jinja template from OSCAL SSP
 ############################################################################
 generate-hl-ssp-markdown: generate-fedramp-ssp
-	@./automation/lib/ssp-to-markdown.py --trestle_root . --ssp_name acme_fedramp_demo_ssp > templates/details.md
+	@./automation/ssp-to-markdown/ssp_to_markdown.py --trestle_root . --ssp_name acme_fedramp_demo_ssp > templates/details.md
 	trestle author jinja -i templates/ssp_md_high_level_template.md.jinja -ssp acme_fedramp_demo_ssp -p fedramp_rev4_moderate -o acme_high_level_fedramp_demo_ssp.md
 .PHONY: generate-hl-ssp-markdown
 

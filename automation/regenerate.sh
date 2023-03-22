@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source ./automation/lib/logging.sh
-source ./automation/lib/transform.sh
+source ./automation/logging.sh
+source ./automation/transform.sh
 
 regenerate_catalogs() {
 catalogs=$(find ./catalogs -mindepth 1 -type d | wc -l)

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./automation/lib/logging.sh
+source ./automation/logging.sh
 
 run_log 0 "Validating OSCAL content"
 trestle validate -a
