@@ -11,9 +11,11 @@ RUN ./automation/install.sh build
 
 FROM registry.access.redhat.com/ubi8/python-38 AS demo
 
+COPY requirements.txt requirements.txt
+
 # Install dependencies
 RUN  python3.8 -m pip install --upgrade pip setuptools \
-     && python3.8 -m pip install compliance-trestle==2.0.0
+     && python3.8 -m pip install -r requirements.txt
 
 COPY --from=build /demo /demo
 

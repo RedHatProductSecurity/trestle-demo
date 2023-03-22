@@ -27,5 +27,5 @@ sandbox-run:
 .PHONY: sandbox-run
 
 trestle-install:
-	@source ./automation/dependencies.sh && install_trestle
+	@python3 -m pip install --upgrade pip setuptools && python3 -m pip install -r requirements.txt
 .PHONY: trestle-install
