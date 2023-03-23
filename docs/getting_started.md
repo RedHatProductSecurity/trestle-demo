@@ -189,6 +189,8 @@ When you run `git status` ,you should see two file changes. One in the `markdown
 
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
+**Note: Follow the [demo git and GitHub CLI authentication guide](./auth.md) before performing the following steps!**
+
 ```bash
 git add markdown/ catalogs/
 git commit -m "feat: adds-cc-3"
@@ -300,6 +302,8 @@ When you run `git status` , you should see three file changes. Two in the `markd
 
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
+**Note: Follow the [demo git and GitHub CLI authentication guide](./auth.md) before performing the following steps!**
+
 ```bash
 git add markdown/ profiles/
 git commit -m "feat: adds-custom-guidance"
@@ -405,6 +409,8 @@ make assemble-cd
 When you run `git status` for a second time, you should see two file changes. One in the `markdown/components` directory, the other in the `component-definitions` directory.
 
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
+
+**Note: Follow the [demo git and GitHub CLI authentication guide](./auth.md) before performing the following steps!**
 
 ```bash
 git add markdown/ component-definitions/ rules/
