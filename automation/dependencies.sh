@@ -18,7 +18,7 @@ install_pandoc () {
     dnf -y install wget
     wget -c https://github.com/jgm/pandoc/releases/download/3.1/pandoc-3.1-linux-amd64.tar.gz
     tar zxvf pandoc-3.1-linux-amd64.tar.gz
-    cp -rp pandoc-3.1/bin/* bin/
+    cp -rp pandoc-3.1/bin/* "$BIN_DIR"/
     rm -rf pandoc-3.1
     rm -f pandoc-3.1-linux-amd64.tar.gz
 }
