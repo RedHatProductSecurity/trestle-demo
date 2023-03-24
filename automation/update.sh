@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./automation/lib/logging.sh
+source ./automation/logging.sh
 
 trestleDirs=("assessment-plans" "assessment-results" "catalogs" "component-definitions" "dist" "markdown" "plan-of-action-and-milestones" "profiles" "system-security-plans")
 

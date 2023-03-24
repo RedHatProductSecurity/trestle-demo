@@ -1,0 +1,14 @@
+# FedRAMP High-Level System Security Plan (SSP)
+<!--
+This produces an SSP analog.
+-->
+
+# Frontmatter
+<!-- This includes frontmatter.md showing how arbitrary prose can be inserted into a document -->
+{% md_clean_include 'templates/frontmatter.md' heading_level=2 %}
+
+<!-- This includes details.md which is generated from high-level information from the SSP.
+The SSPMarkdown writer from trestle only support parsing control information from the ssp.
+This is a workaround until higher level information is supported --->
+{% md_clean_include 'templates/details.md' heading_level=1 %}
+

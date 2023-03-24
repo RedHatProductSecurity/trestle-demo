@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./automation/lib/logging.sh
+source ./automation/logging.sh
 
 
 transform_cac_ocp4_nist_high_oscal () {

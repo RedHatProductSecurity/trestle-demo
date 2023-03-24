@@ -9,14 +9,15 @@ on:
       - 'component-definitions/**'
       - 'markdown/components/**'
 
-permissions:
-  contents: write
-  pull-requests: write
+
 
 jobs:
   release:
     name: Regenerate content
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.8
@@ -32,6 +33,6 @@ jobs:
       - name: Assemble ssps
         run: make assemble-ssps
       - name: Update and PR
-        run: bash ./automation/lib/update.sh "Sync OSCAL SSPs"
+        run: bash ./automation/update.sh "Sync OSCAL SSPs"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

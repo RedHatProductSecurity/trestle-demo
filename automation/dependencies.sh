@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./automation/lib/logging.sh
+source ./automation/logging.sh
 
 install_epel () {
     run_log 0 "Starting base dependency install"
@@ -18,15 +18,14 @@ install_pandoc () {
     dnf -y install wget
     wget -c https://github.com/jgm/pandoc/releases/download/3.1/pandoc-3.1-linux-amd64.tar.gz
     tar zxvf pandoc-3.1-linux-amd64.tar.gz
-    cp -rp pandoc-3.1/bin/* bin/
+    cp -rp pandoc-3.1/bin/* "$BIN_DIR"/
     rm -rf pandoc-3.1
     rm -f pandoc-3.1-linux-amd64.tar.gz
 }
 
 install_utils () {
     run_log 0 "Starting base dependency install"
-    dnf install -y which pv asciinema make jq wget 
-
+    dnf install -y which pv asciinema make jq wget
 }
 
 install_gh_cli () {
@@ -34,17 +33,6 @@ install_gh_cli () {
   dnf install 'dnf-command(config-manager)'
   dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
   dnf install -y gh
-}
-
-install_trestle () {
-    run_log 0 "Starting trestle install"
-    python3 -m pip install --upgrade pip setuptools \
-    && python3 -m pip install compliance-trestle==2.0.0
-}
-
-install_trestle_fedramp () {
-    run_log 0 "Starting trestle fedramp install"
-    python3 -m pip install compliance-trestle-fedramp
 }
 
 install_gcr () {

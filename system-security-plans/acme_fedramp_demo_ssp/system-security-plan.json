@@ -4,7 +4,7 @@
     "metadata": {
       "title": "Hello World FedRAMP SSP",
       "last-modified": "2023-03-20T21:59:26.586891+00:00",
-      "version": "REPLACE_ME",
+      "version": "1.0.0",
       "oscal-version": "1.0.2"
     },
     "import-profile": {
@@ -16,36 +16,81 @@
           "id": "REPLACE_ME"
         }
       ],
-      "system-name": "REPLACE_ME",
-      "description": "REPLACE_ME",
-      "security-sensitivity-level": "REPLACE_ME",
+      "system-name": "Hello World",
+      "description": "Hello World is a test application used to demonstrate OSCAL content management",
+      "security-sensitivity-level": "test-information",
       "system-information": {
         "information-types": [
           {
-            "title": "REPLACE_ME",
-            "description": "REPLACE_ME",
+            "title": "Test Information",
+            "description": "Information about tests",
             "confidentiality-impact": {
-              "base": "REPLACE_ME"
+              "base": "test-information"
             },
             "integrity-impact": {
-              "base": "REPLACE_ME"
+              "base": "test-information"
             },
             "availability-impact": {
-              "base": "REPLACE_ME"
+              "base": "test-information"
             }
           }
         ]
       },
       "security-impact-level": {
-        "security-objective-confidentiality": "REPLACE_ME",
-        "security-objective-integrity": "REPLACE_ME",
-        "security-objective-availability": "REPLACE_ME"
+        "security-objective-confidentiality": "test-information",
+        "security-objective-integrity": "test-information",
+        "security-objective-availability": "test-information"
       },
       "status": {
         "state": "operational"
       },
       "authorization-boundary": {
-        "description": "REPLACE_ME"
+        "description": "A holistic, top-level explanation of the FedRAMP authorization boundary.",
+        "diagrams": [
+          {
+            "uuid": "dbf46c27-52a9-49c4-beb6-b6399cd75497",
+            "description": "A diagram-specific explanation.",
+            "links": [
+              {
+                "href": "#d2eb3c18-6754-4e3a-a933-03d289e3fad5",
+                "rel": "diagram"
+              }
+            ],
+            "caption": "Authorization Boundary Diagram"
+          }
+        ]
+      },
+      "network-architecture": {
+        "description": "A holistic, top-level explanation of the network architecture.",
+        "diagrams": [
+          {
+            "uuid": "e97c3395-433a-48c1-8cc7-dd1e1555941c",
+            "description": "A diagram-specific explanation.",
+            "links": [
+              {
+                "href": "#61081e81-850b-43c1-bf43-1ecbddcb9e7f",
+                "rel": "diagram"
+              }
+            ],
+            "caption": "Network Diagram"
+          }
+        ]
+      },
+      "data-flow": {
+        "description": "A holistic, top-level explanation of the system's data flows.",
+        "diagrams": [
+          {
+            "uuid": "e3b98448-4219-46a5-b229-412423c566f3",
+            "description": "A diagram-specific explanation.",
+            "links": [
+              {
+                "href": "#ac5d7535-f3b8-45d3-bf3b-735c82c64547",
+                "rel": "diagram"
+              }
+            ],
+            "caption": "Data Flow Diagram"
+          }
+        ]
       }
     },
     "system-implementation": {
