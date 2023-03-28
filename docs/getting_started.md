@@ -70,7 +70,7 @@ The first step in finishing edits on OSCAL content is to run commands to generat
 The following commands can be run to generate this:
 
 - `make regenerate-catalogs`
-- `make regenerat-profiles`
+- `make regenerate-profiles`
 - `make regenerate-cd`
 - To regenerate all: `make regenerate`
 
