@@ -13,8 +13,8 @@ The root of the directory contains the bash library.
 ### Sub Directories
 
 - [`iac`](./iac) - Currently empty, but will contain any infrastructure-as-code resources.
-- [`mk`](./mk) - Library of phony make targets. This contains logic that would be used by a user interacting with this repository or CI automation.
-- [`ssp-to-markdown`](./ssp-to-markdown) - A automation script using the `compliance-trestle` libraries to create customize SSP markdowns 
+- [`mk`](./mk) - Library of phony make targets. This contains logic that would be utilized by a user interacting with this repository or CI automation.
+- [`ssp-to-markdown`](./ssp-to-markdown) - An automation script using the `compliance-trestle` libraries to create customized system security plan Markdown files. 
 
 > Note that all scripts or resources must be run from the `trestle-demo` root directory.
 
