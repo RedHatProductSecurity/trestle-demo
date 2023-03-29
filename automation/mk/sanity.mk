@@ -6,7 +6,7 @@ sanity: sanity-catalogs sanity-profiles sanity-cd sanity-ssps
 .PHONY: sanity
 
 validate:
-	trestle validate -a
+	@source ./automation/trestle.sh && trestle validate -a
 .PHONY: validate
 
 sanity-catalogs: assemble-catalogs regenerate-catalogs

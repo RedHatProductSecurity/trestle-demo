@@ -1,11 +1,12 @@
 #!/bin/bash
 
 source ./automation/logging.sh
+source ./automation/trestle.sh
 
 check_trestle () {
     if ! which trestle &>/dev/null
     then
-      run_log 1 "trestle not found"
+      run_log 1 "trestle not found, try running 'make demo-build' first"
     fi
 }
 

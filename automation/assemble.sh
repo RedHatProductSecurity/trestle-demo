@@ -1,6 +1,7 @@
 #!/bin/bash
 
 source ./automation/logging.sh
+source ./automation/trestle.sh
 
 assemble_catalogs() {
 version_tag=$1

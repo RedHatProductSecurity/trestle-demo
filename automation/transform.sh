@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source ./automation/logging.sh
-
+source ./automation/trestle.sh
 
 transform_cac_ocp4_nist_high_oscal () {
   trestle task ocp4-cis-profile-to-oscal-cd -c adjunct-data/config-files/demo-ocp4-nist-high-profile-to-oscal-cd.config

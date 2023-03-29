@@ -2,6 +2,7 @@
 
 source ./automation/logging.sh
 source ./automation/transform.sh
+source ./automation/trestle.sh
 
 regenerate_catalogs() {
 catalogs=$(find ./catalogs -mindepth 1 -type d | wc -l)
