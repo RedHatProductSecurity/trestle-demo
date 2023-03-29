@@ -151,12 +151,10 @@ Clone your repository created from the template to your local environment to get
 git clone https://github.com/mynamespace/my-trestle-repo
 ```
 
-If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace`, making changes requires you to navigate to that directory.
+If necessary, create the container image.
 
 ```bash
 make demo-build # build the container image if not done already
-make sandbox-run
-cd trestle-workspace
 ````
 
 To make changes to the ACME custom controls catalog, checkout a new branch.
@@ -189,8 +187,6 @@ When you run `git status` ,you should see two file changes. One in the `markdown
 
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
-**Note: Follow the [demo git and GitHub CLI authentication guide](./auth.md) before performing the following steps!**
-
 ```bash
 git add markdown/ catalogs/
 git commit -m "feat: adds-cc-3"
@@ -208,16 +204,30 @@ gh pr merge
 When this pull request is merged, a workflow is started to detect changes to the profiles, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
 
 ```bash
-watch gh pr list
-gh pr diff 2 --web # Use web to open a web browser.
-gh pr ready 2
+# watch for actions that are not complete (wait for nothing returned)
+gh run list --json status --json name --json number --jq '.[] | select(.status != "completed")'
+
+# Get PR ID
+PR_ID=$(gh pr list | grep "chore: automatic content update" | cut -f 1)
+
+# Review PR in CLI
+gh pr diff $PR_ID
+
+# Mark PR ready
+gh pr ready $PR_ID
 ```
 
 View the pull request with the GitHub CLI and merge it when finished.
 
 ```bash
-gh pr view 2
-gh pr merge 2
+# watch for actions that are not complete (wait for nothing returned)
+gh run list --json status --json name --json number --jq '.[] | select(.status != "completed")'
+
+# wait for checks to pass
+gh pr view $PR_ID
+
+# when checks have passed, merge
+gh pr merge $PR_ID
 ```
 
 See the recorded steps for this demo [here](./recordings)
@@ -259,12 +269,10 @@ Clone your repository created from the template to your local environment to get
 git clone https://github.com/mynamespace/my-trestle-repo
 ```
 
-If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace`, making changes requires you to navigate to that directory.
+If necessary, create the container image.
 
 ```bash
 make demo-build # build the container image if not done already
-make sandbox-run
-cd trestle-workspace
 ````
 
 To make changes to the ACME custom profile, checkout a new branch.
@@ -302,8 +310,6 @@ When you run `git status` , you should see three file changes. Two in the `markd
 
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
 
-**Note: Follow the [demo git and GitHub CLI authentication guide](./auth.md) before performing the following steps!**
-
 ```bash
 git add markdown/ profiles/
 git commit -m "feat: adds-custom-guidance"
@@ -318,19 +324,42 @@ gh pr view
 gh pr merge
 ```
 
-When this pull request is merged, a workflow is started to detect changes to the system security plan and component definitions, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
+When this pull request is merged, a workflow is started to detect changes to the system security plan and component definitions, and new pull requests are submitted. Wait for the pull requests to be submitted before inspecting the changes. Mark the pull requests as ready for review to allow the CI workflow to run.
 
 ```bash
-watch gh pr list
-gh pr diff 2 --web # Use web to open a web browser.
-gh pr ready 2
+# watch for actions that are not complete (wait for nothing returned)
+gh run list --json status --json name --json number --jq '.[] | select(.status != "completed")'
+
+# Review PRs in CLI
+for PR_ID in $(gh pr list | grep "chore: automatic content update" | cut -f 1);
+do
+  gh pr diff $PR_ID
+done
+
+# Mark PRs ready
+for PR_ID in $(gh pr list | grep "chore: automatic content update" | cut -f 1);
+do
+  gh pr ready $PR_ID
+done
 ```
 
-View the pull request with the GitHub CLI and merge it when finished.
+View the pull requests with the GitHub CLI and merge them when finished.
 
 ```bash
-gh pr view 2
-gh pr merge 2
+# watch for actions that are not complete (wait for nothing returned)
+gh run list --json status --json name --json number --jq '.[] | select(.status != "completed")'
+
+# Check status of PRs (look for "Checks passing")
+for PR_ID in $(gh pr list | grep "chore: automatic content update" | cut -f 1);
+do
+  gh pr view $PR_ID
+done
+
+# Merge the PRs when ready.
+for PR_ID in $(gh pr list | grep "chore: automatic content update" | cut -f 1);
+do
+  gh pr merge $PR_ID
+done
 ```
 
 See the recorded steps for this demo [here](./recordings)
@@ -370,12 +399,10 @@ Clone your repository created from the template to your local environment to get
 git clone https://github.com/mynamespace/my-trestle-repo
 ```
 
-If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace`, making changes requires you to navigate to that directory.
+If necessary, create the container image.
 
 ```bash
 make demo-build # build the container image if not done already
-make sandbox-run
-cd trestle-workspace
 ````
 
 To make changes to the Hello World component definition, checkout a new branch.
@@ -387,8 +414,11 @@ git checkout -b "feat/adds-rule-to-cc-1"
 Now that the workspace and all dependencies are available, we can make changes to the Hello World custom component definition.
 
 To create a new rule, update the `hello-world.csv` file under the `rules` directory. 
-Open the CSV and copy the first row. Change the rule_id in Column D, the rule description in Column E, and change the control_id in column L to cc-1.
+Open the CSV and copy the first data row (row 3). Change:
 
+- Column D (Rule Id) to "Test-rule_002"
+- Column E (Rule Description) to some other text
+- Column L (Control Id) to "cc-1"
 
 Run the `update-cd` and `regenerate-cd` commands to ensure that the rule changes are reflected in the component Markdown.
 
@@ -397,7 +427,7 @@ make update-cd
 make regenerate-cd
 ```
 
-When you run `git status`, you should see a file addition under the `markdown/components/hello-world-custom/Hello World` directory.
+When you run `git status`, you should see a file addition under the `markdown/components/hello-world-custom/This Sytem` directory.
 Navigate to the new Markdown file in the directory and add a control implementation details.
 
 Run the `assemble-cd` command to ensure that the Markdown changes are reflected in the OSCAL component definitions. 
@@ -409,8 +439,6 @@ make assemble-cd
 When you run `git status` for a second time, you should see two file changes. One in the `markdown/components` directory, the other in the `component-definitions` directory.
 
 Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
-
-**Note: Follow the [demo git and GitHub CLI authentication guide](./auth.md) before performing the following steps!**
 
 ```bash
 git add markdown/ component-definitions/ rules/
@@ -429,16 +457,30 @@ gh pr merge
 When this pull request is merged, a workflow is started to detect changes to the system security plan, and a new pull request is submitted. Wait for the pull request to be submitted before inspecting the changes. Mark the pull request as ready for review to allow the CI workflow to run.
 
 ```bash
-watch gh pr list
-gh pr diff 2 --web # Use web to open a web browser.
-gh pr ready 2
+# watch for actions that are not complete (wait for nothing returned)
+gh run list --json status --json name --json number --jq '.[] | select(.status != "completed")'
+
+# Get PR ID
+PR_ID=$(gh pr list | grep "chore: automatic content update" | cut -f 1)
+
+# Review PR in CLI
+gh pr diff $PR_ID
+
+# Mark PR ready
+gh pr ready $PR_ID
 ```
 
 View the pull request with the GitHub CLI and merge it when finished.
 
 ```bash
-gh pr view 2
-gh pr merge 2
+# watch for actions that are not complete (wait for nothing returned)
+gh run list --json status --json name --json number --jq '.[] | select(.status != "completed")'
+
+# Check status of PR (look for "Checks passing")
+gh pr view $PR_ID
+
+# Merge the PR when ready.
+gh pr merge $PR_ID
 ```
 
 See the recorded steps for this demo [here](./recordings)
@@ -495,21 +537,33 @@ Clone your repository created from the template to your local environment to get
 git clone https://github.com/mynamespace/my-trestle-repo
 ```
 
-If necessary, create the container image and run the container. Because the local repository is mounted as a volume under `trestle-workspace,` making changes requires you to navigate to that directory.
+If necessary, create the container image.
 
 ```bash
 make demo-build # build the container image if not done already
-make sandbox-run
-cd trestle-workspace
 ````
 
-Run `make generate-ssp-word` to run the entire workflow. This will generate a Markdown system security plan and convert it to the docx format.
-To just generate the Markdown run `make generate-ssp-markdown`
+Run the `generate-ssp-word` command to run the entire workflow. This will generate a Markdown system security plan and convert it to the docx format.
+
+> Alternative: To just generate the Markdown run the `generate-ssp-markdown` command.
+
+```bash
+make generate-ssp-word
+```
 
 If starting from scratch or testing changes to the system security plan:
 
-Run `make bootstrap-workspace` to import the NIST 800-53 catalog and FedRAMP Moderate profile.
-Run `make generate-fedramp-ssp` to generate the system security plan Markdown file under `markdown/system-security-plans`
+Run the `bootstrap-workspace` command to import the NIST 800-53 catalog and FedRAMP Moderate profile.
+
+```bash
+make bootstrap-workspace
+```
+
+Run the `generate-fedramp-ssp` command to generate the system security plan Markdown file under `markdown/system-security-plans`
+
+```bash
+make generate-fedramp-ssp
+```
 
 > If changes are made to the system security plan in Markdown, run `make assemble-ssps`
 
