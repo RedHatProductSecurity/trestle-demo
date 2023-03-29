@@ -15,7 +15,7 @@ graph LR
     subgraph Compliance Content Management Workspace
         Trestle_Workspace(compliance-trestle workspace)
         GH_Actions(GitHub Actions)
-        GH_Actions---Trestle_Workspace
+        GH_Actions -- Synchronize --> Trestle_Workspace
     end
     subgraph External Sources
         Official_Catalogs_Profiles(Official OSCAL Catalogs and Profiles)
@@ -31,12 +31,12 @@ graph LR
         Trestle_Workspace --> POAM_Reporting
     end
     
-    Person --> GH_Actions
-    Person --> Trestle_Workspace
-    Official_Catalogs_Profiles --> GH_Actions
-    Component_Build_Pipelines --> Trestle_Workspace
-    GH_Actions --> Trestle_Workspace
+    Person -- Trigger --> GH_Actions
+    Person -- Publish --> Trestle_Workspace
+    Official_Catalogs_Profiles -- Pull --> GH_Actions
+    Component_Build_Pipelines -- Publish --> Trestle_Workspace
+    Trestle_Workspace -- Publish --> GH_Actions
     Trestle_Workspace --> SSP_Reporting
-    Trestle_Workspace --> Policy_Engine
-    Assessed_System --> Policy_Engine
-    Policy_Engine --> Trestle_Workspace
+    Trestle_Workspace -- Pull --> Policy_Engine
+    Assessed_System -- Export --> Policy_Engine
+    Policy_Engine -- Publish --> Trestle_Workspace

@@ -31,12 +31,12 @@ graph LR
     
     Person --> Pull_Request
     Pull_Request -- Merge --> Trestle_Workspace((`compliance-trestle` workspace))
-    Official_Catalogs_Profiles --> Catalog_Profile_Import
-    Catalog_Profile_Import --> Draft_PR
-    Component_Build_Pipelines --> Draft_PR
-    Trestle_Workspace --> Sync
-    Sync --> Draft_PR
-    Draft_PR --> Pull_Request
+    Official_Catalogs_Profiles -- Draft Pull Request --> Catalog_Profile_Import
+    Catalog_Profile_Import -- Publish --> Draft_PR
+    Component_Build_Pipelines -- Publish --> Draft_PR
+    Trestle_Workspace -- Change Detected --> Sync
+    Sync -- Publish --> Draft_PR
+    Draft_PR -- Converted --> Pull_Request
 ```
 
 ## Reporting Workflow
@@ -79,12 +79,12 @@ graph LR
         Policy_Engine(Policy Engine)
     end
     
-    Assessment_Plan --> Policy_Engine
+    Assessment_Plan -- Pull --> Policy_Engine
     Policy_Engine -->
     |Assessment_Result|Draft_PR
     Draft_PR --> PR
     PR -- Merge --> Trestle_Workspace
-    Person --> Draft_PR
-    Person --> PR
-    Person((Person)):::bottom
+    Person -- Review --> Draft_PR
+    Person -- Approve --> PR
+    Person((Person))
 ```
