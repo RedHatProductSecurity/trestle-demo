@@ -5,6 +5,7 @@ Getting Started Guide
 - [What You Will Learn](#what-you-will-learn)
 - [Tools Required](#tools-required)
 - [Setting up Your Repository](#setting-up-your-repository)
+- [Setting Up GitHub CLI](#setting-up-github-cli-gh)
 - [Editing Content](#editing-content)
 - [Personas and Applicable Workflows](#personas-and-applicable-workflows)
     * [Control Issuers](#control-issuers)
@@ -58,6 +59,26 @@ Here are some additional resources for repository configuration:
 
 - [Branch Protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
 - [GitHub Actions Configuration](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository)
+
+# Setting Up GitHub CLI (gh)
+
+This demo makes use of the GitHub CLI to streamline managing GitHub Pull Requests. To make use of these automations, the GitHub CLI will need to be installed in your environment prior to performing the walkthroughs in this guide. If you do not opt to install and leverage the GitHub CLI, you will need to perform the Pull Request management tasks manually through the GitHub WebUI. This guide does not detail the management of GitHub Pull Requests through the GitHub WebUI.
+
+### GitHub CLI Installation
+
+Follow [this guide](https://cli.github.com/manual/installation) to install and configure the GitHub CLI: 
+
+### GitHub CLI Login to GitHub
+
+Follow [these instructions](https://cli.github.com/manual/gh_auth_login) to use the GitHub CLI to login to GitHub: 
+
+### GitHub CLI git Credential Helper
+
+The GitHub CLI can also be used as a credential helper for git (configures git client authentication to GitHub). To learn more about this and how to leverage this capability, reference this [documentation](https://cli.github.com/manual/gh_auth_setup-git)
+
+### GitHub CLI PR Management Info
+
+More information about managing Pull Requests with the GitHub CLI can be found [here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository)
 
 # Editing Content
 
@@ -230,8 +251,6 @@ gh pr view $PR_ID
 gh pr merge $PR_ID
 ```
 
-See the recorded steps for this demo [here](./recordings)
-
 ## Control Owners
 
 > Applicable OSCAL model: Profiles
@@ -362,8 +381,6 @@ do
 done
 ```
 
-See the recorded steps for this demo [here](./recordings)
-
 ## Control Providers
 
 > Applicable OSCAL Model: Component Definitions
@@ -482,8 +499,6 @@ gh pr view $PR_ID
 # Merge the PR when ready.
 gh pr merge $PR_ID
 ```
-
-See the recorded steps for this demo [here](./recordings)
 
 ## Control Assessors
 

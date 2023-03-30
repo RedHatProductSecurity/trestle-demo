@@ -18,21 +18,14 @@ is part of the roadmap.
 
 ## Usage
 
-Get a list of all targets:
+This repository serves two main purposes:
 
-```bash
-make help
-```
+1. As an educational tool to familiarize users with OSCAL, Compliance-Trestle, and Continuous Compliance concepts. For more information on how to get started, see our [Getting Started Guide](docs/getting_started.md).
 
-Run the following commands to access the trestle workspace with the required dependencies:
+2. As a development sandbox where Continuous Compliance workflows and integrations can be developed and tested. For more information on how to use the development sandbox, see our [Developer Guide](docs/developer_guide.md)
 
-```bash
-make demo-build
-make sandbox-run
-cd trestle-workspace
-```
 
-For more information on how to get started, see our [Getting Started Guide](docs/getting_started.md).
+
 
 
 
