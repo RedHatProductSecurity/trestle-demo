@@ -3,7 +3,7 @@
     "uuid": "4857e0ae-937f-43db-973b-03c54e625a88",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2023-04-03T22:28:45.782420+00:00",
+      "last-modified": "2023-04-03T22:31:47.888142+00:00",
       "version": "REPLACE_ME",
       "oscal-version": "1.0.2"
     },
@@ -63,29 +63,6 @@
           "status": {
             "state": "operational"
           }
-        },
-        {
-          "uuid": "ebcf01c9-0329-46fc-b5a5-a9deefe28e17",
-          "type": "service",
-          "title": "Hello World SSO",
-          "description": "SSO Application",
-          "props": [
-            {
-              "name": "Rule_Id",
-              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
-              "value": "sso_rule_001",
-              "remarks": "rule_set_0"
-            },
-            {
-              "name": "Rule_Description",
-              "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
-              "value": "Ensure all of the services use automated account management",
-              "remarks": "rule_set_0"
-            }
-          ],
-          "status": {
-            "state": "operational"
-          }
         }
       ]
     },
@@ -99,22 +76,6 @@
             {
               "component-uuid": "cbd79a85-0aff-4657-bf29-2a795de1d492",
               "uuid": "8fdecbaa-8b99-4f96-ab34-36c1e82ed048",
-              "description": "",
-              "implementation-status": {
-                "state": "planned"
-              }
-            },
-            {
-              "component-uuid": "a1f1fecc-9626-41df-aa84-c0c1c0ca7df8",
-              "uuid": "ef4b80e7-43c1-4096-a2f1-c663d0703cd2",
-              "description": "",
-              "implementation-status": {
-                "state": "planned"
-              }
-            },
-            {
-              "component-uuid": "ebcf01c9-0329-46fc-b5a5-a9deefe28e17",
-              "uuid": "44f223a0-afab-4352-9062-5931e9884be5",
               "description": "",
               "implementation-status": {
                 "state": "planned"

@@ -1,5 +1,5 @@
 ############################################################################
-## Custom Workflow
+## FedRAMP Workflow
 ############################################################################
 
 ############################################################################
@@ -26,8 +26,15 @@ bootstrap-workspace: import-fedramp
 ### Generate OSCAL SSP based on FedRAMP profile
 ############################################################################
 generate-fedramp-ssp:
-	@source ./automation/trestle.sh && trestle author ssp-generate -p fedramp_rev4_moderate --compdefs hello-world-fedramp -o markdown/system-security-plans/acme_fedramp_demo_ssp -y extra/extra-ssp-metadata.yml -f
+	@source ./automation/trestle.sh && trestle author ssp-generate -p fedramp_rev4_moderate --compdefs hello-world-fedramp -o markdown/system-security-plans/acme_fedramp_demo_ssp -y extra/extra-ssp-metadata.yml
 .PHONY: generate-fedramp-ssp
+
+############################################################################
+### Assemble OSCAL SSP based on FedRAMP profile
+############################################################################
+assemble-fedramp-ssp:
+	@source ./automation/trestle.sh && trestle author ssp-assemble --name acme_fedramp_demo_ssp --markdown markdown/system-security-plans/acme_fedramp_demo_ssp -o  acme_fedramp_demo_ssp --compdefs hello-world-fedramp
+.PHONY: assemble-fedramp-ssp
 
 ############################################################################
 ### Generate single markdown file from Jinja template from OSCAL SSP

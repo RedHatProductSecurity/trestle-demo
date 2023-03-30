@@ -3,23 +3,12 @@ x-trestle-comp-def-rules:
   Hello World SSO:
     - name: sso_rule_001
       description: Ensure all of the services use automated account management
-x-trestle-set-params:
-  # You may set values for parameters in the assembled SSP by adding
-  #
-  # ssp-values:
-  #   - value 1
-  #   - value 2
-  #
-  # below a section of values:
-  # The values list refers to the values in the resolved profile catalog, and the ssp-values represent new values
-  # to be placed in SetParameters of the SSP.
-  #
+x-trestle-param-values:
   ac-2.1_prm_1:
-    values:
 x-trestle-global:
   profile:
     title: ACME Inc. internal controls profile.
-    href: trestle://profiles/ACME_internal_profile/profile.json
+    href: profiles/ACME_internal_profile/profile.json
   sort-id: ac-02.01
 ---
 
@@ -27,7 +16,7 @@ x-trestle-global:
 
 ## Control Statement
 
-Support the management of system accounts using [organization-defined automated mechanisms].
+Support the management of system accounts using organization-defined automated mechanisms.
 
 ## Control guidance
 
@@ -41,20 +30,12 @@ ______________________________________________________________________
 
 <!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-### This System
-
-<!-- Add implementation prose for the main This System component for control: ac-2.1 -->
-
-#### Implementation Status: planned
-
-### Hello World SSO
-
 <!-- Add control implementation description here for control: ac-2.1 -->
 
-#### Rules:
+### Rules:
 
   - sso_rule_001
 
-#### Implementation Status: planned
+### Implementation Status: planned
 
 ______________________________________________________________________
