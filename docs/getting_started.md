@@ -65,15 +65,19 @@ This demo makes use of the GitHub CLI to streamline managing GitHub Pull Request
 
 ### GitHub CLI Installation
 
-Follow this guide to install and configure the GitHub CLI: https://cli.github.com/manual/installation
+Follow [this guide](https://cli.github.com/manual/installation) to install and configure the GitHub CLI: 
 
 ### GitHub CLI Login to GitHub
 
-Follow these instructions to use the GitHub CLI to login to GitHub: https://cli.github.com/manual/gh_auth_login
+Follow [these instructions](https://cli.github.com/manual/gh_auth_login) to use the GitHub CLI to login to GitHub: 
 
 ### GitHub CLI git Credential Helper
 
-The GitHub CLI can also be used as a credential helper for git (configures git client authentication to GitHub). To learn more about this and how to leverage this capability, reference this documentation: https://cli.github.com/manual/gh_auth_setup-git
+The GitHub CLI can also be used as a credential helper for git (configures git client authentication to GitHub). To learn more about this and how to leverage this capability, reference this [documentation](https://cli.github.com/manual/gh_auth_setup-git)
+
+### GitHub CLI PR Management Info
+
+More information about managing Pull Requests with the GitHub CLI can be found [here](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository)
 
 # Editing Content
 
