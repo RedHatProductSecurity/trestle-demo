@@ -5,6 +5,7 @@ Getting Started Guide
 - [What You Will Learn](#what-you-will-learn)
 - [Tools Required](#tools-required)
 - [Setting up Your Repository](#setting-up-your-repository)
+- [Setting Up GitHub CLI](#setting-up-github-cli-gh)
 - [Editing Content](#editing-content)
 - [Personas and Applicable Workflows](#personas-and-applicable-workflows)
     * [Control Issuers](#control-issuers)
