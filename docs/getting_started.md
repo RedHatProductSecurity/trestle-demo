@@ -510,7 +510,86 @@ Component properties, on the other hand, can be used to include rule-id and chec
 
 ### Applicable Workflows
 
-Workflows are currently not available for this persona.
+In this workflow, we will add a check to the CSV file to update the control implementation for the `hello-world` component.
+
+#### What's included
+
+- The hello-world-pvp.csv under the `rules` directory with example rules for the ACME internal profile
+- An existing Hello World component definition with one rule identified. Control implementation information can be edited under `markdown/components/hello-world-pvp`
+
+#### Diagram
+
+The below diagram only covers the guided activity.
+For the full compliance to policy mappings workflow, see this [diagram](./compliance-to-policy.md).
+
+```mermaid
+graph LR;
+  A[Start] --> B[Update rules on component definition]
+  B --> C[Submit PR]
+  C --> D[End]
+```
+
+#### Steps
+
+Clone your repository created from the template to your local environment to get started.
+
+```bash
+git clone https://github.com/mynamespace/my-trestle-repo
+```
+
+If necessary, create the container image.
+
+```bash
+make demo-build # build the container image if not done already
+````
+
+To make changes to the Hello World component definition, checkout a new branch.
+
+```bash
+git checkout -b "feat/adds-check-to-pr-1"
+```
+
+Now that the workspace and all dependencies are available, we can make changes to the Hello World custom component definition.
+
+To create add a check, update the `hello-world-pvp.csv` file under the `rules` directory.
+Open the CSV and edit the first data row (row 3). Change:
+
+- Column M (Check Id) to "Test_check_001"
+- Column N (Check Description) to "This checks that the service is configured to run test"
+
+Run the `update-cd` and `regenerate-cd` commands to ensure that the rule changes are reflected in the component Markdown.
+
+```bash
+make update-cd
+make regenerate-cd
+```
+
+When you run `git status`, you should see a file addition under the `markdown/components/hello-world-pvp/This Sytem` directory.
+Navigate to the new Markdown file in the directory and add a control implementation details.
+
+Run the `assemble-cd` command to ensure that the Markdown changes are reflected in the OSCAL component definitions.
+
+```bash
+make assemble-cd
+```
+
+When you run `git status` for a second time, you should see two file changes. One in the `markdown/components` directory, the other in the `component-definitions` directory.
+
+Using the GitHub CLI, you can now commit the changes to the branch and create a pull request. You can also use the [GitHub UI](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) to create a pull request.
+
+```bash
+git add markdown/ component-definitions/ rules/
+git commit -m "feat: adds check to pr-1"
+git push -u origin "feat/adds-check-to-pr-1"
+gh pr create -t "feat/adds-check-to-pr-1" -b "Adds a check for control PR-1" -B "main" -H "feat/adds-check-to-pr-1"
+```
+
+View the pull request with the GitHub CLI and merge it when finished.
+
+```bash
+gh pr view
+gh pr merge
+```
 
 ## Control Operators (System Owners)
 

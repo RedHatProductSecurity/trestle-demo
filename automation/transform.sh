@@ -10,4 +10,5 @@ transform_cac_ocp4_nist_high_oscal () {
 transform_hello-world-csv-oscal-cd () {
   trestle task csv-to-oscal-cd -c adjunct-data/config-files/demo-hello-world-oscal-cd.config
   trestle task csv-to-oscal-cd -c adjunct-data/config-files/demo-hello-world-fedramp-oscal-cd.config
+  trestle task csv-to-oscal-cd -c adjunct-data/config-files/demo-hello-world-pvp-oscal-cd.config
 }
