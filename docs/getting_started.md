@@ -5,7 +5,8 @@ Getting Started Guide
 - [What You Will Learn](#what-you-will-learn)
 - [Tools Required](#tools-required)
 - [Setting up Your Repository](#setting-up-your-repository)
-- [Setting Up GitHub CLI](#setting-up-github-cli-gh)
+    * [Repository Management](#repository-management)
+- [Setting Up GitHub CLI (gh)](#setting-up-github-cli-gh)
 - [Editing Content](#editing-content)
 - [Personas and Applicable Workflows](#personas-and-applicable-workflows)
     * [Control Issuers](#control-issuers)
@@ -51,14 +52,35 @@ This guide provides an overview of this demo project including everything that y
 
 # Setting up Your Repository
 
-This repository is meant to be used as a template to ensure your repository environment has all required content and a separate commit history. 
+This repository can be used template to ensure your repository environment has all required content and a separate commit history. 
 Use this [guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create a repository.
 If you don't have a GitHub Team, GitHub Enterprise Cloud or GitHub Enterprise Server plan, make sure the repository visibility is public so draft pull requests can be submitted.
+
+If desired, a repository fork can be used. Remember that this will be linked to the original repository. 
+Using a fork is a good option if you do not intend to customize the content and want to receive continuous updates from original repository. 
+However, keep in mind that running the guided workflow will result in commits to the `main` branch that will not be contributed back to the original repository, which can cause merge conflicts.
 
 Here are some additional resources for repository configuration:
 
 - [Branch Protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule)
 - [GitHub Actions Configuration](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository)
+
+## Repository Management
+
+Unlike forks, repositories created from template repository are not linked so updates cannot be synced with the GitHub UI. 
+
+If you need to start with a fresh environment, you can create a new repository from the template to get the latest updates.
+
+If you would like to update your existing repository use the following steps:
+```bash
+git remote add template https://github.com/RedHatProductSecurity/trestle-demo.git
+git fetch --all
+git merge template/main --allow-unrelated-histories
+git push
+```
+
+> **Warning**
+> Because the guided activities require pushing changes to the `main` branch, updating the existing repository may causes merge conflicts.
 
 # Setting Up GitHub CLI (gh)
 
