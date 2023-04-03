@@ -1,16 +1,16 @@
 {
   "component-definition": {
-    "uuid": "49f4b5cd-3833-42dc-b127-7248261143c3",
+    "uuid": "e53fe155-7386-4415-b5eb-8dc20f286636",
     "metadata": {
-      "title": "Hello World Custom Component Definition",
-      "last-modified": "2023-03-31T13:54:06.517439+00:00",
+      "title": "Hello World PVP Component Definition",
+      "last-modified": "2023-03-31T13:54:08.357994+00:00",
       "version": "1.0.0",
       "oscal-version": "1.0.2"
     },
     "components": [
       {
-        "uuid": "a957cc6f-e80e-4d6b-aa9c-523e9d0f0bb4",
-        "type": "service",
+        "uuid": "9640b41b-15ae-4af7-8b0a-d75b57c770cd",
+        "type": "validation",
         "title": "This System",
         "description": "Hello World Application",
         "props": [
@@ -25,16 +25,28 @@
             "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
             "value": "Ensure all of the services are running this test",
             "remarks": "rule_set_0"
+          },
+          {
+            "name": "Check_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test_check_001",
+            "remarks": "rule_set_0"
+          },
+          {
+            "name": "Check_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "This checks that the service is configured to run test",
+            "remarks": "rule_set_0"
           }
         ],
         "control-implementations": [
           {
-            "uuid": "22e1257b-b6f1-4d47-a49a-b43d20c3434a",
+            "uuid": "a57b3117-19d2-4f93-84f8-b95cb7f0b809",
             "source": "profiles/ACME_internal_profile/profile.json",
             "description": "This is a partial implementation of the ACME Internal profile",
             "implemented-requirements": [
               {
-                "uuid": "459e51a9-33cf-4f93-831d-f89e5bbf8fab",
+                "uuid": "83224996-2a96-4529-a7e5-5d776d8c6c4b",
                 "control-id": "pr-1",
                 "description": "",
                 "props": [
@@ -45,7 +57,7 @@
                   },
                   {
                     "name": "implementation-status",
-                    "value": "partial"
+                    "value": "planned"
                   }
                 ]
               }
