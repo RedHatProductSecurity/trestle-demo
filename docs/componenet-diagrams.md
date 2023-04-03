@@ -16,6 +16,7 @@ graph LR
     end
     subgraph External Sources
         Official_Catalogs_Profiles(Official OSCAL Catalogs and Profiles)
+        Component_Build_Pipelines(Component Build Pipelines)
     end
     subgraph GitHub Actions
         Catalog_Profile_Import(Catalog/Profile Import)
@@ -32,24 +33,26 @@ graph LR
     end
     Person(Person)
 
-    Official_Catalogs_Profiles --> Catalog_Profile_Import
-    Catalog_Profile_Import --> Trestle_Utility
-    Trestle_Utility --> Git
-    Git --> GitHub_CLI
-    GitHub_CLI --> Draft_PR
-    Sync_Profiles --> Trestle_Utility
-    Sync_Components --> Trestle_Utility
-    Sync_SSPs --> Trestle_Utility
-    Draft_PR --> Pull_Request
+    Official_Catalogs_Profiles -- Updated Content --> Catalog_Profile_Import
+    Catalog_Profile_Import -- Updated Content --> Trestle_Utility
+    Trestle_Utility -- Sanity Checks --> Git
+    Git -- Commit--> GitHub_CLI
+    GitHub_CLI -- Open --> Draft_PR
+    Sync_Profiles -- Catalog Content --> Trestle_Utility
+    Sync_Components -- Profile Content --> Trestle_Utility
+    Sync_SSPs  -- Component Def Content --> Trestle_Utility
+    Draft_PR -- Run Checks --> Pull_Request
     Pull_Request -- Merge --> Catalogs
     Pull_Request -- Merge --> Profiles
     Pull_Request -- Merge --> Component_Definitions
     Pull_Request -- Merge --> SSPs
-    Catalogs --> Sync_Profiles
-    Profiles --> Sync_Components
-    Component_Definitions --> Sync_SSPs
-    Person --> Draft_PR
-    Person --> Pull_Request
+    Catalogs -- Catalog Change Detected --> Sync_Profiles
+    Profiles -- Profile Change Detected --> Sync_Components
+    Component_Definitions -- Component Def Change Detected --> Sync_SSPs
+    Person -- Review/Convert --> Draft_PR
+    Person -- Approve --> Pull_Request
+    Component_Build_Pipelines -- Component Def --> Draft_PR
+
 ```
 
 ## Reporting Workflow
