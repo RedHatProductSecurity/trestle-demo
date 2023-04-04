@@ -1,17 +1,17 @@
 {
   "component-definition": {
-    "uuid": "f63df2e5-6deb-477f-bd4d-2a42daaeef1f",
+    "uuid": "b9f34787-c459-4b35-bf98-5fef86ea5026",
     "metadata": {
       "title": "Hello World PVP Component Definition",
-      "last-modified": "2023-04-03T22:36:58.202993+00:00",
+      "last-modified": "2023-04-04T20:58:15.942726+00:00",
       "version": "1.0.0",
       "oscal-version": "1.0.2"
     },
     "components": [
       {
-        "uuid": "1817fbe4-bd84-4a6a-ae41-1ca3854eeeff",
+        "uuid": "62bdc932-10fd-4238-8667-684fad953eb8",
         "type": "validation",
-        "title": "This System",
+        "title": "Hello World PVP",
         "description": "Hello World Application",
         "props": [
           {
@@ -41,12 +41,12 @@
         ],
         "control-implementations": [
           {
-            "uuid": "aa6fb22d-b15b-4b50-bbeb-0bdef830f9de",
+            "uuid": "63d4ed25-664c-4b08-bfbd-358f98b94047",
             "source": "profiles/ACME_internal_profile/profile.json",
             "description": "This is a partial implementation of the ACME Internal profile",
             "implemented-requirements": [
               {
-                "uuid": "dd8187f8-62ce-4b1c-9676-bf4b7f4d0461",
+                "uuid": "90860449-5eb9-4305-9fcd-9caa7ff384f9",
                 "control-id": "pr-1",
                 "description": "",
                 "props": [

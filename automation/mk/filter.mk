@@ -8,5 +8,5 @@
 ############################################################################
 
 filter-ssp:
-	@source ./automation/trestle.sh && trestle author ssp-filter --name acme_custom_demo_ssp --components "this_system" -o acme_custom_demo_filter_ssp
+	@source ./automation/trestle.sh && trestle author ssp-filter --name acme_custom_demo_ssp --components "hello_world" -o acme_filtered_demo_ssp
 .PHONY: filer-ssp
