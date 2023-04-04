@@ -2,7 +2,6 @@ Getting Started Guide
 ---
 
 <!--toc-->
-    * [Getting Started Guide](#getting-started-guide)
 - [What You Will Learn](#what-you-will-learn)
 - [Tools Required](#tools-required)
 - [Setting up Your Repository](#setting-up-your-repository)
@@ -735,7 +734,7 @@ Run the `filter-ssp` command to run generate a new ssp under `system-security-pl
 
 
 ```bash
-make ssp-filter
+make filter-ssp
 ```
 
 A new filtered ssp, will now be available under `system-security-plans/acme_filtered_demo_ssp`

@@ -4,7 +4,7 @@
 
 ############################################################################
 ### Filter an existing SSP based on a component definition. The component definition
-### title must be as filter input.
+### title must be provided as the filter input.
 ############################################################################
 
 filter-ssp:
