@@ -2,6 +2,7 @@ Getting Started Guide
 ---
 
 <!--toc-->
+    * [Getting Started Guide](#getting-started-guide)
 - [What You Will Learn](#what-you-will-learn)
 - [Tools Required](#tools-required)
 - [Setting up Your Repository](#setting-up-your-repository)
@@ -26,11 +27,19 @@ Getting Started Guide
             * [Steps](#steps-2)
     * [Control Assessors](#control-assessors)
         * [Applicable Workflows](#applicable-workflows-3)
-    * [Control Operators (System Owners)](#control-operators-system-owners)
-        * [Applicable Workflows](#applicable-workflows-4)
-            * [What's included?](#whats-included-3)
+            * [What's included](#whats-included-3)
             * [Diagram](#diagram-3)
             * [Steps](#steps-3)
+    * [Control Operators (System Owners)](#control-operators-system-owners)
+        * [Applicable Workflows](#applicable-workflows-4)
+            * [FedRAMP Report Generation](#fedramp-report-generation)
+                * [What's included?](#whats-included-4)
+                * [Diagram](#diagram-4)
+                * [Steps](#steps-4)
+            * [SSP Filtering By Component](#ssp-filtering-by-component)
+                * [What's included?](#whats-included-5)
+                * [Diagram](#diagram-5)
+                * [Steps](#steps-5)
     * [Additional Resources](#additional-resources)
 
 <!-- tocstop -->
@@ -468,7 +477,7 @@ make update-cd
 make regenerate-cd
 ```
 
-When you run `git status`, you should see a file addition under the `markdown/components/hello-world-custom/This Sytem` directory.
+When you run `git status`, you should see a file addition under the `markdown/components/hello-world-custom/Hello World` directory.
 Navigate to the new Markdown file in the directory and add a control implementation details.
 
 Run the `assemble-cd` command to ensure that the Markdown changes are reflected in the OSCAL component definitions. 
@@ -588,7 +597,7 @@ make update-cd
 make regenerate-cd
 ```
 
-When you run `git status`, you should see a file addition under the `markdown/components/hello-world-pvp/This Sytem` directory.
+When you run `git status`, you should see a file addition under the `markdown/components/hello-world-pvp/Hello World PVP` directory.
 Navigate to the new Markdown file in the directory and add a control implementation details.
 
 Run the `assemble-cd` command to ensure that the Markdown changes are reflected in the OSCAL component definitions.
@@ -625,15 +634,17 @@ SSP is generated from a given profile and component definitions.
 ### Applicable Workflows
 
 Reporting workflows can be demonstrated by using pre-defined `make` targets. 
+
+#### FedRAMP Report Generation
 In this workflow, we generate an OSCAL system security plan based on the FedRAMP Moderate profile and use it to populate a single Markdown file and FedRAMP docx template.
 
-#### What's included?
+##### What's included?
 
 - The NIST rev4 800_53 catalog
 - The FedRAMP Moderate profile
 - The profile has been updated so the import href points within the trestle project to trestle://catalogs/nist_rev4_800_53/catalog.json
 
-#### Diagram
+##### Diagram
 
 ```mermaid
 graph TD;
@@ -647,7 +658,7 @@ graph TD;
 
 > Note: The workspace is pre-populated with the catalog and profile so the first two steps in the diagram are skipped.
 
-#### Steps
+##### Steps
 
 Clone your repository created from the template to your local environment to get started.
 
@@ -684,6 +695,50 @@ make generate-fedramp-ssp
 ```
 
 > If changes are made to the system security plan in Markdown, run `make assemble-ssps`
+
+#### SSP Filtering By Component
+
+We filter an SSP by component in this workflow to demonstrate how to create a starting point for a new SSP. 
+This may also be useful if a component needs to be updated to an accredited system and a scoped SSP is required.
+
+##### What's included?
+
+- The ACME custom SSP (partial) is based on the ACME internal profile. Is it located `markdown/system-security-plans/acme_demo_custom_ssp`
+
+##### Diagram
+
+The below diagram only covers the guided activity.
+To learn more about the SSP filtering workflow, see this [diagram](./ssp-filtering.md).
+
+```mermaid
+graph LR;
+  A[Start] --> B[Filter SSP]
+  B --> C[Submit PR]
+  C --> D[End]
+```
+
+##### Steps
+
+Clone your repository created from the template to your local environment to get started.
+
+```bash
+git clone https://github.com/mynamespace/my-trestle-repo
+```
+
+If necessary, create the container image.
+
+```bash
+make demo-build # build the container image if not done already
+````
+
+Run the `filter-ssp` command to run generate a new ssp under `system-security-plans.
+
+
+```bash
+make ssp-filter
+```
+
+A new filtered ssp, will now be available under `system-security-plans/acme_filtered_demo_ssp`
 
 ## Additional Resources
 
