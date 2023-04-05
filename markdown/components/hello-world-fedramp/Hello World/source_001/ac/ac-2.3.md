@@ -1,6 +1,6 @@
 ---
 x-trestle-comp-def-rules:
-  This System:
+  Hello World:
     - name: Test-rule_002
       description: Ensure hello-world disables inactive accounts
 x-trestle-param-values:
@@ -34,12 +34,12 @@ ______________________________________________________________________
 
 <!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
 
-<!-- Add control implementation description here for item  -->
+<!-- Add control implementation description here for control: ac-2.3 -->
 
 ### Rules:
 
   - Test-rule_002
 
-### Implementation Status: partial
+### Implementation Status: planned
 
 ______________________________________________________________________

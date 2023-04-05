@@ -17,7 +17,6 @@ assemble-cd:
 	@source ./automation/assemble.sh && assemble_components
 .PHONY: assemble-cd
 
-assemble-ssps:
-	@source ./automation/assemble.sh && assemble_ssps
+assemble-ssps: assemble-fedramp-ssp assemble-custom-ssp
 .PHONY: assemble-ssps
 

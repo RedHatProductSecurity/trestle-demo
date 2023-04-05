@@ -1,6 +1,6 @@
 ---
 x-trestle-comp-def-rules:
-  This System:
+  Hello World:
     - name: Test-rule_001
       description: Ensure all of the services are running this test
 x-trestle-global:
@@ -35,6 +35,16 @@ ______________________________________________________________________
 
 <!-- Add implementation prose for the main This System component for control: pr-1 -->
 
-#### Implementation Status: partial
+#### Implementation Status: planned
+
+### Hello World
+
+<!-- Add control implementation description here for control: pr-1 -->
+
+#### Rules:
+
+  - Test-rule_001
+
+#### Implementation Status: planned
 
 ______________________________________________________________________
