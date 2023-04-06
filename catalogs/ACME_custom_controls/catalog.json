@@ -3,9 +3,9 @@
     "uuid": "96a701b8-f7be-44c1-ad21-3ae4d1ae45f9",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2023-03-06T23:10:54.047840+00:00",
+      "last-modified": "2023-04-06T19:59:16.202344+00:00",
       "version": "REPLACE_ME",
-      "oscal-version": "1.0.2"
+      "oscal-version": "1.0.4"
     },
     "groups": [
       {
@@ -99,13 +99,7 @@
           },
           {
             "id": "pr-2",
-            "title": "Registering exemptions to right to delete",
-            "parts": [
-              {
-                "id": "pr-2_smt",
-                "name": "statement"
-              }
-            ]
+            "title": "Registering exemptions to right to delete"
           }
         ]
       }
