@@ -1,11 +1,11 @@
 include ./automation/mk/*.mk
 
-REPO := https://github.com/jpower432/oscal-automation-libs.git
-BRANCH := chore/initial-setup
+REPO := https://github.com/RedHatProductSecurity/oscal-automation-libs.git
+BRANCH := main
 CWD := $(shell cd -P -- '$(shell dirname -- "$0")' && pwd -P)
 CMD := "$(shell command -pv podman || command -pv docker)"
 SHELL := /bin/bash
-SCRIPTS_DIR := "./automation/scripts"
+SCRIPTS_DIR := "./vendor/scripts"
 CONFIGS :=$(wildcard ./adjunct-data/config-files/*)
 
 ############################################################################
@@ -13,7 +13,7 @@ CONFIGS :=$(wildcard ./adjunct-data/config-files/*)
 ############################################################################
 
 update-subtree:
-	@git subtree pull --prefix automation/ "$(REPO)" "$(BRANCH)" --squash
+	@git subtree pull --prefix vendor/ "$(REPO)" "$(BRANCH)" --squash
 .PHONY: update-subtree
 
 demo-build:
