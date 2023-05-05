@@ -1,3 +1,0 @@
-[submodule "content"]
-	path = trestle-demo/adjunct-data/cis-benchmarks/content
-	url = https://github.com/ComplianceAsCode/content.git

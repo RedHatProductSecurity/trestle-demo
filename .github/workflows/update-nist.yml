@@ -18,6 +18,6 @@ jobs:
       - name: Install Trestle
         run: make trestle-install
       - name: Update NIST
-        run: bash ./automation/update-nist.sh
+        run: bash ./automation/scripts/update-nist.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

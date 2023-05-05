@@ -3,7 +3,7 @@
     "uuid": "eaf9bcf2-d72b-45a1-bcd2-797ba5ddf7fc",
     "metadata": {
       "title": "Hello World FedRAMP SSP",
-      "last-modified": "2023-04-04T21:04:56.741743+00:00",
+      "last-modified": "2023-05-04T00:35:03.106757+00:00",
       "version": "1.0.0",
       "oscal-version": "1.0.2"
     },
@@ -142,23 +142,16 @@
           "control-id": "ac-2.3",
           "by-components": [
             {
-              "component-uuid": "50ea602f-69e2-436d-87b8-69bec47c8478",
-              "uuid": "1517d6f0-d52d-4886-aa1d-aeec5d7032d1",
+              "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
+              "uuid": "aba991ff-f118-422a-8eb4-580a8df2aab8",
               "description": "",
-              "props": [
-                {
-                  "name": "Rule_Id",
-                  "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
-                  "value": "Test-rule_002"
-                }
-              ],
               "implementation-status": {
                 "state": "planned"
               }
             },
             {
-              "component-uuid": "79b0bab5-63bc-43e7-84af-704c623bb42a",
-              "uuid": "aba991ff-f118-422a-8eb4-580a8df2aab8",
+              "component-uuid": "3938b65c-c49c-4993-9722-0dcbd9afc9c2",
+              "uuid": "33f9c07c-e62d-4b1d-97d2-f78a41bc23ff",
               "description": "",
               "implementation-status": {
                 "state": "planned"

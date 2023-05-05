@@ -4,9 +4,9 @@
     "metadata": {
       "title": "FedRAMP Rev 4 Moderate Baseline",
       "published": "2021-02-05T00:00:00-04:00",
-      "last-modified": "2023-03-07T23:45:11.589551+00:00",
+      "last-modified": "2023-05-02T18:21:17.686262-04:00",
       "version": "fedramp1.1.0-oscal1.0.0",
-      "oscal-version": "1.0.2",
+      "oscal-version": "1.0.4",
       "roles": [
         {
           "id": "prepared-by",
@@ -2573,7 +2573,6 @@
                 {
                   "id": "ac-2.10_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ac-2.10_item.item",
@@ -2629,7 +2628,6 @@
                 {
                   "id": "ac-2.12_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ac-2.12_item.guidance",
@@ -2948,7 +2946,6 @@
                 {
                   "id": "ac-2.5_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ac-2.5_item.guidance",
@@ -3136,7 +3133,6 @@
                 {
                   "id": "ac-2.9_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ac-2.9_item.item",
@@ -3791,7 +3787,6 @@
                 {
                   "id": "ac-5_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ac-5_item.guidance",
@@ -4053,7 +4048,6 @@
                 {
                   "id": "ac-6.2_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ac-6.2_item.guidance",
@@ -4341,7 +4335,6 @@
                 {
                   "id": "ac-8_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ac-8_item.item",
@@ -5329,7 +5322,6 @@
                 {
                   "id": "au-11_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "au-11_item.item",
@@ -5528,7 +5520,6 @@
                 {
                   "id": "au-2_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "au-2_item.item",
@@ -5726,7 +5717,6 @@
                 {
                   "id": "au-2.3_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "au-2.3_item.guidance",
@@ -5843,7 +5833,6 @@
                 {
                   "id": "au-3.1_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "au-3.1_item.item",
@@ -6060,7 +6049,6 @@
                 {
                   "id": "au-6_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "au-6_item.item",
@@ -6505,7 +6493,6 @@
                 {
                   "id": "au-8.1_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "au-8.1_item.item",
@@ -7033,7 +7020,6 @@
                 {
                   "id": "ca-2_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ca-2_item.guidance",
@@ -7208,7 +7194,6 @@
                 {
                   "id": "ca-2.1_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ca-2.1_item.item",
@@ -7275,7 +7260,6 @@
                 {
                   "id": "ca-2.2_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ca-2.2_item.item",
@@ -7580,7 +7564,6 @@
                 {
                   "id": "ca-3.3_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ca-3.3_item.guidance",
@@ -7666,7 +7649,6 @@
                 {
                   "id": "ca-3.5_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ca-3.5_item.guidance",
@@ -7744,7 +7726,6 @@
                 {
                   "id": "ca-5_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ca-5_item.item",
@@ -7857,7 +7838,6 @@
                 {
                   "id": "ca-6_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ca-6_item.guidance",
@@ -7980,7 +7960,6 @@
                 {
                   "id": "ca-7_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ca-7_item.item",
@@ -8463,7 +8442,6 @@
                 {
                   "id": "ca-8_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ca-8_item.guidance",
@@ -9604,7 +9582,6 @@
                 {
                   "id": "cm-3_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cm-3_item.item",
@@ -10149,7 +10126,6 @@
                 {
                   "id": "cm-5.3_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cm-5.3_item.guidance",
@@ -10303,7 +10279,6 @@
                 {
                   "id": "cm-6_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cm-6_item.item",
@@ -10625,7 +10600,6 @@
                 {
                   "id": "cm-7_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cm-7_item.item",
@@ -10829,7 +10803,6 @@
                 {
                   "id": "cm-7.2_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cm-7.2_item.guidance",
@@ -11013,7 +10986,6 @@
                 {
                   "id": "cm-8_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cm-8_item.item",
@@ -11800,7 +11772,6 @@
                 {
                   "id": "cp-2_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cp-2_item.item",
@@ -12468,7 +12439,6 @@
                 {
                   "id": "cp-4_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cp-4_item.item",
@@ -12798,7 +12768,6 @@
                 {
                   "id": "cp-7_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cp-7_item.item",
@@ -12970,7 +12939,6 @@
                 {
                   "id": "cp-7.1_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cp-7.1_item.guidance",
@@ -13107,7 +13075,6 @@
                 {
                   "id": "cp-8_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cp-8_item.item",
@@ -13285,7 +13252,6 @@
                 {
                   "id": "cp-9_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "cp-9_item.item",
@@ -13893,7 +13859,6 @@
                 {
                   "id": "ia-2.11_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ia-2.11_item.guidance",
@@ -14032,7 +13997,6 @@
                 {
                   "id": "ia-2.12_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ia-2.12_item.guidance",
@@ -14317,7 +14281,6 @@
                 {
                   "id": "ia-4_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ia-4_item.item",
@@ -14600,7 +14563,6 @@
                 {
                   "id": "ia-5_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ia-5_item.item",
@@ -15015,7 +14977,6 @@
                 {
                   "id": "ia-5.1_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ia-5.1_item.guidance",
@@ -15671,7 +15632,6 @@
                 {
                   "id": "ia-5.4_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ia-5.4_item.guidance",
@@ -16466,7 +16426,6 @@
                 {
                   "id": "ir-3_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ir-3_item.item",
@@ -16594,7 +16553,6 @@
                 {
                   "id": "ir-4_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ir-4_item.item",
@@ -16806,7 +16764,6 @@
                 {
                   "id": "ir-6_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ir-6_item.item",
@@ -17134,7 +17091,6 @@
                 {
                   "id": "ir-8_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ir-8_item.item",
@@ -19001,7 +18957,6 @@
                 {
                   "id": "ma-5.1_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ma-5.1_item.item",
@@ -19447,7 +19402,6 @@
                 {
                   "id": "mp-3_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "mp-3_item.guidance",
@@ -19559,7 +19513,6 @@
                 {
                   "id": "mp-4_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "mp-4_item.item",
@@ -19690,7 +19643,6 @@
                 {
                   "id": "mp-5_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "mp-5_item.item",
@@ -19992,7 +19944,6 @@
                 {
                   "id": "mp-6.2_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "mp-6.2_item.guidance",
@@ -20769,7 +20720,6 @@
                 {
                   "id": "pe-14_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "pe-14_item.item",
@@ -23114,7 +23064,6 @@
                 {
                   "id": "pl-8_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "pl-8_item.guidance",
@@ -24934,7 +24883,6 @@
                 {
                   "id": "ra-3_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ra-3_item.guidance",
@@ -25182,7 +25130,6 @@
                 {
                   "id": "ra-5_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ra-5_item.guidance",
@@ -25757,7 +25704,6 @@
                 {
                   "id": "ra-5.6_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ra-5.6_item.guidance",
@@ -25813,7 +25759,6 @@
                 {
                   "id": "ra-5.8_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "ra-5.8_item.item",
@@ -26081,7 +26026,6 @@
                 {
                   "id": "sa-10_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "sa-10_item.item",
@@ -26507,7 +26451,6 @@
                 {
                   "id": "sa-11.1_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "sa-11.1_item.item",
@@ -26602,7 +26545,6 @@
                 {
                   "id": "sa-11.8_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "sa-11.8_item.item",
@@ -26881,7 +26823,6 @@
                 {
                   "id": "sa-4_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "sa-4_item.item",
@@ -27159,7 +27100,6 @@
                 {
                   "id": "sa-4.8_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "sa-4.8_item.guidance",
@@ -28156,7 +28096,6 @@
                 {
                   "id": "sc-12_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "sc-12_item.guidance",
@@ -28377,7 +28316,6 @@
                 {
                   "id": "sc-15_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "sc-15_item.item",
@@ -29075,7 +29013,6 @@
                 {
                   "id": "sc-28_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "sc-28_item.guidance",
@@ -29640,7 +29577,6 @@
                 {
                   "id": "sc-7.13_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "sc-7.13_item.item",
@@ -31373,7 +31309,6 @@
                 {
                   "id": "si-4_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "si-4_item.guidance",
@@ -32060,7 +31995,6 @@
                 {
                   "id": "si-4.5_item",
                   "name": "item",
-                  "prose": "",
                   "parts": [
                     {
                       "id": "si-4.5_item.guidance",

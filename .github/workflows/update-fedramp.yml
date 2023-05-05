@@ -18,6 +18,6 @@ jobs:
       - name: Install Trestle
         run: make trestle-install
       - name: Update FedRAMP
-        run: bash ./automation/update-fedramp.sh
+        run: bash ./automation/scripts/update-fedramp.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

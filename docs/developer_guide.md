@@ -25,6 +25,8 @@ The sandbox has several utilities that can be used in Continuous Compliance work
 
 ## Automation Resources
 
+> Automation resources are vendored from a different repository. To update run `make update-subtree`
+
 Information about the repositories' automation resources can be found [here](../automation/README.md)
 
 
