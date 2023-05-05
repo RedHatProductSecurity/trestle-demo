@@ -21,7 +21,7 @@ Create a Makefile to consume:
 git subtree add --prefix automation/ https://github.com/RedHatProductSecurity/oscal-automation-libs.git main --squash
 
 cat << EOF >> ./Makefile
-include ./automation/mk/*.mk
+include ./vendor/mk/*.mk
 
 SHELL := /bin/bash
 EOF
