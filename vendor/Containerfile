@@ -2,12 +2,12 @@ FROM registry.access.redhat.com/ubi8/ubi AS build
 
 WORKDIR /demo
 
-COPY ./automation/ /demo/automation/
+COPY ./scripts/ /demo/scripts/
 
 # Install dependencies
 ENV BIN_DIR=/demo/bin/ PATH=$PATH:BIN_DIR
 
-RUN ./automation/install.sh build
+RUN ./scripts/install.sh build
 
 FROM registry.access.redhat.com/ubi8/python-38 AS demo
 
@@ -23,13 +23,4 @@ USER root
 
 WORKDIR /demo
 
-RUN ./automation/install.sh install_demo_utils
-
-
-
-
-
-
-
-
-
+RUN ./scripts/install.sh install_demo_utils

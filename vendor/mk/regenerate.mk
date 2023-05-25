@@ -2,17 +2,19 @@
 ## Generate markdown from OSCAL content
 ############################################################################
 
+scripts_dir :=$(shell realpath $(dir $(lastword $(MAKEFILE_LIST)))../scripts)
+
 regenerate: regenerate-catalogs regenerate-profiles regenerate-cd
 .PHONY: regenerate
 
 regenerate-catalogs:
-	@source ./automation/regenerate.sh && regenerate_catalogs
+	@source $(scripts_dir)/regenerate.sh && regenerate_catalogs
 .PHONY: regenerate-catalogs
 
 regenerate-profiles:
-	@source ./automation/regenerate.sh && regenerate_profiles
+	@source $(scripts_dir)/regenerate.sh && regenerate_profiles
 .PHONY: regenerate-profiles
 
 regenerate-cd:
-	@source ./automation/regenerate.sh && regenerate_components
+	@source $(scripts_dir)/regenerate.sh && regenerate_components
 .PHONY: regenerate-cd

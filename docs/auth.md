@@ -50,7 +50,7 @@ cd trestle-workspace
 ```
 4. Execute the automation with the following flags and their arguments:
 ```bash
-./automation/auth.sh -e <your email address> -t <your github pat here>
+./vendor/scripts/auth.sh -e <your email address> -t <your github pat here>
 ```
 **Note: This must be performed each time you enter the sandbox. Your GitHub credentials and git configuration are erased each time you exit the sandbox.**
 

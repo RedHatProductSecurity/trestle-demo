@@ -1,10 +1,11 @@
 #!/bin/bash
 
-source ./automation/logging.sh
-source ./automation/transform.sh
-source ./automation/trestle.sh
+SCRIPT_DIR="$(realpath "$(dirname "$BASH_SOURCE")")"
 
-regenerate_catalogs() {
+source "$SCRIPT_DIR/logging.sh"
+source "$SCRIPT_DIR/trestle.sh"
+
+function regenerate_catalogs() {
 catalogs=$(find ./catalogs -mindepth 1 -type d | wc -l)
 if [ "$catalogs" -gt 0 ]; then
   for d in ./catalogs/* ; do
@@ -17,7 +18,7 @@ else
 fi
 }
 
-regenerate_profiles() {
+function regenerate_profiles() {
 profiles=$(find ./profiles -mindepth 1 -type d | wc -l)
 if [ "$profiles" -gt 0 ]; then
   for d in ./profiles/* ; do
@@ -31,7 +32,7 @@ if [ "$profiles" -gt 0 ]; then
   fi
 }
 
-regenerate_components() {
+function regenerate_components() {
 components=$(find ./component-definitions -mindepth 1 -type d | wc -l)
 if [ "$components" -gt 0 ]; then
   for d in ./component-definitions/* ; do

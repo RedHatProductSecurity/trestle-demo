@@ -18,7 +18,7 @@ from trestle.common.load_validate import load_validate_model_name
 from trestle.oscal.ssp import SystemSecurityPlan
 from trestle.oscal.ssp import Diagram
 from trestle.oscal.common import Link
-from trestle.core.markdown.markdown_node import MarkdownNode
+from trestle.core.markdown.docs_markdown_node import DocsMarkdownNode
 from trestle.core.markdown.md_writer import MDWriter
 
 
@@ -149,7 +149,7 @@ def main():
     traverse_diagrams(data_flow.diagrams, md_writer, 4)
 
     lines = md_writer.get_lines()
-    tree = MarkdownNode.build_tree_from_markdown(lines)
+    tree = DocsMarkdownNode.build_tree_from_markdown(lines)
 
     # Print Markdown text
     print(tree.content.raw_text)

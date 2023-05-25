@@ -469,10 +469,10 @@ Open the CSV and copy the first data row (row 3). Change:
 - Column E (Rule Description) to some other text
 - Column L (Control Id) to "cc-1"
 
-Run the `update-cd` and `regenerate-cd` commands to ensure that the rule changes are reflected in the component Markdown.
+Run the `update-cds` and `regenerate-cd` commands to ensure that the rule changes are reflected in the component Markdown.
 
 ```bash
-make update-cd
+make update-cds
 make regenerate-cd
 ```
 
@@ -589,10 +589,10 @@ Open the CSV and edit the first data row (row 3). Change:
 - Column M (Check Id) to "Test_check_001"
 - Column N (Check Description) to "This checks that the service is configured to run test"
 
-Run the `update-cd` and `regenerate-cd` commands to ensure that the rule changes are reflected in the component Markdown.
+Run the `update-cds` and `regenerate-cd` commands to ensure that the rule changes are reflected in the component Markdown.
 
 ```bash
-make update-cd
+make update-cds
 make regenerate-cd
 ```
 

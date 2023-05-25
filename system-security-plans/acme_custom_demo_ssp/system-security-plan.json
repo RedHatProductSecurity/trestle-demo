@@ -3,7 +3,7 @@
     "uuid": "cadffb4d-5fce-46f6-9a83-c213d1297721",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2023-04-04T21:04:58.065749+00:00",
+      "last-modified": "2023-05-04T00:35:04.930340+00:00",
       "version": "REPLACE_ME",
       "oscal-version": "1.0.2"
     },
@@ -120,23 +120,16 @@
           "control-id": "pr-1",
           "by-components": [
             {
-              "component-uuid": "b4f42dc8-59f8-4ccb-8e7f-6b73b663fb1d",
-              "uuid": "6edf8b3b-52bd-44a1-bd41-9dcee8f8422e",
+              "component-uuid": "d934d77d-3923-4d7a-b2fd-194c55c3e62b",
+              "uuid": "c0fda6da-736a-4125-9ded-e8601e15601f",
               "description": "",
-              "props": [
-                {
-                  "name": "Rule_Id",
-                  "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
-                  "value": "Test-rule_001"
-                }
-              ],
               "implementation-status": {
                 "state": "planned"
               }
             },
             {
-              "component-uuid": "d934d77d-3923-4d7a-b2fd-194c55c3e62b",
-              "uuid": "c0fda6da-736a-4125-9ded-e8601e15601f",
+              "component-uuid": "537aa0ea-5e6a-4326-a138-554d22f2c32f",
+              "uuid": "d4140164-fbc2-4d34-8fc5-9c2a9bc2b8ad",
               "description": "",
               "implementation-status": {
                 "state": "planned"
@@ -149,23 +142,16 @@
           "control-id": "ac-2.1",
           "by-components": [
             {
-              "component-uuid": "e0313a57-3cd4-4f97-a8d5-13d7d655b3b3",
-              "uuid": "311cb284-cf0a-49f1-8ba5-1fb2df78a90e",
+              "component-uuid": "d934d77d-3923-4d7a-b2fd-194c55c3e62b",
+              "uuid": "7775cd0d-e273-4e20-a0b5-2549f60ee726",
               "description": "",
-              "props": [
-                {
-                  "name": "Rule_Id",
-                  "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
-                  "value": "sso_rule_001"
-                }
-              ],
               "implementation-status": {
                 "state": "planned"
               }
             },
             {
-              "component-uuid": "d934d77d-3923-4d7a-b2fd-194c55c3e62b",
-              "uuid": "7775cd0d-e273-4e20-a0b5-2549f60ee726",
+              "component-uuid": "54bd64cd-32d5-4680-86dc-1822540b7872",
+              "uuid": "9386b74b-fda7-46f6-bbbe-f1b3277cde5a",
               "description": "",
               "implementation-status": {
                 "state": "planned"

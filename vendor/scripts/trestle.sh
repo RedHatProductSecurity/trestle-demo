@@ -8,7 +8,7 @@ PANDOC_CMD_IMAGE="/demo/bin/pandoc"
 PYTHON_CMD_IMAGE="python"
 
 CONTAINER_CMD=$(command -pv podman || command -pv docker)
-TRESTLE_IMAGE_EXISTS=$($CONTAINER_CMD image inspect $TRESTLE_IMAGE 2>/dev/null >/dev/null; echo $?)
+TRESTLE_IMAGE_EXISTS=$($CONTAINER_CMD image inspect $TRESTLE_IMAGE 2>/dev/null > /dev/null; echo $?)
 
 if [ "$TRESTLE_IMAGE_EXISTS" == "0" ];
 then
