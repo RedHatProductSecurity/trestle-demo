@@ -1,8 +1,4 @@
 ---
-x-trestle-comp-def-rules:
-  Hello World SSO:
-    - name: sso_rule_001
-      description: Ensure all of the services use automated account management
 x-trestle-set-params:
   # You may set values for parameters in the assembled SSP by adding
   #
@@ -44,16 +40,6 @@ ______________________________________________________________________
 ### This System
 
 <!-- Add implementation prose for the main This System component for control: ac-2.1 -->
-
-#### Implementation Status: planned
-
-### Hello World SSO
-
-<!-- Add control implementation description here for control: ac-2.1 -->
-
-#### Rules:
-
-  - sso_rule_001
 
 #### Implementation Status: planned
 
