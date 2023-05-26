@@ -17,7 +17,7 @@ update-subtree:
 .PHONY: update-subtree
 
 demo-build:
-	${CMD} build -t localhost:5000/trestle-demo:latest -f Containerfile automation
+	${CMD} build -t localhost:5000/trestle-demo:latest -f Containerfile vendor
 .PHONY: demo-build
 
 sandbox-run:
