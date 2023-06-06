@@ -35,8 +35,7 @@ jobs:
         run: make trestle-install
 
       - name: Create SSP
-        run: |
-          trestle author ssp-generate -p ${{ steps.vars.outputs.profile }} -cd ${{ steps.vars.outputs.comps }} -o markdown/system-security-plans/${{ steps.vars.outputs.output }}
+        run: make create-ssp
 
       - name: Update and PR
         run: bash ./vendor/scripts/update.sh "Adding new ssp"
