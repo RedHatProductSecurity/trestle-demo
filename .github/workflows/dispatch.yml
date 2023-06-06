@@ -6,11 +6,7 @@ jobs:
   slashCommandDispatch:
     runs-on: ubuntu-latest
     permissions:
-      actions: read
-      checks: write
       contents: write
-      deployments: none
-      id-token: write
       issues: write
     steps:
       - name: Slash Command Dispatch
