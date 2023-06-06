@@ -1,0 +1,52 @@
+name: create-ssp-command
+on:
+  repository_dispatch:
+    types: [create-ssp-command]
+jobs:
+  create-ssp:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: write
+      issues: write
+    steps:
+      # Get the args
+      - name: Get the args
+        id: vars
+        run: |
+          profile=${{ github.event.client_payload.slash_command.args.named.profile }}
+          echo "profile=$profile" >> $GITHUB_OUTPUT
+
+          comps=${{ github.event.client_payload.slash_command.args.named.comps }}
+          echo "comps=$comps" >> $GITHUB_OUTPUT
+
+          output=${{ github.event.client_payload.slash_command.args.named.output }}
+          echo "output=$output" >> $GITHUB_OUTPUT
+
+      - uses: actions/checkout@v3
+        with:
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install Trestle
+        run: make trestle-install
+
+      - name: Create SSP
+        run: |
+          trestle author ssp-generate -p ${{ steps.vars.outputs.profile }} -cd ${{ steps.vars.outputs.comps }} -o markdown/system-security-plans/${{ steps.vars.outputs.output }}
+
+      - name: Update and PR
+        run: bash ./vendor/scripts/update.sh "Adding new ssp"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Add reaction to the comment
+      - name: Add reaction
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          comment-id: ${{ github.event.client_payload.github.payload.comment.id }}
+          reaction-type: hooray
