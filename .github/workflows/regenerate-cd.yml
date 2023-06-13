@@ -25,6 +25,7 @@ jobs:
       - name: Regenerate component-definitions
         run: make regenerate-cd
       - name: Update and PR
-        run: bash ./vendor/scripts/update.sh "Sync OSCAL component definitions"
         env:
+          ACTOR: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash ./vendor/scripts/update.sh -c "Sync OSCAL compdefs" -a "$ACTOR" "markdown/*"

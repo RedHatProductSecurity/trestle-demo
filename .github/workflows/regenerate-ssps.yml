@@ -9,8 +9,6 @@ on:
       - 'component-definitions/**'
       - 'markdown/components/**'
 
-
-
 jobs:
   release:
     name: Regenerate content
@@ -33,6 +31,8 @@ jobs:
       - name: Assemble ssps
         run: make assemble-ssps
       - name: Update and PR
-        run: bash ./vendor/scripts/update.sh "Sync OSCAL SSPs"
+      - name: Update and PR
         env:
+          ACTOR: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash ./vendor/scripts/update.sh -c "Sync OSCAL ssps" -a "$ACTOR" "markdown/*"
