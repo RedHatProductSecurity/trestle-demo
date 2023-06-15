@@ -15,13 +15,13 @@ jobs:
         id: vars
         run: |
           profile=${{ github.event.client_payload.slash_command.args.named.profile }}
-          echo "profile=$profile" >> $GITHUB_OUTPUT
+          echo "profile=$profile" >> $GITHUB_ENV  
 
           comps=${{ github.event.client_payload.slash_command.args.named.comps }}
-          echo "comps=$comps" >> $GITHUB_OUTPUT
+          echo "comps=$comps" >> $GITHUB_ENV
 
           output=${{ github.event.client_payload.slash_command.args.named.output }}
-          echo "output=$output" >> $GITHUB_OUTPUT
+          echo "output=$output" >> $GITHUB_ENV
 
       - uses: actions/checkout@v3
         with:
