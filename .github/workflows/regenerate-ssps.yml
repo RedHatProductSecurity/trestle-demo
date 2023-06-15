@@ -31,7 +31,6 @@ jobs:
       - name: Assemble ssps
         run: make assemble-ssps
       - name: Update and PR
-      - name: Update and PR
         env:
           ACTOR: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
