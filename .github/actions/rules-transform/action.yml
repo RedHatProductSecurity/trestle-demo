@@ -1,0 +1,38 @@
+---
+name: rules-transform
+description: "Composite action for transforming rules with Trestle-bot"
+
+inputs:
+  dry-run:
+    required: false
+    description: "Run in dry run mode"
+    type: boolean
+    default: false
+
+runs:
+  using: "composite"
+  steps:
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            rules:
+              - 'rules/**'
+      - name: Transform
+        if: steps.changes.outputs.rules == 'true'
+        id: transform
+        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@main
+        with:
+          commit_message: "Auto-transform rules [skip ci]"
+          dry_run: ${{ inputs.dry-run }}
+      - name: Regenerate
+        if: steps.changes.outputs.rules == 'true'
+        id: regenerate
+        uses: RedHatProductSecurity/trestle-bot/actions/autosync@main
+        with:
+          markdown_path: "markdown"
+          oscal_model: "compdef"
+          commit_message: "Regenerate markdown content [skip ci]"
+          skip_assemble: true
+          dry_run: ${{ inputs.dry-run }}
+
