@@ -28,5 +28,3 @@ jobs:
           oscal_model: "catalog"
           file_pattern: "*.json,markdown/*"
           branch: ${{ github.head_ref }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
- 
