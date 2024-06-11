@@ -1,0 +1,32 @@
+---
+name: CI
+
+on:
+  push:
+    branches:
+    - main
+  pull_request:
+    branches: 
+    - main
+
+
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}-ci
+  cancel-in-progress: true
+
+jobs:
+  megalinter:
+    name: Run linters
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: MegaLinter
+        id: megalinter_v7
+        uses: oxsecurity/megalinter@v7
+        env:
+          VALIDATE_ALL_CODEBASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
